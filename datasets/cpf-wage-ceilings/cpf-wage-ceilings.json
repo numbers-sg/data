@@ -1,0 +1,294 @@
+{
+ "dataset": "cpf-wage-ceilings",
+ "title": "CPF Ordinary Wage ceiling, since 1955",
+ "description": "The Ordinary Wage ceiling, the most monthly pay CPF contributions are worked out on, for every change since July 1955.",
+ "question": "What is the most monthly pay CPF contributions are counted on, and how has it changed?",
+ "row": {
+  "is": "One ceiling from one date",
+  "time_key": "from",
+  "primary_key": [
+   "from"
+  ]
+ },
+ "coverage": {
+  "from": "1955-07",
+  "to": "2026-01"
+ },
+ "fields": [
+  {
+   "name": "from",
+   "type": "month",
+   "meaning": "The month this ceiling took effect.",
+   "nullable": false
+  },
+  {
+   "name": "ordinary_wage_ceiling_sgd",
+   "type": "number",
+   "unit": "S$ a month",
+   "meaning": "Pay above this in a month earns no CPF contributions.",
+   "nullable": false
+  },
+  {
+   "name": "source",
+   "type": "url",
+   "meaning": "The CPF Board document or data.gov.sg dataset the row is taken from.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Central Provident Fund Board, via data.gov.sg",
+   "url": "https://data.gov.sg/datasets/d_98ffa142ae0dec40391f78f81d26aca9/view",
+   "terms": "Singapore Open Data Licence v1.0",
+   "terms_url": "https://data.gov.sg/open-data-licence"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Central Provident Fund Board, via data.gov.sg, compiled by Numbers.sg (numbers.sg/rates/cpf-contribution-rates/), CC BY 4.0",
+  "notices": [
+   "Contains information from CPF Ordinary Wage ceiling, since 1955 accessed on 2026-11-27 from Central Provident Fund Board, via data.gov.sg which is made available under the terms of the Singapore Open Data Licence version 1.0 (https://data.gov.sg/open-data-licence)"
+  ]
+ },
+ "page_url": "https://numbers.sg/rates/cpf-contribution-rates/",
+ "method": "https://numbers.sg/rates/cpf-contribution-rates/#method",
+ "api": "https://numbers.sg/api/v1/cpf-wage-ceilings",
+ "hash": "sha256:4f0b3c23afc35839ff4fc56b408ea94a58a1f4f68730967cf285e860f4926ee5",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "from": "1955-07",
+   "ordinary_wage_ceiling_sgd": 500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1968-09",
+   "ordinary_wage_ceiling_sgd": 2307.69,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1970-01",
+   "ordinary_wage_ceiling_sgd": 1875,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1971-01",
+   "ordinary_wage_ceiling_sgd": 1500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1972-07",
+   "ordinary_wage_ceiling_sgd": 1500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1973-07",
+   "ordinary_wage_ceiling_sgd": 1500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1974-07",
+   "ordinary_wage_ceiling_sgd": 1500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1975-07",
+   "ordinary_wage_ceiling_sgd": 2000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1977-07",
+   "ordinary_wage_ceiling_sgd": 2000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1978-07",
+   "ordinary_wage_ceiling_sgd": 3000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1979-07",
+   "ordinary_wage_ceiling_sgd": 3000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1980-07",
+   "ordinary_wage_ceiling_sgd": 3000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1981-07",
+   "ordinary_wage_ceiling_sgd": 3000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1982-07",
+   "ordinary_wage_ceiling_sgd": 3000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1983-07",
+   "ordinary_wage_ceiling_sgd": 3000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1983-11",
+   "ordinary_wage_ceiling_sgd": 4000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1984-04",
+   "ordinary_wage_ceiling_sgd": 4000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1984-07",
+   "ordinary_wage_ceiling_sgd": 5000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1985-07",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1986-04",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1988-07",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1989-07",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1990-07",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1991-07",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1992-07",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1993-07",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1994-07",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "1999-01",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2000-04",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2001-01",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2002-10",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2003-10",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2004-01",
+   "ordinary_wage_ceiling_sgd": 5500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2005-01",
+   "ordinary_wage_ceiling_sgd": 5000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2006-01",
+   "ordinary_wage_ceiling_sgd": 4500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2007-07",
+   "ordinary_wage_ceiling_sgd": 4500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2010-09",
+   "ordinary_wage_ceiling_sgd": 4500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2011-03",
+   "ordinary_wage_ceiling_sgd": 4500,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2011-09",
+   "ordinary_wage_ceiling_sgd": 5000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2012-09",
+   "ordinary_wage_ceiling_sgd": 5000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2014-01",
+   "ordinary_wage_ceiling_sgd": 5000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2016-01",
+   "ordinary_wage_ceiling_sgd": 6000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2023-09",
+   "ordinary_wage_ceiling_sgd": 6300,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2024-01",
+   "ordinary_wage_ceiling_sgd": 6800,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2025-01",
+   "ordinary_wage_ceiling_sgd": 7400,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  },
+  {
+   "from": "2026-01",
+   "ordinary_wage_ceiling_sgd": 8000,
+   "source": "https://data.gov.sg/datasets/d_fcf9b47a2df0c9183875bbfb1c370077/view"
+  }
+ ]
+}

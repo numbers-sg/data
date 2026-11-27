@@ -1,0 +1,1787 @@
+{
+ "dataset": "fx-sgd-krw-monthly",
+ "title": "Singapore dollar to South Korean won, monthly averages since 2003",
+ "description": "Monthly averages of the won, worked out by Numbers.sg from MAS's daily rates for each complete month (the mean of MAS's S$ per 100 won, turned round), since January 2003.",
+ "question": "What was the average won rate for the Singapore dollar each month since 2003?",
+ "row": {
+  "is": "One month (the average of the month)",
+  "time_key": "month",
+  "primary_key": [
+   "month"
+  ]
+ },
+ "coverage": {
+  "from": "2003-01",
+  "to": "2026-10"
+ },
+ "fields": [
+  {
+   "name": "month",
+   "type": "month",
+   "meaning": "The month averaged.",
+   "nullable": false
+  },
+  {
+   "name": "krw_per_sgd",
+   "type": "number",
+   "unit": "won per S$1",
+   "meaning": "Won per S$1: our monthly mean of MAS's S$ figure, turned round.",
+   "nullable": false
+  },
+  {
+   "name": "sgd_per_10000_krw",
+   "type": "number",
+   "unit": "S$ per 10,000 won",
+   "meaning": "S$ per 10,000 won: our mean of MAS's daily figures for the month.",
+   "nullable": false
+  },
+  {
+   "name": "source",
+   "type": "string",
+   "meaning": "Where the month's figure comes from.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Monetary Authority of Singapore (MAS)",
+   "url": "https://www.mas.gov.sg/statistics",
+   "terms": "MAS Terms of Use of Datasets",
+   "terms_url": "https://www.mas.gov.sg/terms-of-use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Monetary Authority of Singapore, compiled by Numbers.sg (numbers.sg/currency/sgd-to-krw/), CC BY 4.0",
+  "notices": [
+   "Contains information from Singapore dollar to South Korean won, monthly averages since 2003 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)"
+  ]
+ },
+ "page_url": "https://numbers.sg/currency/sgd-to-krw/",
+ "method": "https://numbers.sg/currency/sgd-to-krw/#method",
+ "api": "https://numbers.sg/api/v1/fx-sgd-krw-monthly",
+ "hash": "sha256:d7dc570101abba43c4a703680246a13efb6e9bee1059db35dd4a5ffc0ebfbb63",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "month": "2003-01",
+   "krw_per_sgd": 678.57253,
+   "sgd_per_10000_krw": 14.736818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-02",
+   "krw_per_sgd": 682.878713,
+   "sgd_per_10000_krw": 14.643889,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-03",
+   "krw_per_sgd": 704.79259,
+   "sgd_per_10000_krw": 14.188571,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-04",
+   "krw_per_sgd": 693.549985,
+   "sgd_per_10000_krw": 14.418571,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-05",
+   "krw_per_sgd": 692.017577,
+   "sgd_per_10000_krw": 14.4505,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-06",
+   "krw_per_sgd": 688.186138,
+   "sgd_per_10000_krw": 14.530952,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-07",
+   "krw_per_sgd": 672.691644,
+   "sgd_per_10000_krw": 14.865652,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-08",
+   "krw_per_sgd": 672.064518,
+   "sgd_per_10000_krw": 14.879524,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-09",
+   "krw_per_sgd": 667.455478,
+   "sgd_per_10000_krw": 14.982273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-10",
+   "krw_per_sgd": 672.4744,
+   "sgd_per_10000_krw": 14.870455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-11",
+   "krw_per_sgd": 685.326793,
+   "sgd_per_10000_krw": 14.591579,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2003-12",
+   "krw_per_sgd": 697.217469,
+   "sgd_per_10000_krw": 14.342727,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-01",
+   "krw_per_sgd": 696.710792,
+   "sgd_per_10000_krw": 14.353158,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-02",
+   "krw_per_sgd": 691.78955,
+   "sgd_per_10000_krw": 14.455263,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-03",
+   "krw_per_sgd": 685.850604,
+   "sgd_per_10000_krw": 14.580435,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-04",
+   "krw_per_sgd": 684.083654,
+   "sgd_per_10000_krw": 14.618095,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-05",
+   "krw_per_sgd": 688.141036,
+   "sgd_per_10000_krw": 14.531905,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-06",
+   "krw_per_sgd": 676.06722,
+   "sgd_per_10000_krw": 14.791429,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-07",
+   "krw_per_sgd": 676.673228,
+   "sgd_per_10000_krw": 14.778182,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-08",
+   "krw_per_sgd": 675.719158,
+   "sgd_per_10000_krw": 14.799048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-09",
+   "krw_per_sgd": 677.089745,
+   "sgd_per_10000_krw": 14.769091,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-10",
+   "krw_per_sgd": 681.088444,
+   "sgd_per_10000_krw": 14.682381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-11",
+   "krw_per_sgd": 657.570278,
+   "sgd_per_10000_krw": 15.2075,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2004-12",
+   "krw_per_sgd": 639.759673,
+   "sgd_per_10000_krw": 15.63087,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-01",
+   "krw_per_sgd": 633.432571,
+   "sgd_per_10000_krw": 15.787,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-02",
+   "krw_per_sgd": 623.570983,
+   "sgd_per_10000_krw": 16.036667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-03",
+   "krw_per_sgd": 618.168535,
+   "sgd_per_10000_krw": 16.176818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-04",
+   "krw_per_sgd": 611.37151,
+   "sgd_per_10000_krw": 16.356667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-05",
+   "krw_per_sgd": 606.759299,
+   "sgd_per_10000_krw": 16.481,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-06",
+   "krw_per_sgd": 605.260262,
+   "sgd_per_10000_krw": 16.521818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-07",
+   "krw_per_sgd": 616.341864,
+   "sgd_per_10000_krw": 16.224762,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-08",
+   "krw_per_sgd": 614.542306,
+   "sgd_per_10000_krw": 16.272273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-09",
+   "krw_per_sgd": 612.43806,
+   "sgd_per_10000_krw": 16.328182,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-10",
+   "krw_per_sgd": 618.86659,
+   "sgd_per_10000_krw": 16.158571,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-11",
+   "krw_per_sgd": 612.876536,
+   "sgd_per_10000_krw": 16.3165,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2005-12",
+   "krw_per_sgd": 610.997963,
+   "sgd_per_10000_krw": 16.366667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-01",
+   "krw_per_sgd": 602.813128,
+   "sgd_per_10000_krw": 16.588889,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-02",
+   "krw_per_sgd": 596.000834,
+   "sgd_per_10000_krw": 16.7785,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-03",
+   "krw_per_sgd": 601.338632,
+   "sgd_per_10000_krw": 16.629565,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-04",
+   "krw_per_sgd": 594.586137,
+   "sgd_per_10000_krw": 16.818421,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-05",
+   "krw_per_sgd": 597.133758,
+   "sgd_per_10000_krw": 16.746667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-06",
+   "krw_per_sgd": 600.403908,
+   "sgd_per_10000_krw": 16.655455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-07",
+   "krw_per_sgd": 600.22294,
+   "sgd_per_10000_krw": 16.660476,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-08",
+   "krw_per_sgd": 610.111207,
+   "sgd_per_10000_krw": 16.390455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-09",
+   "krw_per_sgd": 603.569684,
+   "sgd_per_10000_krw": 16.568095,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-10",
+   "krw_per_sgd": 603.812646,
+   "sgd_per_10000_krw": 16.561429,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-11",
+   "krw_per_sgd": 600.928708,
+   "sgd_per_10000_krw": 16.640909,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2006-12",
+   "krw_per_sgd": 601.033778,
+   "sgd_per_10000_krw": 16.638,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-01",
+   "krw_per_sgd": 609.614492,
+   "sgd_per_10000_krw": 16.40381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-02",
+   "krw_per_sgd": 610.728463,
+   "sgd_per_10000_krw": 16.373889,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-03",
+   "krw_per_sgd": 618.550904,
+   "sgd_per_10000_krw": 16.166818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-04",
+   "krw_per_sgd": 614.51484,
+   "sgd_per_10000_krw": 16.273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-05",
+   "krw_per_sgd": 609.632189,
+   "sgd_per_10000_krw": 16.403333,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-06",
+   "krw_per_sgd": 604.003682,
+   "sgd_per_10000_krw": 16.55619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-07",
+   "krw_per_sgd": 605.877007,
+   "sgd_per_10000_krw": 16.505,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-08",
+   "krw_per_sgd": 613.924934,
+   "sgd_per_10000_krw": 16.288636,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-09",
+   "krw_per_sgd": 614.57149,
+   "sgd_per_10000_krw": 16.2715,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-10",
+   "krw_per_sgd": 624.016496,
+   "sgd_per_10000_krw": 16.025217,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-11",
+   "krw_per_sgd": 634.805478,
+   "sgd_per_10000_krw": 15.752857,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2007-12",
+   "krw_per_sgd": 642.325896,
+   "sgd_per_10000_krw": 15.568421,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-01",
+   "krw_per_sgd": 658.56433,
+   "sgd_per_10000_krw": 15.184545,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-02",
+   "krw_per_sgd": 669.367624,
+   "sgd_per_10000_krw": 14.939474,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-03",
+   "krw_per_sgd": 708.240377,
+   "sgd_per_10000_krw": 14.1195,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-04",
+   "krw_per_sgd": 722.923239,
+   "sgd_per_10000_krw": 13.832727,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-05",
+   "krw_per_sgd": 759.330271,
+   "sgd_per_10000_krw": 13.1695,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-06",
+   "krw_per_sgd": 753.03905,
+   "sgd_per_10000_krw": 13.279524,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-07",
+   "krw_per_sgd": 748.502994,
+   "sgd_per_10000_krw": 13.36,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-08",
+   "krw_per_sgd": 744.786495,
+   "sgd_per_10000_krw": 13.426667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-09",
+   "krw_per_sgd": 794.2525,
+   "sgd_per_10000_krw": 12.590455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-10",
+   "krw_per_sgd": 897.704442,
+   "sgd_per_10000_krw": 11.139524,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-11",
+   "krw_per_sgd": 925.668796,
+   "sgd_per_10000_krw": 10.803,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2008-12",
+   "krw_per_sgd": 918.474458,
+   "sgd_per_10000_krw": 10.887619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-01",
+   "krw_per_sgd": 908.395487,
+   "sgd_per_10000_krw": 11.008421,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-02",
+   "krw_per_sgd": 944.822373,
+   "sgd_per_10000_krw": 10.584,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-03",
+   "krw_per_sgd": 948.684778,
+   "sgd_per_10000_krw": 10.540909,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-04",
+   "krw_per_sgd": 889.943637,
+   "sgd_per_10000_krw": 11.236667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-05",
+   "krw_per_sgd": 860.400086,
+   "sgd_per_10000_krw": 11.6225,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-06",
+   "krw_per_sgd": 869.840266,
+   "sgd_per_10000_krw": 11.496364,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-07",
+   "krw_per_sgd": 870.157385,
+   "sgd_per_10000_krw": 11.492174,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-08",
+   "krw_per_sgd": 860.474121,
+   "sgd_per_10000_krw": 11.6215,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-09",
+   "krw_per_sgd": 854.075159,
+   "sgd_per_10000_krw": 11.708571,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-10",
+   "krw_per_sgd": 840.657241,
+   "sgd_per_10000_krw": 11.895455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-11",
+   "krw_per_sgd": 837.065249,
+   "sgd_per_10000_krw": 11.9465,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2009-12",
+   "krw_per_sgd": 835.675758,
+   "sgd_per_10000_krw": 11.966364,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-01",
+   "krw_per_sgd": 814.730324,
+   "sgd_per_10000_krw": 12.274,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-02",
+   "krw_per_sgd": 819.821461,
+   "sgd_per_10000_krw": 12.197778,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-03",
+   "krw_per_sgd": 812.290306,
+   "sgd_per_10000_krw": 12.31087,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-04",
+   "krw_per_sgd": 807.2266,
+   "sgd_per_10000_krw": 12.388095,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-05",
+   "krw_per_sgd": 835.282325,
+   "sgd_per_10000_krw": 11.972,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-06",
+   "krw_per_sgd": 867.713181,
+   "sgd_per_10000_krw": 11.524545,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-07",
+   "krw_per_sgd": 874.542853,
+   "sgd_per_10000_krw": 11.434545,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-08",
+   "krw_per_sgd": 871.15241,
+   "sgd_per_10000_krw": 11.479048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-09",
+   "krw_per_sgd": 870.682864,
+   "sgd_per_10000_krw": 11.485238,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-10",
+   "krw_per_sgd": 860.761569,
+   "sgd_per_10000_krw": 11.617619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-11",
+   "krw_per_sgd": 868.658791,
+   "sgd_per_10000_krw": 11.512,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2010-12",
+   "krw_per_sgd": 877.393759,
+   "sgd_per_10000_krw": 11.397391,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-01",
+   "krw_per_sgd": 868.881625,
+   "sgd_per_10000_krw": 11.509048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-02",
+   "krw_per_sgd": 875.103311,
+   "sgd_per_10000_krw": 11.427222,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-03",
+   "krw_per_sgd": 883.867497,
+   "sgd_per_10000_krw": 11.313913,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-04",
+   "krw_per_sgd": 869.829948,
+   "sgd_per_10000_krw": 11.4965,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-05",
+   "krw_per_sgd": 875.96356,
+   "sgd_per_10000_krw": 11.416,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-06",
+   "krw_per_sgd": 875.552195,
+   "sgd_per_10000_krw": 11.421364,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-07",
+   "krw_per_sgd": 869.601226,
+   "sgd_per_10000_krw": 11.499524,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-08",
+   "krw_per_sgd": 888.137027,
+   "sgd_per_10000_krw": 11.259524,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-09",
+   "krw_per_sgd": 895.874903,
+   "sgd_per_10000_krw": 11.162273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-10",
+   "krw_per_sgd": 902.48635,
+   "sgd_per_10000_krw": 11.0805,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-11",
+   "krw_per_sgd": 879.617994,
+   "sgd_per_10000_krw": 11.368571,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2011-12",
+   "krw_per_sgd": 886.674548,
+   "sgd_per_10000_krw": 11.278095,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-01",
+   "krw_per_sgd": 893.150943,
+   "sgd_per_10000_krw": 11.196316,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-02",
+   "krw_per_sgd": 895.751578,
+   "sgd_per_10000_krw": 11.16381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-03",
+   "krw_per_sgd": 894.890986,
+   "sgd_per_10000_krw": 11.174545,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-04",
+   "krw_per_sgd": 907.770515,
+   "sgd_per_10000_krw": 11.016,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-05",
+   "krw_per_sgd": 917.545982,
+   "sgd_per_10000_krw": 10.898636,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-06",
+   "krw_per_sgd": 910.904832,
+   "sgd_per_10000_krw": 10.978095,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-07",
+   "krw_per_sgd": 905.312539,
+   "sgd_per_10000_krw": 11.045909,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-08",
+   "krw_per_sgd": 906.461777,
+   "sgd_per_10000_krw": 11.031905,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-09",
+   "krw_per_sgd": 912.15908,
+   "sgd_per_10000_krw": 10.963,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-10",
+   "krw_per_sgd": 904.010519,
+   "sgd_per_10000_krw": 11.061818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-11",
+   "krw_per_sgd": 888.400034,
+   "sgd_per_10000_krw": 11.25619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2012-12",
+   "krw_per_sgd": 881.134902,
+   "sgd_per_10000_krw": 11.349,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-01",
+   "krw_per_sgd": 867.815865,
+   "sgd_per_10000_krw": 11.523182,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-02",
+   "krw_per_sgd": 877.321246,
+   "sgd_per_10000_krw": 11.398333,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-03",
+   "krw_per_sgd": 884.368782,
+   "sgd_per_10000_krw": 11.3075,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-04",
+   "krw_per_sgd": 905.797101,
+   "sgd_per_10000_krw": 11.04,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-05",
+   "krw_per_sgd": 890.245453,
+   "sgd_per_10000_krw": 11.232857,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-06",
+   "krw_per_sgd": 900.779174,
+   "sgd_per_10000_krw": 11.1015,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-07",
+   "krw_per_sgd": 888.168057,
+   "sgd_per_10000_krw": 11.25913,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-08",
+   "krw_per_sgd": 876.962203,
+   "sgd_per_10000_krw": 11.403,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-09",
+   "krw_per_sgd": 857.948278,
+   "sgd_per_10000_krw": 11.655714,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-10",
+   "krw_per_sgd": 857.131726,
+   "sgd_per_10000_krw": 11.666818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-11",
+   "krw_per_sgd": 851.96154,
+   "sgd_per_10000_krw": 11.737619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2013-12",
+   "krw_per_sgd": 839.462744,
+   "sgd_per_10000_krw": 11.912381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-01",
+   "krw_per_sgd": 837.387351,
+   "sgd_per_10000_krw": 11.941905,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-02",
+   "krw_per_sgd": 845.809017,
+   "sgd_per_10000_krw": 11.823,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-03",
+   "krw_per_sgd": 844.866431,
+   "sgd_per_10000_krw": 11.83619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-04",
+   "krw_per_sgd": 831.057818,
+   "sgd_per_10000_krw": 12.032857,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-05",
+   "krw_per_sgd": 818.766119,
+   "sgd_per_10000_krw": 12.2135,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-06",
+   "krw_per_sgd": 814.332248,
+   "sgd_per_10000_krw": 12.28,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-07",
+   "krw_per_sgd": 820.895522,
+   "sgd_per_10000_krw": 12.181818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-08",
+   "krw_per_sgd": 820.568928,
+   "sgd_per_10000_krw": 12.186667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-09",
+   "krw_per_sgd": 819.061802,
+   "sgd_per_10000_krw": 12.209091,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-10",
+   "krw_per_sgd": 832.771543,
+   "sgd_per_10000_krw": 12.008095,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-11",
+   "krw_per_sgd": 847.134567,
+   "sgd_per_10000_krw": 11.8045,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2014-12",
+   "krw_per_sgd": 839.054157,
+   "sgd_per_10000_krw": 11.918182,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-01",
+   "krw_per_sgd": 814.111262,
+   "sgd_per_10000_krw": 12.283333,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-02",
+   "krw_per_sgd": 811.907984,
+   "sgd_per_10000_krw": 12.316667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-03",
+   "krw_per_sgd": 808.466853,
+   "sgd_per_10000_krw": 12.369091,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-04",
+   "krw_per_sgd": 804.906094,
+   "sgd_per_10000_krw": 12.42381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-05",
+   "krw_per_sgd": 818.933748,
+   "sgd_per_10000_krw": 12.211,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-06",
+   "krw_per_sgd": 826.706559,
+   "sgd_per_10000_krw": 12.09619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-07",
+   "krw_per_sgd": 841.750842,
+   "sgd_per_10000_krw": 11.88,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-08",
+   "krw_per_sgd": 843.919339,
+   "sgd_per_10000_krw": 11.849474,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-09",
+   "krw_per_sgd": 838.082467,
+   "sgd_per_10000_krw": 11.932,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-10",
+   "krw_per_sgd": 817.236256,
+   "sgd_per_10000_krw": 12.236364,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-11",
+   "krw_per_sgd": 815.827045,
+   "sgd_per_10000_krw": 12.2575,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2015-12",
+   "krw_per_sgd": 833.175535,
+   "sgd_per_10000_krw": 12.002273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-01",
+   "krw_per_sgd": 839.84211,
+   "sgd_per_10000_krw": 11.907,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-02",
+   "krw_per_sgd": 866.472091,
+   "sgd_per_10000_krw": 11.541053,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-03",
+   "krw_per_sgd": 862.778932,
+   "sgd_per_10000_krw": 11.590455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-04",
+   "krw_per_sgd": 849.274073,
+   "sgd_per_10000_krw": 11.774762,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-05",
+   "krw_per_sgd": 857.632933,
+   "sgd_per_10000_krw": 11.66,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-06",
+   "krw_per_sgd": 862.440707,
+   "sgd_per_10000_krw": 11.595,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-07",
+   "krw_per_sgd": 844.665935,
+   "sgd_per_10000_krw": 11.839,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-08",
+   "krw_per_sgd": 824.618614,
+   "sgd_per_10000_krw": 12.126818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-09",
+   "krw_per_sgd": 815.692367,
+   "sgd_per_10000_krw": 12.259524,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-10",
+   "krw_per_sgd": 814.395408,
+   "sgd_per_10000_krw": 12.279048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-11",
+   "krw_per_sgd": 824.865959,
+   "sgd_per_10000_krw": 12.123182,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2016-12",
+   "krw_per_sgd": 824.143479,
+   "sgd_per_10000_krw": 12.13381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-01",
+   "krw_per_sgd": 826.207295,
+   "sgd_per_10000_krw": 12.1035,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-02",
+   "krw_per_sgd": 807.526144,
+   "sgd_per_10000_krw": 12.3835,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-03",
+   "krw_per_sgd": 806.791076,
+   "sgd_per_10000_krw": 12.394783,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-04",
+   "krw_per_sgd": 810.856948,
+   "sgd_per_10000_krw": 12.332632,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-05",
+   "krw_per_sgd": 807.102502,
+   "sgd_per_10000_krw": 12.39,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-06",
+   "krw_per_sgd": 816.866345,
+   "sgd_per_10000_krw": 12.241905,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-07",
+   "krw_per_sgd": 826.088667,
+   "sgd_per_10000_krw": 12.105238,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-08",
+   "krw_per_sgd": 831.223788,
+   "sgd_per_10000_krw": 12.030455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-09",
+   "krw_per_sgd": 839.595315,
+   "sgd_per_10000_krw": 11.9105,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-10",
+   "krw_per_sgd": 833.796554,
+   "sgd_per_10000_krw": 11.993333,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-11",
+   "krw_per_sgd": 813.820146,
+   "sgd_per_10000_krw": 12.287727,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2017-12",
+   "krw_per_sgd": 805.509686,
+   "sgd_per_10000_krw": 12.4145,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-01",
+   "krw_per_sgd": 806.6586,
+   "sgd_per_10000_krw": 12.396818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-02",
+   "krw_per_sgd": 818.260121,
+   "sgd_per_10000_krw": 12.221053,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-03",
+   "krw_per_sgd": 815.059189,
+   "sgd_per_10000_krw": 12.269048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-04",
+   "krw_per_sgd": 812.064965,
+   "sgd_per_10000_krw": 12.314286,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-05",
+   "krw_per_sgd": 804.258741,
+   "sgd_per_10000_krw": 12.43381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-06",
+   "krw_per_sgd": 811.128686,
+   "sgd_per_10000_krw": 12.3285,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-07",
+   "krw_per_sgd": 823.846615,
+   "sgd_per_10000_krw": 12.138182,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-08",
+   "krw_per_sgd": 819.448238,
+   "sgd_per_10000_krw": 12.203333,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-09",
+   "krw_per_sgd": 816.593173,
+   "sgd_per_10000_krw": 12.246,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-10",
+   "krw_per_sgd": 820.578686,
+   "sgd_per_10000_krw": 12.186522,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-11",
+   "krw_per_sgd": 819.83213,
+   "sgd_per_10000_krw": 12.197619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2018-12",
+   "krw_per_sgd": 818.833163,
+   "sgd_per_10000_krw": 12.2125,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-01",
+   "krw_per_sgd": 827.098763,
+   "sgd_per_10000_krw": 12.090455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-02",
+   "krw_per_sgd": 829.340214,
+   "sgd_per_10000_krw": 12.057778,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-03",
+   "krw_per_sgd": 835.388655,
+   "sgd_per_10000_krw": 11.970476,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-04",
+   "krw_per_sgd": 842.696629,
+   "sgd_per_10000_krw": 11.866667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-05",
+   "krw_per_sgd": 863.38034,
+   "sgd_per_10000_krw": 11.582381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-06",
+   "krw_per_sgd": 861.014184,
+   "sgd_per_10000_krw": 11.614211,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-07",
+   "krw_per_sgd": 864.499154,
+   "sgd_per_10000_krw": 11.567391,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-08",
+   "krw_per_sgd": 873.896705,
+   "sgd_per_10000_krw": 11.443,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-09",
+   "krw_per_sgd": 866.40812,
+   "sgd_per_10000_krw": 11.541905,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-10",
+   "krw_per_sgd": 863.422292,
+   "sgd_per_10000_krw": 11.581818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-11",
+   "krw_per_sgd": 858.088506,
+   "sgd_per_10000_krw": 11.65381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2019-12",
+   "krw_per_sgd": 865.123177,
+   "sgd_per_10000_krw": 11.559048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-01",
+   "krw_per_sgd": 863.096461,
+   "sgd_per_10000_krw": 11.58619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-02",
+   "krw_per_sgd": 859.956142,
+   "sgd_per_10000_krw": 11.6285,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-03",
+   "krw_per_sgd": 861.663795,
+   "sgd_per_10000_krw": 11.605455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-04",
+   "krw_per_sgd": 859.598854,
+   "sgd_per_10000_krw": 11.633333,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-05",
+   "krw_per_sgd": 866.551126,
+   "sgd_per_10000_krw": 11.54,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-06",
+   "krw_per_sgd": 866.380499,
+   "sgd_per_10000_krw": 11.542273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-07",
+   "krw_per_sgd": 863.73545,
+   "sgd_per_10000_krw": 11.577619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-08",
+   "krw_per_sgd": 866.288388,
+   "sgd_per_10000_krw": 11.5435,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-09",
+   "krw_per_sgd": 862.440707,
+   "sgd_per_10000_krw": 11.595,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-10",
+   "krw_per_sgd": 841.78305,
+   "sgd_per_10000_krw": 11.879545,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-11",
+   "krw_per_sgd": 827.977763,
+   "sgd_per_10000_krw": 12.077619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2020-12",
+   "krw_per_sgd": 820.895522,
+   "sgd_per_10000_krw": 12.181818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-01",
+   "krw_per_sgd": 828.878113,
+   "sgd_per_10000_krw": 12.0645,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-02",
+   "krw_per_sgd": 837.668636,
+   "sgd_per_10000_krw": 11.937895,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-03",
+   "krw_per_sgd": 842.583434,
+   "sgd_per_10000_krw": 11.868261,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-04",
+   "krw_per_sgd": 837.621156,
+   "sgd_per_10000_krw": 11.938571,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-05",
+   "krw_per_sgd": 844.406915,
+   "sgd_per_10000_krw": 11.842632,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-06",
+   "krw_per_sgd": 841.81526,
+   "sgd_per_10000_krw": 11.879091,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-07",
+   "krw_per_sgd": 844.968414,
+   "sgd_per_10000_krw": 11.834762,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-08",
+   "krw_per_sgd": 857.352821,
+   "sgd_per_10000_krw": 11.66381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-09",
+   "krw_per_sgd": 870.322019,
+   "sgd_per_10000_krw": 11.49,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-10",
+   "krw_per_sgd": 875.03646,
+   "sgd_per_10000_krw": 11.428095,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-11",
+   "krw_per_sgd": 872.527838,
+   "sgd_per_10000_krw": 11.460952,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2021-12",
+   "krw_per_sgd": 868.416085,
+   "sgd_per_10000_krw": 11.515217,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-01",
+   "krw_per_sgd": 885.515496,
+   "sgd_per_10000_krw": 11.292857,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-02",
+   "krw_per_sgd": 889.987639,
+   "sgd_per_10000_krw": 11.236111,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-03",
+   "krw_per_sgd": 898.332227,
+   "sgd_per_10000_krw": 11.131739,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-04",
+   "krw_per_sgd": 904.608983,
+   "sgd_per_10000_krw": 11.0545,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-05",
+   "krw_per_sgd": 917.298315,
+   "sgd_per_10000_krw": 10.901579,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-06",
+   "krw_per_sgd": 923.051103,
+   "sgd_per_10000_krw": 10.833636,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-07",
+   "krw_per_sgd": 937.338895,
+   "sgd_per_10000_krw": 10.6685,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-08",
+   "krw_per_sgd": 953.784791,
+   "sgd_per_10000_krw": 10.484545,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-09",
+   "krw_per_sgd": 986.989681,
+   "sgd_per_10000_krw": 10.131818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-10",
+   "krw_per_sgd": 1001.401963,
+   "sgd_per_10000_krw": 9.986,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-11",
+   "krw_per_sgd": 978.473581,
+   "sgd_per_10000_krw": 10.22,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2022-12",
+   "krw_per_sgd": 957.636007,
+   "sgd_per_10000_krw": 10.442381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-01",
+   "krw_per_sgd": 938.549694,
+   "sgd_per_10000_krw": 10.654737,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-02",
+   "krw_per_sgd": 958.129731,
+   "sgd_per_10000_krw": 10.437,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-03",
+   "krw_per_sgd": 973.215419,
+   "sgd_per_10000_krw": 10.275217,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-04",
+   "krw_per_sgd": 993.100564,
+   "sgd_per_10000_krw": 10.069474,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-05",
+   "krw_per_sgd": 990.41102,
+   "sgd_per_10000_krw": 10.096818,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-06",
+   "krw_per_sgd": 962.324977,
+   "sgd_per_10000_krw": 10.3915,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-07",
+   "krw_per_sgd": 961.626523,
+   "sgd_per_10000_krw": 10.399048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-08",
+   "krw_per_sgd": 978.691223,
+   "sgd_per_10000_krw": 10.217727,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-09",
+   "krw_per_sgd": 977.85166,
+   "sgd_per_10000_krw": 10.2265,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-10",
+   "krw_per_sgd": 987.122538,
+   "sgd_per_10000_krw": 10.130455,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-11",
+   "krw_per_sgd": 968.768741,
+   "sgd_per_10000_krw": 10.322381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2023-12",
+   "krw_per_sgd": 978.712992,
+   "sgd_per_10000_krw": 10.2175,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-01",
+   "krw_per_sgd": 992.824586,
+   "sgd_per_10000_krw": 10.072273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-02",
+   "krw_per_sgd": 990.638466,
+   "sgd_per_10000_krw": 10.0945,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-03",
+   "krw_per_sgd": 993.245928,
+   "sgd_per_10000_krw": 10.068,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-04",
+   "krw_per_sgd": 1009.275725,
+   "sgd_per_10000_krw": 9.908095,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-05",
+   "krw_per_sgd": 1010.198191,
+   "sgd_per_10000_krw": 9.899048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-06",
+   "krw_per_sgd": 1020.79192,
+   "sgd_per_10000_krw": 9.796316,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-07",
+   "krw_per_sgd": 1027.106685,
+   "sgd_per_10000_krw": 9.736087,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-08",
+   "krw_per_sgd": 1026.794445,
+   "sgd_per_10000_krw": 9.739048,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-09",
+   "krw_per_sgd": 1027.146001,
+   "sgd_per_10000_krw": 9.735714,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-10",
+   "krw_per_sgd": 1038.862917,
+   "sgd_per_10000_krw": 9.625909,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-11",
+   "krw_per_sgd": 1043.685702,
+   "sgd_per_10000_krw": 9.581429,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2024-12",
+   "krw_per_sgd": 1065.50307,
+   "sgd_per_10000_krw": 9.385238,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-01",
+   "krw_per_sgd": 1066.780457,
+   "sgd_per_10000_krw": 9.374,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-02",
+   "krw_per_sgd": 1073.42207,
+   "sgd_per_10000_krw": 9.316,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-03",
+   "krw_per_sgd": 1090.690953,
+   "sgd_per_10000_krw": 9.1685,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-04",
+   "krw_per_sgd": 1089.607223,
+   "sgd_per_10000_krw": 9.177619,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-05",
+   "krw_per_sgd": 1074.748777,
+   "sgd_per_10000_krw": 9.3045,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-06",
+   "krw_per_sgd": 1063.560395,
+   "sgd_per_10000_krw": 9.402381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-07",
+   "krw_per_sgd": 1075.168287,
+   "sgd_per_10000_krw": 9.30087,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-08",
+   "krw_per_sgd": 1080.802882,
+   "sgd_per_10000_krw": 9.252381,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-09",
+   "krw_per_sgd": 1084.01084,
+   "sgd_per_10000_krw": 9.225,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-10",
+   "krw_per_sgd": 1098.517002,
+   "sgd_per_10000_krw": 9.103182,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-11",
+   "krw_per_sgd": 1120.824927,
+   "sgd_per_10000_krw": 8.922,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2025-12",
+   "krw_per_sgd": 1135.601094,
+   "sgd_per_10000_krw": 8.805909,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-01",
+   "krw_per_sgd": 1137.5948,
+   "sgd_per_10000_krw": 8.790476,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-02",
+   "krw_per_sgd": 1143.510577,
+   "sgd_per_10000_krw": 8.745,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-03",
+   "krw_per_sgd": 1164.51408,
+   "sgd_per_10000_krw": 8.587273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-04",
+   "krw_per_sgd": 1162.597575,
+   "sgd_per_10000_krw": 8.601429,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-05",
+   "krw_per_sgd": 1168.943029,
+   "sgd_per_10000_krw": 8.554737,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-06",
+   "krw_per_sgd": 1188.118812,
+   "sgd_per_10000_krw": 8.416667,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-07",
+   "krw_per_sgd": 1154.850372,
+   "sgd_per_10000_krw": 8.65913,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-08",
+   "krw_per_sgd": 1099.203078,
+   "sgd_per_10000_krw": 9.0975,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-09",
+   "krw_per_sgd": 1067.546584,
+   "sgd_per_10000_krw": 9.367273,
+   "source": "Numbers.sg mean of MAS daily rates"
+  },
+  {
+   "month": "2026-10",
+   "krw_per_sgd": 1045.080994,
+   "sgd_per_10000_krw": 9.568636,
+   "source": "Numbers.sg mean of MAS daily rates"
+  }
+ ]
+}

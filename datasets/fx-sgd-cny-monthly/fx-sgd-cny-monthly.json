@@ -1,0 +1,2477 @@
+{
+ "dataset": "fx-sgd-cny-monthly",
+ "title": "Singapore dollar to Chinese yuan, monthly averages since 1993",
+ "description": "SingStat's monthly average exchange rate for the yuan (table M700051, averages of MAS's figures) since June 1993, both ways round.",
+ "question": "What was the average yuan rate for the Singapore dollar each month since 1993?",
+ "row": {
+  "is": "One month (the average of the month)",
+  "time_key": "month",
+  "primary_key": [
+   "month"
+  ]
+ },
+ "coverage": {
+  "from": "1993-06",
+  "to": "2026-10"
+ },
+ "fields": [
+  {
+   "name": "month",
+   "type": "month",
+   "meaning": "The month averaged.",
+   "nullable": false
+  },
+  {
+   "name": "cny_per_sgd",
+   "type": "number",
+   "unit": "yuan per S$1",
+   "meaning": "Yuan per S$1: SingStat's S$ figure, turned round.",
+   "nullable": false
+  },
+  {
+   "name": "sgd_per_100_cny",
+   "type": "number",
+   "unit": "S$ per 100 yuan",
+   "meaning": "S$ per 100 yuan: SingStat's monthly average, in the daily table's unit.",
+   "nullable": false
+  },
+  {
+   "name": "source",
+   "type": "string",
+   "meaning": "Where the month's figure comes from.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Department of Statistics (SingStat)",
+   "url": "https://www.singstat.gov.sg/",
+   "terms": "SingStat terms of use",
+   "terms_url": "https://www.singstat.gov.sg/terms-of-use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Department of Statistics, compiled by Numbers.sg (numbers.sg/currency/sgd-to-cny/), CC BY 4.0",
+  "notices": [
+   "Source: Singapore Department of Statistics"
+  ]
+ },
+ "page_url": "https://numbers.sg/currency/sgd-to-cny/",
+ "method": "https://numbers.sg/currency/sgd-to-cny/#method",
+ "api": "https://numbers.sg/api/v1/fx-sgd-cny-monthly",
+ "hash": "sha256:c5091b42c887ac65264e3011a0e8e90406411ebd3281fc6eaa96f33d6fb91eff",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "month": "1993-06",
+   "cny_per_sgd": 6.5488,
+   "sgd_per_100_cny": 15.27,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-07",
+   "cny_per_sgd": 5.4437,
+   "sgd_per_100_cny": 18.37,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-08",
+   "cny_per_sgd": 5.4735,
+   "sgd_per_100_cny": 18.27,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-09",
+   "cny_per_sgd": 5.4735,
+   "sgd_per_100_cny": 18.27,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-10",
+   "cny_per_sgd": 5.5371,
+   "sgd_per_100_cny": 18.06,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-11",
+   "cny_per_sgd": 5.4526,
+   "sgd_per_100_cny": 18.34,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-12",
+   "cny_per_sgd": 5.4466,
+   "sgd_per_100_cny": 18.36,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-01",
+   "cny_per_sgd": 5.4259,
+   "sgd_per_100_cny": 18.43,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-02",
+   "cny_per_sgd": 5.4765,
+   "sgd_per_100_cny": 18.26,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-03",
+   "cny_per_sgd": 5.4975,
+   "sgd_per_100_cny": 18.19,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-04",
+   "cny_per_sgd": 5.5648,
+   "sgd_per_100_cny": 17.97,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-05",
+   "cny_per_sgd": 5.6022,
+   "sgd_per_100_cny": 17.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-06",
+   "cny_per_sgd": 5.6561,
+   "sgd_per_100_cny": 17.68,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-07",
+   "cny_per_sgd": 5.7045,
+   "sgd_per_100_cny": 17.53,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-08",
+   "cny_per_sgd": 5.7078,
+   "sgd_per_100_cny": 17.52,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-09",
+   "cny_per_sgd": 5.7339,
+   "sgd_per_100_cny": 17.44,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-10",
+   "cny_per_sgd": 5.777,
+   "sgd_per_100_cny": 17.31,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-11",
+   "cny_per_sgd": 5.8005,
+   "sgd_per_100_cny": 17.24,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-12",
+   "cny_per_sgd": 5.7904,
+   "sgd_per_100_cny": 17.27,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-01",
+   "cny_per_sgd": 5.8106,
+   "sgd_per_100_cny": 17.21,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-02",
+   "cny_per_sgd": 5.8038,
+   "sgd_per_100_cny": 17.23,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-03",
+   "cny_per_sgd": 5.9347,
+   "sgd_per_100_cny": 16.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-04",
+   "cny_per_sgd": 6.0241,
+   "sgd_per_100_cny": 16.6,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-05",
+   "cny_per_sgd": 5.9701,
+   "sgd_per_100_cny": 16.75,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-06",
+   "cny_per_sgd": 5.9524,
+   "sgd_per_100_cny": 16.8,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-07",
+   "cny_per_sgd": 5.9347,
+   "sgd_per_100_cny": 16.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-08",
+   "cny_per_sgd": 5.8893,
+   "sgd_per_100_cny": 16.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-09",
+   "cny_per_sgd": 5.8005,
+   "sgd_per_100_cny": 17.24,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-10",
+   "cny_per_sgd": 5.8411,
+   "sgd_per_100_cny": 17.12,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-11",
+   "cny_per_sgd": 5.8824,
+   "sgd_per_100_cny": 17,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-12",
+   "cny_per_sgd": 5.8789,
+   "sgd_per_100_cny": 17.01,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-01",
+   "cny_per_sgd": 5.8514,
+   "sgd_per_100_cny": 17.09,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-02",
+   "cny_per_sgd": 5.8858,
+   "sgd_per_100_cny": 16.99,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-03",
+   "cny_per_sgd": 5.9102,
+   "sgd_per_100_cny": 16.92,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-04",
+   "cny_per_sgd": 5.9172,
+   "sgd_per_100_cny": 16.9,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-05",
+   "cny_per_sgd": 5.9172,
+   "sgd_per_100_cny": 16.9,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-06",
+   "cny_per_sgd": 5.9067,
+   "sgd_per_100_cny": 16.93,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-07",
+   "cny_per_sgd": 5.8754,
+   "sgd_per_100_cny": 17.02,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-08",
+   "cny_per_sgd": 5.8824,
+   "sgd_per_100_cny": 17,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-09",
+   "cny_per_sgd": 5.8962,
+   "sgd_per_100_cny": 16.96,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-10",
+   "cny_per_sgd": 5.8754,
+   "sgd_per_100_cny": 17.02,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-11",
+   "cny_per_sgd": 5.9172,
+   "sgd_per_100_cny": 16.9,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-12",
+   "cny_per_sgd": 5.9242,
+   "sgd_per_100_cny": 16.88,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-01",
+   "cny_per_sgd": 5.8997,
+   "sgd_per_100_cny": 16.95,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-02",
+   "cny_per_sgd": 5.8445,
+   "sgd_per_100_cny": 17.11,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-03",
+   "cny_per_sgd": 5.777,
+   "sgd_per_100_cny": 17.31,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-04",
+   "cny_per_sgd": 5.7571,
+   "sgd_per_100_cny": 17.37,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-05",
+   "cny_per_sgd": 5.7737,
+   "sgd_per_100_cny": 17.32,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-06",
+   "cny_per_sgd": 5.8106,
+   "sgd_per_100_cny": 17.21,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-07",
+   "cny_per_sgd": 5.7176,
+   "sgd_per_100_cny": 17.49,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-08",
+   "cny_per_sgd": 5.5402,
+   "sgd_per_100_cny": 18.05,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-09",
+   "cny_per_sgd": 5.4615,
+   "sgd_per_100_cny": 18.31,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-10",
+   "cny_per_sgd": 5.3191,
+   "sgd_per_100_cny": 18.8,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-11",
+   "cny_per_sgd": 5.2329,
+   "sgd_per_100_cny": 19.11,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-12",
+   "cny_per_sgd": 5.0251,
+   "sgd_per_100_cny": 19.9,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-01",
+   "cny_per_sgd": 4.7214,
+   "sgd_per_100_cny": 21.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-02",
+   "cny_per_sgd": 4.9925,
+   "sgd_per_100_cny": 20.03,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-03",
+   "cny_per_sgd": 5.1203,
+   "sgd_per_100_cny": 19.53,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-04",
+   "cny_per_sgd": 5.1706,
+   "sgd_per_100_cny": 19.34,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-05",
+   "cny_per_sgd": 5.0531,
+   "sgd_per_100_cny": 19.79,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-06",
+   "cny_per_sgd": 4.8852,
+   "sgd_per_100_cny": 20.47,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-07",
+   "cny_per_sgd": 4.8473,
+   "sgd_per_100_cny": 20.63,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-08",
+   "cny_per_sgd": 4.7214,
+   "sgd_per_100_cny": 21.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-09",
+   "cny_per_sgd": 4.7962,
+   "sgd_per_100_cny": 20.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-10",
+   "cny_per_sgd": 5.0454,
+   "sgd_per_100_cny": 19.82,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-11",
+   "cny_per_sgd": 5.0505,
+   "sgd_per_100_cny": 19.8,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-12",
+   "cny_per_sgd": 5.0075,
+   "sgd_per_100_cny": 19.97,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-01",
+   "cny_per_sgd": 4.9334,
+   "sgd_per_100_cny": 20.27,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-02",
+   "cny_per_sgd": 4.8685,
+   "sgd_per_100_cny": 20.54,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-03",
+   "cny_per_sgd": 4.787,
+   "sgd_per_100_cny": 20.89,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-04",
+   "cny_per_sgd": 4.8309,
+   "sgd_per_100_cny": 20.7,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-05",
+   "cny_per_sgd": 4.8356,
+   "sgd_per_100_cny": 20.68,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-06",
+   "cny_per_sgd": 4.8356,
+   "sgd_per_100_cny": 20.68,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-07",
+   "cny_per_sgd": 4.8804,
+   "sgd_per_100_cny": 20.49,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-08",
+   "cny_per_sgd": 4.9285,
+   "sgd_per_100_cny": 20.29,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-09",
+   "cny_per_sgd": 4.8804,
+   "sgd_per_100_cny": 20.49,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-10",
+   "cny_per_sgd": 4.9383,
+   "sgd_per_100_cny": 20.25,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-11",
+   "cny_per_sgd": 4.9554,
+   "sgd_per_100_cny": 20.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-12",
+   "cny_per_sgd": 4.9432,
+   "sgd_per_100_cny": 20.23,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-01",
+   "cny_per_sgd": 4.948,
+   "sgd_per_100_cny": 20.21,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-02",
+   "cny_per_sgd": 4.8685,
+   "sgd_per_100_cny": 20.54,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-03",
+   "cny_per_sgd": 4.8263,
+   "sgd_per_100_cny": 20.72,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-04",
+   "cny_per_sgd": 4.8426,
+   "sgd_per_100_cny": 20.65,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-05",
+   "cny_per_sgd": 4.7893,
+   "sgd_per_100_cny": 20.88,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-06",
+   "cny_per_sgd": 4.7916,
+   "sgd_per_100_cny": 20.87,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-07",
+   "cny_per_sgd": 4.7574,
+   "sgd_per_100_cny": 21.02,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-08",
+   "cny_per_sgd": 4.8146,
+   "sgd_per_100_cny": 20.77,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-09",
+   "cny_per_sgd": 4.7642,
+   "sgd_per_100_cny": 20.99,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-10",
+   "cny_per_sgd": 4.7281,
+   "sgd_per_100_cny": 21.15,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-11",
+   "cny_per_sgd": 4.7393,
+   "sgd_per_100_cny": 21.1,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-12",
+   "cny_per_sgd": 4.7664,
+   "sgd_per_100_cny": 20.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-01",
+   "cny_per_sgd": 4.7664,
+   "sgd_per_100_cny": 20.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-02",
+   "cny_per_sgd": 4.7483,
+   "sgd_per_100_cny": 21.06,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-03",
+   "cny_per_sgd": 4.6751,
+   "sgd_per_100_cny": 21.39,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-04",
+   "cny_per_sgd": 4.5683,
+   "sgd_per_100_cny": 21.89,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-05",
+   "cny_per_sgd": 4.5641,
+   "sgd_per_100_cny": 21.91,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-06",
+   "cny_per_sgd": 4.5579,
+   "sgd_per_100_cny": 21.94,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-07",
+   "cny_per_sgd": 4.5393,
+   "sgd_per_100_cny": 22.03,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-08",
+   "cny_per_sgd": 4.697,
+   "sgd_per_100_cny": 21.29,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-09",
+   "cny_per_sgd": 4.7348,
+   "sgd_per_100_cny": 21.12,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-10",
+   "cny_per_sgd": 4.5746,
+   "sgd_per_100_cny": 21.86,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-11",
+   "cny_per_sgd": 4.5249,
+   "sgd_per_100_cny": 22.1,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-12",
+   "cny_per_sgd": 4.5045,
+   "sgd_per_100_cny": 22.2,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-01",
+   "cny_per_sgd": 4.5005,
+   "sgd_per_100_cny": 22.22,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-02",
+   "cny_per_sgd": 4.5188,
+   "sgd_per_100_cny": 22.13,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-03",
+   "cny_per_sgd": 4.5269,
+   "sgd_per_100_cny": 22.09,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-04",
+   "cny_per_sgd": 4.5249,
+   "sgd_per_100_cny": 22.1,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-05",
+   "cny_per_sgd": 4.5998,
+   "sgd_per_100_cny": 21.74,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-06",
+   "cny_per_sgd": 4.6425,
+   "sgd_per_100_cny": 21.54,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-07",
+   "cny_per_sgd": 4.7237,
+   "sgd_per_100_cny": 21.17,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-08",
+   "cny_per_sgd": 4.717,
+   "sgd_per_100_cny": 21.2,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-09",
+   "cny_per_sgd": 4.6882,
+   "sgd_per_100_cny": 21.33,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-10",
+   "cny_per_sgd": 4.6339,
+   "sgd_per_100_cny": 21.58,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-11",
+   "cny_per_sgd": 4.6904,
+   "sgd_per_100_cny": 21.32,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-12",
+   "cny_per_sgd": 4.7214,
+   "sgd_per_100_cny": 21.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-01",
+   "cny_per_sgd": 4.7687,
+   "sgd_per_100_cny": 20.97,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-02",
+   "cny_per_sgd": 4.7416,
+   "sgd_per_100_cny": 21.09,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-03",
+   "cny_per_sgd": 4.7214,
+   "sgd_per_100_cny": 21.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-04",
+   "cny_per_sgd": 4.6598,
+   "sgd_per_100_cny": 21.46,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-05",
+   "cny_per_sgd": 4.7733,
+   "sgd_per_100_cny": 20.95,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-06",
+   "cny_per_sgd": 4.7733,
+   "sgd_per_100_cny": 20.95,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-07",
+   "cny_per_sgd": 4.7148,
+   "sgd_per_100_cny": 21.21,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-08",
+   "cny_per_sgd": 4.7214,
+   "sgd_per_100_cny": 21.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-09",
+   "cny_per_sgd": 4.7393,
+   "sgd_per_100_cny": 21.1,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-10",
+   "cny_per_sgd": 4.7755,
+   "sgd_per_100_cny": 20.94,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-11",
+   "cny_per_sgd": 4.787,
+   "sgd_per_100_cny": 20.89,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-12",
+   "cny_per_sgd": 4.8379,
+   "sgd_per_100_cny": 20.67,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-01",
+   "cny_per_sgd": 4.8733,
+   "sgd_per_100_cny": 20.52,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-02",
+   "cny_per_sgd": 4.9092,
+   "sgd_per_100_cny": 20.37,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-03",
+   "cny_per_sgd": 4.8685,
+   "sgd_per_100_cny": 20.54,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-04",
+   "cny_per_sgd": 4.914,
+   "sgd_per_100_cny": 20.35,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-05",
+   "cny_per_sgd": 4.8403,
+   "sgd_per_100_cny": 20.66,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-06",
+   "cny_per_sgd": 4.8333,
+   "sgd_per_100_cny": 20.69,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-07",
+   "cny_per_sgd": 4.8333,
+   "sgd_per_100_cny": 20.69,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-08",
+   "cny_per_sgd": 4.8286,
+   "sgd_per_100_cny": 20.71,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-09",
+   "cny_per_sgd": 4.8804,
+   "sgd_per_100_cny": 20.49,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-10",
+   "cny_per_sgd": 4.9334,
+   "sgd_per_100_cny": 20.27,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-11",
+   "cny_per_sgd": 5.0125,
+   "sgd_per_100_cny": 19.95,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-12",
+   "cny_per_sgd": 5.0429,
+   "sgd_per_100_cny": 19.83,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-01",
+   "cny_per_sgd": 5.0531,
+   "sgd_per_100_cny": 19.79,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-02",
+   "cny_per_sgd": 5.0531,
+   "sgd_per_100_cny": 19.79,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-03",
+   "cny_per_sgd": 5.0761,
+   "sgd_per_100_cny": 19.7,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-04",
+   "cny_per_sgd": 5.005,
+   "sgd_per_100_cny": 19.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-05",
+   "cny_per_sgd": 5.0125,
+   "sgd_per_100_cny": 19.95,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-06",
+   "cny_per_sgd": 4.9505,
+   "sgd_per_100_cny": 20.2,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-07",
+   "cny_per_sgd": 4.8876,
+   "sgd_per_100_cny": 20.46,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-08",
+   "cny_per_sgd": 4.8733,
+   "sgd_per_100_cny": 20.52,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-09",
+   "cny_per_sgd": 4.8054,
+   "sgd_per_100_cny": 20.81,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-10",
+   "cny_per_sgd": 4.7755,
+   "sgd_per_100_cny": 20.94,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-11",
+   "cny_per_sgd": 4.7551,
+   "sgd_per_100_cny": 21.03,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-12",
+   "cny_per_sgd": 4.8193,
+   "sgd_per_100_cny": 20.75,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-01",
+   "cny_per_sgd": 4.9383,
+   "sgd_per_100_cny": 20.25,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-02",
+   "cny_per_sgd": 4.9407,
+   "sgd_per_100_cny": 20.24,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-03",
+   "cny_per_sgd": 4.9529,
+   "sgd_per_100_cny": 20.19,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-04",
+   "cny_per_sgd": 5.005,
+   "sgd_per_100_cny": 19.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-05",
+   "cny_per_sgd": 5.0787,
+   "sgd_per_100_cny": 19.69,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-06",
+   "cny_per_sgd": 5.0378,
+   "sgd_per_100_cny": 19.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-07",
+   "cny_per_sgd": 5.0454,
+   "sgd_per_100_cny": 19.82,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-08",
+   "cny_per_sgd": 5.0582,
+   "sgd_per_100_cny": 19.77,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-09",
+   "cny_per_sgd": 5.0251,
+   "sgd_per_100_cny": 19.9,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-10",
+   "cny_per_sgd": 5.005,
+   "sgd_per_100_cny": 19.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-11",
+   "cny_per_sgd": 5.0531,
+   "sgd_per_100_cny": 19.79,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-12",
+   "cny_per_sgd": 5.0787,
+   "sgd_per_100_cny": 19.69,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-01",
+   "cny_per_sgd": 5.0659,
+   "sgd_per_100_cny": 19.74,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-02",
+   "cny_per_sgd": 5.0531,
+   "sgd_per_100_cny": 19.79,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-03",
+   "cny_per_sgd": 5.0761,
+   "sgd_per_100_cny": 19.7,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-04",
+   "cny_per_sgd": 5.0994,
+   "sgd_per_100_cny": 19.61,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-05",
+   "cny_per_sgd": 5.0429,
+   "sgd_per_100_cny": 19.83,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-06",
+   "cny_per_sgd": 4.9677,
+   "sgd_per_100_cny": 20.13,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-07",
+   "cny_per_sgd": 4.9975,
+   "sgd_per_100_cny": 20.01,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-08",
+   "cny_per_sgd": 4.9727,
+   "sgd_per_100_cny": 20.11,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-09",
+   "cny_per_sgd": 4.9727,
+   "sgd_per_100_cny": 20.11,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-10",
+   "cny_per_sgd": 5.1151,
+   "sgd_per_100_cny": 19.55,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-11",
+   "cny_per_sgd": 5.1282,
+   "sgd_per_100_cny": 19.5,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-12",
+   "cny_per_sgd": 5.0865,
+   "sgd_per_100_cny": 19.66,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-01",
+   "cny_per_sgd": 5.0582,
+   "sgd_per_100_cny": 19.77,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-02",
+   "cny_per_sgd": 5.0787,
+   "sgd_per_100_cny": 19.69,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-03",
+   "cny_per_sgd": 5.1073,
+   "sgd_per_100_cny": 19.58,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-04",
+   "cny_per_sgd": 5.1308,
+   "sgd_per_100_cny": 19.49,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-05",
+   "cny_per_sgd": 5.102,
+   "sgd_per_100_cny": 19.6,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-06",
+   "cny_per_sgd": 5.0454,
+   "sgd_per_100_cny": 19.82,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-07",
+   "cny_per_sgd": 5.0327,
+   "sgd_per_100_cny": 19.87,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-08",
+   "cny_per_sgd": 4.8852,
+   "sgd_per_100_cny": 20.47,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-09",
+   "cny_per_sgd": 4.7847,
+   "sgd_per_100_cny": 20.9,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-10",
+   "cny_per_sgd": 4.6296,
+   "sgd_per_100_cny": 21.6,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-11",
+   "cny_per_sgd": 4.5331,
+   "sgd_per_100_cny": 22.06,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-12",
+   "cny_per_sgd": 4.6382,
+   "sgd_per_100_cny": 21.56,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-01",
+   "cny_per_sgd": 4.5935,
+   "sgd_per_100_cny": 21.77,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-02",
+   "cny_per_sgd": 4.5045,
+   "sgd_per_100_cny": 22.2,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-03",
+   "cny_per_sgd": 4.4663,
+   "sgd_per_100_cny": 22.39,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-04",
+   "cny_per_sgd": 4.5393,
+   "sgd_per_100_cny": 22.03,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-05",
+   "cny_per_sgd": 4.6685,
+   "sgd_per_100_cny": 21.42,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-06",
+   "cny_per_sgd": 4.7059,
+   "sgd_per_100_cny": 21.25,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-07",
+   "cny_per_sgd": 4.7125,
+   "sgd_per_100_cny": 21.22,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-08",
+   "cny_per_sgd": 4.7371,
+   "sgd_per_100_cny": 21.11,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-09",
+   "cny_per_sgd": 4.7939,
+   "sgd_per_100_cny": 20.86,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-10",
+   "cny_per_sgd": 4.8828,
+   "sgd_per_100_cny": 20.48,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-11",
+   "cny_per_sgd": 4.914,
+   "sgd_per_100_cny": 20.35,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-12",
+   "cny_per_sgd": 4.89,
+   "sgd_per_100_cny": 20.45,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-01",
+   "cny_per_sgd": 4.89,
+   "sgd_per_100_cny": 20.45,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-02",
+   "cny_per_sgd": 4.8356,
+   "sgd_per_100_cny": 20.68,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-03",
+   "cny_per_sgd": 4.8757,
+   "sgd_per_100_cny": 20.51,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-04",
+   "cny_per_sgd": 4.9407,
+   "sgd_per_100_cny": 20.24,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-05",
+   "cny_per_sgd": 4.902,
+   "sgd_per_100_cny": 20.4,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-06",
+   "cny_per_sgd": 4.878,
+   "sgd_per_100_cny": 20.5,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-07",
+   "cny_per_sgd": 4.9188,
+   "sgd_per_100_cny": 20.33,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-08",
+   "cny_per_sgd": 5.005,
+   "sgd_per_100_cny": 19.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-09",
+   "cny_per_sgd": 5.048,
+   "sgd_per_100_cny": 19.81,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-10",
+   "cny_per_sgd": 5.1125,
+   "sgd_per_100_cny": 19.56,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-11",
+   "cny_per_sgd": 5.1256,
+   "sgd_per_100_cny": 19.51,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-12",
+   "cny_per_sgd": 5.0865,
+   "sgd_per_100_cny": 19.66,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-01",
+   "cny_per_sgd": 5.123,
+   "sgd_per_100_cny": 19.52,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-02",
+   "cny_per_sgd": 5.1493,
+   "sgd_per_100_cny": 19.42,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-03",
+   "cny_per_sgd": 5.176,
+   "sgd_per_100_cny": 19.32,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-04",
+   "cny_per_sgd": 5.2329,
+   "sgd_per_100_cny": 19.11,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-05",
+   "cny_per_sgd": 5.2493,
+   "sgd_per_100_cny": 19.05,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-06",
+   "cny_per_sgd": 5.2438,
+   "sgd_per_100_cny": 19.07,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-07",
+   "cny_per_sgd": 5.305,
+   "sgd_per_100_cny": 18.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-08",
+   "cny_per_sgd": 5.2994,
+   "sgd_per_100_cny": 18.87,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-09",
+   "cny_per_sgd": 5.1099,
+   "sgd_per_100_cny": 19.57,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-10",
+   "cny_per_sgd": 4.9801,
+   "sgd_per_100_cny": 20.08,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-11",
+   "cny_per_sgd": 4.9285,
+   "sgd_per_100_cny": 20.29,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-12",
+   "cny_per_sgd": 4.902,
+   "sgd_per_100_cny": 20.4,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-01",
+   "cny_per_sgd": 4.931,
+   "sgd_per_100_cny": 20.28,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-02",
+   "cny_per_sgd": 5.0251,
+   "sgd_per_100_cny": 19.9,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-03",
+   "cny_per_sgd": 5.0176,
+   "sgd_per_100_cny": 19.93,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-04",
+   "cny_per_sgd": 5.0378,
+   "sgd_per_100_cny": 19.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-05",
+   "cny_per_sgd": 5.01,
+   "sgd_per_100_cny": 19.96,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-06",
+   "cny_per_sgd": 4.9776,
+   "sgd_per_100_cny": 20.09,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-07",
+   "cny_per_sgd": 5.0505,
+   "sgd_per_100_cny": 19.8,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-08",
+   "cny_per_sgd": 5.0942,
+   "sgd_per_100_cny": 19.63,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-09",
+   "cny_per_sgd": 5.1335,
+   "sgd_per_100_cny": 19.48,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-10",
+   "cny_per_sgd": 5.1151,
+   "sgd_per_100_cny": 19.55,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-11",
+   "cny_per_sgd": 5.0942,
+   "sgd_per_100_cny": 19.63,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-12",
+   "cny_per_sgd": 5.1046,
+   "sgd_per_100_cny": 19.59,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-01",
+   "cny_per_sgd": 5.0633,
+   "sgd_per_100_cny": 19.75,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-02",
+   "cny_per_sgd": 5.0352,
+   "sgd_per_100_cny": 19.86,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-03",
+   "cny_per_sgd": 4.9875,
+   "sgd_per_100_cny": 20.05,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-04",
+   "cny_per_sgd": 4.9975,
+   "sgd_per_100_cny": 20.01,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-05",
+   "cny_per_sgd": 4.9188,
+   "sgd_per_100_cny": 20.33,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-06",
+   "cny_per_sgd": 4.8662,
+   "sgd_per_100_cny": 20.55,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-07",
+   "cny_per_sgd": 4.8379,
+   "sgd_per_100_cny": 20.67,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-08",
+   "cny_per_sgd": 4.8054,
+   "sgd_per_100_cny": 20.81,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-09",
+   "cny_per_sgd": 4.8426,
+   "sgd_per_100_cny": 20.65,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-10",
+   "cny_per_sgd": 4.9044,
+   "sgd_per_100_cny": 20.39,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-11",
+   "cny_per_sgd": 4.8852,
+   "sgd_per_100_cny": 20.47,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-12",
+   "cny_per_sgd": 4.8263,
+   "sgd_per_100_cny": 20.72,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-01",
+   "cny_per_sgd": 4.7551,
+   "sgd_per_100_cny": 21.03,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-02",
+   "cny_per_sgd": 4.8008,
+   "sgd_per_100_cny": 20.83,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-03",
+   "cny_per_sgd": 4.8709,
+   "sgd_per_100_cny": 20.53,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-04",
+   "cny_per_sgd": 4.9554,
+   "sgd_per_100_cny": 20.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-05",
+   "cny_per_sgd": 4.9826,
+   "sgd_per_100_cny": 20.07,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-06",
+   "cny_per_sgd": 4.9801,
+   "sgd_per_100_cny": 20.08,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-07",
+   "cny_per_sgd": 4.9875,
+   "sgd_per_100_cny": 20.05,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-08",
+   "cny_per_sgd": 4.931,
+   "sgd_per_100_cny": 20.28,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-09",
+   "cny_per_sgd": 4.8614,
+   "sgd_per_100_cny": 20.57,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-10",
+   "cny_per_sgd": 4.8077,
+   "sgd_per_100_cny": 20.8,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-11",
+   "cny_per_sgd": 4.7281,
+   "sgd_per_100_cny": 21.15,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-12",
+   "cny_per_sgd": 4.7059,
+   "sgd_per_100_cny": 21.25,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-01",
+   "cny_per_sgd": 4.6512,
+   "sgd_per_100_cny": 21.5,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-02",
+   "cny_per_sgd": 4.6168,
+   "sgd_per_100_cny": 21.66,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-03",
+   "cny_per_sgd": 4.531,
+   "sgd_per_100_cny": 22.07,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-04",
+   "cny_per_sgd": 4.5935,
+   "sgd_per_100_cny": 21.77,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-05",
+   "cny_per_sgd": 4.649,
+   "sgd_per_100_cny": 21.51,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-06",
+   "cny_per_sgd": 4.6125,
+   "sgd_per_100_cny": 21.68,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-07",
+   "cny_per_sgd": 4.562,
+   "sgd_per_100_cny": 21.92,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-08",
+   "cny_per_sgd": 4.5413,
+   "sgd_per_100_cny": 22.02,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-09",
+   "cny_per_sgd": 4.5005,
+   "sgd_per_100_cny": 22.22,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-10",
+   "cny_per_sgd": 4.531,
+   "sgd_per_100_cny": 22.07,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-11",
+   "cny_per_sgd": 4.5106,
+   "sgd_per_100_cny": 22.17,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-12",
+   "cny_per_sgd": 4.5809,
+   "sgd_per_100_cny": 21.83,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-01",
+   "cny_per_sgd": 4.5851,
+   "sgd_per_100_cny": 21.81,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-02",
+   "cny_per_sgd": 4.6555,
+   "sgd_per_100_cny": 21.48,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-03",
+   "cny_per_sgd": 4.7326,
+   "sgd_per_100_cny": 21.13,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-04",
+   "cny_per_sgd": 4.7962,
+   "sgd_per_100_cny": 20.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-05",
+   "cny_per_sgd": 4.7642,
+   "sgd_per_100_cny": 20.99,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-06",
+   "cny_per_sgd": 4.8638,
+   "sgd_per_100_cny": 20.56,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-07",
+   "cny_per_sgd": 4.9432,
+   "sgd_per_100_cny": 20.23,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-08",
+   "cny_per_sgd": 4.9358,
+   "sgd_per_100_cny": 20.26,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-09",
+   "cny_per_sgd": 4.9092,
+   "sgd_per_100_cny": 20.37,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-10",
+   "cny_per_sgd": 4.8638,
+   "sgd_per_100_cny": 20.56,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-11",
+   "cny_per_sgd": 4.852,
+   "sgd_per_100_cny": 20.61,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-12",
+   "cny_per_sgd": 4.8216,
+   "sgd_per_100_cny": 20.74,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-01",
+   "cny_per_sgd": 4.8263,
+   "sgd_per_100_cny": 20.72,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-02",
+   "cny_per_sgd": 4.8567,
+   "sgd_per_100_cny": 20.59,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-03",
+   "cny_per_sgd": 4.9068,
+   "sgd_per_100_cny": 20.38,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-04",
+   "cny_per_sgd": 4.9285,
+   "sgd_per_100_cny": 20.29,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-05",
+   "cny_per_sgd": 4.9383,
+   "sgd_per_100_cny": 20.25,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-06",
+   "cny_per_sgd": 4.9188,
+   "sgd_per_100_cny": 20.33,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-07",
+   "cny_per_sgd": 4.9383,
+   "sgd_per_100_cny": 20.25,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-08",
+   "cny_per_sgd": 4.9044,
+   "sgd_per_100_cny": 20.39,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-09",
+   "cny_per_sgd": 4.8662,
+   "sgd_per_100_cny": 20.55,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-10",
+   "cny_per_sgd": 4.8709,
+   "sgd_per_100_cny": 20.53,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-11",
+   "cny_per_sgd": 4.8828,
+   "sgd_per_100_cny": 20.48,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-12",
+   "cny_per_sgd": 4.8972,
+   "sgd_per_100_cny": 20.42,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-01",
+   "cny_per_sgd": 4.8638,
+   "sgd_per_100_cny": 20.56,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-02",
+   "cny_per_sgd": 4.787,
+   "sgd_per_100_cny": 20.89,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-03",
+   "cny_per_sgd": 4.8077,
+   "sgd_per_100_cny": 20.8,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-04",
+   "cny_per_sgd": 4.7893,
+   "sgd_per_100_cny": 20.88,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-05",
+   "cny_per_sgd": 4.7596,
+   "sgd_per_100_cny": 21.01,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-06",
+   "cny_per_sgd": 4.7985,
+   "sgd_per_100_cny": 20.84,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-07",
+   "cny_per_sgd": 4.9261,
+   "sgd_per_100_cny": 20.3,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-08",
+   "cny_per_sgd": 5.005,
+   "sgd_per_100_cny": 19.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-09",
+   "cny_per_sgd": 4.9975,
+   "sgd_per_100_cny": 20.01,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-10",
+   "cny_per_sgd": 5.0176,
+   "sgd_per_100_cny": 19.93,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-11",
+   "cny_per_sgd": 5.048,
+   "sgd_per_100_cny": 19.81,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-12",
+   "cny_per_sgd": 5.0251,
+   "sgd_per_100_cny": 19.9,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-01",
+   "cny_per_sgd": 5.005,
+   "sgd_per_100_cny": 19.98,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-02",
+   "cny_per_sgd": 4.9776,
+   "sgd_per_100_cny": 20.09,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-03",
+   "cny_per_sgd": 4.9554,
+   "sgd_per_100_cny": 20.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-04",
+   "cny_per_sgd": 4.9529,
+   "sgd_per_100_cny": 20.19,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-05",
+   "cny_per_sgd": 5.0025,
+   "sgd_per_100_cny": 19.99,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-06",
+   "cny_per_sgd": 5.0633,
+   "sgd_per_100_cny": 19.75,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-07",
+   "cny_per_sgd": 5.0556,
+   "sgd_per_100_cny": 19.78,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-08",
+   "cny_per_sgd": 5.0994,
+   "sgd_per_100_cny": 19.61,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-09",
+   "cny_per_sgd": 5.1573,
+   "sgd_per_100_cny": 19.39,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-10",
+   "cny_per_sgd": 5.176,
+   "sgd_per_100_cny": 19.32,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-11",
+   "cny_per_sgd": 5.1573,
+   "sgd_per_100_cny": 19.39,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-12",
+   "cny_per_sgd": 5.168,
+   "sgd_per_100_cny": 19.35,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-01",
+   "cny_per_sgd": 5.123,
+   "sgd_per_100_cny": 19.52,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-02",
+   "cny_per_sgd": 5.0378,
+   "sgd_per_100_cny": 19.85,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-03",
+   "cny_per_sgd": 4.9529,
+   "sgd_per_100_cny": 20.19,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-04",
+   "cny_per_sgd": 4.9677,
+   "sgd_per_100_cny": 20.13,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-05",
+   "cny_per_sgd": 5.01,
+   "sgd_per_100_cny": 19.96,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-06",
+   "cny_per_sgd": 5.0839,
+   "sgd_per_100_cny": 19.67,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-07",
+   "cny_per_sgd": 5.0505,
+   "sgd_per_100_cny": 19.8,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-08",
+   "cny_per_sgd": 5.0582,
+   "sgd_per_100_cny": 19.77,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-09",
+   "cny_per_sgd": 4.9875,
+   "sgd_per_100_cny": 20.05,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-10",
+   "cny_per_sgd": 4.948,
+   "sgd_per_100_cny": 20.21,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-11",
+   "cny_per_sgd": 4.902,
+   "sgd_per_100_cny": 20.4,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-12",
+   "cny_per_sgd": 4.9092,
+   "sgd_per_100_cny": 20.37,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-01",
+   "cny_per_sgd": 4.8804,
+   "sgd_per_100_cny": 20.49,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-02",
+   "cny_per_sgd": 4.8662,
+   "sgd_per_100_cny": 20.55,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-03",
+   "cny_per_sgd": 4.8473,
+   "sgd_per_100_cny": 20.63,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-04",
+   "cny_per_sgd": 4.8876,
+   "sgd_per_100_cny": 20.46,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-05",
+   "cny_per_sgd": 4.8356,
+   "sgd_per_100_cny": 20.68,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-06",
+   "cny_per_sgd": 4.8193,
+   "sgd_per_100_cny": 20.75,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-07",
+   "cny_per_sgd": 4.7801,
+   "sgd_per_100_cny": 20.92,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-08",
+   "cny_per_sgd": 4.7801,
+   "sgd_per_100_cny": 20.92,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-09",
+   "cny_per_sgd": 4.7916,
+   "sgd_per_100_cny": 20.87,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-10",
+   "cny_per_sgd": 4.7529,
+   "sgd_per_100_cny": 21.04,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-11",
+   "cny_per_sgd": 4.7081,
+   "sgd_per_100_cny": 21.24,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-12",
+   "cny_per_sgd": 4.6707,
+   "sgd_per_100_cny": 21.41,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-01",
+   "cny_per_sgd": 4.7059,
+   "sgd_per_100_cny": 21.25,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-02",
+   "cny_per_sgd": 4.7103,
+   "sgd_per_100_cny": 21.23,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-03",
+   "cny_per_sgd": 4.6685,
+   "sgd_per_100_cny": 21.42,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-04",
+   "cny_per_sgd": 4.7059,
+   "sgd_per_100_cny": 21.25,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-05",
+   "cny_per_sgd": 4.852,
+   "sgd_per_100_cny": 20.61,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-06",
+   "cny_per_sgd": 4.8379,
+   "sgd_per_100_cny": 20.67,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-07",
+   "cny_per_sgd": 4.8286,
+   "sgd_per_100_cny": 20.71,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-08",
+   "cny_per_sgd": 4.914,
+   "sgd_per_100_cny": 20.35,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-09",
+   "cny_per_sgd": 4.9677,
+   "sgd_per_100_cny": 20.13,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-10",
+   "cny_per_sgd": 5.048,
+   "sgd_per_100_cny": 19.81,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-11",
+   "cny_per_sgd": 5.176,
+   "sgd_per_100_cny": 19.32,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-12",
+   "cny_per_sgd": 5.1626,
+   "sgd_per_100_cny": 19.37,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-01",
+   "cny_per_sgd": 5.1203,
+   "sgd_per_100_cny": 19.53,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-02",
+   "cny_per_sgd": 5.1361,
+   "sgd_per_100_cny": 19.47,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-03",
+   "cny_per_sgd": 5.144,
+   "sgd_per_100_cny": 19.44,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-04",
+   "cny_per_sgd": 5.1706,
+   "sgd_per_100_cny": 19.34,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-05",
+   "cny_per_sgd": 5.2192,
+   "sgd_per_100_cny": 19.16,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-06",
+   "cny_per_sgd": 5.322,
+   "sgd_per_100_cny": 18.79,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-07",
+   "cny_per_sgd": 5.385,
+   "sgd_per_100_cny": 18.57,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-08",
+   "cny_per_sgd": 5.3706,
+   "sgd_per_100_cny": 18.62,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-09",
+   "cny_per_sgd": 5.3505,
+   "sgd_per_100_cny": 18.69,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-10",
+   "cny_per_sgd": 5.3362,
+   "sgd_per_100_cny": 18.74,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-11",
+   "cny_per_sgd": 5.3591,
+   "sgd_per_100_cny": 18.66,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-12",
+   "cny_per_sgd": 5.3619,
+   "sgd_per_100_cny": 18.65,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-01",
+   "cny_per_sgd": 5.3706,
+   "sgd_per_100_cny": 18.62,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-02",
+   "cny_per_sgd": 5.3505,
+   "sgd_per_100_cny": 18.69,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-03",
+   "cny_per_sgd": 5.3735,
+   "sgd_per_100_cny": 18.61,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-04",
+   "cny_per_sgd": 5.3333,
+   "sgd_per_100_cny": 18.75,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-05",
+   "cny_per_sgd": 5.3533,
+   "sgd_per_100_cny": 18.68,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-06",
+   "cny_per_sgd": 5.3677,
+   "sgd_per_100_cny": 18.63,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-07",
+   "cny_per_sgd": 5.3937,
+   "sgd_per_100_cny": 18.54,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-08",
+   "cny_per_sgd": 5.4348,
+   "sgd_per_100_cny": 18.4,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-09",
+   "cny_per_sgd": 5.4585,
+   "sgd_per_100_cny": 18.32,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-10",
+   "cny_per_sgd": 5.4142,
+   "sgd_per_100_cny": 18.47,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-11",
+   "cny_per_sgd": 5.3937,
+   "sgd_per_100_cny": 18.54,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-12",
+   "cny_per_sgd": 5.3937,
+   "sgd_per_100_cny": 18.54,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-01",
+   "cny_per_sgd": 5.3619,
+   "sgd_per_100_cny": 18.65,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-02",
+   "cny_per_sgd": 5.3996,
+   "sgd_per_100_cny": 18.52,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-03",
+   "cny_per_sgd": 5.4259,
+   "sgd_per_100_cny": 18.43,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-04",
+   "cny_per_sgd": 5.5127,
+   "sgd_per_100_cny": 18.14,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-05",
+   "cny_per_sgd": 5.5772,
+   "sgd_per_100_cny": 17.93,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-06",
+   "cny_per_sgd": 5.5928,
+   "sgd_per_100_cny": 17.88,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-07",
+   "cny_per_sgd": 5.5991,
+   "sgd_per_100_cny": 17.86,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-08",
+   "cny_per_sgd": 5.5804,
+   "sgd_per_100_cny": 17.92,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-09",
+   "cny_per_sgd": 5.5463,
+   "sgd_per_100_cny": 18.03,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-10",
+   "cny_per_sgd": 5.4975,
+   "sgd_per_100_cny": 18.19,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-11",
+   "cny_per_sgd": 5.4555,
+   "sgd_per_100_cny": 18.33,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-12",
+   "cny_per_sgd": 5.4555,
+   "sgd_per_100_cny": 18.33,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-01",
+   "cny_per_sgd": 5.4437,
+   "sgd_per_100_cny": 18.37,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-02",
+   "cny_per_sgd": 5.4526,
+   "sgd_per_100_cny": 18.34,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-03",
+   "cny_per_sgd": 5.3908,
+   "sgd_per_100_cny": 18.55,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-04",
+   "cny_per_sgd": 5.3562,
+   "sgd_per_100_cny": 18.67,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-05",
+   "cny_per_sgd": 5.3305,
+   "sgd_per_100_cny": 18.76,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-06",
+   "cny_per_sgd": 5.2604,
+   "sgd_per_100_cny": 19.01,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-07",
+   "cny_per_sgd": 5.2466,
+   "sgd_per_100_cny": 19.06,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-08",
+   "cny_per_sgd": 5.277,
+   "sgd_per_100_cny": 18.95,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-09",
+   "cny_per_sgd": 5.2715,
+   "sgd_per_100_cny": 18.97,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-10",
+   "cny_per_sgd": 5.2247,
+   "sgd_per_100_cny": 19.14,
+   "source": "SingStat M700051"
+  }
+ ]
+}

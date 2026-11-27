@@ -1,0 +1,2395 @@
+{
+ "dataset": "fx-sgd-myr-monthly",
+ "title": "Singapore dollar to Malaysian ringgit, monthly averages since 1988",
+ "description": "SingStat's monthly average exchange rate for the ringgit (table M700051, averages of MAS's figures) since January 1988, both ways round.",
+ "question": "What was the average ringgit rate for the Singapore dollar each month since 1988?",
+ "row": {
+  "is": "One month (the average of the month)",
+  "time_key": "month",
+  "primary_key": [
+   "month"
+  ]
+ },
+ "coverage": {
+  "from": "1988-01",
+  "to": "2026-10"
+ },
+ "fields": [
+  {
+   "name": "month",
+   "type": "month",
+   "meaning": "The month averaged.",
+   "nullable": false
+  },
+  {
+   "name": "myr_per_sgd",
+   "type": "number",
+   "unit": "ringgit per S$1",
+   "meaning": "Ringgit per Singapore dollar: SingStat's S$ per ringgit, turned round.",
+   "nullable": false
+  },
+  {
+   "name": "sgd_per_myr",
+   "type": "number",
+   "unit": "S$ per ringgit",
+   "meaning": "Singapore dollars per ringgit, SingStat's monthly average.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Department of Statistics (SingStat)",
+   "url": "https://www.singstat.gov.sg/",
+   "terms": "SingStat terms of use",
+   "terms_url": "https://www.singstat.gov.sg/terms-of-use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Department of Statistics, compiled by Numbers.sg (numbers.sg/currency/sgd-to-myr/), CC BY 4.0",
+  "notices": [
+   "Source: Singapore Department of Statistics"
+  ]
+ },
+ "page_url": "https://numbers.sg/currency/sgd-to-myr/",
+ "method": "https://numbers.sg/currency/sgd-to-myr/#method",
+ "api": "https://numbers.sg/api/v1/fx-sgd-myr-monthly",
+ "hash": "sha256:e1a4c05208d63486e02c9dea7709dd58c5a0da41161d5980079d19f4d1d4b78a",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "month": "1988-01",
+   "myr_per_sgd": 1.2538,
+   "sgd_per_myr": 0.7976
+  },
+  {
+   "month": "1988-02",
+   "myr_per_sgd": 1.2781,
+   "sgd_per_myr": 0.7824
+  },
+  {
+   "month": "1988-03",
+   "myr_per_sgd": 1.2755,
+   "sgd_per_myr": 0.784
+  },
+  {
+   "month": "1988-04",
+   "myr_per_sgd": 1.2845,
+   "sgd_per_myr": 0.7785
+  },
+  {
+   "month": "1988-05",
+   "myr_per_sgd": 1.2853,
+   "sgd_per_myr": 0.778
+  },
+  {
+   "month": "1988-06",
+   "myr_per_sgd": 1.2753,
+   "sgd_per_myr": 0.7841
+  },
+  {
+   "month": "1988-07",
+   "myr_per_sgd": 1.283,
+   "sgd_per_myr": 0.7794
+  },
+  {
+   "month": "1988-08",
+   "myr_per_sgd": 1.2989,
+   "sgd_per_myr": 0.7699
+  },
+  {
+   "month": "1988-09",
+   "myr_per_sgd": 1.3058,
+   "sgd_per_myr": 0.7658
+  },
+  {
+   "month": "1988-10",
+   "myr_per_sgd": 1.3249,
+   "sgd_per_myr": 0.7548
+  },
+  {
+   "month": "1988-11",
+   "myr_per_sgd": 1.3646,
+   "sgd_per_myr": 0.7328
+  },
+  {
+   "month": "1988-12",
+   "myr_per_sgd": 1.3858,
+   "sgd_per_myr": 0.7216
+  },
+  {
+   "month": "1989-01",
+   "myr_per_sgd": 1.4017,
+   "sgd_per_myr": 0.7134
+  },
+  {
+   "month": "1989-02",
+   "myr_per_sgd": 1.4166,
+   "sgd_per_myr": 0.7059
+  },
+  {
+   "month": "1989-03",
+   "myr_per_sgd": 1.4186,
+   "sgd_per_myr": 0.7049
+  },
+  {
+   "month": "1989-04",
+   "myr_per_sgd": 1.3968,
+   "sgd_per_myr": 0.7159
+  },
+  {
+   "month": "1989-05",
+   "myr_per_sgd": 1.3776,
+   "sgd_per_myr": 0.7259
+  },
+  {
+   "month": "1989-06",
+   "myr_per_sgd": 1.3835,
+   "sgd_per_myr": 0.7228
+  },
+  {
+   "month": "1989-07",
+   "myr_per_sgd": 1.3691,
+   "sgd_per_myr": 0.7304
+  },
+  {
+   "month": "1989-08",
+   "myr_per_sgd": 1.3689,
+   "sgd_per_myr": 0.7305
+  },
+  {
+   "month": "1989-09",
+   "myr_per_sgd": 1.3657,
+   "sgd_per_myr": 0.7322
+  },
+  {
+   "month": "1989-10",
+   "myr_per_sgd": 1.3732,
+   "sgd_per_myr": 0.7282
+  },
+  {
+   "month": "1989-11",
+   "myr_per_sgd": 1.3801,
+   "sgd_per_myr": 0.7246
+  },
+  {
+   "month": "1989-12",
+   "myr_per_sgd": 1.4096,
+   "sgd_per_myr": 0.7094
+  },
+  {
+   "month": "1990-01",
+   "myr_per_sgd": 1.431,
+   "sgd_per_myr": 0.6988
+  },
+  {
+   "month": "1990-02",
+   "myr_per_sgd": 1.4503,
+   "sgd_per_myr": 0.6895
+  },
+  {
+   "month": "1990-03",
+   "myr_per_sgd": 1.4472,
+   "sgd_per_myr": 0.691
+  },
+  {
+   "month": "1990-04",
+   "myr_per_sgd": 1.4514,
+   "sgd_per_myr": 0.689
+  },
+  {
+   "month": "1990-05",
+   "myr_per_sgd": 1.4545,
+   "sgd_per_myr": 0.6875
+  },
+  {
+   "month": "1990-06",
+   "myr_per_sgd": 1.4676,
+   "sgd_per_myr": 0.6814
+  },
+  {
+   "month": "1990-07",
+   "myr_per_sgd": 1.4861,
+   "sgd_per_myr": 0.6729
+  },
+  {
+   "month": "1990-08",
+   "myr_per_sgd": 1.5051,
+   "sgd_per_myr": 0.6644
+  },
+  {
+   "month": "1990-09",
+   "myr_per_sgd": 1.5267,
+   "sgd_per_myr": 0.655
+  },
+  {
+   "month": "1990-10",
+   "myr_per_sgd": 1.563,
+   "sgd_per_myr": 0.6398
+  },
+  {
+   "month": "1990-11",
+   "myr_per_sgd": 1.577,
+   "sgd_per_myr": 0.6341
+  },
+  {
+   "month": "1990-12",
+   "myr_per_sgd": 1.5654,
+   "sgd_per_myr": 0.6388
+  },
+  {
+   "month": "1991-01",
+   "myr_per_sgd": 1.5557,
+   "sgd_per_myr": 0.6428
+  },
+  {
+   "month": "1991-02",
+   "myr_per_sgd": 1.5706,
+   "sgd_per_myr": 0.6367
+  },
+  {
+   "month": "1991-03",
+   "myr_per_sgd": 1.5601,
+   "sgd_per_myr": 0.641
+  },
+  {
+   "month": "1991-04",
+   "myr_per_sgd": 1.5542,
+   "sgd_per_myr": 0.6434
+  },
+  {
+   "month": "1991-05",
+   "myr_per_sgd": 1.5596,
+   "sgd_per_myr": 0.6412
+  },
+  {
+   "month": "1991-06",
+   "myr_per_sgd": 1.5637,
+   "sgd_per_myr": 0.6395
+  },
+  {
+   "month": "1991-07",
+   "myr_per_sgd": 1.5868,
+   "sgd_per_myr": 0.6302
+  },
+  {
+   "month": "1991-08",
+   "myr_per_sgd": 1.6098,
+   "sgd_per_myr": 0.6212
+  },
+  {
+   "month": "1991-09",
+   "myr_per_sgd": 1.621,
+   "sgd_per_myr": 0.6169
+  },
+  {
+   "month": "1991-10",
+   "myr_per_sgd": 1.6221,
+   "sgd_per_myr": 0.6165
+  },
+  {
+   "month": "1991-11",
+   "myr_per_sgd": 1.6402,
+   "sgd_per_myr": 0.6097
+  },
+  {
+   "month": "1991-12",
+   "myr_per_sgd": 1.6658,
+   "sgd_per_myr": 0.6003
+  },
+  {
+   "month": "1992-01",
+   "myr_per_sgd": 1.6474,
+   "sgd_per_myr": 0.607
+  },
+  {
+   "month": "1992-02",
+   "myr_per_sgd": 1.5898,
+   "sgd_per_myr": 0.629
+  },
+  {
+   "month": "1992-03",
+   "myr_per_sgd": 1.5538,
+   "sgd_per_myr": 0.6436
+  },
+  {
+   "month": "1992-04",
+   "myr_per_sgd": 1.5411,
+   "sgd_per_myr": 0.6489
+  },
+  {
+   "month": "1992-05",
+   "myr_per_sgd": 1.5389,
+   "sgd_per_myr": 0.6498
+  },
+  {
+   "month": "1992-06",
+   "myr_per_sgd": 1.5513,
+   "sgd_per_myr": 0.6446
+  },
+  {
+   "month": "1992-07",
+   "myr_per_sgd": 1.5492,
+   "sgd_per_myr": 0.6455
+  },
+  {
+   "month": "1992-08",
+   "myr_per_sgd": 1.5535,
+   "sgd_per_myr": 0.6437
+  },
+  {
+   "month": "1992-09",
+   "myr_per_sgd": 1.5659,
+   "sgd_per_myr": 0.6386
+  },
+  {
+   "month": "1992-10",
+   "myr_per_sgd": 1.5591,
+   "sgd_per_myr": 0.6414
+  },
+  {
+   "month": "1992-11",
+   "myr_per_sgd": 1.5456,
+   "sgd_per_myr": 0.647
+  },
+  {
+   "month": "1992-12",
+   "myr_per_sgd": 1.5674,
+   "sgd_per_myr": 0.638
+  },
+  {
+   "month": "1993-01",
+   "myr_per_sgd": 1.5721,
+   "sgd_per_myr": 0.6361
+  },
+  {
+   "month": "1993-02",
+   "myr_per_sgd": 1.5969,
+   "sgd_per_myr": 0.6262
+  },
+  {
+   "month": "1993-03",
+   "myr_per_sgd": 1.5853,
+   "sgd_per_myr": 0.6308
+  },
+  {
+   "month": "1993-04",
+   "myr_per_sgd": 1.5891,
+   "sgd_per_myr": 0.6293
+  },
+  {
+   "month": "1993-05",
+   "myr_per_sgd": 1.5903,
+   "sgd_per_myr": 0.6288
+  },
+  {
+   "month": "1993-06",
+   "myr_per_sgd": 1.5893,
+   "sgd_per_myr": 0.6292
+  },
+  {
+   "month": "1993-07",
+   "myr_per_sgd": 1.5853,
+   "sgd_per_myr": 0.6308
+  },
+  {
+   "month": "1993-08",
+   "myr_per_sgd": 1.585,
+   "sgd_per_myr": 0.6309
+  },
+  {
+   "month": "1993-09",
+   "myr_per_sgd": 1.5946,
+   "sgd_per_myr": 0.6271
+  },
+  {
+   "month": "1993-10",
+   "myr_per_sgd": 1.6205,
+   "sgd_per_myr": 0.6171
+  },
+  {
+   "month": "1993-11",
+   "myr_per_sgd": 1.6008,
+   "sgd_per_myr": 0.6247
+  },
+  {
+   "month": "1993-12",
+   "myr_per_sgd": 1.6088,
+   "sgd_per_myr": 0.6216
+  },
+  {
+   "month": "1994-01",
+   "myr_per_sgd": 1.6898,
+   "sgd_per_myr": 0.5918
+  },
+  {
+   "month": "1994-02",
+   "myr_per_sgd": 1.7409,
+   "sgd_per_myr": 0.5744
+  },
+  {
+   "month": "1994-03",
+   "myr_per_sgd": 1.7167,
+   "sgd_per_myr": 0.5825
+  },
+  {
+   "month": "1994-04",
+   "myr_per_sgd": 1.72,
+   "sgd_per_myr": 0.5814
+  },
+  {
+   "month": "1994-05",
+   "myr_per_sgd": 1.6903,
+   "sgd_per_myr": 0.5916
+  },
+  {
+   "month": "1994-06",
+   "myr_per_sgd": 1.6938,
+   "sgd_per_myr": 0.5904
+  },
+  {
+   "month": "1994-07",
+   "myr_per_sgd": 1.7132,
+   "sgd_per_myr": 0.5837
+  },
+  {
+   "month": "1994-08",
+   "myr_per_sgd": 1.7039,
+   "sgd_per_myr": 0.5869
+  },
+  {
+   "month": "1994-09",
+   "myr_per_sgd": 1.717,
+   "sgd_per_myr": 0.5824
+  },
+  {
+   "month": "1994-10",
+   "myr_per_sgd": 1.7328,
+   "sgd_per_myr": 0.5771
+  },
+  {
+   "month": "1994-11",
+   "myr_per_sgd": 1.7434,
+   "sgd_per_myr": 0.5736
+  },
+  {
+   "month": "1994-12",
+   "myr_per_sgd": 1.7489,
+   "sgd_per_myr": 0.5718
+  },
+  {
+   "month": "1995-01",
+   "myr_per_sgd": 1.7587,
+   "sgd_per_myr": 0.5686
+  },
+  {
+   "month": "1995-02",
+   "myr_per_sgd": 1.7556,
+   "sgd_per_myr": 0.5696
+  },
+  {
+   "month": "1995-03",
+   "myr_per_sgd": 1.7934,
+   "sgd_per_myr": 0.5576
+  },
+  {
+   "month": "1995-04",
+   "myr_per_sgd": 1.7737,
+   "sgd_per_myr": 0.5638
+  },
+  {
+   "month": "1995-05",
+   "myr_per_sgd": 1.7709,
+   "sgd_per_myr": 0.5647
+  },
+  {
+   "month": "1995-06",
+   "myr_per_sgd": 1.7513,
+   "sgd_per_myr": 0.571
+  },
+  {
+   "month": "1995-07",
+   "myr_per_sgd": 1.7516,
+   "sgd_per_myr": 0.5709
+  },
+  {
+   "month": "1995-08",
+   "myr_per_sgd": 1.7581,
+   "sgd_per_myr": 0.5688
+  },
+  {
+   "month": "1995-09",
+   "myr_per_sgd": 1.7519,
+   "sgd_per_myr": 0.5708
+  },
+  {
+   "month": "1995-10",
+   "myr_per_sgd": 1.7784,
+   "sgd_per_myr": 0.5623
+  },
+  {
+   "month": "1995-11",
+   "myr_per_sgd": 1.7969,
+   "sgd_per_myr": 0.5565
+  },
+  {
+   "month": "1995-12",
+   "myr_per_sgd": 1.7957,
+   "sgd_per_myr": 0.5569
+  },
+  {
+   "month": "1996-01",
+   "myr_per_sgd": 1.7986,
+   "sgd_per_myr": 0.556
+  },
+  {
+   "month": "1996-02",
+   "myr_per_sgd": 1.8038,
+   "sgd_per_myr": 0.5544
+  },
+  {
+   "month": "1996-03",
+   "myr_per_sgd": 1.8047,
+   "sgd_per_myr": 0.5541
+  },
+  {
+   "month": "1996-04",
+   "myr_per_sgd": 1.7835,
+   "sgd_per_myr": 0.5607
+  },
+  {
+   "month": "1996-05",
+   "myr_per_sgd": 1.7709,
+   "sgd_per_myr": 0.5647
+  },
+  {
+   "month": "1996-06",
+   "myr_per_sgd": 1.7715,
+   "sgd_per_myr": 0.5645
+  },
+  {
+   "month": "1996-07",
+   "myr_per_sgd": 1.7596,
+   "sgd_per_myr": 0.5683
+  },
+  {
+   "month": "1996-08",
+   "myr_per_sgd": 1.7646,
+   "sgd_per_myr": 0.5667
+  },
+  {
+   "month": "1996-09",
+   "myr_per_sgd": 1.7756,
+   "sgd_per_myr": 0.5632
+  },
+  {
+   "month": "1996-10",
+   "myr_per_sgd": 1.7746,
+   "sgd_per_myr": 0.5635
+  },
+  {
+   "month": "1996-11",
+   "myr_per_sgd": 1.7992,
+   "sgd_per_myr": 0.5558
+  },
+  {
+   "month": "1996-12",
+   "myr_per_sgd": 1.8034,
+   "sgd_per_myr": 0.5545
+  },
+  {
+   "month": "1997-01",
+   "myr_per_sgd": 1.7702,
+   "sgd_per_myr": 0.5649
+  },
+  {
+   "month": "1997-02",
+   "myr_per_sgd": 1.7516,
+   "sgd_per_myr": 0.5709
+  },
+  {
+   "month": "1997-03",
+   "myr_per_sgd": 1.7247,
+   "sgd_per_myr": 0.5798
+  },
+  {
+   "month": "1997-04",
+   "myr_per_sgd": 1.7352,
+   "sgd_per_myr": 0.5763
+  },
+  {
+   "month": "1997-05",
+   "myr_per_sgd": 1.7458,
+   "sgd_per_myr": 0.5728
+  },
+  {
+   "month": "1997-06",
+   "myr_per_sgd": 1.763,
+   "sgd_per_myr": 0.5672
+  },
+  {
+   "month": "1997-07",
+   "myr_per_sgd": 1.7746,
+   "sgd_per_myr": 0.5635
+  },
+  {
+   "month": "1997-08",
+   "myr_per_sgd": 1.8345,
+   "sgd_per_myr": 0.5451
+  },
+  {
+   "month": "1997-09",
+   "myr_per_sgd": 1.9822,
+   "sgd_per_myr": 0.5045
+  },
+  {
+   "month": "1997-10",
+   "myr_per_sgd": 2.1079,
+   "sgd_per_myr": 0.4744
+  },
+  {
+   "month": "1997-11",
+   "myr_per_sgd": 2.1386,
+   "sgd_per_myr": 0.4676
+  },
+  {
+   "month": "1997-12",
+   "myr_per_sgd": 2.2899,
+   "sgd_per_myr": 0.4367
+  },
+  {
+   "month": "1998-01",
+   "myr_per_sgd": 2.5063,
+   "sgd_per_myr": 0.399
+  },
+  {
+   "month": "1998-02",
+   "myr_per_sgd": 2.3143,
+   "sgd_per_myr": 0.4321
+  },
+  {
+   "month": "1998-03",
+   "myr_per_sgd": 2.31,
+   "sgd_per_myr": 0.4329
+  },
+  {
+   "month": "1998-04",
+   "myr_per_sgd": 2.3359,
+   "sgd_per_myr": 0.4281
+  },
+  {
+   "month": "1998-05",
+   "myr_per_sgd": 2.3272,
+   "sgd_per_myr": 0.4297
+  },
+  {
+   "month": "1998-06",
+   "myr_per_sgd": 2.3568,
+   "sgd_per_myr": 0.4243
+  },
+  {
+   "month": "1998-07",
+   "myr_per_sgd": 2.4331,
+   "sgd_per_myr": 0.411
+  },
+  {
+   "month": "1998-08",
+   "myr_per_sgd": 2.3946,
+   "sgd_per_myr": 0.4176
+  },
+  {
+   "month": "1998-09",
+   "myr_per_sgd": 2.208,
+   "sgd_per_myr": 0.4529
+  },
+  {
+   "month": "1998-10",
+   "myr_per_sgd": 2.3164,
+   "sgd_per_myr": 0.4317
+  },
+  {
+   "month": "1998-11",
+   "myr_per_sgd": 2.3186,
+   "sgd_per_myr": 0.4313
+  },
+  {
+   "month": "1998-12",
+   "myr_per_sgd": 2.2989,
+   "sgd_per_myr": 0.435
+  },
+  {
+   "month": "1999-01",
+   "myr_per_sgd": 2.2645,
+   "sgd_per_myr": 0.4416
+  },
+  {
+   "month": "1999-02",
+   "myr_per_sgd": 2.2376,
+   "sgd_per_myr": 0.4469
+  },
+  {
+   "month": "1999-03",
+   "myr_per_sgd": 2.1973,
+   "sgd_per_myr": 0.4551
+  },
+  {
+   "month": "1999-04",
+   "myr_per_sgd": 2.2178,
+   "sgd_per_myr": 0.4509
+  },
+  {
+   "month": "1999-05",
+   "myr_per_sgd": 2.2193,
+   "sgd_per_myr": 0.4506
+  },
+  {
+   "month": "1999-06",
+   "myr_per_sgd": 2.2193,
+   "sgd_per_myr": 0.4506
+  },
+  {
+   "month": "1999-07",
+   "myr_per_sgd": 2.2401,
+   "sgd_per_myr": 0.4464
+  },
+  {
+   "month": "1999-08",
+   "myr_per_sgd": 2.2624,
+   "sgd_per_myr": 0.442
+  },
+  {
+   "month": "1999-09",
+   "myr_per_sgd": 2.2406,
+   "sgd_per_myr": 0.4463
+  },
+  {
+   "month": "1999-10",
+   "myr_per_sgd": 2.2665,
+   "sgd_per_myr": 0.4412
+  },
+  {
+   "month": "1999-11",
+   "myr_per_sgd": 2.2748,
+   "sgd_per_myr": 0.4396
+  },
+  {
+   "month": "1999-12",
+   "myr_per_sgd": 2.2691,
+   "sgd_per_myr": 0.4407
+  },
+  {
+   "month": "2000-01",
+   "myr_per_sgd": 2.2712,
+   "sgd_per_myr": 0.4403
+  },
+  {
+   "month": "2000-02",
+   "myr_per_sgd": 2.2346,
+   "sgd_per_myr": 0.4475
+  },
+  {
+   "month": "2000-03",
+   "myr_per_sgd": 2.2153,
+   "sgd_per_myr": 0.4514
+  },
+  {
+   "month": "2000-04",
+   "myr_per_sgd": 2.2227,
+   "sgd_per_myr": 0.4499
+  },
+  {
+   "month": "2000-05",
+   "myr_per_sgd": 2.1988,
+   "sgd_per_myr": 0.4548
+  },
+  {
+   "month": "2000-06",
+   "myr_per_sgd": 2.1993,
+   "sgd_per_myr": 0.4547
+  },
+  {
+   "month": "2000-07",
+   "myr_per_sgd": 2.1834,
+   "sgd_per_myr": 0.458
+  },
+  {
+   "month": "2000-08",
+   "myr_per_sgd": 2.2095,
+   "sgd_per_myr": 0.4526
+  },
+  {
+   "month": "2000-09",
+   "myr_per_sgd": 2.1863,
+   "sgd_per_myr": 0.4574
+  },
+  {
+   "month": "2000-10",
+   "myr_per_sgd": 2.1697,
+   "sgd_per_myr": 0.4609
+  },
+  {
+   "month": "2000-11",
+   "myr_per_sgd": 2.1753,
+   "sgd_per_myr": 0.4597
+  },
+  {
+   "month": "2000-12",
+   "myr_per_sgd": 2.1882,
+   "sgd_per_myr": 0.457
+  },
+  {
+   "month": "2001-01",
+   "myr_per_sgd": 2.1882,
+   "sgd_per_myr": 0.457
+  },
+  {
+   "month": "2001-02",
+   "myr_per_sgd": 2.1801,
+   "sgd_per_myr": 0.4587
+  },
+  {
+   "month": "2001-03",
+   "myr_per_sgd": 2.1459,
+   "sgd_per_myr": 0.466
+  },
+  {
+   "month": "2001-04",
+   "myr_per_sgd": 2.0978,
+   "sgd_per_myr": 0.4767
+  },
+  {
+   "month": "2001-05",
+   "myr_per_sgd": 2.0956,
+   "sgd_per_myr": 0.4772
+  },
+  {
+   "month": "2001-06",
+   "myr_per_sgd": 2.0929,
+   "sgd_per_myr": 0.4778
+  },
+  {
+   "month": "2001-07",
+   "myr_per_sgd": 2.0838,
+   "sgd_per_myr": 0.4799
+  },
+  {
+   "month": "2001-08",
+   "myr_per_sgd": 2.157,
+   "sgd_per_myr": 0.4636
+  },
+  {
+   "month": "2001-09",
+   "myr_per_sgd": 2.1734,
+   "sgd_per_myr": 0.4601
+  },
+  {
+   "month": "2001-10",
+   "myr_per_sgd": 2.1008,
+   "sgd_per_myr": 0.476
+  },
+  {
+   "month": "2001-11",
+   "myr_per_sgd": 2.0773,
+   "sgd_per_myr": 0.4814
+  },
+  {
+   "month": "2001-12",
+   "myr_per_sgd": 2.0683,
+   "sgd_per_myr": 0.4835
+  },
+  {
+   "month": "2002-01",
+   "myr_per_sgd": 2.0665,
+   "sgd_per_myr": 0.4839
+  },
+  {
+   "month": "2002-02",
+   "myr_per_sgd": 2.0751,
+   "sgd_per_myr": 0.4819
+  },
+  {
+   "month": "2002-03",
+   "myr_per_sgd": 2.0781,
+   "sgd_per_myr": 0.4812
+  },
+  {
+   "month": "2002-04",
+   "myr_per_sgd": 2.0777,
+   "sgd_per_myr": 0.4813
+  },
+  {
+   "month": "2002-05",
+   "myr_per_sgd": 2.1115,
+   "sgd_per_myr": 0.4736
+  },
+  {
+   "month": "2002-06",
+   "myr_per_sgd": 2.1308,
+   "sgd_per_myr": 0.4693
+  },
+  {
+   "month": "2002-07",
+   "myr_per_sgd": 2.1687,
+   "sgd_per_myr": 0.4611
+  },
+  {
+   "month": "2002-08",
+   "myr_per_sgd": 2.1654,
+   "sgd_per_myr": 0.4618
+  },
+  {
+   "month": "2002-09",
+   "myr_per_sgd": 2.1524,
+   "sgd_per_myr": 0.4646
+  },
+  {
+   "month": "2002-10",
+   "myr_per_sgd": 2.1277,
+   "sgd_per_myr": 0.47
+  },
+  {
+   "month": "2002-11",
+   "myr_per_sgd": 2.1529,
+   "sgd_per_myr": 0.4645
+  },
+  {
+   "month": "2002-12",
+   "myr_per_sgd": 2.1678,
+   "sgd_per_myr": 0.4613
+  },
+  {
+   "month": "2003-01",
+   "myr_per_sgd": 2.1896,
+   "sgd_per_myr": 0.4567
+  },
+  {
+   "month": "2003-02",
+   "myr_per_sgd": 2.1768,
+   "sgd_per_myr": 0.4594
+  },
+  {
+   "month": "2003-03",
+   "myr_per_sgd": 2.1683,
+   "sgd_per_myr": 0.4612
+  },
+  {
+   "month": "2003-04",
+   "myr_per_sgd": 2.139,
+   "sgd_per_myr": 0.4675
+  },
+  {
+   "month": "2003-05",
+   "myr_per_sgd": 2.1911,
+   "sgd_per_myr": 0.4564
+  },
+  {
+   "month": "2003-06",
+   "myr_per_sgd": 2.1911,
+   "sgd_per_myr": 0.4564
+  },
+  {
+   "month": "2003-07",
+   "myr_per_sgd": 2.165,
+   "sgd_per_myr": 0.4619
+  },
+  {
+   "month": "2003-08",
+   "myr_per_sgd": 2.1673,
+   "sgd_per_myr": 0.4614
+  },
+  {
+   "month": "2003-09",
+   "myr_per_sgd": 2.1763,
+   "sgd_per_myr": 0.4595
+  },
+  {
+   "month": "2003-10",
+   "myr_per_sgd": 2.1925,
+   "sgd_per_myr": 0.4561
+  },
+  {
+   "month": "2003-11",
+   "myr_per_sgd": 2.1978,
+   "sgd_per_myr": 0.455
+  },
+  {
+   "month": "2003-12",
+   "myr_per_sgd": 2.2212,
+   "sgd_per_myr": 0.4502
+  },
+  {
+   "month": "2004-01",
+   "myr_per_sgd": 2.2371,
+   "sgd_per_myr": 0.447
+  },
+  {
+   "month": "2004-02",
+   "myr_per_sgd": 2.2538,
+   "sgd_per_myr": 0.4437
+  },
+  {
+   "month": "2004-03",
+   "myr_per_sgd": 2.2356,
+   "sgd_per_myr": 0.4473
+  },
+  {
+   "month": "2004-04",
+   "myr_per_sgd": 2.2563,
+   "sgd_per_myr": 0.4432
+  },
+  {
+   "month": "2004-05",
+   "myr_per_sgd": 2.2222,
+   "sgd_per_myr": 0.45
+  },
+  {
+   "month": "2004-06",
+   "myr_per_sgd": 2.2193,
+   "sgd_per_myr": 0.4506
+  },
+  {
+   "month": "2004-07",
+   "myr_per_sgd": 2.2198,
+   "sgd_per_myr": 0.4505
+  },
+  {
+   "month": "2004-08",
+   "myr_per_sgd": 2.2168,
+   "sgd_per_myr": 0.4511
+  },
+  {
+   "month": "2004-09",
+   "myr_per_sgd": 2.2406,
+   "sgd_per_myr": 0.4463
+  },
+  {
+   "month": "2004-10",
+   "myr_per_sgd": 2.265,
+   "sgd_per_myr": 0.4415
+  },
+  {
+   "month": "2004-11",
+   "myr_per_sgd": 2.3015,
+   "sgd_per_myr": 0.4345
+  },
+  {
+   "month": "2004-12",
+   "myr_per_sgd": 2.3148,
+   "sgd_per_myr": 0.432
+  },
+  {
+   "month": "2005-01",
+   "myr_per_sgd": 2.3196,
+   "sgd_per_myr": 0.4311
+  },
+  {
+   "month": "2005-02",
+   "myr_per_sgd": 2.3202,
+   "sgd_per_myr": 0.431
+  },
+  {
+   "month": "2005-03",
+   "myr_per_sgd": 2.3299,
+   "sgd_per_myr": 0.4292
+  },
+  {
+   "month": "2005-04",
+   "myr_per_sgd": 2.2983,
+   "sgd_per_myr": 0.4351
+  },
+  {
+   "month": "2005-05",
+   "myr_per_sgd": 2.3015,
+   "sgd_per_myr": 0.4345
+  },
+  {
+   "month": "2005-06",
+   "myr_per_sgd": 2.2732,
+   "sgd_per_myr": 0.4399
+  },
+  {
+   "month": "2005-07",
+   "myr_per_sgd": 2.2497,
+   "sgd_per_myr": 0.4445
+  },
+  {
+   "month": "2005-08",
+   "myr_per_sgd": 2.2619,
+   "sgd_per_myr": 0.4421
+  },
+  {
+   "month": "2005-09",
+   "myr_per_sgd": 2.2422,
+   "sgd_per_myr": 0.446
+  },
+  {
+   "month": "2005-10",
+   "myr_per_sgd": 2.2316,
+   "sgd_per_myr": 0.4481
+  },
+  {
+   "month": "2005-11",
+   "myr_per_sgd": 2.2247,
+   "sgd_per_myr": 0.4495
+  },
+  {
+   "month": "2005-12",
+   "myr_per_sgd": 2.2553,
+   "sgd_per_myr": 0.4434
+  },
+  {
+   "month": "2006-01",
+   "myr_per_sgd": 2.2978,
+   "sgd_per_myr": 0.4352
+  },
+  {
+   "month": "2006-02",
+   "myr_per_sgd": 2.2878,
+   "sgd_per_myr": 0.4371
+  },
+  {
+   "month": "2006-03",
+   "myr_per_sgd": 2.2841,
+   "sgd_per_myr": 0.4378
+  },
+  {
+   "month": "2006-04",
+   "myr_per_sgd": 2.2873,
+   "sgd_per_myr": 0.4372
+  },
+  {
+   "month": "2006-05",
+   "myr_per_sgd": 2.292,
+   "sgd_per_myr": 0.4363
+  },
+  {
+   "month": "2006-06",
+   "myr_per_sgd": 2.3047,
+   "sgd_per_myr": 0.4339
+  },
+  {
+   "month": "2006-07",
+   "myr_per_sgd": 2.317,
+   "sgd_per_myr": 0.4316
+  },
+  {
+   "month": "2006-08",
+   "myr_per_sgd": 2.3321,
+   "sgd_per_myr": 0.4288
+  },
+  {
+   "month": "2006-09",
+   "myr_per_sgd": 2.3256,
+   "sgd_per_myr": 0.43
+  },
+  {
+   "month": "2006-10",
+   "myr_per_sgd": 2.3299,
+   "sgd_per_myr": 0.4292
+  },
+  {
+   "month": "2006-11",
+   "myr_per_sgd": 2.3408,
+   "sgd_per_myr": 0.4272
+  },
+  {
+   "month": "2006-12",
+   "myr_per_sgd": 2.3063,
+   "sgd_per_myr": 0.4336
+  },
+  {
+   "month": "2007-01",
+   "myr_per_sgd": 2.281,
+   "sgd_per_myr": 0.4384
+  },
+  {
+   "month": "2007-02",
+   "myr_per_sgd": 2.2795,
+   "sgd_per_myr": 0.4387
+  },
+  {
+   "month": "2007-03",
+   "myr_per_sgd": 2.2899,
+   "sgd_per_myr": 0.4367
+  },
+  {
+   "month": "2007-04",
+   "myr_per_sgd": 2.2691,
+   "sgd_per_myr": 0.4407
+  },
+  {
+   "month": "2007-05",
+   "myr_per_sgd": 2.2351,
+   "sgd_per_myr": 0.4474
+  },
+  {
+   "month": "2007-06",
+   "myr_per_sgd": 2.2422,
+   "sgd_per_myr": 0.446
+  },
+  {
+   "month": "2007-07",
+   "myr_per_sgd": 2.2701,
+   "sgd_per_myr": 0.4405
+  },
+  {
+   "month": "2007-08",
+   "myr_per_sgd": 2.2883,
+   "sgd_per_myr": 0.437
+  },
+  {
+   "month": "2007-09",
+   "myr_per_sgd": 2.2967,
+   "sgd_per_myr": 0.4354
+  },
+  {
+   "month": "2007-10",
+   "myr_per_sgd": 2.3031,
+   "sgd_per_myr": 0.4342
+  },
+  {
+   "month": "2007-11",
+   "myr_per_sgd": 2.3202,
+   "sgd_per_myr": 0.431
+  },
+  {
+   "month": "2007-12",
+   "myr_per_sgd": 2.301,
+   "sgd_per_myr": 0.4346
+  },
+  {
+   "month": "2008-01",
+   "myr_per_sgd": 2.2836,
+   "sgd_per_myr": 0.4379
+  },
+  {
+   "month": "2008-02",
+   "myr_per_sgd": 2.2847,
+   "sgd_per_myr": 0.4377
+  },
+  {
+   "month": "2008-03",
+   "myr_per_sgd": 2.2999,
+   "sgd_per_myr": 0.4348
+  },
+  {
+   "month": "2008-04",
+   "myr_per_sgd": 2.3175,
+   "sgd_per_myr": 0.4315
+  },
+  {
+   "month": "2008-05",
+   "myr_per_sgd": 2.3546,
+   "sgd_per_myr": 0.4247
+  },
+  {
+   "month": "2008-06",
+   "myr_per_sgd": 2.3827,
+   "sgd_per_myr": 0.4197
+  },
+  {
+   "month": "2008-07",
+   "myr_per_sgd": 2.3918,
+   "sgd_per_myr": 0.4181
+  },
+  {
+   "month": "2008-08",
+   "myr_per_sgd": 2.3719,
+   "sgd_per_myr": 0.4216
+  },
+  {
+   "month": "2008-09",
+   "myr_per_sgd": 2.4079,
+   "sgd_per_myr": 0.4153
+  },
+  {
+   "month": "2008-10",
+   "myr_per_sgd": 2.3866,
+   "sgd_per_myr": 0.419
+  },
+  {
+   "month": "2008-11",
+   "myr_per_sgd": 2.381,
+   "sgd_per_myr": 0.42
+  },
+  {
+   "month": "2008-12",
+   "myr_per_sgd": 2.401,
+   "sgd_per_myr": 0.4165
+  },
+  {
+   "month": "2009-01",
+   "myr_per_sgd": 2.3964,
+   "sgd_per_myr": 0.4173
+  },
+  {
+   "month": "2009-02",
+   "myr_per_sgd": 2.3952,
+   "sgd_per_myr": 0.4175
+  },
+  {
+   "month": "2009-03",
+   "myr_per_sgd": 2.4015,
+   "sgd_per_myr": 0.4164
+  },
+  {
+   "month": "2009-04",
+   "myr_per_sgd": 2.3992,
+   "sgd_per_myr": 0.4168
+  },
+  {
+   "month": "2009-05",
+   "myr_per_sgd": 2.4102,
+   "sgd_per_myr": 0.4149
+  },
+  {
+   "month": "2009-06",
+   "myr_per_sgd": 2.4225,
+   "sgd_per_myr": 0.4128
+  },
+  {
+   "month": "2009-07",
+   "myr_per_sgd": 2.4462,
+   "sgd_per_myr": 0.4088
+  },
+  {
+   "month": "2009-08",
+   "myr_per_sgd": 2.4402,
+   "sgd_per_myr": 0.4098
+  },
+  {
+   "month": "2009-09",
+   "myr_per_sgd": 2.4546,
+   "sgd_per_myr": 0.4074
+  },
+  {
+   "month": "2009-10",
+   "myr_per_sgd": 2.4343,
+   "sgd_per_myr": 0.4108
+  },
+  {
+   "month": "2009-11",
+   "myr_per_sgd": 2.4402,
+   "sgd_per_myr": 0.4098
+  },
+  {
+   "month": "2009-12",
+   "myr_per_sgd": 2.4444,
+   "sgd_per_myr": 0.4091
+  },
+  {
+   "month": "2010-01",
+   "myr_per_sgd": 2.4172,
+   "sgd_per_myr": 0.4137
+  },
+  {
+   "month": "2010-02",
+   "myr_per_sgd": 2.4178,
+   "sgd_per_myr": 0.4136
+  },
+  {
+   "month": "2010-03",
+   "myr_per_sgd": 2.3747,
+   "sgd_per_myr": 0.4211
+  },
+  {
+   "month": "2010-04",
+   "myr_per_sgd": 2.3191,
+   "sgd_per_myr": 0.4312
+  },
+  {
+   "month": "2010-05",
+   "myr_per_sgd": 2.3354,
+   "sgd_per_myr": 0.4282
+  },
+  {
+   "month": "2010-06",
+   "myr_per_sgd": 2.3343,
+   "sgd_per_myr": 0.4284
+  },
+  {
+   "month": "2010-07",
+   "myr_per_sgd": 2.3283,
+   "sgd_per_myr": 0.4295
+  },
+  {
+   "month": "2010-08",
+   "myr_per_sgd": 2.3256,
+   "sgd_per_myr": 0.43
+  },
+  {
+   "month": "2010-09",
+   "myr_per_sgd": 2.3256,
+   "sgd_per_myr": 0.43
+  },
+  {
+   "month": "2010-10",
+   "myr_per_sgd": 2.3764,
+   "sgd_per_myr": 0.4208
+  },
+  {
+   "month": "2010-11",
+   "myr_per_sgd": 2.3998,
+   "sgd_per_myr": 0.4167
+  },
+  {
+   "month": "2010-12",
+   "myr_per_sgd": 2.3923,
+   "sgd_per_myr": 0.418
+  },
+  {
+   "month": "2011-01",
+   "myr_per_sgd": 2.3764,
+   "sgd_per_myr": 0.4208
+  },
+  {
+   "month": "2011-02",
+   "myr_per_sgd": 2.3844,
+   "sgd_per_myr": 0.4194
+  },
+  {
+   "month": "2011-03",
+   "myr_per_sgd": 2.3935,
+   "sgd_per_myr": 0.4178
+  },
+  {
+   "month": "2011-04",
+   "myr_per_sgd": 2.4143,
+   "sgd_per_myr": 0.4142
+  },
+  {
+   "month": "2011-05",
+   "myr_per_sgd": 2.4349,
+   "sgd_per_myr": 0.4107
+  },
+  {
+   "month": "2011-06",
+   "myr_per_sgd": 2.4534,
+   "sgd_per_myr": 0.4076
+  },
+  {
+   "month": "2011-07",
+   "myr_per_sgd": 2.4606,
+   "sgd_per_myr": 0.4064
+  },
+  {
+   "month": "2011-08",
+   "myr_per_sgd": 2.4679,
+   "sgd_per_myr": 0.4052
+  },
+  {
+   "month": "2011-09",
+   "myr_per_sgd": 2.4637,
+   "sgd_per_myr": 0.4059
+  },
+  {
+   "month": "2011-10",
+   "myr_per_sgd": 2.4552,
+   "sgd_per_myr": 0.4073
+  },
+  {
+   "month": "2011-11",
+   "myr_per_sgd": 2.4468,
+   "sgd_per_myr": 0.4087
+  },
+  {
+   "month": "2011-12",
+   "myr_per_sgd": 2.4408,
+   "sgd_per_myr": 0.4097
+  },
+  {
+   "month": "2012-01",
+   "myr_per_sgd": 2.4313,
+   "sgd_per_myr": 0.4113
+  },
+  {
+   "month": "2012-02",
+   "myr_per_sgd": 2.4114,
+   "sgd_per_myr": 0.4147
+  },
+  {
+   "month": "2012-03",
+   "myr_per_sgd": 2.419,
+   "sgd_per_myr": 0.4134
+  },
+  {
+   "month": "2012-04",
+   "myr_per_sgd": 2.4468,
+   "sgd_per_myr": 0.4087
+  },
+  {
+   "month": "2012-05",
+   "myr_per_sgd": 2.4576,
+   "sgd_per_myr": 0.4069
+  },
+  {
+   "month": "2012-06",
+   "myr_per_sgd": 2.4869,
+   "sgd_per_myr": 0.4021
+  },
+  {
+   "month": "2012-07",
+   "myr_per_sgd": 2.5107,
+   "sgd_per_myr": 0.3983
+  },
+  {
+   "month": "2012-08",
+   "myr_per_sgd": 2.4988,
+   "sgd_per_myr": 0.4002
+  },
+  {
+   "month": "2012-09",
+   "myr_per_sgd": 2.5006,
+   "sgd_per_myr": 0.3999
+  },
+  {
+   "month": "2012-10",
+   "myr_per_sgd": 2.4969,
+   "sgd_per_myr": 0.4005
+  },
+  {
+   "month": "2012-11",
+   "myr_per_sgd": 2.5,
+   "sgd_per_myr": 0.4
+  },
+  {
+   "month": "2012-12",
+   "myr_per_sgd": 2.5025,
+   "sgd_per_myr": 0.3996
+  },
+  {
+   "month": "2013-01",
+   "myr_per_sgd": 2.4734,
+   "sgd_per_myr": 0.4043
+  },
+  {
+   "month": "2013-02",
+   "myr_per_sgd": 2.5025,
+   "sgd_per_myr": 0.3996
+  },
+  {
+   "month": "2013-03",
+   "myr_per_sgd": 2.4938,
+   "sgd_per_myr": 0.401
+  },
+  {
+   "month": "2013-04",
+   "myr_per_sgd": 2.4631,
+   "sgd_per_myr": 0.406
+  },
+  {
+   "month": "2013-05",
+   "myr_per_sgd": 2.4166,
+   "sgd_per_myr": 0.4138
+  },
+  {
+   "month": "2013-06",
+   "myr_per_sgd": 2.4981,
+   "sgd_per_myr": 0.4003
+  },
+  {
+   "month": "2013-07",
+   "myr_per_sgd": 2.5164,
+   "sgd_per_myr": 0.3974
+  },
+  {
+   "month": "2013-08",
+   "myr_per_sgd": 2.576,
+   "sgd_per_myr": 0.3882
+  },
+  {
+   "month": "2013-09",
+   "myr_per_sgd": 2.5733,
+   "sgd_per_myr": 0.3886
+  },
+  {
+   "month": "2013-10",
+   "myr_per_sgd": 2.5543,
+   "sgd_per_myr": 0.3915
+  },
+  {
+   "month": "2013-11",
+   "myr_per_sgd": 2.5648,
+   "sgd_per_myr": 0.3899
+  },
+  {
+   "month": "2013-12",
+   "myr_per_sgd": 2.5813,
+   "sgd_per_myr": 0.3874
+  },
+  {
+   "month": "2014-01",
+   "myr_per_sgd": 2.5947,
+   "sgd_per_myr": 0.3854
+  },
+  {
+   "month": "2014-02",
+   "myr_per_sgd": 2.613,
+   "sgd_per_myr": 0.3827
+  },
+  {
+   "month": "2014-03",
+   "myr_per_sgd": 2.59,
+   "sgd_per_myr": 0.3861
+  },
+  {
+   "month": "2014-04",
+   "myr_per_sgd": 2.5954,
+   "sgd_per_myr": 0.3853
+  },
+  {
+   "month": "2014-05",
+   "myr_per_sgd": 2.5793,
+   "sgd_per_myr": 0.3877
+  },
+  {
+   "month": "2014-06",
+   "myr_per_sgd": 2.572,
+   "sgd_per_myr": 0.3888
+  },
+  {
+   "month": "2014-07",
+   "myr_per_sgd": 2.5608,
+   "sgd_per_myr": 0.3905
+  },
+  {
+   "month": "2014-08",
+   "myr_per_sgd": 2.5458,
+   "sgd_per_myr": 0.3928
+  },
+  {
+   "month": "2014-09",
+   "myr_per_sgd": 2.5465,
+   "sgd_per_myr": 0.3927
+  },
+  {
+   "month": "2014-10",
+   "myr_per_sgd": 2.5661,
+   "sgd_per_myr": 0.3897
+  },
+  {
+   "month": "2014-11",
+   "myr_per_sgd": 2.5806,
+   "sgd_per_myr": 0.3875
+  },
+  {
+   "month": "2014-12",
+   "myr_per_sgd": 2.6455,
+   "sgd_per_myr": 0.378
+  },
+  {
+   "month": "2015-01",
+   "myr_per_sgd": 2.6788,
+   "sgd_per_myr": 0.3733
+  },
+  {
+   "month": "2015-02",
+   "myr_per_sgd": 2.656,
+   "sgd_per_myr": 0.3765
+  },
+  {
+   "month": "2015-03",
+   "myr_per_sgd": 2.6724,
+   "sgd_per_myr": 0.3742
+  },
+  {
+   "month": "2015-04",
+   "myr_per_sgd": 2.6918,
+   "sgd_per_myr": 0.3715
+  },
+  {
+   "month": "2015-05",
+   "myr_per_sgd": 2.6991,
+   "sgd_per_myr": 0.3705
+  },
+  {
+   "month": "2015-06",
+   "myr_per_sgd": 2.7809,
+   "sgd_per_myr": 0.3596
+  },
+  {
+   "month": "2015-07",
+   "myr_per_sgd": 2.7933,
+   "sgd_per_myr": 0.358
+  },
+  {
+   "month": "2015-08",
+   "myr_per_sgd": 2.9129,
+   "sgd_per_myr": 0.3433
+  },
+  {
+   "month": "2015-09",
+   "myr_per_sgd": 3.046,
+   "sgd_per_myr": 0.3283
+  },
+  {
+   "month": "2015-10",
+   "myr_per_sgd": 3.0414,
+   "sgd_per_myr": 0.3288
+  },
+  {
+   "month": "2015-11",
+   "myr_per_sgd": 3.0506,
+   "sgd_per_myr": 0.3278
+  },
+  {
+   "month": "2015-12",
+   "myr_per_sgd": 3.0404,
+   "sgd_per_myr": 0.3289
+  },
+  {
+   "month": "2016-01",
+   "myr_per_sgd": 3.0303,
+   "sgd_per_myr": 0.33
+  },
+  {
+   "month": "2016-02",
+   "myr_per_sgd": 2.9753,
+   "sgd_per_myr": 0.3361
+  },
+  {
+   "month": "2016-03",
+   "myr_per_sgd": 2.9656,
+   "sgd_per_myr": 0.3372
+  },
+  {
+   "month": "2016-04",
+   "myr_per_sgd": 2.8902,
+   "sgd_per_myr": 0.346
+  },
+  {
+   "month": "2016-05",
+   "myr_per_sgd": 2.9533,
+   "sgd_per_myr": 0.3386
+  },
+  {
+   "month": "2016-06",
+   "myr_per_sgd": 3.0139,
+   "sgd_per_myr": 0.3318
+  },
+  {
+   "month": "2016-07",
+   "myr_per_sgd": 2.9753,
+   "sgd_per_myr": 0.3361
+  },
+  {
+   "month": "2016-08",
+   "myr_per_sgd": 2.9895,
+   "sgd_per_myr": 0.3345
+  },
+  {
+   "month": "2016-09",
+   "myr_per_sgd": 3.0239,
+   "sgd_per_myr": 0.3307
+  },
+  {
+   "month": "2016-10",
+   "myr_per_sgd": 3.0184,
+   "sgd_per_myr": 0.3313
+  },
+  {
+   "month": "2016-11",
+   "myr_per_sgd": 3.0731,
+   "sgd_per_myr": 0.3254
+  },
+  {
+   "month": "2016-12",
+   "myr_per_sgd": 3.1066,
+   "sgd_per_myr": 0.3219
+  },
+  {
+   "month": "2017-01",
+   "myr_per_sgd": 3.1211,
+   "sgd_per_myr": 0.3204
+  },
+  {
+   "month": "2017-02",
+   "myr_per_sgd": 3.1417,
+   "sgd_per_myr": 0.3183
+  },
+  {
+   "month": "2017-03",
+   "myr_per_sgd": 3.1586,
+   "sgd_per_myr": 0.3166
+  },
+  {
+   "month": "2017-04",
+   "myr_per_sgd": 3.1526,
+   "sgd_per_myr": 0.3172
+  },
+  {
+   "month": "2017-05",
+   "myr_per_sgd": 3.0931,
+   "sgd_per_myr": 0.3233
+  },
+  {
+   "month": "2017-06",
+   "myr_per_sgd": 3.0902,
+   "sgd_per_myr": 0.3236
+  },
+  {
+   "month": "2017-07",
+   "myr_per_sgd": 3.1279,
+   "sgd_per_myr": 0.3197
+  },
+  {
+   "month": "2017-08",
+   "myr_per_sgd": 3.1486,
+   "sgd_per_myr": 0.3176
+  },
+  {
+   "month": "2017-09",
+   "myr_per_sgd": 3.1201,
+   "sgd_per_myr": 0.3205
+  },
+  {
+   "month": "2017-10",
+   "myr_per_sgd": 3.1085,
+   "sgd_per_myr": 0.3217
+  },
+  {
+   "month": "2017-11",
+   "myr_per_sgd": 3.0769,
+   "sgd_per_myr": 0.325
+  },
+  {
+   "month": "2017-12",
+   "myr_per_sgd": 3.0285,
+   "sgd_per_myr": 0.3302
+  },
+  {
+   "month": "2018-01",
+   "myr_per_sgd": 2.9913,
+   "sgd_per_myr": 0.3343
+  },
+  {
+   "month": "2018-02",
+   "myr_per_sgd": 2.9638,
+   "sgd_per_myr": 0.3374
+  },
+  {
+   "month": "2018-03",
+   "myr_per_sgd": 2.97,
+   "sgd_per_myr": 0.3367
+  },
+  {
+   "month": "2018-04",
+   "myr_per_sgd": 2.9551,
+   "sgd_per_myr": 0.3384
+  },
+  {
+   "month": "2018-05",
+   "myr_per_sgd": 2.9603,
+   "sgd_per_myr": 0.3378
+  },
+  {
+   "month": "2018-06",
+   "myr_per_sgd": 2.9682,
+   "sgd_per_myr": 0.3369
+  },
+  {
+   "month": "2018-07",
+   "myr_per_sgd": 2.97,
+   "sgd_per_myr": 0.3367
+  },
+  {
+   "month": "2018-08",
+   "myr_per_sgd": 2.9904,
+   "sgd_per_myr": 0.3344
+  },
+  {
+   "month": "2018-09",
+   "myr_per_sgd": 3.0184,
+   "sgd_per_myr": 0.3313
+  },
+  {
+   "month": "2018-10",
+   "myr_per_sgd": 3.0157,
+   "sgd_per_myr": 0.3316
+  },
+  {
+   "month": "2018-11",
+   "myr_per_sgd": 3.0441,
+   "sgd_per_myr": 0.3285
+  },
+  {
+   "month": "2018-12",
+   "myr_per_sgd": 3.0451,
+   "sgd_per_myr": 0.3284
+  },
+  {
+   "month": "2019-01",
+   "myr_per_sgd": 3.0349,
+   "sgd_per_myr": 0.3295
+  },
+  {
+   "month": "2019-02",
+   "myr_per_sgd": 3.0111,
+   "sgd_per_myr": 0.3321
+  },
+  {
+   "month": "2019-03",
+   "myr_per_sgd": 3.013,
+   "sgd_per_myr": 0.3319
+  },
+  {
+   "month": "2019-04",
+   "myr_per_sgd": 3.0331,
+   "sgd_per_myr": 0.3297
+  },
+  {
+   "month": "2019-05",
+   "myr_per_sgd": 3.0432,
+   "sgd_per_myr": 0.3286
+  },
+  {
+   "month": "2019-06",
+   "myr_per_sgd": 3.0544,
+   "sgd_per_myr": 0.3274
+  },
+  {
+   "month": "2019-07",
+   "myr_per_sgd": 3.0312,
+   "sgd_per_myr": 0.3299
+  },
+  {
+   "month": "2019-08",
+   "myr_per_sgd": 3.0239,
+   "sgd_per_myr": 0.3307
+  },
+  {
+   "month": "2019-09",
+   "myr_per_sgd": 3.0321,
+   "sgd_per_myr": 0.3298
+  },
+  {
+   "month": "2019-10",
+   "myr_per_sgd": 3.0544,
+   "sgd_per_myr": 0.3274
+  },
+  {
+   "month": "2019-11",
+   "myr_per_sgd": 3.0544,
+   "sgd_per_myr": 0.3274
+  },
+  {
+   "month": "2019-12",
+   "myr_per_sgd": 3.0562,
+   "sgd_per_myr": 0.3272
+  },
+  {
+   "month": "2020-01",
+   "myr_per_sgd": 3.0202,
+   "sgd_per_myr": 0.3311
+  },
+  {
+   "month": "2020-02",
+   "myr_per_sgd": 2.9958,
+   "sgd_per_myr": 0.3338
+  },
+  {
+   "month": "2020-03",
+   "myr_per_sgd": 3.0331,
+   "sgd_per_myr": 0.3297
+  },
+  {
+   "month": "2020-04",
+   "myr_per_sgd": 3.059,
+   "sgd_per_myr": 0.3269
+  },
+  {
+   "month": "2020-05",
+   "myr_per_sgd": 3.0628,
+   "sgd_per_myr": 0.3265
+  },
+  {
+   "month": "2020-06",
+   "myr_per_sgd": 3.0665,
+   "sgd_per_myr": 0.3261
+  },
+  {
+   "month": "2020-07",
+   "myr_per_sgd": 3.0722,
+   "sgd_per_myr": 0.3255
+  },
+  {
+   "month": "2020-08",
+   "myr_per_sgd": 3.0581,
+   "sgd_per_myr": 0.327
+  },
+  {
+   "month": "2020-09",
+   "myr_per_sgd": 3.0386,
+   "sgd_per_myr": 0.3291
+  },
+  {
+   "month": "2020-10",
+   "myr_per_sgd": 3.0544,
+   "sgd_per_myr": 0.3274
+  },
+  {
+   "month": "2020-11",
+   "myr_per_sgd": 3.0525,
+   "sgd_per_myr": 0.3276
+  },
+  {
+   "month": "2020-12",
+   "myr_per_sgd": 3.0441,
+   "sgd_per_myr": 0.3285
+  },
+  {
+   "month": "2021-01",
+   "myr_per_sgd": 3.0451,
+   "sgd_per_myr": 0.3284
+  },
+  {
+   "month": "2021-02",
+   "myr_per_sgd": 3.0479,
+   "sgd_per_myr": 0.3281
+  },
+  {
+   "month": "2021-03",
+   "myr_per_sgd": 3.0609,
+   "sgd_per_myr": 0.3267
+  },
+  {
+   "month": "2021-04",
+   "myr_per_sgd": 3.0893,
+   "sgd_per_myr": 0.3237
+  },
+  {
+   "month": "2021-05",
+   "myr_per_sgd": 3.1027,
+   "sgd_per_myr": 0.3223
+  },
+  {
+   "month": "2021-06",
+   "myr_per_sgd": 3.1017,
+   "sgd_per_myr": 0.3224
+  },
+  {
+   "month": "2021-07",
+   "myr_per_sgd": 3.0998,
+   "sgd_per_myr": 0.3226
+  },
+  {
+   "month": "2021-08",
+   "myr_per_sgd": 3.1143,
+   "sgd_per_myr": 0.3211
+  },
+  {
+   "month": "2021-09",
+   "myr_per_sgd": 3.0912,
+   "sgd_per_myr": 0.3235
+  },
+  {
+   "month": "2021-10",
+   "myr_per_sgd": 3.0817,
+   "sgd_per_myr": 0.3245
+  },
+  {
+   "month": "2021-11",
+   "myr_per_sgd": 3.0798,
+   "sgd_per_myr": 0.3247
+  },
+  {
+   "month": "2021-12",
+   "myr_per_sgd": 3.0883,
+   "sgd_per_myr": 0.3238
+  },
+  {
+   "month": "2022-01",
+   "myr_per_sgd": 3.1017,
+   "sgd_per_myr": 0.3224
+  },
+  {
+   "month": "2022-02",
+   "myr_per_sgd": 3.1095,
+   "sgd_per_myr": 0.3216
+  },
+  {
+   "month": "2022-03",
+   "myr_per_sgd": 3.0902,
+   "sgd_per_myr": 0.3236
+  },
+  {
+   "month": "2022-04",
+   "myr_per_sgd": 3.125,
+   "sgd_per_myr": 0.32
+  },
+  {
+   "month": "2022-05",
+   "myr_per_sgd": 3.1726,
+   "sgd_per_myr": 0.3152
+  },
+  {
+   "month": "2022-06",
+   "myr_per_sgd": 3.1807,
+   "sgd_per_myr": 0.3144
+  },
+  {
+   "month": "2022-07",
+   "myr_per_sgd": 3.1837,
+   "sgd_per_myr": 0.3141
+  },
+  {
+   "month": "2022-08",
+   "myr_per_sgd": 3.2268,
+   "sgd_per_myr": 0.3099
+  },
+  {
+   "month": "2022-09",
+   "myr_per_sgd": 3.2144,
+   "sgd_per_myr": 0.3111
+  },
+  {
+   "month": "2022-10",
+   "myr_per_sgd": 3.2938,
+   "sgd_per_myr": 0.3036
+  },
+  {
+   "month": "2022-11",
+   "myr_per_sgd": 3.3245,
+   "sgd_per_myr": 0.3008
+  },
+  {
+   "month": "2022-12",
+   "myr_per_sgd": 3.2648,
+   "sgd_per_myr": 0.3063
+  },
+  {
+   "month": "2023-01",
+   "myr_per_sgd": 3.2648,
+   "sgd_per_myr": 0.3063
+  },
+  {
+   "month": "2023-02",
+   "myr_per_sgd": 3.2798,
+   "sgd_per_myr": 0.3049
+  },
+  {
+   "month": "2023-03",
+   "myr_per_sgd": 3.3311,
+   "sgd_per_myr": 0.3002
+  },
+  {
+   "month": "2023-04",
+   "myr_per_sgd": 3.3223,
+   "sgd_per_myr": 0.301
+  },
+  {
+   "month": "2023-05",
+   "myr_per_sgd": 3.3738,
+   "sgd_per_myr": 0.2964
+  },
+  {
+   "month": "2023-06",
+   "myr_per_sgd": 3.4412,
+   "sgd_per_myr": 0.2906
+  },
+  {
+   "month": "2023-07",
+   "myr_per_sgd": 3.4412,
+   "sgd_per_myr": 0.2906
+  },
+  {
+   "month": "2023-08",
+   "myr_per_sgd": 3.4141,
+   "sgd_per_myr": 0.2929
+  },
+  {
+   "month": "2023-09",
+   "myr_per_sgd": 3.4341,
+   "sgd_per_myr": 0.2912
+  },
+  {
+   "month": "2023-10",
+   "myr_per_sgd": 3.4674,
+   "sgd_per_myr": 0.2884
+  },
+  {
+   "month": "2023-11",
+   "myr_per_sgd": 3.4771,
+   "sgd_per_myr": 0.2876
+  },
+  {
+   "month": "2023-12",
+   "myr_per_sgd": 3.4965,
+   "sgd_per_myr": 0.286
+  },
+  {
+   "month": "2024-01",
+   "myr_per_sgd": 3.5075,
+   "sgd_per_myr": 0.2851
+  },
+  {
+   "month": "2024-02",
+   "myr_per_sgd": 3.5474,
+   "sgd_per_myr": 0.2819
+  },
+  {
+   "month": "2024-03",
+   "myr_per_sgd": 3.5186,
+   "sgd_per_myr": 0.2842
+  },
+  {
+   "month": "2024-04",
+   "myr_per_sgd": 3.5125,
+   "sgd_per_myr": 0.2847
+  },
+  {
+   "month": "2024-05",
+   "myr_per_sgd": 3.4916,
+   "sgd_per_myr": 0.2864
+  },
+  {
+   "month": "2024-06",
+   "myr_per_sgd": 3.4843,
+   "sgd_per_myr": 0.287
+  },
+  {
+   "month": "2024-07",
+   "myr_per_sgd": 3.4758,
+   "sgd_per_myr": 0.2877
+  },
+  {
+   "month": "2024-08",
+   "myr_per_sgd": 3.3546,
+   "sgd_per_myr": 0.2981
+  },
+  {
+   "month": "2024-09",
+   "myr_per_sgd": 3.2884,
+   "sgd_per_myr": 0.3041
+  },
+  {
+   "month": "2024-10",
+   "myr_per_sgd": 3.2808,
+   "sgd_per_myr": 0.3048
+  },
+  {
+   "month": "2024-11",
+   "myr_per_sgd": 3.319,
+   "sgd_per_myr": 0.3013
+  },
+  {
+   "month": "2024-12",
+   "myr_per_sgd": 3.3036,
+   "sgd_per_myr": 0.3027
+  },
+  {
+   "month": "2025-01",
+   "myr_per_sgd": 3.2841,
+   "sgd_per_myr": 0.3045
+  },
+  {
+   "month": "2025-02",
+   "myr_per_sgd": 3.2992,
+   "sgd_per_myr": 0.3031
+  },
+  {
+   "month": "2025-03",
+   "myr_per_sgd": 3.3201,
+   "sgd_per_myr": 0.3012
+  },
+  {
+   "month": "2025-04",
+   "myr_per_sgd": 3.3344,
+   "sgd_per_myr": 0.2999
+  },
+  {
+   "month": "2025-05",
+   "myr_per_sgd": 3.2949,
+   "sgd_per_myr": 0.3035
+  },
+  {
+   "month": "2025-06",
+   "myr_per_sgd": 3.3036,
+   "sgd_per_myr": 0.3027
+  },
+  {
+   "month": "2025-07",
+   "myr_per_sgd": 3.3069,
+   "sgd_per_myr": 0.3024
+  },
+  {
+   "month": "2025-08",
+   "myr_per_sgd": 3.2873,
+   "sgd_per_myr": 0.3042
+  },
+  {
+   "month": "2025-09",
+   "myr_per_sgd": 3.2798,
+   "sgd_per_myr": 0.3049
+  },
+  {
+   "month": "2025-10",
+   "myr_per_sgd": 3.2552,
+   "sgd_per_myr": 0.3072
+  },
+  {
+   "month": "2025-11",
+   "myr_per_sgd": 3.1888,
+   "sgd_per_myr": 0.3136
+  },
+  {
+   "month": "2025-12",
+   "myr_per_sgd": 3.1686,
+   "sgd_per_myr": 0.3156
+  },
+  {
+   "month": "2026-01",
+   "myr_per_sgd": 3.1456,
+   "sgd_per_myr": 0.3179
+  },
+  {
+   "month": "2026-02",
+   "myr_per_sgd": 3.0902,
+   "sgd_per_myr": 0.3236
+  },
+  {
+   "month": "2026-03",
+   "myr_per_sgd": 3.0883,
+   "sgd_per_myr": 0.3238
+  },
+  {
+   "month": "2026-04",
+   "myr_per_sgd": 3.1133,
+   "sgd_per_myr": 0.3212
+  },
+  {
+   "month": "2026-05",
+   "myr_per_sgd": 3.0989,
+   "sgd_per_myr": 0.3227
+  },
+  {
+   "month": "2026-06",
+   "myr_per_sgd": 3.1606,
+   "sgd_per_myr": 0.3164
+  },
+  {
+   "month": "2026-07",
+   "myr_per_sgd": 3.1616,
+   "sgd_per_myr": 0.3163
+  },
+  {
+   "month": "2026-08",
+   "myr_per_sgd": 3.1837,
+   "sgd_per_myr": 0.3141
+  },
+  {
+   "month": "2026-09",
+   "myr_per_sgd": 3.198,
+   "sgd_per_myr": 0.3127
+  },
+  {
+   "month": "2026-10",
+   "myr_per_sgd": 3.1898,
+   "sgd_per_myr": 0.3135
+  }
+ ]
+}

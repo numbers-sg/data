@@ -1,0 +1,2075 @@
+{
+ "dataset": "fx-sgd-eur-monthly",
+ "title": "Singapore dollar to euro, monthly averages since 1999",
+ "description": "SingStat's monthly average exchange rate for the euro (table M700051, averages of MAS's figures) since January 1999, both ways round.",
+ "question": "What was the average euro rate for the Singapore dollar each month since 1999?",
+ "row": {
+  "is": "One month (the average of the month)",
+  "time_key": "month",
+  "primary_key": [
+   "month"
+  ]
+ },
+ "coverage": {
+  "from": "1999-01",
+  "to": "2026-10"
+ },
+ "fields": [
+  {
+   "name": "month",
+   "type": "month",
+   "meaning": "The month averaged.",
+   "nullable": false
+  },
+  {
+   "name": "eur_per_sgd",
+   "type": "number",
+   "unit": "euros per S$1",
+   "meaning": "Euros per S$1: SingStat's S$ figure, turned round.",
+   "nullable": false
+  },
+  {
+   "name": "sgd_per_eur",
+   "type": "number",
+   "unit": "S$ per euro",
+   "meaning": "S$ per euro: SingStat's monthly average, in the daily table's unit.",
+   "nullable": false
+  },
+  {
+   "name": "source",
+   "type": "string",
+   "meaning": "Where the month's figure comes from.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Department of Statistics (SingStat)",
+   "url": "https://www.singstat.gov.sg/",
+   "terms": "SingStat terms of use",
+   "terms_url": "https://www.singstat.gov.sg/terms-of-use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Department of Statistics, compiled by Numbers.sg (numbers.sg/currency/sgd-to-eur/), CC BY 4.0",
+  "notices": [
+   "Source: Singapore Department of Statistics"
+  ]
+ },
+ "page_url": "https://numbers.sg/currency/sgd-to-eur/",
+ "method": "https://numbers.sg/currency/sgd-to-eur/#method",
+ "api": "https://numbers.sg/api/v1/fx-sgd-eur-monthly",
+ "hash": "sha256:c7acfe37c66ad6d5ccd27326fa3d945872fe58a0d03e977a0dbf71da996f97ff",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "month": "1999-01",
+   "eur_per_sgd": 0.5133,
+   "sgd_per_eur": 1.9482,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-02",
+   "eur_per_sgd": 0.5244,
+   "sgd_per_eur": 1.9071,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-03",
+   "eur_per_sgd": 0.5307,
+   "sgd_per_eur": 1.8843,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-04",
+   "eur_per_sgd": 0.545,
+   "sgd_per_eur": 1.835,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-05",
+   "eur_per_sgd": 0.5492,
+   "sgd_per_eur": 1.8207,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-06",
+   "eur_per_sgd": 0.5625,
+   "sgd_per_eur": 1.7778,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-07",
+   "eur_per_sgd": 0.5695,
+   "sgd_per_eur": 1.7559,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-08",
+   "eur_per_sgd": 0.5614,
+   "sgd_per_eur": 1.7813,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-09",
+   "eur_per_sgd": 0.5616,
+   "sgd_per_eur": 1.7805,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-10",
+   "eur_per_sgd": 0.5565,
+   "sgd_per_eur": 1.7971,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-11",
+   "eur_per_sgd": 0.5785,
+   "sgd_per_eur": 1.7287,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-12",
+   "eur_per_sgd": 0.59,
+   "sgd_per_eur": 1.695,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-01",
+   "eur_per_sgd": 0.5884,
+   "sgd_per_eur": 1.6995,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-02",
+   "eur_per_sgd": 0.5977,
+   "sgd_per_eur": 1.673,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-03",
+   "eur_per_sgd": 0.604,
+   "sgd_per_eur": 1.6556,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-04",
+   "eur_per_sgd": 0.6169,
+   "sgd_per_eur": 1.6209,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-05",
+   "eur_per_sgd": 0.6376,
+   "sgd_per_eur": 1.5683,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-06",
+   "eur_per_sgd": 0.61,
+   "sgd_per_eur": 1.6394,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-07",
+   "eur_per_sgd": 0.6109,
+   "sgd_per_eur": 1.6369,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-08",
+   "eur_per_sgd": 0.6414,
+   "sgd_per_eur": 1.5592,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-09",
+   "eur_per_sgd": 0.6604,
+   "sgd_per_eur": 1.5142,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-10",
+   "eur_per_sgd": 0.6665,
+   "sgd_per_eur": 1.5004,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-11",
+   "eur_per_sgd": 0.6695,
+   "sgd_per_eur": 1.4937,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-12",
+   "eur_per_sgd": 0.6434,
+   "sgd_per_eur": 1.5543,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-01",
+   "eur_per_sgd": 0.6127,
+   "sgd_per_eur": 1.6321,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-02",
+   "eur_per_sgd": 0.6223,
+   "sgd_per_eur": 1.607,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-03",
+   "eur_per_sgd": 0.6207,
+   "sgd_per_eur": 1.6112,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-04",
+   "eur_per_sgd": 0.618,
+   "sgd_per_eur": 1.6182,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-05",
+   "eur_per_sgd": 0.63,
+   "sgd_per_eur": 1.5872,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-06",
+   "eur_per_sgd": 0.6451,
+   "sgd_per_eur": 1.5501,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-07",
+   "eur_per_sgd": 0.6376,
+   "sgd_per_eur": 1.5683,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-08",
+   "eur_per_sgd": 0.6297,
+   "sgd_per_eur": 1.588,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-09",
+   "eur_per_sgd": 0.6274,
+   "sgd_per_eur": 1.5938,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-10",
+   "eur_per_sgd": 0.6096,
+   "sgd_per_eur": 1.6403,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-11",
+   "eur_per_sgd": 0.6154,
+   "sgd_per_eur": 1.625,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-12",
+   "eur_per_sgd": 0.6101,
+   "sgd_per_eur": 1.639,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-01",
+   "eur_per_sgd": 0.6146,
+   "sgd_per_eur": 1.627,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-02",
+   "eur_per_sgd": 0.628,
+   "sgd_per_eur": 1.5923,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-03",
+   "eur_per_sgd": 0.6238,
+   "sgd_per_eur": 1.6032,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-04",
+   "eur_per_sgd": 0.6176,
+   "sgd_per_eur": 1.6192,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-05",
+   "eur_per_sgd": 0.606,
+   "sgd_per_eur": 1.6501,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-06",
+   "eur_per_sgd": 0.5876,
+   "sgd_per_eur": 1.7017,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-07",
+   "eur_per_sgd": 0.5747,
+   "sgd_per_eur": 1.7401,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-08",
+   "eur_per_sgd": 0.5821,
+   "sgd_per_eur": 1.7178,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-09",
+   "eur_per_sgd": 0.5774,
+   "sgd_per_eur": 1.732,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-10",
+   "eur_per_sgd": 0.5705,
+   "sgd_per_eur": 1.7527,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-11",
+   "eur_per_sgd": 0.5657,
+   "sgd_per_eur": 1.7677,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-12",
+   "eur_per_sgd": 0.5597,
+   "sgd_per_eur": 1.7866,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-01",
+   "eur_per_sgd": 0.5424,
+   "sgd_per_eur": 1.8435,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-02",
+   "eur_per_sgd": 0.5315,
+   "sgd_per_eur": 1.8814,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-03",
+   "eur_per_sgd": 0.5281,
+   "sgd_per_eur": 1.8935,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-04",
+   "eur_per_sgd": 0.5184,
+   "sgd_per_eur": 1.9291,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-05",
+   "eur_per_sgd": 0.4981,
+   "sgd_per_eur": 2.0076,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-06",
+   "eur_per_sgd": 0.4938,
+   "sgd_per_eur": 2.0253,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-07",
+   "eur_per_sgd": 0.5009,
+   "sgd_per_eur": 1.9966,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-08",
+   "eur_per_sgd": 0.5113,
+   "sgd_per_eur": 1.9559,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-09",
+   "eur_per_sgd": 0.5102,
+   "sgd_per_eur": 1.9602,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-10",
+   "eur_per_sgd": 0.4932,
+   "sgd_per_eur": 2.0276,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-11",
+   "eur_per_sgd": 0.4945,
+   "sgd_per_eur": 2.0221,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-12",
+   "eur_per_sgd": 0.4761,
+   "sgd_per_eur": 2.1002,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-01",
+   "eur_per_sgd": 0.4672,
+   "sgd_per_eur": 2.1405,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-02",
+   "eur_per_sgd": 0.4688,
+   "sgd_per_eur": 2.133,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-03",
+   "eur_per_sgd": 0.4794,
+   "sgd_per_eur": 2.0858,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-04",
+   "eur_per_sgd": 0.495,
+   "sgd_per_eur": 2.02,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-05",
+   "eur_per_sgd": 0.4871,
+   "sgd_per_eur": 2.053,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-06",
+   "eur_per_sgd": 0.4813,
+   "sgd_per_eur": 2.0777,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-07",
+   "eur_per_sgd": 0.4759,
+   "sgd_per_eur": 2.1013,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-08",
+   "eur_per_sgd": 0.4789,
+   "sgd_per_eur": 2.0882,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-09",
+   "eur_per_sgd": 0.4826,
+   "sgd_per_eur": 2.0722,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-10",
+   "eur_per_sgd": 0.4773,
+   "sgd_per_eur": 2.095,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-11",
+   "eur_per_sgd": 0.4667,
+   "sgd_per_eur": 2.1428,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-12",
+   "eur_per_sgd": 0.4546,
+   "sgd_per_eur": 2.1999,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-01",
+   "eur_per_sgd": 0.4647,
+   "sgd_per_eur": 2.1518,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-02",
+   "eur_per_sgd": 0.4681,
+   "sgd_per_eur": 2.1361,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-03",
+   "eur_per_sgd": 0.4646,
+   "sgd_per_eur": 2.1524,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-04",
+   "eur_per_sgd": 0.4675,
+   "sgd_per_eur": 2.1389,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-05",
+   "eur_per_sgd": 0.4768,
+   "sgd_per_eur": 2.0974,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-06",
+   "eur_per_sgd": 0.4916,
+   "sgd_per_eur": 2.034,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-07",
+   "eur_per_sgd": 0.4929,
+   "sgd_per_eur": 2.0287,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-08",
+   "eur_per_sgd": 0.4895,
+   "sgd_per_eur": 2.0428,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-09",
+   "eur_per_sgd": 0.4853,
+   "sgd_per_eur": 2.0605,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-10",
+   "eur_per_sgd": 0.4918,
+   "sgd_per_eur": 2.0334,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-11",
+   "eur_per_sgd": 0.5,
+   "sgd_per_eur": 2.0001,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-12",
+   "eur_per_sgd": 0.5034,
+   "sgd_per_eur": 1.9864,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-01",
+   "eur_per_sgd": 0.5049,
+   "sgd_per_eur": 1.9807,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-02",
+   "eur_per_sgd": 0.5134,
+   "sgd_per_eur": 1.9477,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-03",
+   "eur_per_sgd": 0.5128,
+   "sgd_per_eur": 1.95,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-04",
+   "eur_per_sgd": 0.5091,
+   "sgd_per_eur": 1.9641,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-05",
+   "eur_per_sgd": 0.4967,
+   "sgd_per_eur": 2.0133,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-06",
+   "eur_per_sgd": 0.4964,
+   "sgd_per_eur": 2.0144,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-07",
+   "eur_per_sgd": 0.4977,
+   "sgd_per_eur": 2.0094,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-08",
+   "eur_per_sgd": 0.4955,
+   "sgd_per_eur": 2.0183,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-09",
+   "eur_per_sgd": 0.497,
+   "sgd_per_eur": 2.0121,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-10",
+   "eur_per_sgd": 0.5018,
+   "sgd_per_eur": 1.993,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-11",
+   "eur_per_sgd": 0.4989,
+   "sgd_per_eur": 2.0046,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-12",
+   "eur_per_sgd": 0.4914,
+   "sgd_per_eur": 2.0351,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-01",
+   "eur_per_sgd": 0.5005,
+   "sgd_per_eur": 1.9981,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-02",
+   "eur_per_sgd": 0.4988,
+   "sgd_per_eur": 2.0047,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-03",
+   "eur_per_sgd": 0.4952,
+   "sgd_per_eur": 2.0193,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-04",
+   "eur_per_sgd": 0.4886,
+   "sgd_per_eur": 2.0465,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-05",
+   "eur_per_sgd": 0.4861,
+   "sgd_per_eur": 2.0574,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-06",
+   "eur_per_sgd": 0.485,
+   "sgd_per_eur": 2.062,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-07",
+   "eur_per_sgd": 0.4809,
+   "sgd_per_eur": 2.0796,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-08",
+   "eur_per_sgd": 0.4821,
+   "sgd_per_eur": 2.0741,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-09",
+   "eur_per_sgd": 0.4761,
+   "sgd_per_eur": 2.1004,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-10",
+   "eur_per_sgd": 0.4793,
+   "sgd_per_eur": 2.0864,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-11",
+   "eur_per_sgd": 0.4705,
+   "sgd_per_eur": 2.1255,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-12",
+   "eur_per_sgd": 0.4735,
+   "sgd_per_eur": 2.1121,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-01",
+   "eur_per_sgd": 0.475,
+   "sgd_per_eur": 2.1054,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-02",
+   "eur_per_sgd": 0.4802,
+   "sgd_per_eur": 2.0825,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-03",
+   "eur_per_sgd": 0.4651,
+   "sgd_per_eur": 2.1502,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-04",
+   "eur_per_sgd": 0.465,
+   "sgd_per_eur": 2.1504,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-05",
+   "eur_per_sgd": 0.4705,
+   "sgd_per_eur": 2.1255,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-06",
+   "eur_per_sgd": 0.47,
+   "sgd_per_eur": 2.1277,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-07",
+   "eur_per_sgd": 0.4666,
+   "sgd_per_eur": 2.1431,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-08",
+   "eur_per_sgd": 0.4755,
+   "sgd_per_eur": 2.1029,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-09",
+   "eur_per_sgd": 0.4863,
+   "sgd_per_eur": 2.0564,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-10",
+   "eur_per_sgd": 0.5082,
+   "sgd_per_eur": 1.9678,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-11",
+   "eur_per_sgd": 0.5218,
+   "sgd_per_eur": 1.9166,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-12",
+   "eur_per_sgd": 0.5007,
+   "sgd_per_eur": 1.9972,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-01",
+   "eur_per_sgd": 0.5045,
+   "sgd_per_eur": 1.982,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-02",
+   "eur_per_sgd": 0.5151,
+   "sgd_per_eur": 1.9415,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-03",
+   "eur_per_sgd": 0.5007,
+   "sgd_per_eur": 1.9973,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-04",
+   "eur_per_sgd": 0.5037,
+   "sgd_per_eur": 1.9853,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-05",
+   "eur_per_sgd": 0.5016,
+   "sgd_per_eur": 1.9936,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-06",
+   "eur_per_sgd": 0.491,
+   "sgd_per_eur": 2.0368,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-07",
+   "eur_per_sgd": 0.49,
+   "sgd_per_eur": 2.041,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-08",
+   "eur_per_sgd": 0.4862,
+   "sgd_per_eur": 2.0568,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-09",
+   "eur_per_sgd": 0.4827,
+   "sgd_per_eur": 2.0716,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-10",
+   "eur_per_sgd": 0.4826,
+   "sgd_per_eur": 2.0719,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-11",
+   "eur_per_sgd": 0.4825,
+   "sgd_per_eur": 2.0725,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-12",
+   "eur_per_sgd": 0.4902,
+   "sgd_per_eur": 2.0399,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-01",
+   "eur_per_sgd": 0.5014,
+   "sgd_per_eur": 1.9946,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-02",
+   "eur_per_sgd": 0.5168,
+   "sgd_per_eur": 1.9348,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-03",
+   "eur_per_sgd": 0.5259,
+   "sgd_per_eur": 1.9015,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-04",
+   "eur_per_sgd": 0.5388,
+   "sgd_per_eur": 1.8559,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-05",
+   "eur_per_sgd": 0.5702,
+   "sgd_per_eur": 1.7539,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-06",
+   "eur_per_sgd": 0.5853,
+   "sgd_per_eur": 1.7085,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-07",
+   "eur_per_sgd": 0.5688,
+   "sgd_per_eur": 1.7581,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-08",
+   "eur_per_sgd": 0.572,
+   "sgd_per_eur": 1.7483,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-09",
+   "eur_per_sgd": 0.5728,
+   "sgd_per_eur": 1.7458,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-10",
+   "eur_per_sgd": 0.5519,
+   "sgd_per_eur": 1.812,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-11",
+   "eur_per_sgd": 0.5638,
+   "sgd_per_eur": 1.7736,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-12",
+   "eur_per_sgd": 0.5789,
+   "sgd_per_eur": 1.7274,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-01",
+   "eur_per_sgd": 0.5817,
+   "sgd_per_eur": 1.7191,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-02",
+   "eur_per_sgd": 0.5733,
+   "sgd_per_eur": 1.7443,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-03",
+   "eur_per_sgd": 0.563,
+   "sgd_per_eur": 1.7761,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-04",
+   "eur_per_sgd": 0.5549,
+   "sgd_per_eur": 1.8021,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-05",
+   "eur_per_sgd": 0.5636,
+   "sgd_per_eur": 1.7744,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-06",
+   "eur_per_sgd": 0.5627,
+   "sgd_per_eur": 1.777,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-07",
+   "eur_per_sgd": 0.5746,
+   "sgd_per_eur": 1.7404,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-08",
+   "eur_per_sgd": 0.5772,
+   "sgd_per_eur": 1.7325,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-09",
+   "eur_per_sgd": 0.5807,
+   "sgd_per_eur": 1.7221,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-10",
+   "eur_per_sgd": 0.5714,
+   "sgd_per_eur": 1.75,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-11",
+   "eur_per_sgd": 0.5719,
+   "sgd_per_eur": 1.7486,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-12",
+   "eur_per_sgd": 0.5859,
+   "sgd_per_eur": 1.7069,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-01",
+   "eur_per_sgd": 0.6055,
+   "sgd_per_eur": 1.6514,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-02",
+   "eur_per_sgd": 0.6031,
+   "sgd_per_eur": 1.6582,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-03",
+   "eur_per_sgd": 0.6011,
+   "sgd_per_eur": 1.6636,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-04",
+   "eur_per_sgd": 0.6069,
+   "sgd_per_eur": 1.6478,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-05",
+   "eur_per_sgd": 0.619,
+   "sgd_per_eur": 1.6155,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-06",
+   "eur_per_sgd": 0.6234,
+   "sgd_per_eur": 1.6042,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-07",
+   "eur_per_sgd": 0.6441,
+   "sgd_per_eur": 1.5525,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-08",
+   "eur_per_sgd": 0.6461,
+   "sgd_per_eur": 1.5477,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-09",
+   "eur_per_sgd": 0.6314,
+   "sgd_per_eur": 1.5839,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-10",
+   "eur_per_sgd": 0.6299,
+   "sgd_per_eur": 1.5875,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-11",
+   "eur_per_sgd": 0.6364,
+   "sgd_per_eur": 1.5714,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-12",
+   "eur_per_sgd": 0.6245,
+   "sgd_per_eur": 1.6013,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-01",
+   "eur_per_sgd": 0.6126,
+   "sgd_per_eur": 1.6323,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-02",
+   "eur_per_sgd": 0.6045,
+   "sgd_per_eur": 1.6542,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-03",
+   "eur_per_sgd": 0.6184,
+   "sgd_per_eur": 1.6171,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-04",
+   "eur_per_sgd": 0.6207,
+   "sgd_per_eur": 1.6111,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-05",
+   "eur_per_sgd": 0.6174,
+   "sgd_per_eur": 1.6198,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-06",
+   "eur_per_sgd": 0.6011,
+   "sgd_per_eur": 1.6637,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-07",
+   "eur_per_sgd": 0.6027,
+   "sgd_per_eur": 1.6593,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-08",
+   "eur_per_sgd": 0.5894,
+   "sgd_per_eur": 1.6965,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-09",
+   "eur_per_sgd": 0.5929,
+   "sgd_per_eur": 1.6865,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-10",
+   "eur_per_sgd": 0.5892,
+   "sgd_per_eur": 1.6971,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-11",
+   "eur_per_sgd": 0.594,
+   "sgd_per_eur": 1.6836,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-12",
+   "eur_per_sgd": 0.5799,
+   "sgd_per_eur": 1.7244,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-01",
+   "eur_per_sgd": 0.5766,
+   "sgd_per_eur": 1.7343,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-02",
+   "eur_per_sgd": 0.5781,
+   "sgd_per_eur": 1.7297,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-03",
+   "eur_per_sgd": 0.5708,
+   "sgd_per_eur": 1.7519,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-04",
+   "eur_per_sgd": 0.5769,
+   "sgd_per_eur": 1.7335,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-05",
+   "eur_per_sgd": 0.5815,
+   "sgd_per_eur": 1.7196,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-06",
+   "eur_per_sgd": 0.5877,
+   "sgd_per_eur": 1.7016,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-07",
+   "eur_per_sgd": 0.5935,
+   "sgd_per_eur": 1.685,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-08",
+   "eur_per_sgd": 0.6012,
+   "sgd_per_eur": 1.6633,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-09",
+   "eur_per_sgd": 0.6132,
+   "sgd_per_eur": 1.6309,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-10",
+   "eur_per_sgd": 0.6185,
+   "sgd_per_eur": 1.6167,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-11",
+   "eur_per_sgd": 0.6185,
+   "sgd_per_eur": 1.6169,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-12",
+   "eur_per_sgd": 0.6167,
+   "sgd_per_eur": 1.6215,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-01",
+   "eur_per_sgd": 0.6425,
+   "sgd_per_eur": 1.5564,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-02",
+   "eur_per_sgd": 0.65,
+   "sgd_per_eur": 1.5385,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-03",
+   "eur_per_sgd": 0.6702,
+   "sgd_per_eur": 1.4922,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-04",
+   "eur_per_sgd": 0.6866,
+   "sgd_per_eur": 1.4564,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-05",
+   "eur_per_sgd": 0.6713,
+   "sgd_per_eur": 1.4896,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-06",
+   "eur_per_sgd": 0.6619,
+   "sgd_per_eur": 1.5108,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-07",
+   "eur_per_sgd": 0.6675,
+   "sgd_per_eur": 1.4981,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-08",
+   "eur_per_sgd": 0.6401,
+   "sgd_per_eur": 1.5623,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-09",
+   "eur_per_sgd": 0.6287,
+   "sgd_per_eur": 1.5906,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-10",
+   "eur_per_sgd": 0.6351,
+   "sgd_per_eur": 1.5746,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-11",
+   "eur_per_sgd": 0.6585,
+   "sgd_per_eur": 1.5185,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-12",
+   "eur_per_sgd": 0.6526,
+   "sgd_per_eur": 1.5323,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-01",
+   "eur_per_sgd": 0.642,
+   "sgd_per_eur": 1.5577,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-02",
+   "eur_per_sgd": 0.6409,
+   "sgd_per_eur": 1.5602,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-03",
+   "eur_per_sgd": 0.6547,
+   "sgd_per_eur": 1.5274,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-04",
+   "eur_per_sgd": 0.6529,
+   "sgd_per_eur": 1.5317,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-05",
+   "eur_per_sgd": 0.6454,
+   "sgd_per_eur": 1.5495,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-06",
+   "eur_per_sgd": 0.6569,
+   "sgd_per_eur": 1.5223,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-07",
+   "eur_per_sgd": 0.669,
+   "sgd_per_eur": 1.4947,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-08",
+   "eur_per_sgd": 0.6619,
+   "sgd_per_eur": 1.5108,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-09",
+   "eur_per_sgd": 0.6563,
+   "sgd_per_eur": 1.5237,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-10",
+   "eur_per_sgd": 0.6551,
+   "sgd_per_eur": 1.5264,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-11",
+   "eur_per_sgd": 0.6561,
+   "sgd_per_eur": 1.5242,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-12",
+   "eur_per_sgd": 0.6604,
+   "sgd_per_eur": 1.5143,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-01",
+   "eur_per_sgd": 0.6587,
+   "sgd_per_eur": 1.5182,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-02",
+   "eur_per_sgd": 0.6636,
+   "sgd_per_eur": 1.507,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-03",
+   "eur_per_sgd": 0.6657,
+   "sgd_per_eur": 1.5021,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-04",
+   "eur_per_sgd": 0.6674,
+   "sgd_per_eur": 1.4984,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-05",
+   "eur_per_sgd": 0.6486,
+   "sgd_per_eur": 1.5419,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-06",
+   "eur_per_sgd": 0.6433,
+   "sgd_per_eur": 1.5544,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-07",
+   "eur_per_sgd": 0.6332,
+   "sgd_per_eur": 1.5793,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-08",
+   "eur_per_sgd": 0.6219,
+   "sgd_per_eur": 1.608,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-09",
+   "eur_per_sgd": 0.6219,
+   "sgd_per_eur": 1.608,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-10",
+   "eur_per_sgd": 0.6251,
+   "sgd_per_eur": 1.5998,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-11",
+   "eur_per_sgd": 0.6285,
+   "sgd_per_eur": 1.5912,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-12",
+   "eur_per_sgd": 0.6274,
+   "sgd_per_eur": 1.5938,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-01",
+   "eur_per_sgd": 0.6207,
+   "sgd_per_eur": 1.6112,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-02",
+   "eur_per_sgd": 0.6135,
+   "sgd_per_eur": 1.6301,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-03",
+   "eur_per_sgd": 0.6163,
+   "sgd_per_eur": 1.6227,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-04",
+   "eur_per_sgd": 0.619,
+   "sgd_per_eur": 1.6156,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-05",
+   "eur_per_sgd": 0.6313,
+   "sgd_per_eur": 1.584,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-06",
+   "eur_per_sgd": 0.6352,
+   "sgd_per_eur": 1.5743,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-07",
+   "eur_per_sgd": 0.6277,
+   "sgd_per_eur": 1.593,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-08",
+   "eur_per_sgd": 0.6326,
+   "sgd_per_eur": 1.5807,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-09",
+   "eur_per_sgd": 0.6253,
+   "sgd_per_eur": 1.5992,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-10",
+   "eur_per_sgd": 0.6308,
+   "sgd_per_eur": 1.5852,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-11",
+   "eur_per_sgd": 0.6396,
+   "sgd_per_eur": 1.5634,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-12",
+   "eur_per_sgd": 0.6413,
+   "sgd_per_eur": 1.5593,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-01",
+   "eur_per_sgd": 0.6453,
+   "sgd_per_eur": 1.5497,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-02",
+   "eur_per_sgd": 0.6511,
+   "sgd_per_eur": 1.5358,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-03",
+   "eur_per_sgd": 0.6531,
+   "sgd_per_eur": 1.5311,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-04",
+   "eur_per_sgd": 0.6562,
+   "sgd_per_eur": 1.5239,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-05",
+   "eur_per_sgd": 0.6521,
+   "sgd_per_eur": 1.5336,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-06",
+   "eur_per_sgd": 0.6498,
+   "sgd_per_eur": 1.539,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-07",
+   "eur_per_sgd": 0.6547,
+   "sgd_per_eur": 1.5274,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-08",
+   "eur_per_sgd": 0.6494,
+   "sgd_per_eur": 1.54,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-09",
+   "eur_per_sgd": 0.658,
+   "sgd_per_eur": 1.5197,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-10",
+   "eur_per_sgd": 0.6602,
+   "sgd_per_eur": 1.5147,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-11",
+   "eur_per_sgd": 0.6643,
+   "sgd_per_eur": 1.5053,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-12",
+   "eur_per_sgd": 0.663,
+   "sgd_per_eur": 1.5082,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-01",
+   "eur_per_sgd": 0.6664,
+   "sgd_per_eur": 1.5006,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-02",
+   "eur_per_sgd": 0.6598,
+   "sgd_per_eur": 1.5157,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-03",
+   "eur_per_sgd": 0.6373,
+   "sgd_per_eur": 1.5691,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-04",
+   "eur_per_sgd": 0.6458,
+   "sgd_per_eur": 1.5484,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-05",
+   "eur_per_sgd": 0.647,
+   "sgd_per_eur": 1.5456,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-06",
+   "eur_per_sgd": 0.6372,
+   "sgd_per_eur": 1.5693,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-07",
+   "eur_per_sgd": 0.6294,
+   "sgd_per_eur": 1.5889,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-08",
+   "eur_per_sgd": 0.6173,
+   "sgd_per_eur": 1.62,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-09",
+   "eur_per_sgd": 0.6208,
+   "sgd_per_eur": 1.6107,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-10",
+   "eur_per_sgd": 0.625,
+   "sgd_per_eur": 1.6,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-11",
+   "eur_per_sgd": 0.6274,
+   "sgd_per_eur": 1.5939,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-12",
+   "eur_per_sgd": 0.6168,
+   "sgd_per_eur": 1.6212,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-01",
+   "eur_per_sgd": 0.6195,
+   "sgd_per_eur": 1.6141,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-02",
+   "eur_per_sgd": 0.6226,
+   "sgd_per_eur": 1.6062,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-03",
+   "eur_per_sgd": 0.6255,
+   "sgd_per_eur": 1.5988,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-04",
+   "eur_per_sgd": 0.6264,
+   "sgd_per_eur": 1.5963,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-05",
+   "eur_per_sgd": 0.6194,
+   "sgd_per_eur": 1.6145,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-06",
+   "eur_per_sgd": 0.6224,
+   "sgd_per_eur": 1.6068,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-07",
+   "eur_per_sgd": 0.6245,
+   "sgd_per_eur": 1.6014,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-08",
+   "eur_per_sgd": 0.6268,
+   "sgd_per_eur": 1.5953,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-09",
+   "eur_per_sgd": 0.6302,
+   "sgd_per_eur": 1.5869,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-10",
+   "eur_per_sgd": 0.6379,
+   "sgd_per_eur": 1.5676,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-11",
+   "eur_per_sgd": 0.646,
+   "sgd_per_eur": 1.5479,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-12",
+   "eur_per_sgd": 0.649,
+   "sgd_per_eur": 1.5409,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-01",
+   "eur_per_sgd": 0.6538,
+   "sgd_per_eur": 1.5296,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-02",
+   "eur_per_sgd": 0.6546,
+   "sgd_per_eur": 1.5276,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-03",
+   "eur_per_sgd": 0.6677,
+   "sgd_per_eur": 1.4977,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-04",
+   "eur_per_sgd": 0.6765,
+   "sgd_per_eur": 1.4782,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-05",
+   "eur_per_sgd": 0.6837,
+   "sgd_per_eur": 1.4626,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-06",
+   "eur_per_sgd": 0.6833,
+   "sgd_per_eur": 1.4635,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-07",
+   "eur_per_sgd": 0.703,
+   "sgd_per_eur": 1.4224,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-08",
+   "eur_per_sgd": 0.7135,
+   "sgd_per_eur": 1.4016,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-09",
+   "eur_per_sgd": 0.7143,
+   "sgd_per_eur": 1.4,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-10",
+   "eur_per_sgd": 0.7136,
+   "sgd_per_eur": 1.4013,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-11",
+   "eur_per_sgd": 0.7075,
+   "sgd_per_eur": 1.4135,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-12",
+   "eur_per_sgd": 0.6991,
+   "sgd_per_eur": 1.4305,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-01",
+   "eur_per_sgd": 0.7004,
+   "sgd_per_eur": 1.4277,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-02",
+   "eur_per_sgd": 0.7012,
+   "sgd_per_eur": 1.4262,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-03",
+   "eur_per_sgd": 0.6965,
+   "sgd_per_eur": 1.4358,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-04",
+   "eur_per_sgd": 0.6853,
+   "sgd_per_eur": 1.4593,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-05",
+   "eur_per_sgd": 0.6865,
+   "sgd_per_eur": 1.4566,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-06",
+   "eur_per_sgd": 0.6857,
+   "sgd_per_eur": 1.4584,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-07",
+   "eur_per_sgd": 0.6776,
+   "sgd_per_eur": 1.4757,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-08",
+   "eur_per_sgd": 0.6787,
+   "sgd_per_eur": 1.4735,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-09",
+   "eur_per_sgd": 0.6868,
+   "sgd_per_eur": 1.4561,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-10",
+   "eur_per_sgd": 0.6916,
+   "sgd_per_eur": 1.4459,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-11",
+   "eur_per_sgd": 0.6861,
+   "sgd_per_eur": 1.4575,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-12",
+   "eur_per_sgd": 0.6879,
+   "sgd_per_eur": 1.4536,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-01",
+   "eur_per_sgd": 0.6863,
+   "sgd_per_eur": 1.4571,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-02",
+   "eur_per_sgd": 0.6892,
+   "sgd_per_eur": 1.451,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-03",
+   "eur_per_sgd": 0.6861,
+   "sgd_per_eur": 1.4576,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-04",
+   "eur_per_sgd": 0.6872,
+   "sgd_per_eur": 1.4551,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-05",
+   "eur_per_sgd": 0.6848,
+   "sgd_per_eur": 1.4602,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-06",
+   "eur_per_sgd": 0.6868,
+   "sgd_per_eur": 1.456,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-07",
+   "eur_per_sgd": 0.6848,
+   "sgd_per_eur": 1.4603,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-08",
+   "eur_per_sgd": 0.6897,
+   "sgd_per_eur": 1.4499,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-09",
+   "eur_per_sgd": 0.6947,
+   "sgd_per_eur": 1.4395,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-10",
+   "eur_per_sgd": 0.7004,
+   "sgd_per_eur": 1.4278,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-11",
+   "eur_per_sgd": 0.7037,
+   "sgd_per_eur": 1.421,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-12",
+   "eur_per_sgd": 0.7072,
+   "sgd_per_eur": 1.4141,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-01",
+   "eur_per_sgd": 0.7095,
+   "sgd_per_eur": 1.4095,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-02",
+   "eur_per_sgd": 0.7131,
+   "sgd_per_eur": 1.4023,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-03",
+   "eur_per_sgd": 0.6933,
+   "sgd_per_eur": 1.4423,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-04",
+   "eur_per_sgd": 0.6733,
+   "sgd_per_eur": 1.4853,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-05",
+   "eur_per_sgd": 0.6849,
+   "sgd_per_eur": 1.46,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-06",
+   "eur_per_sgd": 0.6766,
+   "sgd_per_eur": 1.478,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-07",
+   "eur_per_sgd": 0.6679,
+   "sgd_per_eur": 1.4973,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-08",
+   "eur_per_sgd": 0.6687,
+   "sgd_per_eur": 1.4954,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-09",
+   "eur_per_sgd": 0.6634,
+   "sgd_per_eur": 1.5073,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-10",
+   "eur_per_sgd": 0.663,
+   "sgd_per_eur": 1.5084,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-11",
+   "eur_per_sgd": 0.664,
+   "sgd_per_eur": 1.506,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-12",
+   "eur_per_sgd": 0.6614,
+   "sgd_per_eur": 1.5119,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-01",
+   "eur_per_sgd": 0.6655,
+   "sgd_per_eur": 1.5027,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-02",
+   "eur_per_sgd": 0.6673,
+   "sgd_per_eur": 1.4986,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-03",
+   "eur_per_sgd": 0.6759,
+   "sgd_per_eur": 1.4796,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-04",
+   "eur_per_sgd": 0.67,
+   "sgd_per_eur": 1.4925,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-05",
+   "eur_per_sgd": 0.6715,
+   "sgd_per_eur": 1.4892,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-06",
+   "eur_per_sgd": 0.6743,
+   "sgd_per_eur": 1.4831,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-07",
+   "eur_per_sgd": 0.6779,
+   "sgd_per_eur": 1.4752,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-08",
+   "eur_per_sgd": 0.6759,
+   "sgd_per_eur": 1.4794,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-09",
+   "eur_per_sgd": 0.6824,
+   "sgd_per_eur": 1.4654,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-10",
+   "eur_per_sgd": 0.697,
+   "sgd_per_eur": 1.4348,
+   "source": "SingStat M700051"
+  }
+ ]
+}

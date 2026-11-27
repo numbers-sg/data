@@ -1,0 +1,220 @@
+{
+ "dataset": "income-tax-rates",
+ "title": "Singapore resident income tax rates",
+ "description": "IRAS's progressive income tax rates for tax residents, band by band: where each band starts and ends, its rate, the tax on the whole band and the total tax up to its top, for Year of Assessment 2024 onwards.",
+ "question": "What are Singapore's resident income tax rates, band by band?",
+ "row": {
+  "is": "One band of chargeable income",
+  "time_key": null,
+  "primary_key": [
+   "band"
+  ]
+ },
+ "coverage": {},
+ "fields": [
+  {
+   "name": "band",
+   "type": "integer",
+   "unit": "band number",
+   "meaning": "The band, from the lowest income up.",
+   "nullable": false
+  },
+  {
+   "name": "from_sgd",
+   "type": "integer",
+   "unit": "S$ of chargeable income a year",
+   "meaning": "Where the band starts.",
+   "nullable": false
+  },
+  {
+   "name": "to_sgd",
+   "type": "integer",
+   "unit": "S$ of chargeable income a year",
+   "meaning": "Where the band ends; blank (the CSV says no limit) for the top band.",
+   "nullable": true,
+   "null_reasons": [
+    "not_applicable"
+   ],
+   "csv_placeholder": {
+    "cell": "no limit",
+    "means": "not_applicable"
+   }
+  },
+  {
+   "name": "rate_pct",
+   "type": "number",
+   "unit": "percent of the income in this band",
+   "meaning": "The tax rate on the part of chargeable income in this band.",
+   "nullable": false
+  },
+  {
+   "name": "tax_on_band_sgd",
+   "type": "integer",
+   "unit": "S$",
+   "meaning": "The tax on the whole band; blank for the open-ended top band.",
+   "nullable": true,
+   "null_reasons": [
+    "not_applicable"
+   ]
+  },
+  {
+   "name": "tax_up_to_band_top_sgd",
+   "type": "integer",
+   "unit": "S$",
+   "meaning": "The total tax on chargeable income up to the top of this band.",
+   "nullable": true,
+   "null_reasons": [
+    "not_applicable"
+   ]
+  },
+  {
+   "name": "applies",
+   "type": "string",
+   "meaning": "The Years of Assessment these rates apply to, in IRAS's terms.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Singapore Statutes Online: Income Tax Act 1947",
+   "url": "https://sso.agc.gov.sg/Act/ITA1947",
+   "terms": "Singapore Statutes Online: permission to reproduce legislation",
+   "terms_url": "https://sso.agc.gov.sg/Terms-of-Use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Singapore Statutes Online: Income Tax Act 1947, compiled by Numbers.sg (numbers.sg/tax/income-tax-rates/), CC BY 4.0",
+  "notices": [
+   "Singapore legislation is subject to copyright of the Singapore Government and is reproduced with the permission of the Attorney-General’s Chambers; check Singapore Statutes Online (sso.agc.gov.sg) for the latest version."
+  ]
+ },
+ "page_url": "https://numbers.sg/tax/income-tax-rates/",
+ "method": "https://numbers.sg/tax/income-tax-rates/#method",
+ "api": "https://numbers.sg/api/v1/income-tax-rates",
+ "hash": "sha256:d52ade1181e3c7c2d6e0b2c7d87f78ba77888fff1982504dfe4e8d2c754a5b4d",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "band": 1,
+   "from_sgd": 0,
+   "to_sgd": 20000,
+   "rate_pct": 0,
+   "tax_on_band_sgd": 0,
+   "tax_up_to_band_top_sgd": 0,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 2,
+   "from_sgd": 20000,
+   "to_sgd": 30000,
+   "rate_pct": 2,
+   "tax_on_band_sgd": 200,
+   "tax_up_to_band_top_sgd": 200,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 3,
+   "from_sgd": 30000,
+   "to_sgd": 40000,
+   "rate_pct": 3.5,
+   "tax_on_band_sgd": 350,
+   "tax_up_to_band_top_sgd": 550,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 4,
+   "from_sgd": 40000,
+   "to_sgd": 80000,
+   "rate_pct": 7,
+   "tax_on_band_sgd": 2800,
+   "tax_up_to_band_top_sgd": 3350,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 5,
+   "from_sgd": 80000,
+   "to_sgd": 120000,
+   "rate_pct": 11.5,
+   "tax_on_band_sgd": 4600,
+   "tax_up_to_band_top_sgd": 7950,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 6,
+   "from_sgd": 120000,
+   "to_sgd": 160000,
+   "rate_pct": 15,
+   "tax_on_band_sgd": 6000,
+   "tax_up_to_band_top_sgd": 13950,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 7,
+   "from_sgd": 160000,
+   "to_sgd": 200000,
+   "rate_pct": 18,
+   "tax_on_band_sgd": 7200,
+   "tax_up_to_band_top_sgd": 21150,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 8,
+   "from_sgd": 200000,
+   "to_sgd": 240000,
+   "rate_pct": 19,
+   "tax_on_band_sgd": 7600,
+   "tax_up_to_band_top_sgd": 28750,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 9,
+   "from_sgd": 240000,
+   "to_sgd": 280000,
+   "rate_pct": 19.5,
+   "tax_on_band_sgd": 7800,
+   "tax_up_to_band_top_sgd": 36550,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 10,
+   "from_sgd": 280000,
+   "to_sgd": 320000,
+   "rate_pct": 20,
+   "tax_on_band_sgd": 8000,
+   "tax_up_to_band_top_sgd": 44550,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 11,
+   "from_sgd": 320000,
+   "to_sgd": 500000,
+   "rate_pct": 22,
+   "tax_on_band_sgd": 39600,
+   "tax_up_to_band_top_sgd": 84150,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 12,
+   "from_sgd": 500000,
+   "to_sgd": 1000000,
+   "rate_pct": 23,
+   "tax_on_band_sgd": 115000,
+   "tax_up_to_band_top_sgd": 199150,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  },
+  {
+   "band": 13,
+   "from_sgd": 1000000,
+   "to_sgd": null,
+   "rate_pct": 24,
+   "tax_on_band_sgd": null,
+   "tax_up_to_band_top_sgd": null,
+   "applies": "YA 2024 onwards (YA 2026, YA 2027)"
+  }
+ ]
+}

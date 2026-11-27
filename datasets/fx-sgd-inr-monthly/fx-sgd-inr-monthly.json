@@ -1,0 +1,1571 @@
+{
+ "dataset": "fx-sgd-inr-monthly",
+ "title": "Singapore dollar to Indian rupee, monthly averages since 2006",
+ "description": "SingStat's monthly average exchange rate for the rupee (table M700051, averages of MAS's figures) since January 2006, both ways round.",
+ "question": "What was the average rupee rate for the Singapore dollar each month since 2006?",
+ "row": {
+  "is": "One month (the average of the month)",
+  "time_key": "month",
+  "primary_key": [
+   "month"
+  ]
+ },
+ "coverage": {
+  "from": "2006-01",
+  "to": "2026-10"
+ },
+ "fields": [
+  {
+   "name": "month",
+   "type": "month",
+   "meaning": "The month averaged.",
+   "nullable": false
+  },
+  {
+   "name": "inr_per_sgd",
+   "type": "number",
+   "unit": "rupees per S$1",
+   "meaning": "Rupees per S$1: SingStat's S$ figure, turned round.",
+   "nullable": false
+  },
+  {
+   "name": "sgd_per_100_inr",
+   "type": "number",
+   "unit": "S$ per 100 rupees",
+   "meaning": "S$ per 100 rupees: SingStat's monthly average, in the daily table's unit.",
+   "nullable": false
+  },
+  {
+   "name": "source",
+   "type": "string",
+   "meaning": "Where the month's figure comes from.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Department of Statistics (SingStat)",
+   "url": "https://www.singstat.gov.sg/",
+   "terms": "SingStat terms of use",
+   "terms_url": "https://www.singstat.gov.sg/terms-of-use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Department of Statistics, compiled by Numbers.sg (numbers.sg/currency/sgd-to-inr/), CC BY 4.0",
+  "notices": [
+   "Source: Singapore Department of Statistics"
+  ]
+ },
+ "page_url": "https://numbers.sg/currency/sgd-to-inr/",
+ "method": "https://numbers.sg/currency/sgd-to-inr/#method",
+ "api": "https://numbers.sg/api/v1/fx-sgd-inr-monthly",
+ "hash": "sha256:8088f4837654487e319f421373257af496c2f4fc0e359efc0696a36c9c7291d8",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "month": "2006-01",
+   "inr_per_sgd": 27.1776,
+   "sgd_per_100_inr": 3.6795,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-02",
+   "inr_per_sgd": 27.1976,
+   "sgd_per_100_inr": 3.6768,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-03",
+   "inr_per_sgd": 27.4266,
+   "sgd_per_100_inr": 3.6461,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-04",
+   "inr_per_sgd": 28.0442,
+   "sgd_per_100_inr": 3.5658,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-05",
+   "inr_per_sgd": 28.7902,
+   "sgd_per_100_inr": 3.4734,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-06",
+   "inr_per_sgd": 28.9662,
+   "sgd_per_100_inr": 3.4523,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-07",
+   "inr_per_sgd": 29.3393,
+   "sgd_per_100_inr": 3.4084,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-08",
+   "inr_per_sgd": 29.5308,
+   "sgd_per_100_inr": 3.3863,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-09",
+   "inr_per_sgd": 29.2107,
+   "sgd_per_100_inr": 3.4234,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-10",
+   "inr_per_sgd": 28.8002,
+   "sgd_per_100_inr": 3.4722,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-11",
+   "inr_per_sgd": 28.8077,
+   "sgd_per_100_inr": 3.4713,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-12",
+   "inr_per_sgd": 28.9737,
+   "sgd_per_100_inr": 3.4514,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-01",
+   "inr_per_sgd": 28.8151,
+   "sgd_per_100_inr": 3.4704,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-02",
+   "inr_per_sgd": 28.7836,
+   "sgd_per_100_inr": 3.4742,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-03",
+   "inr_per_sgd": 28.8467,
+   "sgd_per_100_inr": 3.4666,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-04",
+   "inr_per_sgd": 27.8606,
+   "sgd_per_100_inr": 3.5893,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-05",
+   "inr_per_sgd": 26.8097,
+   "sgd_per_100_inr": 3.73,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-06",
+   "inr_per_sgd": 26.5407,
+   "sgd_per_100_inr": 3.7678,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-07",
+   "inr_per_sgd": 26.6695,
+   "sgd_per_100_inr": 3.7496,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-08",
+   "inr_per_sgd": 26.8118,
+   "sgd_per_100_inr": 3.7297,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-09",
+   "inr_per_sgd": 26.683,
+   "sgd_per_100_inr": 3.7477,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-10",
+   "inr_per_sgd": 26.9556,
+   "sgd_per_100_inr": 3.7098,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-11",
+   "inr_per_sgd": 27.2524,
+   "sgd_per_100_inr": 3.6694,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-12",
+   "inr_per_sgd": 27.2175,
+   "sgd_per_100_inr": 3.6741,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-01",
+   "inr_per_sgd": 27.5035,
+   "sgd_per_100_inr": 3.6359,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-02",
+   "inr_per_sgd": 28.1635,
+   "sgd_per_100_inr": 3.5507,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-03",
+   "inr_per_sgd": 29.1172,
+   "sgd_per_100_inr": 3.4344,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-04",
+   "inr_per_sgd": 29.3212,
+   "sgd_per_100_inr": 3.4105,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-05",
+   "inr_per_sgd": 30.8147,
+   "sgd_per_100_inr": 3.2452,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-06",
+   "inr_per_sgd": 31.3116,
+   "sgd_per_100_inr": 3.1937,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-07",
+   "inr_per_sgd": 31.5338,
+   "sgd_per_100_inr": 3.1712,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-08",
+   "inr_per_sgd": 30.6222,
+   "sgd_per_100_inr": 3.2656,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-09",
+   "inr_per_sgd": 31.8218,
+   "sgd_per_100_inr": 3.1425,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-10",
+   "inr_per_sgd": 32.8947,
+   "sgd_per_100_inr": 3.04,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-11",
+   "inr_per_sgd": 32.5045,
+   "sgd_per_100_inr": 3.0765,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-12",
+   "inr_per_sgd": 32.9261,
+   "sgd_per_100_inr": 3.0371,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-01",
+   "inr_per_sgd": 32.8062,
+   "sgd_per_100_inr": 3.0482,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-02",
+   "inr_per_sgd": 32.4317,
+   "sgd_per_100_inr": 3.0834,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-03",
+   "inr_per_sgd": 33.4381,
+   "sgd_per_100_inr": 2.9906,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-04",
+   "inr_per_sgd": 33.2745,
+   "sgd_per_100_inr": 3.0053,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-05",
+   "inr_per_sgd": 33.2171,
+   "sgd_per_100_inr": 3.0105,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-06",
+   "inr_per_sgd": 32.885,
+   "sgd_per_100_inr": 3.0409,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-07",
+   "inr_per_sgd": 33.4102,
+   "sgd_per_100_inr": 2.9931,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-08",
+   "inr_per_sgd": 33.539,
+   "sgd_per_100_inr": 2.9816,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-09",
+   "inr_per_sgd": 33.9801,
+   "sgd_per_100_inr": 2.9429,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-10",
+   "inr_per_sgd": 33.3957,
+   "sgd_per_100_inr": 2.9944,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-11",
+   "inr_per_sgd": 33.5177,
+   "sgd_per_100_inr": 2.9835,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-12",
+   "inr_per_sgd": 33.3934,
+   "sgd_per_100_inr": 2.9946,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-01",
+   "inr_per_sgd": 32.9012,
+   "sgd_per_100_inr": 3.0394,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-02",
+   "inr_per_sgd": 32.7976,
+   "sgd_per_100_inr": 3.049,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-03",
+   "inr_per_sgd": 32.495,
+   "sgd_per_100_inr": 3.0774,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-04",
+   "inr_per_sgd": 32.1958,
+   "sgd_per_100_inr": 3.106,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-05",
+   "inr_per_sgd": 32.8601,
+   "sgd_per_100_inr": 3.0432,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-06",
+   "inr_per_sgd": 33.2823,
+   "sgd_per_100_inr": 3.0046,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-07",
+   "inr_per_sgd": 33.9974,
+   "sgd_per_100_inr": 2.9414,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-08",
+   "inr_per_sgd": 34.3418,
+   "sgd_per_100_inr": 2.9119,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-09",
+   "inr_per_sgd": 34.4341,
+   "sgd_per_100_inr": 2.9041,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-10",
+   "inr_per_sgd": 34.0472,
+   "sgd_per_100_inr": 2.9371,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-11",
+   "inr_per_sgd": 34.6584,
+   "sgd_per_100_inr": 2.8853,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-12",
+   "inr_per_sgd": 34.5602,
+   "sgd_per_100_inr": 2.8935,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-01",
+   "inr_per_sgd": 35.2373,
+   "sgd_per_100_inr": 2.8379,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-02",
+   "inr_per_sgd": 35.553,
+   "sgd_per_100_inr": 2.8127,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-03",
+   "inr_per_sgd": 35.4597,
+   "sgd_per_100_inr": 2.8201,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-04",
+   "inr_per_sgd": 35.5442,
+   "sgd_per_100_inr": 2.8134,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-05",
+   "inr_per_sgd": 36.3042,
+   "sgd_per_100_inr": 2.7545,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-06",
+   "inr_per_sgd": 36.3319,
+   "sgd_per_100_inr": 2.7524,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-07",
+   "inr_per_sgd": 36.4937,
+   "sgd_per_100_inr": 2.7402,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-08",
+   "inr_per_sgd": 37.4518,
+   "sgd_per_100_inr": 2.6701,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-09",
+   "inr_per_sgd": 38.0851,
+   "sgd_per_100_inr": 2.6257,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-10",
+   "inr_per_sgd": 38.5,
+   "sgd_per_100_inr": 2.5974,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-11",
+   "inr_per_sgd": 39.3205,
+   "sgd_per_100_inr": 2.5432,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-12",
+   "inr_per_sgd": 40.568,
+   "sgd_per_100_inr": 2.465,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-01",
+   "inr_per_sgd": 40.0609,
+   "sgd_per_100_inr": 2.4962,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-02",
+   "inr_per_sgd": 39.2465,
+   "sgd_per_100_inr": 2.548,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-03",
+   "inr_per_sgd": 40,
+   "sgd_per_100_inr": 2.5,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-04",
+   "inr_per_sgd": 41.295,
+   "sgd_per_100_inr": 2.4216,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-05",
+   "inr_per_sgd": 43.0886,
+   "sgd_per_100_inr": 2.3208,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-06",
+   "inr_per_sgd": 43.7905,
+   "sgd_per_100_inr": 2.2836,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-07",
+   "inr_per_sgd": 43.9406,
+   "sgd_per_100_inr": 2.2758,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-08",
+   "inr_per_sgd": 44.4998,
+   "sgd_per_100_inr": 2.2472,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-09",
+   "inr_per_sgd": 44.2713,
+   "sgd_per_100_inr": 2.2588,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-10",
+   "inr_per_sgd": 43.2788,
+   "sgd_per_100_inr": 2.3106,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-11",
+   "inr_per_sgd": 44.7968,
+   "sgd_per_100_inr": 2.2323,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-12",
+   "inr_per_sgd": 44.7447,
+   "sgd_per_100_inr": 2.2349,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-01",
+   "inr_per_sgd": 44.1521,
+   "sgd_per_100_inr": 2.2649,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-02",
+   "inr_per_sgd": 43.4443,
+   "sgd_per_100_inr": 2.3018,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-03",
+   "inr_per_sgd": 43.6414,
+   "sgd_per_100_inr": 2.2914,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-04",
+   "inr_per_sgd": 43.8943,
+   "sgd_per_100_inr": 2.2782,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-05",
+   "inr_per_sgd": 44.0296,
+   "sgd_per_100_inr": 2.2712,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-06",
+   "inr_per_sgd": 46.2642,
+   "sgd_per_100_inr": 2.1615,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-07",
+   "inr_per_sgd": 47.1098,
+   "sgd_per_100_inr": 2.1227,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-08",
+   "inr_per_sgd": 49.4462,
+   "sgd_per_100_inr": 2.0224,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-09",
+   "inr_per_sgd": 50.5204,
+   "sgd_per_100_inr": 1.9794,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-10",
+   "inr_per_sgd": 49.5786,
+   "sgd_per_100_inr": 2.017,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-11",
+   "inr_per_sgd": 50.1655,
+   "sgd_per_100_inr": 1.9934,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-12",
+   "inr_per_sgd": 49.1763,
+   "sgd_per_100_inr": 2.0335,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-01",
+   "inr_per_sgd": 48.7662,
+   "sgd_per_100_inr": 2.0506,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-02",
+   "inr_per_sgd": 49.128,
+   "sgd_per_100_inr": 2.0355,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-03",
+   "inr_per_sgd": 48.1278,
+   "sgd_per_100_inr": 2.0778,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-04",
+   "inr_per_sgd": 48.0631,
+   "sgd_per_100_inr": 2.0806,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-05",
+   "inr_per_sgd": 47.3575,
+   "sgd_per_100_inr": 2.1116,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-06",
+   "inr_per_sgd": 47.719,
+   "sgd_per_100_inr": 2.0956,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-07",
+   "inr_per_sgd": 48.3068,
+   "sgd_per_100_inr": 2.0701,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-08",
+   "inr_per_sgd": 48.7424,
+   "sgd_per_100_inr": 2.0516,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-09",
+   "inr_per_sgd": 48.2021,
+   "sgd_per_100_inr": 2.0746,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-10",
+   "inr_per_sgd": 48.1672,
+   "sgd_per_100_inr": 2.0761,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-11",
+   "inr_per_sgd": 47.6009,
+   "sgd_per_100_inr": 2.1008,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-12",
+   "inr_per_sgd": 47.6917,
+   "sgd_per_100_inr": 2.0968,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-01",
+   "inr_per_sgd": 46.4684,
+   "sgd_per_100_inr": 2.152,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-02",
+   "inr_per_sgd": 45.7917,
+   "sgd_per_100_inr": 2.1838,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-03",
+   "inr_per_sgd": 45.3597,
+   "sgd_per_100_inr": 2.2046,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-04",
+   "inr_per_sgd": 46.4339,
+   "sgd_per_100_inr": 2.1536,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-05",
+   "inr_per_sgd": 47.7829,
+   "sgd_per_100_inr": 2.0928,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-06",
+   "inr_per_sgd": 47.4518,
+   "sgd_per_100_inr": 2.1074,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-07",
+   "inr_per_sgd": 46.7814,
+   "sgd_per_100_inr": 2.1376,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-08",
+   "inr_per_sgd": 46.5679,
+   "sgd_per_100_inr": 2.1474,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-09",
+   "inr_per_sgd": 46.8296,
+   "sgd_per_100_inr": 2.1354,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-10",
+   "inr_per_sgd": 46.4253,
+   "sgd_per_100_inr": 2.154,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-11",
+   "inr_per_sgd": 46.8011,
+   "sgd_per_100_inr": 2.1367,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-12",
+   "inr_per_sgd": 47.2679,
+   "sgd_per_100_inr": 2.1156,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-01",
+   "inr_per_sgd": 46.9572,
+   "sgd_per_100_inr": 2.1296,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-02",
+   "inr_per_sgd": 48.5508,
+   "sgd_per_100_inr": 2.0597,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-03",
+   "inr_per_sgd": 48.752,
+   "sgd_per_100_inr": 2.0512,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-04",
+   "inr_per_sgd": 49.2223,
+   "sgd_per_100_inr": 2.0316,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-05",
+   "inr_per_sgd": 48.8353,
+   "sgd_per_100_inr": 2.0477,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-06",
+   "inr_per_sgd": 49.6401,
+   "sgd_per_100_inr": 2.0145,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-07",
+   "inr_per_sgd": 49.7438,
+   "sgd_per_100_inr": 2.0103,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-08",
+   "inr_per_sgd": 49.6746,
+   "sgd_per_100_inr": 2.0131,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-09",
+   "inr_per_sgd": 49.0966,
+   "sgd_per_100_inr": 2.0368,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-10",
+   "inr_per_sgd": 48.2393,
+   "sgd_per_100_inr": 2.073,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-11",
+   "inr_per_sgd": 47.9501,
+   "sgd_per_100_inr": 2.0855,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-12",
+   "inr_per_sgd": 47.2813,
+   "sgd_per_100_inr": 2.115,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-01",
+   "inr_per_sgd": 47.6508,
+   "sgd_per_100_inr": 2.0986,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-02",
+   "inr_per_sgd": 47.3844,
+   "sgd_per_100_inr": 2.1104,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-03",
+   "inr_per_sgd": 46.8757,
+   "sgd_per_100_inr": 2.1333,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-04",
+   "inr_per_sgd": 46.1723,
+   "sgd_per_100_inr": 2.1658,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-05",
+   "inr_per_sgd": 46.1872,
+   "sgd_per_100_inr": 2.1651,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-06",
+   "inr_per_sgd": 46.5744,
+   "sgd_per_100_inr": 2.1471,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-07",
+   "inr_per_sgd": 46.9903,
+   "sgd_per_100_inr": 2.1281,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-08",
+   "inr_per_sgd": 47.0367,
+   "sgd_per_100_inr": 2.126,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-09",
+   "inr_per_sgd": 47.7464,
+   "sgd_per_100_inr": 2.0944,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-10",
+   "inr_per_sgd": 47.84,
+   "sgd_per_100_inr": 2.0903,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-11",
+   "inr_per_sgd": 47.8263,
+   "sgd_per_100_inr": 2.0909,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-12",
+   "inr_per_sgd": 47.7441,
+   "sgd_per_100_inr": 2.0945,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-01",
+   "inr_per_sgd": 48.1325,
+   "sgd_per_100_inr": 2.0776,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-02",
+   "inr_per_sgd": 48.7948,
+   "sgd_per_100_inr": 2.0494,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-03",
+   "inr_per_sgd": 49.4633,
+   "sgd_per_100_inr": 2.0217,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-04",
+   "inr_per_sgd": 49.9151,
+   "sgd_per_100_inr": 2.0034,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-05",
+   "inr_per_sgd": 50.4286,
+   "sgd_per_100_inr": 1.983,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-06",
+   "inr_per_sgd": 50.3043,
+   "sgd_per_100_inr": 1.9879,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-07",
+   "inr_per_sgd": 50.3829,
+   "sgd_per_100_inr": 1.9848,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-08",
+   "inr_per_sgd": 50.8311,
+   "sgd_per_100_inr": 1.9673,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-09",
+   "inr_per_sgd": 52.6343,
+   "sgd_per_100_inr": 1.8999,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-10",
+   "inr_per_sgd": 53.3646,
+   "sgd_per_100_inr": 1.8739,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-11",
+   "inr_per_sgd": 52.1948,
+   "sgd_per_100_inr": 1.9159,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-12",
+   "inr_per_sgd": 51.6476,
+   "sgd_per_100_inr": 1.9362,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-01",
+   "inr_per_sgd": 52.1458,
+   "sgd_per_100_inr": 1.9177,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-02",
+   "inr_per_sgd": 52.5928,
+   "sgd_per_100_inr": 1.9014,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-03",
+   "inr_per_sgd": 51.3532,
+   "sgd_per_100_inr": 1.9473,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-04",
+   "inr_per_sgd": 51.2111,
+   "sgd_per_100_inr": 1.9527,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-05",
+   "inr_per_sgd": 50.9087,
+   "sgd_per_100_inr": 1.9643,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-06",
+   "inr_per_sgd": 50.9528,
+   "sgd_per_100_inr": 1.9626,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-07",
+   "inr_per_sgd": 50.5638,
+   "sgd_per_100_inr": 1.9777,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-08",
+   "inr_per_sgd": 51.3558,
+   "sgd_per_100_inr": 1.9472,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-09",
+   "inr_per_sgd": 51.725,
+   "sgd_per_100_inr": 1.9333,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-10",
+   "inr_per_sgd": 51.8027,
+   "sgd_per_100_inr": 1.9304,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-11",
+   "inr_per_sgd": 52.4907,
+   "sgd_per_100_inr": 1.9051,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-12",
+   "inr_per_sgd": 52.4356,
+   "sgd_per_100_inr": 1.9071,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-01",
+   "inr_per_sgd": 52.7788,
+   "sgd_per_100_inr": 1.8947,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-02",
+   "inr_per_sgd": 51.4456,
+   "sgd_per_100_inr": 1.9438,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-03",
+   "inr_per_sgd": 52.5431,
+   "sgd_per_100_inr": 1.9032,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-04",
+   "inr_per_sgd": 53.4731,
+   "sgd_per_100_inr": 1.8701,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-05",
+   "inr_per_sgd": 53.3447,
+   "sgd_per_100_inr": 1.8746,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-06",
+   "inr_per_sgd": 54.3124,
+   "sgd_per_100_inr": 1.8412,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-07",
+   "inr_per_sgd": 53.9928,
+   "sgd_per_100_inr": 1.8521,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-08",
+   "inr_per_sgd": 54.4989,
+   "sgd_per_100_inr": 1.8349,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-09",
+   "inr_per_sgd": 53.8329,
+   "sgd_per_100_inr": 1.8576,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-10",
+   "inr_per_sgd": 54.0687,
+   "sgd_per_100_inr": 1.8495,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-11",
+   "inr_per_sgd": 55.0812,
+   "sgd_per_100_inr": 1.8155,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-12",
+   "inr_per_sgd": 55.2761,
+   "sgd_per_100_inr": 1.8091,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-01",
+   "inr_per_sgd": 55.1511,
+   "sgd_per_100_inr": 1.8132,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-02",
+   "inr_per_sgd": 54.8155,
+   "sgd_per_100_inr": 1.8243,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-03",
+   "inr_per_sgd": 54.2594,
+   "sgd_per_100_inr": 1.843,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-04",
+   "inr_per_sgd": 55.8503,
+   "sgd_per_100_inr": 1.7905,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-05",
+   "inr_per_sgd": 55.0843,
+   "sgd_per_100_inr": 1.8154,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-06",
+   "inr_per_sgd": 55.1602,
+   "sgd_per_100_inr": 1.8129,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-07",
+   "inr_per_sgd": 55.0206,
+   "sgd_per_100_inr": 1.8175,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-08",
+   "inr_per_sgd": 54.7375,
+   "sgd_per_100_inr": 1.8269,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-09",
+   "inr_per_sgd": 54.6001,
+   "sgd_per_100_inr": 1.8315,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-10",
+   "inr_per_sgd": 55.4539,
+   "sgd_per_100_inr": 1.8033,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-11",
+   "inr_per_sgd": 54.8697,
+   "sgd_per_100_inr": 1.8225,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-12",
+   "inr_per_sgd": 55.2975,
+   "sgd_per_100_inr": 1.8084,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-01",
+   "inr_per_sgd": 55.1146,
+   "sgd_per_100_inr": 1.8144,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-02",
+   "inr_per_sgd": 55.7165,
+   "sgd_per_100_inr": 1.7948,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-03",
+   "inr_per_sgd": 56.0601,
+   "sgd_per_100_inr": 1.7838,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-04",
+   "inr_per_sgd": 55.7787,
+   "sgd_per_100_inr": 1.7928,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-05",
+   "inr_per_sgd": 55.9816,
+   "sgd_per_100_inr": 1.7863,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-06",
+   "inr_per_sgd": 56.4016,
+   "sgd_per_100_inr": 1.773,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-07",
+   "inr_per_sgd": 57.0516,
+   "sgd_per_100_inr": 1.7528,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-08",
+   "inr_per_sgd": 57.4581,
+   "sgd_per_100_inr": 1.7404,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-09",
+   "inr_per_sgd": 56.744,
+   "sgd_per_100_inr": 1.7623,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-10",
+   "inr_per_sgd": 57.7401,
+   "sgd_per_100_inr": 1.7319,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-11",
+   "inr_per_sgd": 58.9449,
+   "sgd_per_100_inr": 1.6965,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-12",
+   "inr_per_sgd": 60.9645,
+   "sgd_per_100_inr": 1.6403,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-01",
+   "inr_per_sgd": 61.7475,
+   "sgd_per_100_inr": 1.6195,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-02",
+   "inr_per_sgd": 62.054,
+   "sgd_per_100_inr": 1.6115,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-03",
+   "inr_per_sgd": 61.3535,
+   "sgd_per_100_inr": 1.6299,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-04",
+   "inr_per_sgd": 61.5612,
+   "sgd_per_100_inr": 1.6244,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-05",
+   "inr_per_sgd": 61.4326,
+   "sgd_per_100_inr": 1.6278,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-06",
+   "inr_per_sgd": 61.0836,
+   "sgd_per_100_inr": 1.6371,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-07",
+   "inr_per_sgd": 61.5309,
+   "sgd_per_100_inr": 1.6252,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-08",
+   "inr_per_sgd": 61.3083,
+   "sgd_per_100_inr": 1.6311,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-09",
+   "inr_per_sgd": 60.9088,
+   "sgd_per_100_inr": 1.6418,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-10",
+   "inr_per_sgd": 60.7755,
+   "sgd_per_100_inr": 1.6454,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-11",
+   "inr_per_sgd": 61.7589,
+   "sgd_per_100_inr": 1.6192,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-12",
+   "inr_per_sgd": 62.4922,
+   "sgd_per_100_inr": 1.6002,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-01",
+   "inr_per_sgd": 62.2432,
+   "sgd_per_100_inr": 1.6066,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-02",
+   "inr_per_sgd": 61.7017,
+   "sgd_per_100_inr": 1.6207,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-03",
+   "inr_per_sgd": 61.931,
+   "sgd_per_100_inr": 1.6147,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-04",
+   "inr_per_sgd": 61.4666,
+   "sgd_per_100_inr": 1.6269,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-05",
+   "inr_per_sgd": 61.7055,
+   "sgd_per_100_inr": 1.6206,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-06",
+   "inr_per_sgd": 61.7436,
+   "sgd_per_100_inr": 1.6196,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-07",
+   "inr_per_sgd": 62.0578,
+   "sgd_per_100_inr": 1.6114,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-08",
+   "inr_per_sgd": 63.7471,
+   "sgd_per_100_inr": 1.5687,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-09",
+   "inr_per_sgd": 64.6412,
+   "sgd_per_100_inr": 1.547,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-10",
+   "inr_per_sgd": 64.1807,
+   "sgd_per_100_inr": 1.5581,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-11",
+   "inr_per_sgd": 63.1114,
+   "sgd_per_100_inr": 1.5845,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-12",
+   "inr_per_sgd": 62.9247,
+   "sgd_per_100_inr": 1.5892,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-01",
+   "inr_per_sgd": 63.2951,
+   "sgd_per_100_inr": 1.5799,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-02",
+   "inr_per_sgd": 64.6245,
+   "sgd_per_100_inr": 1.5474,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-03",
+   "inr_per_sgd": 64.8593,
+   "sgd_per_100_inr": 1.5418,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-04",
+   "inr_per_sgd": 64.6162,
+   "sgd_per_100_inr": 1.5476,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-05",
+   "inr_per_sgd": 65.8155,
+   "sgd_per_100_inr": 1.5194,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-06",
+   "inr_per_sgd": 66.8896,
+   "sgd_per_100_inr": 1.495,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-07",
+   "inr_per_sgd": 67.2269,
+   "sgd_per_100_inr": 1.4875,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-08",
+   "inr_per_sgd": 68.0735,
+   "sgd_per_100_inr": 1.469,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-09",
+   "inr_per_sgd": 68.7096,
+   "sgd_per_100_inr": 1.4554,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-10",
+   "inr_per_sgd": 68.2454,
+   "sgd_per_100_inr": 1.4653,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-11",
+   "inr_per_sgd": 68.1524,
+   "sgd_per_100_inr": 1.4673,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-12",
+   "inr_per_sgd": 69.6864,
+   "sgd_per_100_inr": 1.435,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-01",
+   "inr_per_sgd": 70.8868,
+   "sgd_per_100_inr": 1.4107,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-02",
+   "inr_per_sgd": 71.5973,
+   "sgd_per_100_inr": 1.3967,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-03",
+   "inr_per_sgd": 72.5058,
+   "sgd_per_100_inr": 1.3792,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-04",
+   "inr_per_sgd": 73.2279,
+   "sgd_per_100_inr": 1.3656,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-05",
+   "inr_per_sgd": 74.9457,
+   "sgd_per_100_inr": 1.3343,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-06",
+   "inr_per_sgd": 73.6703,
+   "sgd_per_100_inr": 1.3574,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-07",
+   "inr_per_sgd": 74.162,
+   "sgd_per_100_inr": 1.3484,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-08",
+   "inr_per_sgd": 74.7775,
+   "sgd_per_100_inr": 1.3373,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-09",
+   "inr_per_sgd": 74.9963,
+   "sgd_per_100_inr": 1.3334,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-10",
+   "inr_per_sgd": 74.5935,
+   "sgd_per_100_inr": 1.3406,
+   "source": "SingStat M700051"
+  }
+ ]
+}

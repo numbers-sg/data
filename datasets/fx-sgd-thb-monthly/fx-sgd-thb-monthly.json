@@ -1,0 +1,1787 @@
+{
+ "dataset": "fx-sgd-thb-monthly",
+ "title": "Singapore dollar to Thai baht, monthly averages since 2003",
+ "description": "SingStat's monthly average exchange rate for the baht (table M700051, averages of MAS's figures) since January 2003, both ways round.",
+ "question": "What was the average baht rate for the Singapore dollar each month since 2003?",
+ "row": {
+  "is": "One month (the average of the month)",
+  "time_key": "month",
+  "primary_key": [
+   "month"
+  ]
+ },
+ "coverage": {
+  "from": "2003-01",
+  "to": "2026-10"
+ },
+ "fields": [
+  {
+   "name": "month",
+   "type": "month",
+   "meaning": "The month averaged.",
+   "nullable": false
+  },
+  {
+   "name": "thb_per_sgd",
+   "type": "number",
+   "unit": "baht per S$1",
+   "meaning": "Baht per S$1: SingStat's S$ figure, turned round.",
+   "nullable": false
+  },
+  {
+   "name": "sgd_per_1000_thb",
+   "type": "number",
+   "unit": "S$ per 1,000 baht",
+   "meaning": "S$ per 1,000 baht: SingStat's monthly average, in the daily table's unit.",
+   "nullable": false
+  },
+  {
+   "name": "source",
+   "type": "string",
+   "meaning": "Where the month's figure comes from.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Department of Statistics (SingStat)",
+   "url": "https://www.singstat.gov.sg/",
+   "terms": "SingStat terms of use",
+   "terms_url": "https://www.singstat.gov.sg/terms-of-use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Department of Statistics, compiled by Numbers.sg (numbers.sg/currency/sgd-to-thb/), CC BY 4.0",
+  "notices": [
+   "Source: Singapore Department of Statistics"
+  ]
+ },
+ "page_url": "https://numbers.sg/currency/sgd-to-thb/",
+ "method": "https://numbers.sg/currency/sgd-to-thb/#method",
+ "api": "https://numbers.sg/api/v1/fx-sgd-thb-monthly",
+ "hash": "sha256:fea9bd11c5313704a53c88e090add3e0fe65d7321bc034dfe3f6b3938924df6b",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "month": "2003-01",
+   "thb_per_sgd": 24.6488,
+   "sgd_per_1000_thb": 40.57,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-02",
+   "thb_per_sgd": 24.5664,
+   "sgd_per_1000_thb": 40.706,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-03",
+   "thb_per_sgd": 24.3813,
+   "sgd_per_1000_thb": 41.015,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-04",
+   "thb_per_sgd": 24.1517,
+   "sgd_per_1000_thb": 41.405,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-05",
+   "thb_per_sgd": 24.3232,
+   "sgd_per_1000_thb": 41.113,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-06",
+   "thb_per_sgd": 24.0108,
+   "sgd_per_1000_thb": 41.648,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-07",
+   "thb_per_sgd": 23.801,
+   "sgd_per_1000_thb": 42.015,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-08",
+   "thb_per_sgd": 23.7665,
+   "sgd_per_1000_thb": 42.076,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-09",
+   "thb_per_sgd": 23.1932,
+   "sgd_per_1000_thb": 43.116,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-10",
+   "thb_per_sgd": 22.9079,
+   "sgd_per_1000_thb": 43.653,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-11",
+   "thb_per_sgd": 23.0814,
+   "sgd_per_1000_thb": 43.325,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-12",
+   "thb_per_sgd": 23.2234,
+   "sgd_per_1000_thb": 43.06,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-01",
+   "thb_per_sgd": 23.0282,
+   "sgd_per_1000_thb": 43.425,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-02",
+   "thb_per_sgd": 23.1846,
+   "sgd_per_1000_thb": 43.132,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-03",
+   "thb_per_sgd": 23.2083,
+   "sgd_per_1000_thb": 43.088,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-04",
+   "thb_per_sgd": 23.4077,
+   "sgd_per_1000_thb": 42.721,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-05",
+   "thb_per_sgd": 23.6838,
+   "sgd_per_1000_thb": 42.223,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-06",
+   "thb_per_sgd": 23.8271,
+   "sgd_per_1000_thb": 41.969,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-07",
+   "thb_per_sgd": 23.9091,
+   "sgd_per_1000_thb": 41.825,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-08",
+   "thb_per_sgd": 24.2055,
+   "sgd_per_1000_thb": 41.313,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-09",
+   "thb_per_sgd": 24.4529,
+   "sgd_per_1000_thb": 40.895,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-10",
+   "thb_per_sgd": 24.6221,
+   "sgd_per_1000_thb": 40.614,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-11",
+   "thb_per_sgd": 24.4242,
+   "sgd_per_1000_thb": 40.943,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-12",
+   "thb_per_sgd": 23.8869,
+   "sgd_per_1000_thb": 41.864,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-01",
+   "thb_per_sgd": 23.6681,
+   "sgd_per_1000_thb": 42.251,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-02",
+   "thb_per_sgd": 23.483,
+   "sgd_per_1000_thb": 42.584,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-03",
+   "thb_per_sgd": 23.6625,
+   "sgd_per_1000_thb": 42.261,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-04",
+   "thb_per_sgd": 23.9212,
+   "sgd_per_1000_thb": 41.804,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-05",
+   "thb_per_sgd": 24.1109,
+   "sgd_per_1000_thb": 41.475,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-06",
+   "thb_per_sgd": 24.4816,
+   "sgd_per_1000_thb": 40.847,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-07",
+   "thb_per_sgd": 24.7776,
+   "sgd_per_1000_thb": 40.359,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-08",
+   "thb_per_sgd": 24.7721,
+   "sgd_per_1000_thb": 40.368,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-09",
+   "thb_per_sgd": 24.4236,
+   "sgd_per_1000_thb": 40.944,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-10",
+   "thb_per_sgd": 24.1914,
+   "sgd_per_1000_thb": 41.337,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-11",
+   "thb_per_sgd": 24.2272,
+   "sgd_per_1000_thb": 41.276,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-12",
+   "thb_per_sgd": 24.5399,
+   "sgd_per_1000_thb": 40.75,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-01",
+   "thb_per_sgd": 24.2937,
+   "sgd_per_1000_thb": 41.163,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-02",
+   "thb_per_sgd": 24.1973,
+   "sgd_per_1000_thb": 41.327,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-03",
+   "thb_per_sgd": 24.0448,
+   "sgd_per_1000_thb": 41.589,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-04",
+   "thb_per_sgd": 23.727,
+   "sgd_per_1000_thb": 42.146,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-05",
+   "thb_per_sgd": 24.0912,
+   "sgd_per_1000_thb": 41.509,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-06",
+   "thb_per_sgd": 24.1208,
+   "sgd_per_1000_thb": 41.458,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-07",
+   "thb_per_sgd": 23.9958,
+   "sgd_per_1000_thb": 41.674,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-08",
+   "thb_per_sgd": 23.8806,
+   "sgd_per_1000_thb": 41.875,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-09",
+   "thb_per_sgd": 23.7124,
+   "sgd_per_1000_thb": 42.172,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-10",
+   "thb_per_sgd": 23.6518,
+   "sgd_per_1000_thb": 42.28,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-11",
+   "thb_per_sgd": 23.4747,
+   "sgd_per_1000_thb": 42.599,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-12",
+   "thb_per_sgd": 23.218,
+   "sgd_per_1000_thb": 43.07,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-01",
+   "thb_per_sgd": 23.3962,
+   "sgd_per_1000_thb": 42.742,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-02",
+   "thb_per_sgd": 23.304,
+   "sgd_per_1000_thb": 42.911,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-03",
+   "thb_per_sgd": 22.9959,
+   "sgd_per_1000_thb": 43.486,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-04",
+   "thb_per_sgd": 23.0271,
+   "sgd_per_1000_thb": 43.427,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-05",
+   "thb_per_sgd": 22.7459,
+   "sgd_per_1000_thb": 43.964,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-06",
+   "thb_per_sgd": 22.5083,
+   "sgd_per_1000_thb": 44.428,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-07",
+   "thb_per_sgd": 22.2316,
+   "sgd_per_1000_thb": 44.981,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-08",
+   "thb_per_sgd": 22.4507,
+   "sgd_per_1000_thb": 44.542,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-09",
+   "thb_per_sgd": 22.6516,
+   "sgd_per_1000_thb": 44.147,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-10",
+   "thb_per_sgd": 23.2997,
+   "sgd_per_1000_thb": 42.919,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-11",
+   "thb_per_sgd": 23.4137,
+   "sgd_per_1000_thb": 42.71,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-12",
+   "thb_per_sgd": 23.2699,
+   "sgd_per_1000_thb": 42.974,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-01",
+   "thb_per_sgd": 23.1841,
+   "sgd_per_1000_thb": 43.133,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-02",
+   "thb_per_sgd": 23.0835,
+   "sgd_per_1000_thb": 43.321,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-03",
+   "thb_per_sgd": 22.7149,
+   "sgd_per_1000_thb": 44.024,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-04",
+   "thb_per_sgd": 23.1567,
+   "sgd_per_1000_thb": 43.184,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-05",
+   "thb_per_sgd": 23.4896,
+   "sgd_per_1000_thb": 42.572,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-06",
+   "thb_per_sgd": 24.276,
+   "sgd_per_1000_thb": 41.193,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-07",
+   "thb_per_sgd": 24.6548,
+   "sgd_per_1000_thb": 40.56,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-08",
+   "thb_per_sgd": 24.1319,
+   "sgd_per_1000_thb": 41.439,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-09",
+   "thb_per_sgd": 24.0038,
+   "sgd_per_1000_thb": 41.66,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-10",
+   "thb_per_sgd": 23.3263,
+   "sgd_per_1000_thb": 42.87,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-11",
+   "thb_per_sgd": 23.291,
+   "sgd_per_1000_thb": 42.935,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-12",
+   "thb_per_sgd": 23.731,
+   "sgd_per_1000_thb": 42.139,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-01",
+   "thb_per_sgd": 23.467,
+   "sgd_per_1000_thb": 42.613,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-02",
+   "thb_per_sgd": 23.2661,
+   "sgd_per_1000_thb": 42.981,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-03",
+   "thb_per_sgd": 23.3858,
+   "sgd_per_1000_thb": 42.761,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-04",
+   "thb_per_sgd": 23.5643,
+   "sgd_per_1000_thb": 42.437,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-05",
+   "thb_per_sgd": 23.6911,
+   "sgd_per_1000_thb": 42.21,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-06",
+   "thb_per_sgd": 23.5067,
+   "sgd_per_1000_thb": 42.541,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-07",
+   "thb_per_sgd": 23.4819,
+   "sgd_per_1000_thb": 42.586,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-08",
+   "thb_per_sgd": 23.5921,
+   "sgd_per_1000_thb": 42.387,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-09",
+   "thb_per_sgd": 23.7558,
+   "sgd_per_1000_thb": 42.095,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-10",
+   "thb_per_sgd": 23.8937,
+   "sgd_per_1000_thb": 41.852,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-11",
+   "thb_per_sgd": 23.9624,
+   "sgd_per_1000_thb": 41.732,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-12",
+   "thb_per_sgd": 23.7976,
+   "sgd_per_1000_thb": 42.021,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-01",
+   "thb_per_sgd": 23.6608,
+   "sgd_per_1000_thb": 42.264,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-02",
+   "thb_per_sgd": 23.4698,
+   "sgd_per_1000_thb": 42.608,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-03",
+   "thb_per_sgd": 23.2304,
+   "sgd_per_1000_thb": 43.047,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-04",
+   "thb_per_sgd": 23.3721,
+   "sgd_per_1000_thb": 42.786,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-05",
+   "thb_per_sgd": 23.2439,
+   "sgd_per_1000_thb": 43.022,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-06",
+   "thb_per_sgd": 23.2207,
+   "sgd_per_1000_thb": 43.065,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-07",
+   "thb_per_sgd": 23.4643,
+   "sgd_per_1000_thb": 42.618,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-08",
+   "thb_per_sgd": 23.411,
+   "sgd_per_1000_thb": 42.715,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-09",
+   "thb_per_sgd": 23.0808,
+   "sgd_per_1000_thb": 43.326,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-10",
+   "thb_per_sgd": 22.9695,
+   "sgd_per_1000_thb": 43.536,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-11",
+   "thb_per_sgd": 23.0197,
+   "sgd_per_1000_thb": 43.441,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-12",
+   "thb_per_sgd": 23.0409,
+   "sgd_per_1000_thb": 43.401,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-01",
+   "thb_per_sgd": 23.7254,
+   "sgd_per_1000_thb": 42.149,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-02",
+   "thb_per_sgd": 24.0286,
+   "sgd_per_1000_thb": 41.617,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-03",
+   "thb_per_sgd": 23.9355,
+   "sgd_per_1000_thb": 41.779,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-04",
+   "thb_per_sgd": 24.1068,
+   "sgd_per_1000_thb": 41.482,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-05",
+   "thb_per_sgd": 24.4284,
+   "sgd_per_1000_thb": 40.936,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-06",
+   "thb_per_sgd": 24.7133,
+   "sgd_per_1000_thb": 40.464,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-07",
+   "thb_per_sgd": 24.7304,
+   "sgd_per_1000_thb": 40.436,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-08",
+   "thb_per_sgd": 24.7097,
+   "sgd_per_1000_thb": 40.47,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-09",
+   "thb_per_sgd": 24.3297,
+   "sgd_per_1000_thb": 41.102,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-10",
+   "thb_per_sgd": 24.1628,
+   "sgd_per_1000_thb": 41.386,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-11",
+   "thb_per_sgd": 24.0125,
+   "sgd_per_1000_thb": 41.645,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-12",
+   "thb_per_sgd": 24.0657,
+   "sgd_per_1000_thb": 41.553,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-01",
+   "thb_per_sgd": 24.6694,
+   "sgd_per_1000_thb": 40.536,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-02",
+   "thb_per_sgd": 24.5146,
+   "sgd_per_1000_thb": 40.792,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-03",
+   "thb_per_sgd": 24.395,
+   "sgd_per_1000_thb": 40.992,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-04",
+   "thb_per_sgd": 24.681,
+   "sgd_per_1000_thb": 40.517,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-05",
+   "thb_per_sgd": 24.8145,
+   "sgd_per_1000_thb": 40.299,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-06",
+   "thb_per_sgd": 24.7647,
+   "sgd_per_1000_thb": 40.38,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-07",
+   "thb_per_sgd": 25.0897,
+   "sgd_per_1000_thb": 39.857,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-08",
+   "thb_per_sgd": 25.1845,
+   "sgd_per_1000_thb": 39.707,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-09",
+   "thb_per_sgd": 25.1699,
+   "sgd_per_1000_thb": 39.73,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-10",
+   "thb_per_sgd": 25.0664,
+   "sgd_per_1000_thb": 39.894,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-11",
+   "thb_per_sgd": 25.1054,
+   "sgd_per_1000_thb": 39.832,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-12",
+   "thb_per_sgd": 25.0922,
+   "sgd_per_1000_thb": 39.853,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-01",
+   "thb_per_sgd": 24.472,
+   "sgd_per_1000_thb": 40.863,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-02",
+   "thb_per_sgd": 24.0929,
+   "sgd_per_1000_thb": 41.506,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-03",
+   "thb_per_sgd": 23.6849,
+   "sgd_per_1000_thb": 42.221,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-04",
+   "thb_per_sgd": 23.4841,
+   "sgd_per_1000_thb": 42.582,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-05",
+   "thb_per_sgd": 23.8567,
+   "sgd_per_1000_thb": 41.917,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-06",
+   "thb_per_sgd": 24.4678,
+   "sgd_per_1000_thb": 40.87,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-07",
+   "thb_per_sgd": 24.5459,
+   "sgd_per_1000_thb": 40.74,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-08",
+   "thb_per_sgd": 24.8361,
+   "sgd_per_1000_thb": 40.264,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-09",
+   "thb_per_sgd": 25.0991,
+   "sgd_per_1000_thb": 39.842,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-10",
+   "thb_per_sgd": 25.0803,
+   "sgd_per_1000_thb": 39.872,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-11",
+   "thb_per_sgd": 25.3614,
+   "sgd_per_1000_thb": 39.43,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-12",
+   "thb_per_sgd": 25.7109,
+   "sgd_per_1000_thb": 38.894,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-01",
+   "thb_per_sgd": 25.8839,
+   "sgd_per_1000_thb": 38.634,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-02",
+   "thb_per_sgd": 25.7732,
+   "sgd_per_1000_thb": 38.8,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-03",
+   "thb_per_sgd": 25.5604,
+   "sgd_per_1000_thb": 39.123,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-04",
+   "thb_per_sgd": 25.7513,
+   "sgd_per_1000_thb": 38.833,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-05",
+   "thb_per_sgd": 25.9808,
+   "sgd_per_1000_thb": 38.49,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-06",
+   "thb_per_sgd": 25.9814,
+   "sgd_per_1000_thb": 38.489,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-07",
+   "thb_per_sgd": 25.8491,
+   "sgd_per_1000_thb": 38.686,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-08",
+   "thb_per_sgd": 25.6404,
+   "sgd_per_1000_thb": 39.001,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-09",
+   "thb_per_sgd": 25.4933,
+   "sgd_per_1000_thb": 39.226,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-10",
+   "thb_per_sgd": 25.4764,
+   "sgd_per_1000_thb": 39.252,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-11",
+   "thb_per_sgd": 25.312,
+   "sgd_per_1000_thb": 39.507,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-12",
+   "thb_per_sgd": 25.0138,
+   "sgd_per_1000_thb": 39.978,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-01",
+   "thb_per_sgd": 24.4924,
+   "sgd_per_1000_thb": 40.829,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-02",
+   "thb_per_sgd": 24.0512,
+   "sgd_per_1000_thb": 41.578,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-03",
+   "thb_per_sgd": 23.6905,
+   "sgd_per_1000_thb": 42.211,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-04",
+   "thb_per_sgd": 24.0842,
+   "sgd_per_1000_thb": 41.521,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-05",
+   "thb_per_sgd": 25.1225,
+   "sgd_per_1000_thb": 39.805,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-06",
+   "thb_per_sgd": 25.0727,
+   "sgd_per_1000_thb": 39.884,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-07",
+   "thb_per_sgd": 25.2226,
+   "sgd_per_1000_thb": 39.647,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-08",
+   "thb_per_sgd": 25.3344,
+   "sgd_per_1000_thb": 39.472,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-09",
+   "thb_per_sgd": 25.4518,
+   "sgd_per_1000_thb": 39.29,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-10",
+   "thb_per_sgd": 25.4686,
+   "sgd_per_1000_thb": 39.264,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-11",
+   "thb_per_sgd": 25.3261,
+   "sgd_per_1000_thb": 39.485,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-12",
+   "thb_per_sgd": 25.565,
+   "sgd_per_1000_thb": 39.116,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-01",
+   "thb_per_sgd": 25.2277,
+   "sgd_per_1000_thb": 39.639,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-02",
+   "thb_per_sgd": 25.3357,
+   "sgd_per_1000_thb": 39.47,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-03",
+   "thb_per_sgd": 25.6272,
+   "sgd_per_1000_thb": 39.021,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-04",
+   "thb_per_sgd": 25.9889,
+   "sgd_per_1000_thb": 38.478,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-05",
+   "thb_per_sgd": 25.8458,
+   "sgd_per_1000_thb": 38.691,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-06",
+   "thb_per_sgd": 26.0525,
+   "sgd_per_1000_thb": 38.384,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-07",
+   "thb_per_sgd": 25.9484,
+   "sgd_per_1000_thb": 38.538,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-08",
+   "thb_per_sgd": 25.7612,
+   "sgd_per_1000_thb": 38.818,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-09",
+   "thb_per_sgd": 25.5474,
+   "sgd_per_1000_thb": 39.143,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-10",
+   "thb_per_sgd": 25.3376,
+   "sgd_per_1000_thb": 39.467,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-11",
+   "thb_per_sgd": 25.0514,
+   "sgd_per_1000_thb": 39.918,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-12",
+   "thb_per_sgd": 24.9246,
+   "sgd_per_1000_thb": 40.121,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-01",
+   "thb_per_sgd": 24.8176,
+   "sgd_per_1000_thb": 40.294,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-02",
+   "thb_per_sgd": 24.7482,
+   "sgd_per_1000_thb": 40.407,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-03",
+   "thb_per_sgd": 24.8318,
+   "sgd_per_1000_thb": 40.271,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-04",
+   "thb_per_sgd": 24.6457,
+   "sgd_per_1000_thb": 40.575,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-05",
+   "thb_per_sgd": 24.706,
+   "sgd_per_1000_thb": 40.476,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-06",
+   "thb_per_sgd": 24.5743,
+   "sgd_per_1000_thb": 40.693,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-07",
+   "thb_per_sgd": 24.6015,
+   "sgd_per_1000_thb": 40.648,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-08",
+   "thb_per_sgd": 24.4463,
+   "sgd_per_1000_thb": 40.906,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-09",
+   "thb_per_sgd": 24.561,
+   "sgd_per_1000_thb": 40.715,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-10",
+   "thb_per_sgd": 24.4361,
+   "sgd_per_1000_thb": 40.923,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-11",
+   "thb_per_sgd": 24.2819,
+   "sgd_per_1000_thb": 41.183,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-12",
+   "thb_per_sgd": 24.2489,
+   "sgd_per_1000_thb": 41.239,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-01",
+   "thb_per_sgd": 24.1284,
+   "sgd_per_1000_thb": 41.445,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-02",
+   "thb_per_sgd": 23.8555,
+   "sgd_per_1000_thb": 41.919,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-03",
+   "thb_per_sgd": 23.784,
+   "sgd_per_1000_thb": 42.045,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-04",
+   "thb_per_sgd": 23.8027,
+   "sgd_per_1000_thb": 42.012,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-05",
+   "thb_per_sgd": 23.8795,
+   "sgd_per_1000_thb": 41.877,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-06",
+   "thb_per_sgd": 24.0964,
+   "sgd_per_1000_thb": 41.5,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-07",
+   "thb_per_sgd": 24.4153,
+   "sgd_per_1000_thb": 40.958,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-08",
+   "thb_per_sgd": 24.1423,
+   "sgd_per_1000_thb": 41.421,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-09",
+   "thb_per_sgd": 23.7852,
+   "sgd_per_1000_thb": 42.043,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-10",
+   "thb_per_sgd": 23.762,
+   "sgd_per_1000_thb": 42.084,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-11",
+   "thb_per_sgd": 23.9687,
+   "sgd_per_1000_thb": 41.721,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-12",
+   "thb_per_sgd": 23.8675,
+   "sgd_per_1000_thb": 41.898,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-01",
+   "thb_per_sgd": 23.4632,
+   "sgd_per_1000_thb": 42.62,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-02",
+   "thb_per_sgd": 23.1267,
+   "sgd_per_1000_thb": 43.24,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-03",
+   "thb_per_sgd": 23.4329,
+   "sgd_per_1000_thb": 42.675,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-04",
+   "thb_per_sgd": 23.4979,
+   "sgd_per_1000_thb": 42.557,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-05",
+   "thb_per_sgd": 23.2013,
+   "sgd_per_1000_thb": 43.101,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-06",
+   "thb_per_sgd": 22.8446,
+   "sgd_per_1000_thb": 43.774,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-07",
+   "thb_per_sgd": 22.6367,
+   "sgd_per_1000_thb": 44.176,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-08",
+   "thb_per_sgd": 22.2212,
+   "sgd_per_1000_thb": 45.002,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-09",
+   "thb_per_sgd": 22.1499,
+   "sgd_per_1000_thb": 45.147,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-10",
+   "thb_per_sgd": 22.1528,
+   "sgd_per_1000_thb": 45.141,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-11",
+   "thb_per_sgd": 22.2133,
+   "sgd_per_1000_thb": 45.018,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-12",
+   "thb_per_sgd": 22.2653,
+   "sgd_per_1000_thb": 44.913,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-01",
+   "thb_per_sgd": 22.52,
+   "sgd_per_1000_thb": 44.405,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-02",
+   "thb_per_sgd": 22.5484,
+   "sgd_per_1000_thb": 44.349,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-03",
+   "thb_per_sgd": 22.6598,
+   "sgd_per_1000_thb": 44.131,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-04",
+   "thb_per_sgd": 22.9163,
+   "sgd_per_1000_thb": 43.637,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-05",
+   "thb_per_sgd": 22.6106,
+   "sgd_per_1000_thb": 44.227,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-06",
+   "thb_per_sgd": 22.3614,
+   "sgd_per_1000_thb": 44.72,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-07",
+   "thb_per_sgd": 22.6311,
+   "sgd_per_1000_thb": 44.187,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-08",
+   "thb_per_sgd": 22.7905,
+   "sgd_per_1000_thb": 43.878,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-09",
+   "thb_per_sgd": 22.9632,
+   "sgd_per_1000_thb": 43.548,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-10",
+   "thb_per_sgd": 23.0038,
+   "sgd_per_1000_thb": 43.471,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-11",
+   "thb_per_sgd": 22.6147,
+   "sgd_per_1000_thb": 44.219,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-12",
+   "thb_per_sgd": 22.579,
+   "sgd_per_1000_thb": 44.289,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-01",
+   "thb_per_sgd": 22.6347,
+   "sgd_per_1000_thb": 44.18,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-02",
+   "thb_per_sgd": 22.6024,
+   "sgd_per_1000_thb": 44.243,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-03",
+   "thb_per_sgd": 22.9363,
+   "sgd_per_1000_thb": 43.599,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-04",
+   "thb_per_sgd": 23.504,
+   "sgd_per_1000_thb": 42.546,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-05",
+   "thb_per_sgd": 23.5183,
+   "sgd_per_1000_thb": 42.52,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-06",
+   "thb_per_sgd": 23.5693,
+   "sgd_per_1000_thb": 42.428,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-07",
+   "thb_per_sgd": 24.0929,
+   "sgd_per_1000_thb": 41.506,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-08",
+   "thb_per_sgd": 24.4284,
+   "sgd_per_1000_thb": 40.936,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-09",
+   "thb_per_sgd": 24.526,
+   "sgd_per_1000_thb": 40.773,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-10",
+   "thb_per_sgd": 24.7709,
+   "sgd_per_1000_thb": 40.37,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-11",
+   "thb_per_sgd": 24.3772,
+   "sgd_per_1000_thb": 41.022,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-12",
+   "thb_per_sgd": 24.6227,
+   "sgd_per_1000_thb": 40.613,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-01",
+   "thb_per_sgd": 24.6166,
+   "sgd_per_1000_thb": 40.623,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-02",
+   "thb_per_sgd": 24.2125,
+   "sgd_per_1000_thb": 41.301,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-03",
+   "thb_per_sgd": 24.4588,
+   "sgd_per_1000_thb": 40.885,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-04",
+   "thb_per_sgd": 24.7341,
+   "sgd_per_1000_thb": 40.43,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-05",
+   "thb_per_sgd": 24.9109,
+   "sgd_per_1000_thb": 40.143,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-06",
+   "thb_per_sgd": 25.2512,
+   "sgd_per_1000_thb": 39.602,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-07",
+   "thb_per_sgd": 26.0702,
+   "sgd_per_1000_thb": 38.358,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-08",
+   "thb_per_sgd": 25.9121,
+   "sgd_per_1000_thb": 38.592,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-09",
+   "thb_per_sgd": 26.2103,
+   "sgd_per_1000_thb": 38.153,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-10",
+   "thb_per_sgd": 26.6304,
+   "sgd_per_1000_thb": 37.551,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-11",
+   "thb_per_sgd": 26.2426,
+   "sgd_per_1000_thb": 38.106,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-12",
+   "thb_per_sgd": 25.7327,
+   "sgd_per_1000_thb": 38.861,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-01",
+   "thb_per_sgd": 25.091,
+   "sgd_per_1000_thb": 39.855,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-02",
+   "thb_per_sgd": 25.5474,
+   "sgd_per_1000_thb": 39.143,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-03",
+   "thb_per_sgd": 25.7274,
+   "sgd_per_1000_thb": 38.869,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-04",
+   "thb_per_sgd": 25.7301,
+   "sgd_per_1000_thb": 38.865,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-05",
+   "thb_per_sgd": 25.5395,
+   "sgd_per_1000_thb": 39.155,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-06",
+   "thb_per_sgd": 25.9249,
+   "sgd_per_1000_thb": 38.573,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-07",
+   "thb_per_sgd": 25.9477,
+   "sgd_per_1000_thb": 38.539,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-08",
+   "thb_per_sgd": 25.9376,
+   "sgd_per_1000_thb": 38.554,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-09",
+   "thb_per_sgd": 26.3103,
+   "sgd_per_1000_thb": 38.008,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-10",
+   "thb_per_sgd": 26.678,
+   "sgd_per_1000_thb": 37.484,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-11",
+   "thb_per_sgd": 26.2805,
+   "sgd_per_1000_thb": 38.051,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-12",
+   "thb_per_sgd": 26.2812,
+   "sgd_per_1000_thb": 38.05,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-01",
+   "thb_per_sgd": 26.3449,
+   "sgd_per_1000_thb": 37.958,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-02",
+   "thb_per_sgd": 26.6809,
+   "sgd_per_1000_thb": 37.48,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-03",
+   "thb_per_sgd": 26.8125,
+   "sgd_per_1000_thb": 37.296,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-04",
+   "thb_per_sgd": 27.1032,
+   "sgd_per_1000_thb": 36.896,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-05",
+   "thb_per_sgd": 27.1164,
+   "sgd_per_1000_thb": 36.878,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-06",
+   "thb_per_sgd": 27.1577,
+   "sgd_per_1000_thb": 36.822,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-07",
+   "thb_per_sgd": 26.9309,
+   "sgd_per_1000_thb": 37.132,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-08",
+   "thb_per_sgd": 26.411,
+   "sgd_per_1000_thb": 37.863,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-09",
+   "thb_per_sgd": 25.7255,
+   "sgd_per_1000_thb": 38.872,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-10",
+   "thb_per_sgd": 25.4823,
+   "sgd_per_1000_thb": 39.243,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-11",
+   "thb_per_sgd": 25.7699,
+   "sgd_per_1000_thb": 38.805,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-12",
+   "thb_per_sgd": 25.3024,
+   "sgd_per_1000_thb": 39.522,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-01",
+   "thb_per_sgd": 25.187,
+   "sgd_per_1000_thb": 39.703,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-02",
+   "thb_per_sgd": 25.0922,
+   "sgd_per_1000_thb": 39.853,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-03",
+   "thb_per_sgd": 25.3107,
+   "sgd_per_1000_thb": 39.509,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-04",
+   "thb_per_sgd": 25.4952,
+   "sgd_per_1000_thb": 39.223,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-05",
+   "thb_per_sgd": 25.4602,
+   "sgd_per_1000_thb": 39.277,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-06",
+   "thb_per_sgd": 25.4162,
+   "sgd_per_1000_thb": 39.345,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-07",
+   "thb_per_sgd": 25.3286,
+   "sgd_per_1000_thb": 39.481,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-08",
+   "thb_per_sgd": 25.2442,
+   "sgd_per_1000_thb": 39.613,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-09",
+   "thb_per_sgd": 24.9072,
+   "sgd_per_1000_thb": 40.149,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-10",
+   "thb_per_sgd": 25.1376,
+   "sgd_per_1000_thb": 39.781,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-11",
+   "thb_per_sgd": 24.8639,
+   "sgd_per_1000_thb": 40.219,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-12",
+   "thb_per_sgd": 24.4606,
+   "sgd_per_1000_thb": 40.882,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-01",
+   "thb_per_sgd": 24.4266,
+   "sgd_per_1000_thb": 40.939,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-02",
+   "thb_per_sgd": 24.664,
+   "sgd_per_1000_thb": 40.545,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-03",
+   "thb_per_sgd": 25.2118,
+   "sgd_per_1000_thb": 39.664,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-04",
+   "thb_per_sgd": 25.3081,
+   "sgd_per_1000_thb": 39.513,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-05",
+   "thb_per_sgd": 25.4985,
+   "sgd_per_1000_thb": 39.218,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-06",
+   "thb_per_sgd": 25.5376,
+   "sgd_per_1000_thb": 39.158,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-07",
+   "thb_per_sgd": 25.9383,
+   "sgd_per_1000_thb": 38.553,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-08",
+   "thb_per_sgd": 25.8766,
+   "sgd_per_1000_thb": 38.645,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-09",
+   "thb_per_sgd": 26.1083,
+   "sgd_per_1000_thb": 38.302,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-10",
+   "thb_per_sgd": 26.2867,
+   "sgd_per_1000_thb": 38.042,
+   "source": "SingStat M700051"
+  }
+ ]
+}

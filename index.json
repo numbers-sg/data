@@ -1,0 +1,435 @@
+{
+ "source": "https://numbers.sg/api/v1/",
+ "licence": "CC BY 4.0",
+ "datasets": [
+  {
+   "id": "coe-results",
+   "title": "COE bidding results, every round since 2010",
+   "question": "What did each COE category close at in every bidding round since 2010?",
+   "rows": 2000,
+   "from": "2010-01",
+   "to": "2026-11",
+   "hash": "sha256:fc7b4ed4128c22f5f2e1723bffd38ea50ed57a74c5547ba9bd9870945cb75512",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/cars/coe-results/",
+   "api": "https://numbers.sg/api/v1/coe-results",
+   "sources": [
+    "Land Transport Authority (LTA), via data.gov.sg",
+    "Department of Statistics (SingStat)"
+   ]
+  },
+  {
+   "id": "cpf-wage-ceilings",
+   "title": "CPF Ordinary Wage ceiling, since 1955",
+   "question": "What is the most monthly pay CPF contributions are counted on, and how has it changed?",
+   "rows": 46,
+   "from": "1955-07",
+   "to": "2026-01",
+   "hash": "sha256:4f0b3c23afc35839ff4fc56b408ea94a58a1f4f68730967cf285e860f4926ee5",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/rates/cpf-contribution-rates/",
+   "api": "https://numbers.sg/api/v1/cpf-wage-ceilings",
+   "sources": [
+    "Central Provident Fund Board, via data.gov.sg"
+   ]
+  },
+  {
+   "id": "fx-sgd-cny",
+   "title": "Singapore dollar to Chinese yuan, since 1993 (daily from 2003)",
+   "question": "What is the Singapore dollar worth in yuan, on any day since 1993?",
+   "rows": 6501,
+   "from": "1993-06-04",
+   "to": "2026-11-26",
+   "hash": "sha256:daeca2b89b68ef77c91824fe462fb5febb57925c1c4fa13897cfc9ae48f45994",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-cny/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-cny",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "fx-sgd-cny-monthly",
+   "title": "Singapore dollar to Chinese yuan, monthly averages since 1993",
+   "question": "What was the average yuan rate for the Singapore dollar each month since 1993?",
+   "rows": 401,
+   "from": "1993-06",
+   "to": "2026-10",
+   "hash": "sha256:c5091b42c887ac65264e3011a0e8e90406411ebd3281fc6eaa96f33d6fb91eff",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-cny/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-cny-monthly",
+   "sources": [
+    "Department of Statistics (SingStat)"
+   ]
+  },
+  {
+   "id": "fx-sgd-eur",
+   "title": "Singapore dollar to euro, daily since 1999",
+   "question": "What is the Singapore dollar worth in euros, on any working day since 1999?",
+   "rows": 7024,
+   "from": "1999-01-04",
+   "to": "2026-11-26",
+   "hash": "sha256:6cbcbcc561e7ce57d8d2d9841e66188a9f2a19c94d81c77a67a734e8c2a0b307",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-eur/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-eur",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)",
+    "European Central Bank"
+   ]
+  },
+  {
+   "id": "fx-sgd-eur-monthly",
+   "title": "Singapore dollar to euro, monthly averages since 1999",
+   "question": "What was the average euro rate for the Singapore dollar each month since 1999?",
+   "rows": 334,
+   "from": "1999-01",
+   "to": "2026-10",
+   "hash": "sha256:c7acfe37c66ad6d5ccd27326fa3d945872fe58a0d03e977a0dbf71da996f97ff",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-eur/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-eur-monthly",
+   "sources": [
+    "Department of Statistics (SingStat)"
+   ]
+  },
+  {
+   "id": "fx-sgd-idr",
+   "title": "Singapore dollar to Indonesian rupiah, daily since 1999",
+   "question": "What is the Singapore dollar worth in rupiah, on any working day since 1999?",
+   "rows": 7024,
+   "from": "1999-01-04",
+   "to": "2026-11-26",
+   "hash": "sha256:deec6cf047a33dcb84a9ea37961a77dcbb766b9efd73b06823ba833acbb1dece",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-idr/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-idr",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)",
+    "European Central Bank"
+   ]
+  },
+  {
+   "id": "fx-sgd-idr-monthly",
+   "title": "Singapore dollar to Indonesian rupiah, monthly averages since 2003",
+   "question": "What was the average rupiah rate for the Singapore dollar each month since 2003?",
+   "rows": 286,
+   "from": "2003-01",
+   "to": "2026-10",
+   "hash": "sha256:90cbd4cb8c84d50da9cb788f683a2f8324ef8afbb6ea0f1190a9e72201cafdd5",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-idr/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-idr-monthly",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "fx-sgd-inr",
+   "title": "Singapore dollar to Indian rupee, daily since 2006",
+   "question": "What is the Singapore dollar worth in rupees, on any working day since 2006?",
+   "rows": 5246,
+   "from": "2006-01-03",
+   "to": "2026-11-26",
+   "hash": "sha256:0512150d620c8f8cb87986561bf976c098a4b31cff96d9d8c738b2b268cf20cc",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-inr/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-inr",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "fx-sgd-inr-monthly",
+   "title": "Singapore dollar to Indian rupee, monthly averages since 2006",
+   "question": "What was the average rupee rate for the Singapore dollar each month since 2006?",
+   "rows": 250,
+   "from": "2006-01",
+   "to": "2026-10",
+   "hash": "sha256:8088f4837654487e319f421373257af496c2f4fc0e359efc0696a36c9c7291d8",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-inr/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-inr-monthly",
+   "sources": [
+    "Department of Statistics (SingStat)"
+   ]
+  },
+  {
+   "id": "fx-sgd-jpy",
+   "title": "Singapore dollar to Japanese yen, since 1988 (daily from 2003)",
+   "question": "What is the Singapore dollar worth in yen, on any day since 1988?",
+   "rows": 6782,
+   "from": "1988-01-08",
+   "to": "2026-11-26",
+   "hash": "sha256:2c699f141f350e4e61d23e0aab19373d69e08d707a05941767483ee0c4d0fbd5",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-jpy/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-jpy",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "fx-sgd-jpy-monthly",
+   "title": "Singapore dollar to Japanese yen, monthly averages since 1988",
+   "question": "What was the average yen rate for the Singapore dollar each month since 1988?",
+   "rows": 466,
+   "from": "1988-01",
+   "to": "2026-10",
+   "hash": "sha256:5d87407e0bc8f3f9c345fc0665d56d180b42b64532f9746723b37adda8da86cf",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-jpy/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-jpy-monthly",
+   "sources": [
+    "Department of Statistics (SingStat)"
+   ]
+  },
+  {
+   "id": "fx-sgd-krw",
+   "title": "Singapore dollar to Korean won, daily since 1981",
+   "question": "What is the Singapore dollar worth in won, on any working day since 1981?",
+   "rows": 11408,
+   "from": "1981-04-13",
+   "to": "2026-11-26",
+   "hash": "sha256:72d4cb173be2ddf228d50ca17a5b507fa42069be6353bec0298481a9df6228b6",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-krw/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-krw",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)",
+    "Federal Reserve Board"
+   ]
+  },
+  {
+   "id": "fx-sgd-krw-monthly",
+   "title": "Singapore dollar to South Korean won, monthly averages since 2003",
+   "question": "What was the average won rate for the Singapore dollar each month since 2003?",
+   "rows": 286,
+   "from": "2003-01",
+   "to": "2026-10",
+   "hash": "sha256:d7dc570101abba43c4a703680246a13efb6e9bee1059db35dd4a5ffc0ebfbb63",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-krw/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-krw-monthly",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "fx-sgd-myr",
+   "title": "Singapore dollar to Malaysian ringgit, daily since 1999",
+   "question": "What is the Singapore dollar worth in ringgit, on any working day since 1999?",
+   "rows": 7145,
+   "from": "1999-01-04",
+   "to": "2026-11-26",
+   "hash": "sha256:0237f25e5778496b7a89c2ee3fd1cae65e9f5f250fab7e2b6cc41622d159fdda",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-myr/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-myr",
+   "sources": [
+    "European Central Bank",
+    "Bank Negara Malaysia (BNM)"
+   ]
+  },
+  {
+   "id": "fx-sgd-myr-bank-counter",
+   "title": "Malaysian banks' counter rates for the Singapore dollar, daily since 2021",
+   "question": "What do Malaysian banks pay and charge in ringgit for Singapore dollars at the counter?",
+   "rows": 1444,
+   "from": "2021-01-04",
+   "to": "2026-11-26",
+   "hash": "sha256:150739b65e07f7a240af800802adf65f6146982fc68d59ce82f7c867f995a690",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-myr/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-myr-bank-counter",
+   "sources": [
+    "Bank Negara Malaysia (BNM)"
+   ]
+  },
+  {
+   "id": "fx-sgd-myr-monthly",
+   "title": "Singapore dollar to Malaysian ringgit, monthly averages since 1988",
+   "question": "What was the average ringgit rate for the Singapore dollar each month since 1988?",
+   "rows": 466,
+   "from": "1988-01",
+   "to": "2026-10",
+   "hash": "sha256:e1a4c05208d63486e02c9dea7709dd58c5a0da41161d5980079d19f4d1d4b78a",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-myr/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-myr-monthly",
+   "sources": [
+    "Department of Statistics (SingStat)"
+   ]
+  },
+  {
+   "id": "fx-sgd-php",
+   "title": "Singapore dollar to Philippine peso, daily since 1999",
+   "question": "What is the Singapore dollar worth in pesos, on any working day since 1999?",
+   "rows": 7024,
+   "from": "1999-01-04",
+   "to": "2026-11-26",
+   "hash": "sha256:724893ba1220c8ac763ce486cea6cfcb661f407063546b83e363ce39362bd88c",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-php/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-php",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)",
+    "European Central Bank"
+   ]
+  },
+  {
+   "id": "fx-sgd-php-monthly",
+   "title": "Singapore dollar to Philippine peso, monthly averages since 2003",
+   "question": "What was the average peso rate for the Singapore dollar each month since 2003?",
+   "rows": 286,
+   "from": "2003-01",
+   "to": "2026-10",
+   "hash": "sha256:59f8a6561d75f3fadfccbaa631fbd1e5a322402ad7ac1689e626bae20b26d0ad",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-php/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-php-monthly",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "fx-sgd-thb",
+   "title": "Singapore dollar to Thai baht, daily since 1981",
+   "question": "What is the Singapore dollar worth in baht, on any working day since 1981?",
+   "rows": 11442,
+   "from": "1981-01-02",
+   "to": "2026-11-26",
+   "hash": "sha256:0ef3c5f3341da36533b22e967c8f5371600a7c5c4ef30ca61a593f544391a1af",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-thb/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-thb",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)",
+    "Federal Reserve Board"
+   ]
+  },
+  {
+   "id": "fx-sgd-thb-monthly",
+   "title": "Singapore dollar to Thai baht, monthly averages since 2003",
+   "question": "What was the average baht rate for the Singapore dollar each month since 2003?",
+   "rows": 286,
+   "from": "2003-01",
+   "to": "2026-10",
+   "hash": "sha256:fea9bd11c5313704a53c88e090add3e0fe65d7321bc034dfe3f6b3938924df6b",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/sgd-to-thb/",
+   "api": "https://numbers.sg/api/v1/fx-sgd-thb-monthly",
+   "sources": [
+    "Department of Statistics (SingStat)"
+   ]
+  },
+  {
+   "id": "fx-usd-sgd",
+   "title": "US dollar to Singapore dollar, daily since 1981",
+   "question": "How many Singapore dollars is one US dollar, on any day since 1981?",
+   "rows": 8541,
+   "from": "1981-01-02",
+   "to": "2026-11-26",
+   "hash": "sha256:2426382601849cef25c59c0806c8ab14e82b588466ff2d06fad2f49003d19827",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/usd-to-sgd/",
+   "api": "https://numbers.sg/api/v1/fx-usd-sgd",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)",
+    "Federal Reserve Board"
+   ]
+  },
+  {
+   "id": "fx-usd-sgd-monthly",
+   "title": "US dollar to Singapore dollar, monthly averages since 1988",
+   "question": "What was the average US dollar rate in Singapore dollars each month since 1988?",
+   "rows": 466,
+   "from": "1988-01",
+   "to": "2026-10",
+   "hash": "sha256:869ae396bb34ba99a84415758f65520eaca1ae92c579351c69baa9d972eba836",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/currency/usd-to-sgd/",
+   "api": "https://numbers.sg/api/v1/fx-usd-sgd-monthly",
+   "sources": [
+    "Department of Statistics (SingStat)"
+   ]
+  },
+  {
+   "id": "income-tax-rates",
+   "title": "Singapore resident income tax rates",
+   "question": "What are Singapore's resident income tax rates, band by band?",
+   "rows": 13,
+   "from": null,
+   "to": null,
+   "hash": "sha256:d52ade1181e3c7c2d6e0b2c7d87f78ba77888fff1982504dfe4e8d2c754a5b4d",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/tax/income-tax-rates/",
+   "api": "https://numbers.sg/api/v1/income-tax-rates",
+   "sources": [
+    "Singapore Statutes Online: Income Tax Act 1947"
+   ]
+  },
+  {
+   "id": "inflation",
+   "title": "Singapore inflation: CPI and MAS Core, monthly since 1961",
+   "question": "What is Singapore's inflation rate, headline and MAS Core, every month since 1961?",
+   "rows": 790,
+   "from": "1961-01",
+   "to": "2026-10",
+   "hash": "sha256:d868c9a834600b4e5db7d674236aaa8d312c084d0510f6fcb4e6a52b4b1588c5",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/prices/inflation/",
+   "api": "https://numbers.sg/api/v1/inflation",
+   "sources": [
+    "Department of Statistics (SingStat)",
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "sora",
+   "title": "SORA and Compounded SORA, daily",
+   "question": "What is SORA today, and how has it moved since 2005?",
+   "rows": 5373,
+   "from": "2005-07-01",
+   "to": "2026-11-26",
+   "hash": "sha256:aa419db927787dbf0b5ccc7b85bc4e4f467b2aa0b7a1e345b0fe4dbf3c635620",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/rates/sora/",
+   "api": "https://numbers.sg/api/v1/sora",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "ssb-issues",
+   "title": "Singapore Savings Bonds: rates and results",
+   "question": "What does each Singapore Savings Bond pay, and how was it allotted?",
+   "rows": 135,
+   "from": "2015-10-01",
+   "to": "2026-12-01",
+   "hash": "sha256:30e83c71414f068f4751c67efb844f3cbd8c37dab6bf0cafa861a4bf688bf1f6",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/rates/singapore-savings-bonds/",
+   "api": "https://numbers.sg/api/v1/ssb-issues",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  },
+  {
+   "id": "tbill-auctions",
+   "title": "Singapore T-bill auction results",
+   "question": "What yield did each 6-month and 1-year T-bill auction give, since 1987?",
+   "rows": 343,
+   "from": "1987-05-25",
+   "to": "2026-11-19",
+   "hash": "sha256:ec995e6f11863242696c02175abf9097a02c62c28b9f21b0d041da91f5312359",
+   "updated": "2026-11-27",
+   "page_url": "https://numbers.sg/rates/t-bills/",
+   "api": "https://numbers.sg/api/v1/tbill-auctions",
+   "sources": [
+    "Monetary Authority of Singapore (MAS)"
+   ]
+  }
+ ]
+}

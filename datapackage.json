@@ -1,0 +1,1725 @@
+{
+ "name": "numbers-sg-data",
+ "title": "Singapore rates and prices: open data from Numbers.sg",
+ "homepage": "https://numbers.sg/developers/",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0"
+  }
+ ],
+ "resources": [
+  {
+   "name": "coe-results",
+   "path": "datasets/coe-results/coe-results.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "COE bidding results, every round since 2010",
+   "description": "Every Certificate of Entitlement bidding round since January 2010, category by category: the quota premium, quota, bids received and successful, the premium in today's dollars, and the Prevailing Quota Premium for the next month.",
+   "homepage": "https://numbers.sg/cars/coe-results/",
+   "sources": [
+    {
+     "title": "Land Transport Authority (LTA), via data.gov.sg",
+     "path": "https://www.lta.gov.sg/"
+    },
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month of the bidding exercise."
+     },
+     {
+      "name": "round",
+      "type": "integer",
+      "description": "The round in that month: 1 or 2."
+     },
+     {
+      "name": "closing_date",
+      "type": "date",
+      "description": "The day bidding closed; from January 2024."
+     },
+     {
+      "name": "category",
+      "type": "string",
+      "description": "COE category: A (smaller cars), B (larger cars), C (goods vehicles and buses), D (motorcycles), E (open)."
+     },
+     {
+      "name": "quota_premium_sgd",
+      "type": "integer",
+      "description": "The quota premium: what every successful bidder in the category pays."
+     },
+     {
+      "name": "quota",
+      "type": "integer",
+      "description": "How many COEs were on offer."
+     },
+     {
+      "name": "successful_bids",
+      "type": "integer",
+      "description": "How many bids won a COE."
+     },
+     {
+      "name": "bids_received",
+      "type": "integer",
+      "description": "How many bids were made."
+     },
+     {
+      "name": "premium_in_latest_cpi_month_sgd",
+      "type": "integer",
+      "description": "The quota premium in today's money, using SingStat's CPI for the latest month; the month is in the CSV column's name."
+     },
+     {
+      "name": "pqp_for_next_month_sgd",
+      "type": "integer",
+      "description": "The Prevailing Quota Premium for renewing a COE next month: the mean of the last six rounds' premiums, rounded up. Given on each month's second round for categories A to D, from March 2010."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "cpf-wage-ceilings",
+   "path": "datasets/cpf-wage-ceilings/cpf-wage-ceilings.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "CPF Ordinary Wage ceiling, since 1955",
+   "description": "The Ordinary Wage ceiling, the most monthly pay CPF contributions are worked out on, for every change since July 1955.",
+   "homepage": "https://numbers.sg/rates/cpf-contribution-rates/",
+   "sources": [
+    {
+     "title": "Central Provident Fund Board, via data.gov.sg",
+     "path": "https://data.gov.sg/datasets/d_98ffa142ae0dec40391f78f81d26aca9/view"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "from",
+      "type": "yearmonth",
+      "description": "The month this ceiling took effect."
+     },
+     {
+      "name": "ordinary_wage_ceiling_sgd",
+      "type": "number",
+      "description": "Pay above this in a month earns no CPF contributions."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "The CPF Board document or data.gov.sg dataset the row is taken from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-cny",
+   "path": "datasets/fx-sgd-cny/fx-sgd-cny.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Chinese yuan, since 1993 (daily from 2003)",
+   "description": "Yuan per Singapore dollar and Singapore dollars per 100 yuan, each working day from 2003 and each week from 1993: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.",
+   "homepage": "https://numbers.sg/currency/sgd-to-cny/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "cny_per_sgd",
+      "type": "number",
+      "description": "How many yuan one Singapore dollar buys (the inverse of the next column, kept to six decimals)."
+     },
+     {
+      "name": "sgd_per_100_cny",
+      "type": "number",
+      "description": "Singapore dollars per 100 yuan, the way MAS quotes it."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: MAS = MAS, as of noon; MAS weekly = MAS, weekly (before 2003)."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-cny-monthly",
+   "path": "datasets/fx-sgd-cny-monthly/fx-sgd-cny-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Chinese yuan, monthly averages since 1993",
+   "description": "SingStat's monthly average exchange rate for the yuan (table M700051, averages of MAS's figures) since June 1993, both ways round.",
+   "homepage": "https://numbers.sg/currency/sgd-to-cny/",
+   "sources": [
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "cny_per_sgd",
+      "type": "number",
+      "description": "Yuan per S$1: SingStat's S$ figure, turned round."
+     },
+     {
+      "name": "sgd_per_100_cny",
+      "type": "number",
+      "description": "S$ per 100 yuan: SingStat's monthly average, in the daily table's unit."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-eur",
+   "path": "datasets/fx-sgd-eur/fx-sgd-eur.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to euro, daily since 1999",
+   "description": "Euros per Singapore dollar and Singapore dollars per euro, each working day since 1999: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.",
+   "homepage": "https://numbers.sg/currency/sgd-to-eur/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    },
+    {
+     "title": "European Central Bank",
+     "path": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "eur_per_sgd",
+      "type": "number",
+      "description": "How many euros one Singapore dollar buys (the inverse of the next column, kept to six decimals)."
+     },
+     {
+      "name": "sgd_per_eur",
+      "type": "number",
+      "description": "Singapore dollars per euro, the way MAS quotes it."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: ECB = the ECB's euro reference rates, crossed (before MAS's daily record); MAS = MAS, as of noon."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-eur-monthly",
+   "path": "datasets/fx-sgd-eur-monthly/fx-sgd-eur-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to euro, monthly averages since 1999",
+   "description": "SingStat's monthly average exchange rate for the euro (table M700051, averages of MAS's figures) since January 1999, both ways round.",
+   "homepage": "https://numbers.sg/currency/sgd-to-eur/",
+   "sources": [
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "eur_per_sgd",
+      "type": "number",
+      "description": "Euros per S$1: SingStat's S$ figure, turned round."
+     },
+     {
+      "name": "sgd_per_eur",
+      "type": "number",
+      "description": "S$ per euro: SingStat's monthly average, in the daily table's unit."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-idr",
+   "path": "datasets/fx-sgd-idr/fx-sgd-idr.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Indonesian rupiah, daily since 1999",
+   "description": "Rupiah per Singapore dollar and Singapore dollars per 1,000,000 rupiah, each working day since 1999: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.",
+   "homepage": "https://numbers.sg/currency/sgd-to-idr/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    },
+    {
+     "title": "European Central Bank",
+     "path": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "idr_per_sgd",
+      "type": "number",
+      "description": "How many rupiah one Singapore dollar buys (the inverse of the next column, kept to six decimals)."
+     },
+     {
+      "name": "sgd_per_1000000_idr",
+      "type": "number",
+      "description": "Singapore dollars per 1,000,000 rupiah, the way MAS quotes it."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: ECB = the ECB's euro reference rates, crossed (before MAS's daily record); MAS = MAS, as of noon."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-idr-monthly",
+   "path": "datasets/fx-sgd-idr-monthly/fx-sgd-idr-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Indonesian rupiah, monthly averages since 2003",
+   "description": "Monthly averages of the rupiah, worked out by Numbers.sg from MAS's daily rates for each complete month (the mean of MAS's S$ per 100 rupiah, turned round), since January 2003.",
+   "homepage": "https://numbers.sg/currency/sgd-to-idr/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "idr_per_sgd",
+      "type": "number",
+      "description": "Rupiah per S$1: our monthly mean of MAS's S$ figure, turned round."
+     },
+     {
+      "name": "sgd_per_1000000_idr",
+      "type": "number",
+      "description": "S$ per 1,000,000 rupiah: our mean of MAS's daily figures for the month."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-inr",
+   "path": "datasets/fx-sgd-inr/fx-sgd-inr.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Indian rupee, daily since 2006",
+   "description": "Rupees per Singapore dollar and Singapore dollars per 100 rupees, each working day since 2006: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.",
+   "homepage": "https://numbers.sg/currency/sgd-to-inr/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "inr_per_sgd",
+      "type": "number",
+      "description": "How many rupees one Singapore dollar buys (the inverse of the next column, kept to six decimals)."
+     },
+     {
+      "name": "sgd_per_100_inr",
+      "type": "number",
+      "description": "Singapore dollars per 100 rupees, the way MAS quotes it."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: MAS = MAS, as of noon."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-inr-monthly",
+   "path": "datasets/fx-sgd-inr-monthly/fx-sgd-inr-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Indian rupee, monthly averages since 2006",
+   "description": "SingStat's monthly average exchange rate for the rupee (table M700051, averages of MAS's figures) since January 2006, both ways round.",
+   "homepage": "https://numbers.sg/currency/sgd-to-inr/",
+   "sources": [
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "inr_per_sgd",
+      "type": "number",
+      "description": "Rupees per S$1: SingStat's S$ figure, turned round."
+     },
+     {
+      "name": "sgd_per_100_inr",
+      "type": "number",
+      "description": "S$ per 100 rupees: SingStat's monthly average, in the daily table's unit."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-jpy",
+   "path": "datasets/fx-sgd-jpy/fx-sgd-jpy.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Japanese yen, since 1988 (daily from 2003)",
+   "description": "Yen per Singapore dollar and Singapore dollars per 100 yen, each working day from 2003 and each week from 1988: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.",
+   "homepage": "https://numbers.sg/currency/sgd-to-jpy/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "jpy_per_sgd",
+      "type": "number",
+      "description": "How many yen one Singapore dollar buys (the inverse of the next column, kept to six decimals)."
+     },
+     {
+      "name": "sgd_per_100_jpy",
+      "type": "number",
+      "description": "Singapore dollars per 100 yen, the way MAS quotes it."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: MAS = MAS, as of noon; MAS weekly = MAS, weekly (before 2003)."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-jpy-monthly",
+   "path": "datasets/fx-sgd-jpy-monthly/fx-sgd-jpy-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Japanese yen, monthly averages since 1988",
+   "description": "SingStat's monthly average exchange rate for the yen (table M700051, averages of MAS's figures) since January 1988, both ways round.",
+   "homepage": "https://numbers.sg/currency/sgd-to-jpy/",
+   "sources": [
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "jpy_per_sgd",
+      "type": "number",
+      "description": "Yen per S$1: SingStat's S$ figure, turned round."
+     },
+     {
+      "name": "sgd_per_100_jpy",
+      "type": "number",
+      "description": "S$ per 100 yen: SingStat's monthly average, in the daily table's unit."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-krw",
+   "path": "datasets/fx-sgd-krw/fx-sgd-krw.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Korean won, daily since 1981",
+   "description": "Won per Singapore dollar and Singapore dollars per 10,000 won, each working day since 1981: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.",
+   "homepage": "https://numbers.sg/currency/sgd-to-krw/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    },
+    {
+     "title": "Federal Reserve Board",
+     "path": "https://www.federalreserve.gov/releases/h10/current/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "krw_per_sgd",
+      "type": "number",
+      "description": "How many won one Singapore dollar buys (the inverse of the next column, kept to six decimals)."
+     },
+     {
+      "name": "sgd_per_10000_krw",
+      "type": "number",
+      "description": "Singapore dollars per 10,000 won, the way MAS quotes it."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: FED-H10 = the US Federal Reserve's H.10 noon rates, crossed (before MAS's daily record); MAS = MAS, as of noon."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-krw-monthly",
+   "path": "datasets/fx-sgd-krw-monthly/fx-sgd-krw-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to South Korean won, monthly averages since 2003",
+   "description": "Monthly averages of the won, worked out by Numbers.sg from MAS's daily rates for each complete month (the mean of MAS's S$ per 100 won, turned round), since January 2003.",
+   "homepage": "https://numbers.sg/currency/sgd-to-krw/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "krw_per_sgd",
+      "type": "number",
+      "description": "Won per S$1: our monthly mean of MAS's S$ figure, turned round."
+     },
+     {
+      "name": "sgd_per_10000_krw",
+      "type": "number",
+      "description": "S$ per 10,000 won: our mean of MAS's daily figures for the month."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-myr",
+   "path": "datasets/fx-sgd-myr/fx-sgd-myr.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Malaysian ringgit, daily since 1999",
+   "description": "Ringgit per Singapore dollar each working day since 1999, from our cross of the ECB's euro reference rates, with Bank Negara Malaysia's noon interbank middle rate beside it from 2010.",
+   "homepage": "https://numbers.sg/currency/sgd-to-myr/",
+   "sources": [
+    {
+     "title": "European Central Bank",
+     "path": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    },
+    {
+     "title": "Bank Negara Malaysia (BNM)",
+     "path": "https://www.bnm.gov.my/exchange-rates"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "myr_per_sgd_ecb_cross",
+      "type": "number",
+      "description": "Our cross of the ECB's euro reference rates: ringgit per euro divided by S$ per euro."
+     },
+     {
+      "name": "myr_per_sgd_bnm_noon_middle",
+      "type": "number",
+      "description": "Bank Negara Malaysia's noon interbank middle rate for the Singapore dollar; from January 2010."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-myr-bank-counter",
+   "path": "datasets/fx-sgd-myr-bank-counter/fx-sgd-myr-bank-counter.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Malaysian banks' counter rates for the Singapore dollar, daily since 2021",
+   "description": "Bank Negara Malaysia's 11:30 am figures for the best counter rates selected Malaysian commercial banks offered for the Singapore dollar, buying and selling, each working day since January 2021.",
+   "homepage": "https://numbers.sg/currency/sgd-to-myr/",
+   "sources": [
+    {
+     "title": "Bank Negara Malaysia (BNM)",
+     "path": "https://www.bnm.gov.my/exchange-rates"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day of the rates."
+     },
+     {
+      "name": "banks_buy_myr_per_sgd",
+      "type": "number",
+      "description": "The best rate the banks pay for a Singapore dollar (what you get selling S$ to them)."
+     },
+     {
+      "name": "banks_sell_myr_per_sgd",
+      "type": "number",
+      "description": "The best rate the banks sell a Singapore dollar at (what you pay buying S$ from them)."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-myr-monthly",
+   "path": "datasets/fx-sgd-myr-monthly/fx-sgd-myr-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Malaysian ringgit, monthly averages since 1988",
+   "description": "SingStat's monthly average exchange rate for the ringgit (table M700051, averages of MAS's figures) since January 1988, both ways round.",
+   "homepage": "https://numbers.sg/currency/sgd-to-myr/",
+   "sources": [
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "myr_per_sgd",
+      "type": "number",
+      "description": "Ringgit per Singapore dollar: SingStat's S$ per ringgit, turned round."
+     },
+     {
+      "name": "sgd_per_myr",
+      "type": "number",
+      "description": "Singapore dollars per ringgit, SingStat's monthly average."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-php",
+   "path": "datasets/fx-sgd-php/fx-sgd-php.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Philippine peso, daily since 1999",
+   "description": "Pesos per Singapore dollar and Singapore dollars per 1,000 pesos, each working day since 1999: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.",
+   "homepage": "https://numbers.sg/currency/sgd-to-php/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    },
+    {
+     "title": "European Central Bank",
+     "path": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "php_per_sgd",
+      "type": "number",
+      "description": "How many pesos one Singapore dollar buys (the inverse of the next column, kept to six decimals)."
+     },
+     {
+      "name": "sgd_per_1000_php",
+      "type": "number",
+      "description": "Singapore dollars per 1,000 pesos, the way MAS quotes it."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: ECB = the ECB's euro reference rates, crossed (before MAS's daily record); MAS = MAS, as of noon."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-php-monthly",
+   "path": "datasets/fx-sgd-php-monthly/fx-sgd-php-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Philippine peso, monthly averages since 2003",
+   "description": "Monthly averages of the peso, worked out by Numbers.sg from MAS's daily rates for each complete month (the mean of MAS's S$ per 100 peso, turned round), since January 2003.",
+   "homepage": "https://numbers.sg/currency/sgd-to-php/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "php_per_sgd",
+      "type": "number",
+      "description": "Pesos per S$1: our monthly mean of MAS's S$ figure, turned round."
+     },
+     {
+      "name": "sgd_per_1000_php",
+      "type": "number",
+      "description": "S$ per 1,000 pesos: our mean of MAS's daily figures for the month."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-thb",
+   "path": "datasets/fx-sgd-thb/fx-sgd-thb.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Thai baht, daily since 1981",
+   "description": "Baht per Singapore dollar and Singapore dollars per 1,000 baht, each working day since 1981: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.",
+   "homepage": "https://numbers.sg/currency/sgd-to-thb/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    },
+    {
+     "title": "Federal Reserve Board",
+     "path": "https://www.federalreserve.gov/releases/h10/current/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "thb_per_sgd",
+      "type": "number",
+      "description": "How many baht one Singapore dollar buys (the inverse of the next column, kept to six decimals)."
+     },
+     {
+      "name": "sgd_per_1000_thb",
+      "type": "number",
+      "description": "Singapore dollars per 1,000 baht, the way MAS quotes it."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: FED-H10 = the US Federal Reserve's H.10 noon rates, crossed (before MAS's daily record); MAS = MAS, as of noon."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-sgd-thb-monthly",
+   "path": "datasets/fx-sgd-thb-monthly/fx-sgd-thb-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore dollar to Thai baht, monthly averages since 2003",
+   "description": "SingStat's monthly average exchange rate for the baht (table M700051, averages of MAS's figures) since January 2003, both ways round.",
+   "homepage": "https://numbers.sg/currency/sgd-to-thb/",
+   "sources": [
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "thb_per_sgd",
+      "type": "number",
+      "description": "Baht per S$1: SingStat's S$ figure, turned round."
+     },
+     {
+      "name": "sgd_per_1000_thb",
+      "type": "number",
+      "description": "S$ per 1,000 baht: SingStat's monthly average, in the daily table's unit."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-usd-sgd",
+   "path": "datasets/fx-usd-sgd/fx-usd-sgd.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "US dollar to Singapore dollar, daily since 1981",
+   "description": "Singapore dollars per US dollar and US dollars per Singapore dollar since 1981: MAS's noon rate (daily from 2003, weekly from 1988) and, from 1981 to 1987, the US Federal Reserve's H.10 noon buying rates.",
+   "homepage": "https://numbers.sg/currency/usd-to-sgd/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    },
+    {
+     "title": "Federal Reserve Board",
+     "path": "https://www.federalreserve.gov/releases/h10/current/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "date",
+      "type": "date",
+      "description": "The day the rate is for."
+     },
+     {
+      "name": "sgd_per_usd",
+      "type": "number",
+      "description": "Singapore dollars per US dollar, the way MAS quotes it."
+     },
+     {
+      "name": "usd_per_sgd",
+      "type": "number",
+      "description": "US dollars one Singapore dollar buys (the inverse, kept to six decimals)."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Which figure the row is: MAS = MAS, as of noon; Federal Reserve H.10 = the US Federal Reserve's H.10 noon buying rates (1981 to 1987)."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "fx-usd-sgd-monthly",
+   "path": "datasets/fx-usd-sgd-monthly/fx-usd-sgd-monthly.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "US dollar to Singapore dollar, monthly averages since 1988",
+   "description": "SingStat's monthly average exchange rate for the US dollar (table M700051, averages of MAS's figures) since January 1988, both ways round.",
+   "homepage": "https://numbers.sg/currency/usd-to-sgd/",
+   "sources": [
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month averaged."
+     },
+     {
+      "name": "sgd_per_usd",
+      "type": "number",
+      "description": "S$ per US$1: SingStat's monthly average."
+     },
+     {
+      "name": "usd_per_sgd",
+      "type": "number",
+      "description": "US$ per S$1: SingStat's figure, turned round."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the month's figure comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "income-tax-rates",
+   "path": "datasets/income-tax-rates/income-tax-rates.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore resident income tax rates",
+   "description": "IRAS's progressive income tax rates for tax residents, band by band: where each band starts and ends, its rate, the tax on the whole band and the total tax up to its top, for Year of Assessment 2024 onwards.",
+   "homepage": "https://numbers.sg/tax/income-tax-rates/",
+   "sources": [
+    {
+     "title": "Singapore Statutes Online: Income Tax Act 1947",
+     "path": "https://sso.agc.gov.sg/Act/ITA1947"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "band",
+      "type": "integer",
+      "description": "The band, from the lowest income up."
+     },
+     {
+      "name": "from_sgd",
+      "type": "integer",
+      "description": "Where the band starts."
+     },
+     {
+      "name": "to_sgd",
+      "type": "integer",
+      "description": "Where the band ends; blank (the CSV says no limit) for the top band."
+     },
+     {
+      "name": "rate_pct",
+      "type": "number",
+      "description": "The tax rate on the part of chargeable income in this band."
+     },
+     {
+      "name": "tax_on_band_sgd",
+      "type": "integer",
+      "description": "The tax on the whole band; blank for the open-ended top band."
+     },
+     {
+      "name": "tax_up_to_band_top_sgd",
+      "type": "integer",
+      "description": "The total tax on chargeable income up to the top of this band."
+     },
+     {
+      "name": "applies",
+      "type": "string",
+      "description": "The Years of Assessment these rates apply to, in IRAS's terms."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "inflation",
+   "path": "datasets/inflation/inflation.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore inflation: CPI and MAS Core, monthly since 1961",
+   "description": "SingStat's Consumer Price Index for all items every month since 1961 and the year-on-year headline inflation rate, with MAS Core inflation (which leaves out accommodation and private transport) from 1991.",
+   "homepage": "https://numbers.sg/prices/inflation/",
+   "sources": [
+    {
+     "title": "Department of Statistics (SingStat)",
+     "path": "https://www.singstat.gov.sg/"
+    },
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "month",
+      "type": "yearmonth",
+      "description": "The month the prices are for."
+     },
+     {
+      "name": "cpi_all_items",
+      "type": "number",
+      "description": "SingStat's Consumer Price Index for all items."
+     },
+     {
+      "name": "headline_inflation_pct_yoy",
+      "type": "number",
+      "description": "Headline inflation: how much the CPI rose over the year; blank for 1961, which has no year before."
+     },
+     {
+      "name": "mas_core_index",
+      "type": "number",
+      "description": "SingStat's MAS Core index, which leaves out accommodation and private transport; from 1990."
+     },
+     {
+      "name": "mas_core_inflation_pct_yoy",
+      "type": "number",
+      "description": "MAS Core inflation: how much the MAS Core index rose over the year; from 1991."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "sora",
+   "path": "datasets/sora/sora.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "SORA and Compounded SORA, daily",
+   "description": "The Singapore Overnight Rate Average for every business day since July 2005, with MAS's SORA Index, the 1, 3 and 6-month Compounded SORA, and, from August 2020, the volume and the highest and lowest rates traded.",
+   "homepage": "https://numbers.sg/rates/sora/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "value_date",
+      "type": "date",
+      "description": "The business day the rate is for."
+     },
+     {
+      "name": "publication_date",
+      "type": "date",
+      "description": "The day MAS published it, usually the next business day."
+     },
+     {
+      "name": "sora_pct",
+      "type": "number",
+      "description": "SORA: the volume-weighted average rate of unsecured overnight interbank S$ lending that day."
+     },
+     {
+      "name": "sora_index",
+      "type": "number",
+      "description": "MAS's SORA Index, which compounds SORA day by day; the change between two dates gives the compounded rate between them."
+     },
+     {
+      "name": "compounded_1m_pct",
+      "type": "number",
+      "description": "1-month Compounded SORA: SORA compounded over the month before the publication date (MAS's figure from 6 Aug 2020; ours, by MAS's method, before that)."
+     },
+     {
+      "name": "compounded_3m_pct",
+      "type": "number",
+      "description": "3-month Compounded SORA, worked out the same way over three months. Most SORA home loans use this one."
+     },
+     {
+      "name": "compounded_6m_pct",
+      "type": "number",
+      "description": "6-month Compounded SORA, worked out the same way over six months."
+     },
+     {
+      "name": "volume_sgd_m",
+      "type": "number",
+      "description": "Total overnight lending SORA was worked out from that day."
+     },
+     {
+      "name": "highest_rate_pct",
+      "type": "number",
+      "description": "The highest rate among the trades that day."
+     },
+     {
+      "name": "lowest_rate_pct",
+      "type": "number",
+      "description": "The lowest rate among the trades that day."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the row comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "ssb-issues",
+   "path": "datasets/ssb-issues/ssb-issues.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore Savings Bonds: rates and results",
+   "description": "Every Singapore Savings Bond since the first in October 2015: its interest year by year, the average return if you cash it in after each year, the amount offered and applied for, and, when it was oversubscribed, how much each applicant got.",
+   "homepage": "https://numbers.sg/rates/singapore-savings-bonds/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "bond",
+      "type": "string",
+      "description": "MAS's short name for the bond: SB, then the month and year it's issued."
+     },
+     {
+      "name": "issue_code",
+      "type": "string",
+      "description": "MAS's issue code, the code you apply for at a bank or ATM."
+     },
+     {
+      "name": "announced",
+      "type": "date",
+      "description": "The day MAS announced the bond's interest rates."
+     },
+     {
+      "name": "last_day_to_apply",
+      "type": "date",
+      "description": "The last day to apply."
+     },
+     {
+      "name": "allotment_date",
+      "type": "date",
+      "description": "The day MAS works out who gets how much."
+     },
+     {
+      "name": "issue_date",
+      "type": "date",
+      "description": "The day the bond is issued and interest starts."
+     },
+     {
+      "name": "maturity_date",
+      "type": "date",
+      "description": "The day it pays back the amount you put in, ten years after issue."
+     },
+     {
+      "name": "year1_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 1 after issue."
+     },
+     {
+      "name": "year2_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 2 after issue."
+     },
+     {
+      "name": "year3_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 3 after issue."
+     },
+     {
+      "name": "year4_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 4 after issue."
+     },
+     {
+      "name": "year5_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 5 after issue."
+     },
+     {
+      "name": "year6_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 6 after issue."
+     },
+     {
+      "name": "year7_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 7 after issue."
+     },
+     {
+      "name": "year8_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 8 after issue."
+     },
+     {
+      "name": "year9_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 9 after issue."
+     },
+     {
+      "name": "year10_interest_pct",
+      "type": "number",
+      "description": "The interest the bond pays in year 10 after issue."
+     },
+     {
+      "name": "avg_return_if_held_1y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 1 year and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_2y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 2 years and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_3y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 3 years and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_4y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 4 years and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_5y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 5 years and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_6y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 6 years and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_7y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 7 years and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_8y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 8 years and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_9y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 9 years and then cash it in."
+     },
+     {
+      "name": "avg_return_if_held_10y_pct",
+      "type": "number",
+      "description": "The average return a year if you hold the bond for 10 years and then cash it in."
+     },
+     {
+      "name": "amount_offered_sgd_m",
+      "type": "number",
+      "description": "How much MAS offered in this bond."
+     },
+     {
+      "name": "applied_within_limits_sgd_m",
+      "type": "number",
+      "description": "How much people applied for, counting only what fits within each person's limit."
+     },
+     {
+      "name": "allotted_sgd_m",
+      "type": "number",
+      "description": "How much was given out."
+     },
+     {
+      "name": "full_allotment_up_to_sgd",
+      "type": "integer",
+      "description": "When more was asked for than offered: everyone got up to this amount in full."
+     },
+     {
+      "name": "random_extra_500_pct",
+      "type": "number",
+      "description": "When more was asked for than offered: the share of applicants above that amount who got one more S$500, picked at random."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the row comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  },
+  {
+   "name": "tbill-auctions",
+   "path": "datasets/tbill-auctions/tbill-auctions.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "title": "Singapore T-bill auction results",
+   "description": "Every MAS auction of 6-month and 1-year Singapore Treasury bills since May 1987: the cut-off yield and price, the yield on the cash you actually pay, the median and average yields, the amount sold, total bids and how much of each kind of bid was filled.",
+   "homepage": "https://numbers.sg/rates/t-bills/",
+   "sources": [
+    {
+     "title": "Monetary Authority of Singapore (MAS)",
+     "path": "https://www.mas.gov.sg/statistics"
+    }
+   ],
+   "licenses": [
+    {
+     "name": "CC-BY-4.0",
+     "path": "https://creativecommons.org/licenses/by/4.0/",
+     "title": "Creative Commons Attribution 4.0"
+    }
+   ],
+   "schema": {
+    "fields": [
+     {
+      "name": "auction_date",
+      "type": "date",
+      "description": "The day the auction closed and the result was published."
+     },
+     {
+      "name": "tbill",
+      "type": "string",
+      "description": "Which T-bill: 6-month or 1-year."
+     },
+     {
+      "name": "issue_code",
+      "type": "string",
+      "description": "MAS's issue code, the code you apply for at a bank or ATM."
+     },
+     {
+      "name": "issue_date",
+      "type": "date",
+      "description": "The day the T-bill is issued and paid for."
+     },
+     {
+      "name": "maturity_date",
+      "type": "date",
+      "description": "The day it pays back its face value."
+     },
+     {
+      "name": "days",
+      "type": "integer",
+      "description": "Days from issue to maturity."
+     },
+     {
+      "name": "cutoff_yield_pct",
+      "type": "number",
+      "description": "The cut-off yield: the highest yield MAS accepted, which every successful bidder gets."
+     },
+     {
+      "name": "cutoff_price_sgd_per_100",
+      "type": "number",
+      "description": "What you pay for every S$100 you get back at maturity."
+     },
+     {
+      "name": "yield_on_cash_paid_pct",
+      "type": "number",
+      "description": "The return on the cash you actually pay (the discounted price), which is a little above the cut-off yield."
+     },
+     {
+      "name": "median_yield_pct",
+      "type": "number",
+      "description": "The median yield of the competitive bids that were accepted; MAS records none before November 2009."
+     },
+     {
+      "name": "average_yield_pct",
+      "type": "number",
+      "description": "The average yield of the competitive bids that were accepted."
+     },
+     {
+      "name": "amount_sold_sgd_m",
+      "type": "number",
+      "description": "How much MAS sold at the auction."
+     },
+     {
+      "name": "bids_sgd_m",
+      "type": "number",
+      "description": "How much was bid for in total."
+     },
+     {
+      "name": "bid_to_cover",
+      "type": "number",
+      "description": "Total bids divided by the amount sold: above 1 means more was asked for than was sold."
+     },
+     {
+      "name": "non_competitive_filled_pct",
+      "type": "number",
+      "description": "How much of each non-competitive bid (no yield named, the usual choice for individuals) was filled; none before the 27 Nov 2002 auction, the first where MAS records non-competitive bids allotted."
+     },
+     {
+      "name": "competitive_at_cutoff_filled_pct",
+      "type": "number",
+      "description": "How much of each competitive bid at exactly the cut-off yield was filled; bids at a lower yield were filled in full."
+     },
+     {
+      "name": "source",
+      "type": "string",
+      "description": "Where the row comes from."
+     }
+    ],
+    "missingValues": [
+     ""
+    ]
+   }
+  }
+ ]
+}

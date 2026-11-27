@@ -1,0 +1,5626 @@
+{
+ "dataset": "inflation",
+ "title": "Singapore inflation: CPI and MAS Core, monthly since 1961",
+ "description": "SingStat's Consumer Price Index for all items every month since 1961 and the year-on-year headline inflation rate, with MAS Core inflation (which leaves out accommodation and private transport) from 1991.",
+ "question": "What is Singapore's inflation rate, headline and MAS Core, every month since 1961?",
+ "row": {
+  "is": "One month",
+  "time_key": "month",
+  "primary_key": [
+   "month"
+  ]
+ },
+ "coverage": {
+  "from": "1961-01",
+  "to": "2026-10"
+ },
+ "fields": [
+  {
+   "name": "month",
+   "type": "month",
+   "meaning": "The month the prices are for.",
+   "nullable": false
+  },
+  {
+   "name": "cpi_all_items",
+   "type": "number",
+   "unit": "index (2024 = 100)",
+   "meaning": "SingStat's Consumer Price Index for all items.",
+   "nullable": false
+  },
+  {
+   "name": "headline_inflation_pct_yoy",
+   "type": "number",
+   "unit": "percent, against the same month a year before",
+   "meaning": "Headline inflation: how much the CPI rose over the year; blank for 1961, which has no year before.",
+   "nullable": true,
+   "null_reasons": [
+    "not_applicable"
+   ]
+  },
+  {
+   "name": "mas_core_index",
+   "type": "number",
+   "unit": "index",
+   "meaning": "SingStat's MAS Core index, which leaves out accommodation and private transport; from 1990.",
+   "nullable": true,
+   "null_reasons": [
+    "not_published"
+   ]
+  },
+  {
+   "name": "mas_core_inflation_pct_yoy",
+   "type": "number",
+   "unit": "percent, against the same month a year before",
+   "meaning": "MAS Core inflation: how much the MAS Core index rose over the year; from 1991.",
+   "nullable": true,
+   "null_reasons": [
+    "not_published",
+    "not_applicable"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Department of Statistics (SingStat)",
+   "url": "https://www.singstat.gov.sg/",
+   "terms": "SingStat terms of use",
+   "terms_url": "https://www.singstat.gov.sg/terms-of-use"
+  },
+  {
+   "publisher": "Monetary Authority of Singapore (MAS)",
+   "url": "https://www.mas.gov.sg/statistics",
+   "terms": "MAS Terms of Use of Datasets",
+   "terms_url": "https://www.mas.gov.sg/terms-of-use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Department of Statistics and Monetary Authority of Singapore, compiled by Numbers.sg (numbers.sg/prices/inflation/), CC BY 4.0",
+  "notices": [
+   "Source: Singapore Department of Statistics",
+   "Contains information from Singapore inflation: CPI and MAS Core, monthly since 1961 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)"
+  ]
+ },
+ "page_url": "https://numbers.sg/prices/inflation/",
+ "method": "https://numbers.sg/prices/inflation/#method",
+ "api": "https://numbers.sg/api/v1/inflation",
+ "hash": "sha256:d868c9a834600b4e5db7d674236aaa8d312c084d0510f6fcb4e6a52b4b1588c5",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "month": "1961-01",
+   "cpi_all_items": 21.071,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-02",
+   "cpi_all_items": 21.094,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-03",
+   "cpi_all_items": 21.112,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-04",
+   "cpi_all_items": 20.77,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-05",
+   "cpi_all_items": 20.655,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-06",
+   "cpi_all_items": 20.801,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-07",
+   "cpi_all_items": 20.847,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-08",
+   "cpi_all_items": 21.054,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-09",
+   "cpi_all_items": 20.948,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-10",
+   "cpi_all_items": 21.007,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-11",
+   "cpi_all_items": 21.057,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1961-12",
+   "cpi_all_items": 21.024,
+   "headline_inflation_pct_yoy": null,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-01",
+   "cpi_all_items": 21.157,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-02",
+   "cpi_all_items": 21.277,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-03",
+   "cpi_all_items": 20.972,
+   "headline_inflation_pct_yoy": -0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-04",
+   "cpi_all_items": 20.868,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-05",
+   "cpi_all_items": 20.884,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-06",
+   "cpi_all_items": 20.98,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-07",
+   "cpi_all_items": 21.029,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-08",
+   "cpi_all_items": 20.966,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-09",
+   "cpi_all_items": 21.056,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-10",
+   "cpi_all_items": 21.009,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-11",
+   "cpi_all_items": 21.145,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1962-12",
+   "cpi_all_items": 21.205,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-01",
+   "cpi_all_items": 21.613,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-02",
+   "cpi_all_items": 21.771,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-03",
+   "cpi_all_items": 21.361,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-04",
+   "cpi_all_items": 21.148,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-05",
+   "cpi_all_items": 21.255,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-06",
+   "cpi_all_items": 21.321,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-07",
+   "cpi_all_items": 21.263,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-08",
+   "cpi_all_items": 21.315,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-09",
+   "cpi_all_items": 21.409,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-10",
+   "cpi_all_items": 21.917,
+   "headline_inflation_pct_yoy": 4.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-11",
+   "cpi_all_items": 21.757,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1963-12",
+   "cpi_all_items": 21.798,
+   "headline_inflation_pct_yoy": 2.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-01",
+   "cpi_all_items": 21.93,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-02",
+   "cpi_all_items": 22.012,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-03",
+   "cpi_all_items": 21.933,
+   "headline_inflation_pct_yoy": 2.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-04",
+   "cpi_all_items": 21.639,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-05",
+   "cpi_all_items": 21.648,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-06",
+   "cpi_all_items": 21.583,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-07",
+   "cpi_all_items": 21.685,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-08",
+   "cpi_all_items": 22.044,
+   "headline_inflation_pct_yoy": 3.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-09",
+   "cpi_all_items": 21.985,
+   "headline_inflation_pct_yoy": 2.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-10",
+   "cpi_all_items": 21.844,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-11",
+   "cpi_all_items": 21.831,
+   "headline_inflation_pct_yoy": 0.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1964-12",
+   "cpi_all_items": 22.046,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-01",
+   "cpi_all_items": 22.099,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-02",
+   "cpi_all_items": 22.03,
+   "headline_inflation_pct_yoy": 0.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-03",
+   "cpi_all_items": 21.887,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-04",
+   "cpi_all_items": 21.567,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-05",
+   "cpi_all_items": 21.737,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-06",
+   "cpi_all_items": 21.815,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-07",
+   "cpi_all_items": 21.681,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-08",
+   "cpi_all_items": 21.814,
+   "headline_inflation_pct_yoy": -1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-09",
+   "cpi_all_items": 21.884,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-10",
+   "cpi_all_items": 21.943,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-11",
+   "cpi_all_items": 22.098,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1965-12",
+   "cpi_all_items": 22.263,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-01",
+   "cpi_all_items": 22.534,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-02",
+   "cpi_all_items": 22.326,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-03",
+   "cpi_all_items": 22.148,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-04",
+   "cpi_all_items": 22.232,
+   "headline_inflation_pct_yoy": 3.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-05",
+   "cpi_all_items": 22.187,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-06",
+   "cpi_all_items": 22.245,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-07",
+   "cpi_all_items": 22.331,
+   "headline_inflation_pct_yoy": 3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-08",
+   "cpi_all_items": 22.486,
+   "headline_inflation_pct_yoy": 3.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-09",
+   "cpi_all_items": 22.352,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-10",
+   "cpi_all_items": 22.224,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-11",
+   "cpi_all_items": 22.471,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1966-12",
+   "cpi_all_items": 22.609,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-01",
+   "cpi_all_items": 22.92,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-02",
+   "cpi_all_items": 22.931,
+   "headline_inflation_pct_yoy": 2.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-03",
+   "cpi_all_items": 22.807,
+   "headline_inflation_pct_yoy": 3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-04",
+   "cpi_all_items": 22.448,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-05",
+   "cpi_all_items": 22.653,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-06",
+   "cpi_all_items": 22.913,
+   "headline_inflation_pct_yoy": 3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-07",
+   "cpi_all_items": 23.226,
+   "headline_inflation_pct_yoy": 4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-08",
+   "cpi_all_items": 23.13,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-09",
+   "cpi_all_items": 23.317,
+   "headline_inflation_pct_yoy": 4.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-10",
+   "cpi_all_items": 23.226,
+   "headline_inflation_pct_yoy": 4.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-11",
+   "cpi_all_items": 23.449,
+   "headline_inflation_pct_yoy": 4.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1967-12",
+   "cpi_all_items": 23.659,
+   "headline_inflation_pct_yoy": 4.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-01",
+   "cpi_all_items": 23.681,
+   "headline_inflation_pct_yoy": 3.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-02",
+   "cpi_all_items": 23.412,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-03",
+   "cpi_all_items": 23.327,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-04",
+   "cpi_all_items": 23.281,
+   "headline_inflation_pct_yoy": 3.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-05",
+   "cpi_all_items": 23.024,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-06",
+   "cpi_all_items": 23.022,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-07",
+   "cpi_all_items": 23.138,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-08",
+   "cpi_all_items": 23.324,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-09",
+   "cpi_all_items": 23.188,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-10",
+   "cpi_all_items": 23.152,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-11",
+   "cpi_all_items": 23.101,
+   "headline_inflation_pct_yoy": -1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1968-12",
+   "cpi_all_items": 23.031,
+   "headline_inflation_pct_yoy": -2.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-01",
+   "cpi_all_items": 23.062,
+   "headline_inflation_pct_yoy": -2.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-02",
+   "cpi_all_items": 23.029,
+   "headline_inflation_pct_yoy": -1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-03",
+   "cpi_all_items": 23.159,
+   "headline_inflation_pct_yoy": -0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-04",
+   "cpi_all_items": 23.083,
+   "headline_inflation_pct_yoy": -0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-05",
+   "cpi_all_items": 23.309,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-06",
+   "cpi_all_items": 23.191,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-07",
+   "cpi_all_items": 23.112,
+   "headline_inflation_pct_yoy": -0.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-08",
+   "cpi_all_items": 23.195,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-09",
+   "cpi_all_items": 23.232,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-10",
+   "cpi_all_items": 23.061,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-11",
+   "cpi_all_items": 23.297,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1969-12",
+   "cpi_all_items": 23.619,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-01",
+   "cpi_all_items": 23.287,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-02",
+   "cpi_all_items": 23.386,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-03",
+   "cpi_all_items": 23.102,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-04",
+   "cpi_all_items": 23.14,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-05",
+   "cpi_all_items": 23.155,
+   "headline_inflation_pct_yoy": -0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-06",
+   "cpi_all_items": 23.12,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-07",
+   "cpi_all_items": 23.349,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-08",
+   "cpi_all_items": 23.33,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-09",
+   "cpi_all_items": 23.291,
+   "headline_inflation_pct_yoy": 0.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-10",
+   "cpi_all_items": 23.316,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-11",
+   "cpi_all_items": 23.263,
+   "headline_inflation_pct_yoy": -0.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1970-12",
+   "cpi_all_items": 23.42,
+   "headline_inflation_pct_yoy": -0.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-01",
+   "cpi_all_items": 24.111,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-02",
+   "cpi_all_items": 23.686,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-03",
+   "cpi_all_items": 23.575,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-04",
+   "cpi_all_items": 23.293,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-05",
+   "cpi_all_items": 23.541,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-06",
+   "cpi_all_items": 23.608,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-07",
+   "cpi_all_items": 23.729,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-08",
+   "cpi_all_items": 23.615,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-09",
+   "cpi_all_items": 23.796,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-10",
+   "cpi_all_items": 23.654,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-11",
+   "cpi_all_items": 23.787,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1971-12",
+   "cpi_all_items": 24.003,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-01",
+   "cpi_all_items": 24.035,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-02",
+   "cpi_all_items": 24.026,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-03",
+   "cpi_all_items": 23.981,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-04",
+   "cpi_all_items": 23.704,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-05",
+   "cpi_all_items": 23.798,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-06",
+   "cpi_all_items": 23.881,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-07",
+   "cpi_all_items": 24.025,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-08",
+   "cpi_all_items": 24.237,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-09",
+   "cpi_all_items": 24.409,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-10",
+   "cpi_all_items": 24.372,
+   "headline_inflation_pct_yoy": 3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-11",
+   "cpi_all_items": 24.61,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1972-12",
+   "cpi_all_items": 25.412,
+   "headline_inflation_pct_yoy": 5.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-01",
+   "cpi_all_items": 25.338,
+   "headline_inflation_pct_yoy": 5.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-02",
+   "cpi_all_items": 26.214,
+   "headline_inflation_pct_yoy": 9.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-03",
+   "cpi_all_items": 26.316,
+   "headline_inflation_pct_yoy": 9.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-04",
+   "cpi_all_items": 26.486,
+   "headline_inflation_pct_yoy": 11.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-05",
+   "cpi_all_items": 27.663,
+   "headline_inflation_pct_yoy": 16.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-06",
+   "cpi_all_items": 28.59,
+   "headline_inflation_pct_yoy": 19.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-07",
+   "cpi_all_items": 29.95,
+   "headline_inflation_pct_yoy": 24.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-08",
+   "cpi_all_items": 30.29,
+   "headline_inflation_pct_yoy": 25,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-09",
+   "cpi_all_items": 30.296,
+   "headline_inflation_pct_yoy": 24.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-10",
+   "cpi_all_items": 31.328,
+   "headline_inflation_pct_yoy": 28.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-11",
+   "cpi_all_items": 32.677,
+   "headline_inflation_pct_yoy": 32.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1973-12",
+   "cpi_all_items": 32.33,
+   "headline_inflation_pct_yoy": 27.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-01",
+   "cpi_all_items": 33.738,
+   "headline_inflation_pct_yoy": 33.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-02",
+   "cpi_all_items": 34.728,
+   "headline_inflation_pct_yoy": 32.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-03",
+   "cpi_all_items": 35.333,
+   "headline_inflation_pct_yoy": 34.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-04",
+   "cpi_all_items": 34.94,
+   "headline_inflation_pct_yoy": 31.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-05",
+   "cpi_all_items": 34.964,
+   "headline_inflation_pct_yoy": 26.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-06",
+   "cpi_all_items": 35.098,
+   "headline_inflation_pct_yoy": 22.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-07",
+   "cpi_all_items": 35.372,
+   "headline_inflation_pct_yoy": 18.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-08",
+   "cpi_all_items": 35.612,
+   "headline_inflation_pct_yoy": 17.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-09",
+   "cpi_all_items": 35.992,
+   "headline_inflation_pct_yoy": 18.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-10",
+   "cpi_all_items": 36.326,
+   "headline_inflation_pct_yoy": 16,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-11",
+   "cpi_all_items": 36.407,
+   "headline_inflation_pct_yoy": 11.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1974-12",
+   "cpi_all_items": 36.683,
+   "headline_inflation_pct_yoy": 13.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-01",
+   "cpi_all_items": 36.846,
+   "headline_inflation_pct_yoy": 9.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-02",
+   "cpi_all_items": 36.919,
+   "headline_inflation_pct_yoy": 6.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-03",
+   "cpi_all_items": 36.215,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-04",
+   "cpi_all_items": 35.968,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-05",
+   "cpi_all_items": 36.11,
+   "headline_inflation_pct_yoy": 3.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-06",
+   "cpi_all_items": 36.213,
+   "headline_inflation_pct_yoy": 3.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-07",
+   "cpi_all_items": 36.31,
+   "headline_inflation_pct_yoy": 2.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-08",
+   "cpi_all_items": 36.461,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-09",
+   "cpi_all_items": 36.472,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-10",
+   "cpi_all_items": 36.114,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-11",
+   "cpi_all_items": 36.187,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1975-12",
+   "cpi_all_items": 36.339,
+   "headline_inflation_pct_yoy": -0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-01",
+   "cpi_all_items": 36.327,
+   "headline_inflation_pct_yoy": -1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-02",
+   "cpi_all_items": 36.32,
+   "headline_inflation_pct_yoy": -1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-03",
+   "cpi_all_items": 35.856,
+   "headline_inflation_pct_yoy": -1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-04",
+   "cpi_all_items": 35.508,
+   "headline_inflation_pct_yoy": -1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-05",
+   "cpi_all_items": 35.651,
+   "headline_inflation_pct_yoy": -1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-06",
+   "cpi_all_items": 35.468,
+   "headline_inflation_pct_yoy": -2.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-07",
+   "cpi_all_items": 35.442,
+   "headline_inflation_pct_yoy": -2.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-08",
+   "cpi_all_items": 35.395,
+   "headline_inflation_pct_yoy": -2.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-09",
+   "cpi_all_items": 35.331,
+   "headline_inflation_pct_yoy": -3.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-10",
+   "cpi_all_items": 35.295,
+   "headline_inflation_pct_yoy": -2.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-11",
+   "cpi_all_items": 35.504,
+   "headline_inflation_pct_yoy": -1.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1976-12",
+   "cpi_all_items": 35.785,
+   "headline_inflation_pct_yoy": -1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-01",
+   "cpi_all_items": 36.258,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-02",
+   "cpi_all_items": 36.501,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-03",
+   "cpi_all_items": 36.255,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-04",
+   "cpi_all_items": 35.952,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-05",
+   "cpi_all_items": 36.239,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-06",
+   "cpi_all_items": 36.37,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-07",
+   "cpi_all_items": 36.739,
+   "headline_inflation_pct_yoy": 3.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-08",
+   "cpi_all_items": 37.29,
+   "headline_inflation_pct_yoy": 5.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-09",
+   "cpi_all_items": 37.532,
+   "headline_inflation_pct_yoy": 6.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-10",
+   "cpi_all_items": 37.002,
+   "headline_inflation_pct_yoy": 4.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-11",
+   "cpi_all_items": 37.311,
+   "headline_inflation_pct_yoy": 5.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1977-12",
+   "cpi_all_items": 38.071,
+   "headline_inflation_pct_yoy": 6.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-01",
+   "cpi_all_items": 37.844,
+   "headline_inflation_pct_yoy": 4.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-02",
+   "cpi_all_items": 38.102,
+   "headline_inflation_pct_yoy": 4.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-03",
+   "cpi_all_items": 37.594,
+   "headline_inflation_pct_yoy": 3.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-04",
+   "cpi_all_items": 37.818,
+   "headline_inflation_pct_yoy": 5.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-05",
+   "cpi_all_items": 37.948,
+   "headline_inflation_pct_yoy": 4.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-06",
+   "cpi_all_items": 38.036,
+   "headline_inflation_pct_yoy": 4.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-07",
+   "cpi_all_items": 38.493,
+   "headline_inflation_pct_yoy": 4.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-08",
+   "cpi_all_items": 38.673,
+   "headline_inflation_pct_yoy": 3.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-09",
+   "cpi_all_items": 38.738,
+   "headline_inflation_pct_yoy": 3.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-10",
+   "cpi_all_items": 38.598,
+   "headline_inflation_pct_yoy": 4.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-11",
+   "cpi_all_items": 38.826,
+   "headline_inflation_pct_yoy": 4.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1978-12",
+   "cpi_all_items": 38.796,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-01",
+   "cpi_all_items": 38.822,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-02",
+   "cpi_all_items": 38.701,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-03",
+   "cpi_all_items": 38.578,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-04",
+   "cpi_all_items": 38.753,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-05",
+   "cpi_all_items": 39.034,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-06",
+   "cpi_all_items": 39.137,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-07",
+   "cpi_all_items": 39.624,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-08",
+   "cpi_all_items": 40.327,
+   "headline_inflation_pct_yoy": 4.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-09",
+   "cpi_all_items": 40.963,
+   "headline_inflation_pct_yoy": 5.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-10",
+   "cpi_all_items": 40.972,
+   "headline_inflation_pct_yoy": 6.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-11",
+   "cpi_all_items": 41.324,
+   "headline_inflation_pct_yoy": 6.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1979-12",
+   "cpi_all_items": 41.633,
+   "headline_inflation_pct_yoy": 7.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-01",
+   "cpi_all_items": 41.68,
+   "headline_inflation_pct_yoy": 7.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-02",
+   "cpi_all_items": 42.335,
+   "headline_inflation_pct_yoy": 9.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-03",
+   "cpi_all_items": 42.787,
+   "headline_inflation_pct_yoy": 10.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-04",
+   "cpi_all_items": 42.971,
+   "headline_inflation_pct_yoy": 10.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-05",
+   "cpi_all_items": 42.948,
+   "headline_inflation_pct_yoy": 10,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-06",
+   "cpi_all_items": 43.062,
+   "headline_inflation_pct_yoy": 10,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-07",
+   "cpi_all_items": 43.437,
+   "headline_inflation_pct_yoy": 9.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-08",
+   "cpi_all_items": 43.767,
+   "headline_inflation_pct_yoy": 8.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-09",
+   "cpi_all_items": 43.659,
+   "headline_inflation_pct_yoy": 6.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-10",
+   "cpi_all_items": 43.806,
+   "headline_inflation_pct_yoy": 6.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-11",
+   "cpi_all_items": 44.093,
+   "headline_inflation_pct_yoy": 6.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1980-12",
+   "cpi_all_items": 44.132,
+   "headline_inflation_pct_yoy": 6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-01",
+   "cpi_all_items": 44.264,
+   "headline_inflation_pct_yoy": 6.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-02",
+   "cpi_all_items": 44.793,
+   "headline_inflation_pct_yoy": 5.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-03",
+   "cpi_all_items": 44.894,
+   "headline_inflation_pct_yoy": 4.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-04",
+   "cpi_all_items": 45.802,
+   "headline_inflation_pct_yoy": 6.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-05",
+   "cpi_all_items": 46.39,
+   "headline_inflation_pct_yoy": 8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-06",
+   "cpi_all_items": 46.702,
+   "headline_inflation_pct_yoy": 8.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-07",
+   "cpi_all_items": 47.404,
+   "headline_inflation_pct_yoy": 9.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-08",
+   "cpi_all_items": 48.03,
+   "headline_inflation_pct_yoy": 9.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-09",
+   "cpi_all_items": 47.944,
+   "headline_inflation_pct_yoy": 9.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-10",
+   "cpi_all_items": 47.96,
+   "headline_inflation_pct_yoy": 9.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-11",
+   "cpi_all_items": 48.28,
+   "headline_inflation_pct_yoy": 9.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1981-12",
+   "cpi_all_items": 48.698,
+   "headline_inflation_pct_yoy": 10.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-01",
+   "cpi_all_items": 49.177,
+   "headline_inflation_pct_yoy": 11.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-02",
+   "cpi_all_items": 48.8,
+   "headline_inflation_pct_yoy": 8.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-03",
+   "cpi_all_items": 48.28,
+   "headline_inflation_pct_yoy": 7.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-04",
+   "cpi_all_items": 48.298,
+   "headline_inflation_pct_yoy": 5.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-05",
+   "cpi_all_items": 48.327,
+   "headline_inflation_pct_yoy": 4.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-06",
+   "cpi_all_items": 48.455,
+   "headline_inflation_pct_yoy": 3.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-07",
+   "cpi_all_items": 48.326,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-08",
+   "cpi_all_items": 48.527,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-09",
+   "cpi_all_items": 48.606,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-10",
+   "cpi_all_items": 48.475,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-11",
+   "cpi_all_items": 48.774,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1982-12",
+   "cpi_all_items": 49.1,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-01",
+   "cpi_all_items": 48.945,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-02",
+   "cpi_all_items": 49.044,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-03",
+   "cpi_all_items": 48.991,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-04",
+   "cpi_all_items": 48.926,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-05",
+   "cpi_all_items": 49.098,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-06",
+   "cpi_all_items": 48.784,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-07",
+   "cpi_all_items": 48.966,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-08",
+   "cpi_all_items": 49.001,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-09",
+   "cpi_all_items": 49.18,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-10",
+   "cpi_all_items": 49.075,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-11",
+   "cpi_all_items": 49.526,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1983-12",
+   "cpi_all_items": 49.661,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-01",
+   "cpi_all_items": 50.163,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-02",
+   "cpi_all_items": 50.825,
+   "headline_inflation_pct_yoy": 3.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-03",
+   "cpi_all_items": 50.323,
+   "headline_inflation_pct_yoy": 2.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-04",
+   "cpi_all_items": 50.327,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-05",
+   "cpi_all_items": 50.288,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-06",
+   "cpi_all_items": 50.427,
+   "headline_inflation_pct_yoy": 3.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-07",
+   "cpi_all_items": 50.569,
+   "headline_inflation_pct_yoy": 3.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-08",
+   "cpi_all_items": 50.689,
+   "headline_inflation_pct_yoy": 3.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-09",
+   "cpi_all_items": 50.35,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-10",
+   "cpi_all_items": 50.325,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-11",
+   "cpi_all_items": 50.136,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1984-12",
+   "cpi_all_items": 50.114,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-01",
+   "cpi_all_items": 50.339,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-02",
+   "cpi_all_items": 50.589,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-03",
+   "cpi_all_items": 50.721,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-04",
+   "cpi_all_items": 50.623,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-05",
+   "cpi_all_items": 50.613,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-06",
+   "cpi_all_items": 50.741,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-07",
+   "cpi_all_items": 50.908,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-08",
+   "cpi_all_items": 50.967,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-09",
+   "cpi_all_items": 50.565,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-10",
+   "cpi_all_items": 50.555,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-11",
+   "cpi_all_items": 50.426,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1985-12",
+   "cpi_all_items": 50.459,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-01",
+   "cpi_all_items": 50.435,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-02",
+   "cpi_all_items": 50.302,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-03",
+   "cpi_all_items": 50.156,
+   "headline_inflation_pct_yoy": -1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-04",
+   "cpi_all_items": 49.903,
+   "headline_inflation_pct_yoy": -1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-05",
+   "cpi_all_items": 49.865,
+   "headline_inflation_pct_yoy": -1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-06",
+   "cpi_all_items": 49.791,
+   "headline_inflation_pct_yoy": -1.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-07",
+   "cpi_all_items": 49.712,
+   "headline_inflation_pct_yoy": -2.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-08",
+   "cpi_all_items": 49.691,
+   "headline_inflation_pct_yoy": -2.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-09",
+   "cpi_all_items": 49.894,
+   "headline_inflation_pct_yoy": -1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-10",
+   "cpi_all_items": 49.88,
+   "headline_inflation_pct_yoy": -1.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-11",
+   "cpi_all_items": 49.725,
+   "headline_inflation_pct_yoy": -1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1986-12",
+   "cpi_all_items": 49.763,
+   "headline_inflation_pct_yoy": -1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-01",
+   "cpi_all_items": 50.082,
+   "headline_inflation_pct_yoy": -0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-02",
+   "cpi_all_items": 49.768,
+   "headline_inflation_pct_yoy": -1.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-03",
+   "cpi_all_items": 49.762,
+   "headline_inflation_pct_yoy": -0.8,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-04",
+   "cpi_all_items": 49.939,
+   "headline_inflation_pct_yoy": 0.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-05",
+   "cpi_all_items": 50.073,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-06",
+   "cpi_all_items": 50.103,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-07",
+   "cpi_all_items": 50.308,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-08",
+   "cpi_all_items": 50.37,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-09",
+   "cpi_all_items": 50.342,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-10",
+   "cpi_all_items": 50.328,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-11",
+   "cpi_all_items": 50.414,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1987-12",
+   "cpi_all_items": 50.522,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-01",
+   "cpi_all_items": 50.45,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-02",
+   "cpi_all_items": 50.838,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-03",
+   "cpi_all_items": 50.707,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-04",
+   "cpi_all_items": 50.722,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-05",
+   "cpi_all_items": 50.883,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-06",
+   "cpi_all_items": 50.827,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-07",
+   "cpi_all_items": 51.123,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-08",
+   "cpi_all_items": 51.103,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-09",
+   "cpi_all_items": 51.15,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-10",
+   "cpi_all_items": 51.038,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-11",
+   "cpi_all_items": 51.107,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1988-12",
+   "cpi_all_items": 51.233,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-01",
+   "cpi_all_items": 51.212,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-02",
+   "cpi_all_items": 51.347,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-03",
+   "cpi_all_items": 51.296,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-04",
+   "cpi_all_items": 51.591,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-05",
+   "cpi_all_items": 51.956,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-06",
+   "cpi_all_items": 52.192,
+   "headline_inflation_pct_yoy": 2.7,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-07",
+   "cpi_all_items": 52.341,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-08",
+   "cpi_all_items": 52.405,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-09",
+   "cpi_all_items": 52.401,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-10",
+   "cpi_all_items": 52.666,
+   "headline_inflation_pct_yoy": 3.2,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-11",
+   "cpi_all_items": 52.866,
+   "headline_inflation_pct_yoy": 3.4,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1989-12",
+   "cpi_all_items": 52.93,
+   "headline_inflation_pct_yoy": 3.3,
+   "mas_core_index": null,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-01",
+   "cpi_all_items": 53.231,
+   "headline_inflation_pct_yoy": 3.9,
+   "mas_core_index": 54.764,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-02",
+   "cpi_all_items": 53.335,
+   "headline_inflation_pct_yoy": 3.9,
+   "mas_core_index": 54.859,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-03",
+   "cpi_all_items": 53.18,
+   "headline_inflation_pct_yoy": 3.7,
+   "mas_core_index": 54.663,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-04",
+   "cpi_all_items": 53.478,
+   "headline_inflation_pct_yoy": 3.7,
+   "mas_core_index": 55.005,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-05",
+   "cpi_all_items": 53.616,
+   "headline_inflation_pct_yoy": 3.2,
+   "mas_core_index": 55.119,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-06",
+   "cpi_all_items": 53.69,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": 55.116,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-07",
+   "cpi_all_items": 53.715,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": 55.06,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-08",
+   "cpi_all_items": 53.906,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": 55.052,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-09",
+   "cpi_all_items": 54.274,
+   "headline_inflation_pct_yoy": 3.6,
+   "mas_core_index": 54.985,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-10",
+   "cpi_all_items": 54.705,
+   "headline_inflation_pct_yoy": 3.9,
+   "mas_core_index": 55.488,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-11",
+   "cpi_all_items": 54.691,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 55.997,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1990-12",
+   "cpi_all_items": 54.951,
+   "headline_inflation_pct_yoy": 3.8,
+   "mas_core_index": 56.412,
+   "mas_core_inflation_pct_yoy": null
+  },
+  {
+   "month": "1991-01",
+   "cpi_all_items": 55.008,
+   "headline_inflation_pct_yoy": 3.3,
+   "mas_core_index": 56.51,
+   "mas_core_inflation_pct_yoy": 3.2
+  },
+  {
+   "month": "1991-02",
+   "cpi_all_items": 55.459,
+   "headline_inflation_pct_yoy": 4,
+   "mas_core_index": 56.922,
+   "mas_core_inflation_pct_yoy": 3.8
+  },
+  {
+   "month": "1991-03",
+   "cpi_all_items": 55.192,
+   "headline_inflation_pct_yoy": 3.8,
+   "mas_core_index": 56.826,
+   "mas_core_inflation_pct_yoy": 4
+  },
+  {
+   "month": "1991-04",
+   "cpi_all_items": 55.478,
+   "headline_inflation_pct_yoy": 3.7,
+   "mas_core_index": 57.109,
+   "mas_core_inflation_pct_yoy": 3.8
+  },
+  {
+   "month": "1991-05",
+   "cpi_all_items": 55.658,
+   "headline_inflation_pct_yoy": 3.8,
+   "mas_core_index": 57.194,
+   "mas_core_inflation_pct_yoy": 3.8
+  },
+  {
+   "month": "1991-06",
+   "cpi_all_items": 55.788,
+   "headline_inflation_pct_yoy": 3.9,
+   "mas_core_index": 57.214,
+   "mas_core_inflation_pct_yoy": 3.8
+  },
+  {
+   "month": "1991-07",
+   "cpi_all_items": 55.862,
+   "headline_inflation_pct_yoy": 4,
+   "mas_core_index": 57.306,
+   "mas_core_inflation_pct_yoy": 4.1
+  },
+  {
+   "month": "1991-08",
+   "cpi_all_items": 56,
+   "headline_inflation_pct_yoy": 3.9,
+   "mas_core_index": 57.434,
+   "mas_core_inflation_pct_yoy": 4.3
+  },
+  {
+   "month": "1991-09",
+   "cpi_all_items": 55.969,
+   "headline_inflation_pct_yoy": 3.1,
+   "mas_core_index": 57.373,
+   "mas_core_inflation_pct_yoy": 4.3
+  },
+  {
+   "month": "1991-10",
+   "cpi_all_items": 55.993,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": 57.462,
+   "mas_core_inflation_pct_yoy": 3.6
+  },
+  {
+   "month": "1991-11",
+   "cpi_all_items": 56.083,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 57.503,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "1991-12",
+   "cpi_all_items": 56.531,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": 57.966,
+   "mas_core_inflation_pct_yoy": 2.8
+  },
+  {
+   "month": "1992-01",
+   "cpi_all_items": 56.531,
+   "headline_inflation_pct_yoy": 2.8,
+   "mas_core_index": 57.844,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "1992-02",
+   "cpi_all_items": 56.454,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 57.867,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1992-03",
+   "cpi_all_items": 56.355,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 57.76,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "1992-04",
+   "cpi_all_items": 56.708,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 57.973,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "1992-05",
+   "cpi_all_items": 57.002,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": 58.181,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1992-06",
+   "cpi_all_items": 57.009,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 58.173,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1992-07",
+   "cpi_all_items": 57.254,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 58.309,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1992-08",
+   "cpi_all_items": 57.153,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 58.152,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "1992-09",
+   "cpi_all_items": 57.192,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 58.2,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "1992-10",
+   "cpi_all_items": 57.334,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": 58.291,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "1992-11",
+   "cpi_all_items": 57.496,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 58.42,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "1992-12",
+   "cpi_all_items": 57.543,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 58.572,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "1993-01",
+   "cpi_all_items": 57.984,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": 59.089,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "1993-02",
+   "cpi_all_items": 57.713,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 58.755,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "1993-03",
+   "cpi_all_items": 57.854,
+   "headline_inflation_pct_yoy": 2.7,
+   "mas_core_index": 58.868,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1993-04",
+   "cpi_all_items": 58.023,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 58.964,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1993-05",
+   "cpi_all_items": 58.184,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 59.13,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "1993-06",
+   "cpi_all_items": 58.203,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 59.11,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "1993-07",
+   "cpi_all_items": 58.481,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 59.377,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1993-08",
+   "cpi_all_items": 58.389,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 59.258,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1993-09",
+   "cpi_all_items": 58.42,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 59.203,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1993-10",
+   "cpi_all_items": 58.627,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 59.333,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1993-11",
+   "cpi_all_items": 58.811,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 59.466,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1993-12",
+   "cpi_all_items": 59.013,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": 59.573,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1994-01",
+   "cpi_all_items": 59.311,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 59.778,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "1994-02",
+   "cpi_all_items": 59.504,
+   "headline_inflation_pct_yoy": 3.1,
+   "mas_core_index": 60.189,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "1994-03",
+   "cpi_all_items": 59.206,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 59.984,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1994-04",
+   "cpi_all_items": 59.651,
+   "headline_inflation_pct_yoy": 2.8,
+   "mas_core_index": 60.315,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "1994-05",
+   "cpi_all_items": 59.953,
+   "headline_inflation_pct_yoy": 3,
+   "mas_core_index": 60.58,
+   "mas_core_inflation_pct_yoy": 2.5
+  },
+  {
+   "month": "1994-06",
+   "cpi_all_items": 60.239,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 60.842,
+   "mas_core_inflation_pct_yoy": 2.9
+  },
+  {
+   "month": "1994-07",
+   "cpi_all_items": 60.354,
+   "headline_inflation_pct_yoy": 3.2,
+   "mas_core_index": 60.95,
+   "mas_core_inflation_pct_yoy": 2.6
+  },
+  {
+   "month": "1994-08",
+   "cpi_all_items": 60.432,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 60.985,
+   "mas_core_inflation_pct_yoy": 2.9
+  },
+  {
+   "month": "1994-09",
+   "cpi_all_items": 60.455,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 60.958,
+   "mas_core_inflation_pct_yoy": 3
+  },
+  {
+   "month": "1994-10",
+   "cpi_all_items": 60.662,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 61.09,
+   "mas_core_inflation_pct_yoy": 3
+  },
+  {
+   "month": "1994-11",
+   "cpi_all_items": 60.885,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 61.184,
+   "mas_core_inflation_pct_yoy": 2.9
+  },
+  {
+   "month": "1994-12",
+   "cpi_all_items": 60.71,
+   "headline_inflation_pct_yoy": 2.9,
+   "mas_core_index": 61.175,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "1995-01",
+   "cpi_all_items": 60.841,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": 61.587,
+   "mas_core_inflation_pct_yoy": 3
+  },
+  {
+   "month": "1995-02",
+   "cpi_all_items": 60.904,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": 61.804,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "1995-03",
+   "cpi_all_items": 60.717,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": 61.66,
+   "mas_core_inflation_pct_yoy": 2.8
+  },
+  {
+   "month": "1995-04",
+   "cpi_all_items": 61.01,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 61.894,
+   "mas_core_inflation_pct_yoy": 2.6
+  },
+  {
+   "month": "1995-05",
+   "cpi_all_items": 61.245,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 61.993,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "1995-06",
+   "cpi_all_items": 61.335,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 62.012,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1995-07",
+   "cpi_all_items": 61.239,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": 62.041,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1995-08",
+   "cpi_all_items": 61.256,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": 62.143,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1995-09",
+   "cpi_all_items": 61.259,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 62.137,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1995-10",
+   "cpi_all_items": 61.326,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": 62.132,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1995-11",
+   "cpi_all_items": 61.45,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 62.332,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1995-12",
+   "cpi_all_items": 61.221,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": 62.261,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1996-01",
+   "cpi_all_items": 61.389,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 62.428,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "1996-02",
+   "cpi_all_items": 61.893,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 63.037,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "1996-03",
+   "cpi_all_items": 61.621,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": 62.679,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1996-04",
+   "cpi_all_items": 61.689,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": 62.864,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "1996-05",
+   "cpi_all_items": 61.984,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 63.064,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1996-06",
+   "cpi_all_items": 62.046,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 63.145,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1996-07",
+   "cpi_all_items": 62.048,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 63.183,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1996-08",
+   "cpi_all_items": 62.135,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": 63.304,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1996-09",
+   "cpi_all_items": 62.164,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": 63.312,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1996-10",
+   "cpi_all_items": 62.181,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": 63.307,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1996-11",
+   "cpi_all_items": 62.33,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": 63.456,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1996-12",
+   "cpi_all_items": 62.444,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 63.571,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "1997-01",
+   "cpi_all_items": 62.577,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 63.58,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "1997-02",
+   "cpi_all_items": 62.897,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 64.088,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1997-03",
+   "cpi_all_items": 62.589,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 63.716,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1997-04",
+   "cpi_all_items": 62.877,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 63.823,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "1997-05",
+   "cpi_all_items": 63.006,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 63.842,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "1997-06",
+   "cpi_all_items": 63.117,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": 63.837,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "1997-07",
+   "cpi_all_items": 63.363,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 64.022,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "1997-08",
+   "cpi_all_items": 63.58,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 64.319,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "1997-09",
+   "cpi_all_items": 63.712,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 64.493,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1997-10",
+   "cpi_all_items": 63.744,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 64.367,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "1997-11",
+   "cpi_all_items": 63.789,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 64.469,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "1997-12",
+   "cpi_all_items": 63.723,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 64.474,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "1998-01",
+   "cpi_all_items": 63.527,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": 64.814,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "1998-02",
+   "cpi_all_items": 63.486,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 64.727,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "1998-03",
+   "cpi_all_items": 63.159,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 64.367,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "1998-04",
+   "cpi_all_items": 63.195,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 64.405,
+   "mas_core_inflation_pct_yoy": 0.9
+  },
+  {
+   "month": "1998-05",
+   "cpi_all_items": 63.047,
+   "headline_inflation_pct_yoy": 0.1,
+   "mas_core_index": 64.184,
+   "mas_core_inflation_pct_yoy": 0.5
+  },
+  {
+   "month": "1998-06",
+   "cpi_all_items": 62.995,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": 64.09,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "1998-07",
+   "cpi_all_items": 63.06,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": 64.174,
+   "mas_core_inflation_pct_yoy": 0.2
+  },
+  {
+   "month": "1998-08",
+   "cpi_all_items": 62.967,
+   "headline_inflation_pct_yoy": -1,
+   "mas_core_index": 64.211,
+   "mas_core_inflation_pct_yoy": -0.2
+  },
+  {
+   "month": "1998-09",
+   "cpi_all_items": 62.907,
+   "headline_inflation_pct_yoy": -1.3,
+   "mas_core_index": 64.226,
+   "mas_core_inflation_pct_yoy": -0.4
+  },
+  {
+   "month": "1998-10",
+   "cpi_all_items": 62.808,
+   "headline_inflation_pct_yoy": -1.5,
+   "mas_core_index": 64.174,
+   "mas_core_inflation_pct_yoy": -0.3
+  },
+  {
+   "month": "1998-11",
+   "cpi_all_items": 62.952,
+   "headline_inflation_pct_yoy": -1.3,
+   "mas_core_index": 64.395,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "1998-12",
+   "cpi_all_items": 62.813,
+   "headline_inflation_pct_yoy": -1.4,
+   "mas_core_index": 64.263,
+   "mas_core_inflation_pct_yoy": -0.3
+  },
+  {
+   "month": "1999-01",
+   "cpi_all_items": 62.944,
+   "headline_inflation_pct_yoy": -0.9,
+   "mas_core_index": 64.541,
+   "mas_core_inflation_pct_yoy": -0.4
+  },
+  {
+   "month": "1999-02",
+   "cpi_all_items": 63.022,
+   "headline_inflation_pct_yoy": -0.7,
+   "mas_core_index": 64.653,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "1999-03",
+   "cpi_all_items": 62.831,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": 64.387,
+   "mas_core_inflation_pct_yoy": 0
+  },
+  {
+   "month": "1999-04",
+   "cpi_all_items": 62.994,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 64.643,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "1999-05",
+   "cpi_all_items": 63.138,
+   "headline_inflation_pct_yoy": 0.1,
+   "mas_core_index": 64.717,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "1999-06",
+   "cpi_all_items": 63.075,
+   "headline_inflation_pct_yoy": 0.1,
+   "mas_core_index": 64.567,
+   "mas_core_inflation_pct_yoy": 0.7
+  },
+  {
+   "month": "1999-07",
+   "cpi_all_items": 63.163,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 64.826,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "1999-08",
+   "cpi_all_items": 63.202,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 64.766,
+   "mas_core_inflation_pct_yoy": 0.9
+  },
+  {
+   "month": "1999-09",
+   "cpi_all_items": 63.178,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 64.683,
+   "mas_core_inflation_pct_yoy": 0.7
+  },
+  {
+   "month": "1999-10",
+   "cpi_all_items": 63.131,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 64.619,
+   "mas_core_inflation_pct_yoy": 0.7
+  },
+  {
+   "month": "1999-11",
+   "cpi_all_items": 63.177,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 64.723,
+   "mas_core_inflation_pct_yoy": 0.5
+  },
+  {
+   "month": "1999-12",
+   "cpi_all_items": 63.239,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 64.781,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "2000-01",
+   "cpi_all_items": 63.518,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 65.151,
+   "mas_core_inflation_pct_yoy": 0.9
+  },
+  {
+   "month": "2000-02",
+   "cpi_all_items": 63.82,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 65.467,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2000-03",
+   "cpi_all_items": 63.602,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 65.208,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2000-04",
+   "cpi_all_items": 63.693,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": 65.236,
+   "mas_core_inflation_pct_yoy": 0.9
+  },
+  {
+   "month": "2000-05",
+   "cpi_all_items": 63.464,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 65.142,
+   "mas_core_inflation_pct_yoy": 0.7
+  },
+  {
+   "month": "2000-06",
+   "cpi_all_items": 63.567,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": 65.214,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2000-07",
+   "cpi_all_items": 63.892,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 65.569,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2000-08",
+   "cpi_all_items": 64.229,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 65.979,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2000-09",
+   "cpi_all_items": 64.244,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": 65.914,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2000-10",
+   "cpi_all_items": 64.293,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 65.949,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2000-11",
+   "cpi_all_items": 64.435,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 66.257,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2000-12",
+   "cpi_all_items": 64.543,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 66.362,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2001-01",
+   "cpi_all_items": 64.782,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 66.784,
+   "mas_core_inflation_pct_yoy": 2.5
+  },
+  {
+   "month": "2001-02",
+   "cpi_all_items": 64.659,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 66.659,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2001-03",
+   "cpi_all_items": 64.775,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 66.708,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "2001-04",
+   "cpi_all_items": 64.952,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 66.938,
+   "mas_core_inflation_pct_yoy": 2.6
+  },
+  {
+   "month": "2001-05",
+   "cpi_all_items": 64.69,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 66.637,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "2001-06",
+   "cpi_all_items": 64.336,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 66.453,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2001-07",
+   "cpi_all_items": 64.722,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 66.794,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2001-08",
+   "cpi_all_items": 64.684,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 66.731,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2001-09",
+   "cpi_all_items": 64.594,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 66.619,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2001-10",
+   "cpi_all_items": 64.432,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 66.513,
+   "mas_core_inflation_pct_yoy": 0.9
+  },
+  {
+   "month": "2001-11",
+   "cpi_all_items": 64.296,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": 66.489,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "2001-12",
+   "cpi_all_items": 64.163,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": 66.406,
+   "mas_core_inflation_pct_yoy": 0.1
+  },
+  {
+   "month": "2002-01",
+   "cpi_all_items": 64.069,
+   "headline_inflation_pct_yoy": -1.1,
+   "mas_core_index": 66.274,
+   "mas_core_inflation_pct_yoy": -0.8
+  },
+  {
+   "month": "2002-02",
+   "cpi_all_items": 64.259,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": 66.493,
+   "mas_core_inflation_pct_yoy": -0.2
+  },
+  {
+   "month": "2002-03",
+   "cpi_all_items": 64.198,
+   "headline_inflation_pct_yoy": -0.9,
+   "mas_core_index": 66.369,
+   "mas_core_inflation_pct_yoy": -0.5
+  },
+  {
+   "month": "2002-04",
+   "cpi_all_items": 64.267,
+   "headline_inflation_pct_yoy": -1.1,
+   "mas_core_index": 66.425,
+   "mas_core_inflation_pct_yoy": -0.8
+  },
+  {
+   "month": "2002-05",
+   "cpi_all_items": 64.467,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 66.616,
+   "mas_core_inflation_pct_yoy": 0
+  },
+  {
+   "month": "2002-06",
+   "cpi_all_items": 64.427,
+   "headline_inflation_pct_yoy": 0.1,
+   "mas_core_index": 66.618,
+   "mas_core_inflation_pct_yoy": 0.2
+  },
+  {
+   "month": "2002-07",
+   "cpi_all_items": 64.448,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 66.705,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "2002-08",
+   "cpi_all_items": 64.401,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 66.65,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "2002-09",
+   "cpi_all_items": 64.321,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 66.68,
+   "mas_core_inflation_pct_yoy": 0.1
+  },
+  {
+   "month": "2002-10",
+   "cpi_all_items": 64.303,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": 66.661,
+   "mas_core_inflation_pct_yoy": 0.2
+  },
+  {
+   "month": "2002-11",
+   "cpi_all_items": 64.446,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 66.873,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2002-12",
+   "cpi_all_items": 64.443,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 66.937,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "2003-01",
+   "cpi_all_items": 64.629,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 67.167,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2003-02",
+   "cpi_all_items": 64.511,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 66.96,
+   "mas_core_inflation_pct_yoy": 0.7
+  },
+  {
+   "month": "2003-03",
+   "cpi_all_items": 64.69,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": 67.095,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2003-04",
+   "cpi_all_items": 64.822,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 67.418,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2003-05",
+   "cpi_all_items": 64.411,
+   "headline_inflation_pct_yoy": -0.1,
+   "mas_core_index": 66.952,
+   "mas_core_inflation_pct_yoy": 0.5
+  },
+  {
+   "month": "2003-06",
+   "cpi_all_items": 64.219,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 66.677,
+   "mas_core_inflation_pct_yoy": 0.1
+  },
+  {
+   "month": "2003-07",
+   "cpi_all_items": 64.62,
+   "headline_inflation_pct_yoy": 0.3,
+   "mas_core_index": 67.212,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "2003-08",
+   "cpi_all_items": 64.696,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 67.317,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2003-09",
+   "cpi_all_items": 64.764,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 67.452,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2003-10",
+   "cpi_all_items": 64.719,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 67.415,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2003-11",
+   "cpi_all_items": 64.807,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 67.527,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2003-12",
+   "cpi_all_items": 64.924,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 67.666,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2004-01",
+   "cpi_all_items": 65.065,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 68.281,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2004-02",
+   "cpi_all_items": 65.814,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 68.353,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2004-03",
+   "cpi_all_items": 65.33,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": 68.436,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2004-04",
+   "cpi_all_items": 65.77,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": 68.513,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2004-05",
+   "cpi_all_items": 65.928,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": 68.567,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2004-06",
+   "cpi_all_items": 65.413,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 68.445,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "2004-07",
+   "cpi_all_items": 65.938,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 68.558,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2004-08",
+   "cpi_all_items": 65.853,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 68.509,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2004-09",
+   "cpi_all_items": 65.988,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 68.795,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2004-10",
+   "cpi_all_items": 65.964,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 68.787,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2004-11",
+   "cpi_all_items": 65.945,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 68.876,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2004-12",
+   "cpi_all_items": 65.775,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 68.814,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2005-01",
+   "cpi_all_items": 65.32,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 68.985,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2005-02",
+   "cpi_all_items": 65.801,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 69.041,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2005-03",
+   "cpi_all_items": 65.608,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 69.166,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2005-04",
+   "cpi_all_items": 66.013,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 69.173,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2005-05",
+   "cpi_all_items": 65.91,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 69.13,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "2005-06",
+   "cpi_all_items": 65.308,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": 68.97,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "2005-07",
+   "cpi_all_items": 65.992,
+   "headline_inflation_pct_yoy": 0.1,
+   "mas_core_index": 69.35,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2005-08",
+   "cpi_all_items": 66.304,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 69.564,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2005-09",
+   "cpi_all_items": 66.397,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 69.605,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2005-10",
+   "cpi_all_items": 66.668,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": 69.992,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2005-11",
+   "cpi_all_items": 66.587,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": 70.137,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2005-12",
+   "cpi_all_items": 66.609,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 70.193,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2006-01",
+   "cpi_all_items": 66.455,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": 70.578,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "2006-02",
+   "cpi_all_items": 66.587,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 70.432,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2006-03",
+   "cpi_all_items": 66.366,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 70.434,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2006-04",
+   "cpi_all_items": 66.728,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": 70.398,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2006-05",
+   "cpi_all_items": 66.629,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": 70.298,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2006-06",
+   "cpi_all_items": 66.209,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": 70.182,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2006-07",
+   "cpi_all_items": 66.71,
+   "headline_inflation_pct_yoy": 1.1,
+   "mas_core_index": 70.531,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2006-08",
+   "cpi_all_items": 66.747,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 70.644,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2006-09",
+   "cpi_all_items": 66.689,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 70.652,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2006-10",
+   "cpi_all_items": 66.95,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 70.927,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2006-11",
+   "cpi_all_items": 66.95,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 71.15,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2006-12",
+   "cpi_all_items": 67.15,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": 71.326,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2007-01",
+   "cpi_all_items": 66.072,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": 71.449,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2007-02",
+   "cpi_all_items": 66.566,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 71.472,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2007-03",
+   "cpi_all_items": 66.523,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 71.338,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2007-04",
+   "cpi_all_items": 67.035,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 71.256,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2007-05",
+   "cpi_all_items": 67.472,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 71.295,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2007-06",
+   "cpi_all_items": 67.34,
+   "headline_inflation_pct_yoy": 1.7,
+   "mas_core_index": 71.311,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2007-07",
+   "cpi_all_items": 68.695,
+   "headline_inflation_pct_yoy": 3,
+   "mas_core_index": 72.289,
+   "mas_core_inflation_pct_yoy": 2.5
+  },
+  {
+   "month": "2007-08",
+   "cpi_all_items": 69.051,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 72.42,
+   "mas_core_inflation_pct_yoy": 2.5
+  },
+  {
+   "month": "2007-09",
+   "cpi_all_items": 68.696,
+   "headline_inflation_pct_yoy": 3,
+   "mas_core_index": 72.575,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "2007-10",
+   "cpi_all_items": 69.671,
+   "headline_inflation_pct_yoy": 4.1,
+   "mas_core_index": 72.959,
+   "mas_core_inflation_pct_yoy": 2.9
+  },
+  {
+   "month": "2007-11",
+   "cpi_all_items": 70.204,
+   "headline_inflation_pct_yoy": 4.9,
+   "mas_core_index": 73.431,
+   "mas_core_inflation_pct_yoy": 3.2
+  },
+  {
+   "month": "2007-12",
+   "cpi_all_items": 69.727,
+   "headline_inflation_pct_yoy": 3.8,
+   "mas_core_index": 74.609,
+   "mas_core_inflation_pct_yoy": 4.6
+  },
+  {
+   "month": "2008-01",
+   "cpi_all_items": 70.46,
+   "headline_inflation_pct_yoy": 6.6,
+   "mas_core_index": 75.013,
+   "mas_core_inflation_pct_yoy": 5
+  },
+  {
+   "month": "2008-02",
+   "cpi_all_items": 70.937,
+   "headline_inflation_pct_yoy": 6.6,
+   "mas_core_index": 75.274,
+   "mas_core_inflation_pct_yoy": 5.3
+  },
+  {
+   "month": "2008-03",
+   "cpi_all_items": 71,
+   "headline_inflation_pct_yoy": 6.7,
+   "mas_core_index": 75.38,
+   "mas_core_inflation_pct_yoy": 5.7
+  },
+  {
+   "month": "2008-04",
+   "cpi_all_items": 72.117,
+   "headline_inflation_pct_yoy": 7.6,
+   "mas_core_index": 75.868,
+   "mas_core_inflation_pct_yoy": 6.5
+  },
+  {
+   "month": "2008-05",
+   "cpi_all_items": 72.561,
+   "headline_inflation_pct_yoy": 7.5,
+   "mas_core_index": 75.954,
+   "mas_core_inflation_pct_yoy": 6.5
+  },
+  {
+   "month": "2008-06",
+   "cpi_all_items": 72.428,
+   "headline_inflation_pct_yoy": 7.6,
+   "mas_core_index": 75.996,
+   "mas_core_inflation_pct_yoy": 6.6
+  },
+  {
+   "month": "2008-07",
+   "cpi_all_items": 73.218,
+   "headline_inflation_pct_yoy": 6.6,
+   "mas_core_index": 76.413,
+   "mas_core_inflation_pct_yoy": 5.7
+  },
+  {
+   "month": "2008-08",
+   "cpi_all_items": 73.497,
+   "headline_inflation_pct_yoy": 6.4,
+   "mas_core_index": 76.664,
+   "mas_core_inflation_pct_yoy": 5.9
+  },
+  {
+   "month": "2008-09",
+   "cpi_all_items": 73.34,
+   "headline_inflation_pct_yoy": 6.8,
+   "mas_core_index": 76.688,
+   "mas_core_inflation_pct_yoy": 5.7
+  },
+  {
+   "month": "2008-10",
+   "cpi_all_items": 74.15,
+   "headline_inflation_pct_yoy": 6.4,
+   "mas_core_index": 77.48,
+   "mas_core_inflation_pct_yoy": 6.2
+  },
+  {
+   "month": "2008-11",
+   "cpi_all_items": 74.1,
+   "headline_inflation_pct_yoy": 5.5,
+   "mas_core_index": 77.538,
+   "mas_core_inflation_pct_yoy": 5.6
+  },
+  {
+   "month": "2008-12",
+   "cpi_all_items": 73.459,
+   "headline_inflation_pct_yoy": 5.4,
+   "mas_core_index": 77.618,
+   "mas_core_inflation_pct_yoy": 4
+  },
+  {
+   "month": "2009-01",
+   "cpi_all_items": 73.463,
+   "headline_inflation_pct_yoy": 4.3,
+   "mas_core_index": 77.007,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "2009-02",
+   "cpi_all_items": 73.229,
+   "headline_inflation_pct_yoy": 3.2,
+   "mas_core_index": 76.69,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2009-03",
+   "cpi_all_items": 72.814,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": 76.797,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2009-04",
+   "cpi_all_items": 72.344,
+   "headline_inflation_pct_yoy": 0.3,
+   "mas_core_index": 76.052,
+   "mas_core_inflation_pct_yoy": 0.2
+  },
+  {
+   "month": "2009-05",
+   "cpi_all_items": 72.729,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 75.88,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "2009-06",
+   "cpi_all_items": 72.41,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 75.763,
+   "mas_core_inflation_pct_yoy": -0.3
+  },
+  {
+   "month": "2009-07",
+   "cpi_all_items": 73.029,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 76.013,
+   "mas_core_inflation_pct_yoy": -0.5
+  },
+  {
+   "month": "2009-08",
+   "cpi_all_items": 73.29,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 76.065,
+   "mas_core_inflation_pct_yoy": -0.8
+  },
+  {
+   "month": "2009-09",
+   "cpi_all_items": 73.034,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 76.048,
+   "mas_core_inflation_pct_yoy": -0.8
+  },
+  {
+   "month": "2009-10",
+   "cpi_all_items": 73.473,
+   "headline_inflation_pct_yoy": -0.9,
+   "mas_core_index": 76.442,
+   "mas_core_inflation_pct_yoy": -1.3
+  },
+  {
+   "month": "2009-11",
+   "cpi_all_items": 73.514,
+   "headline_inflation_pct_yoy": -0.8,
+   "mas_core_index": 76.447,
+   "mas_core_inflation_pct_yoy": -1.4
+  },
+  {
+   "month": "2009-12",
+   "cpi_all_items": 73.071,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": 76.498,
+   "mas_core_inflation_pct_yoy": -1.4
+  },
+  {
+   "month": "2010-01",
+   "cpi_all_items": 73.616,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 76.598,
+   "mas_core_inflation_pct_yoy": -0.5
+  },
+  {
+   "month": "2010-02",
+   "cpi_all_items": 73.93,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": 77.005,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "2010-03",
+   "cpi_all_items": 73.987,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 77.077,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "2010-04",
+   "cpi_all_items": 74.664,
+   "headline_inflation_pct_yoy": 3.2,
+   "mas_core_index": 77.252,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2010-05",
+   "cpi_all_items": 75.093,
+   "headline_inflation_pct_yoy": 3.3,
+   "mas_core_index": 77.203,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2010-06",
+   "cpi_all_items": 74.377,
+   "headline_inflation_pct_yoy": 2.7,
+   "mas_core_index": 77.092,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2010-07",
+   "cpi_all_items": 75.329,
+   "headline_inflation_pct_yoy": 3.1,
+   "mas_core_index": 77.554,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2010-08",
+   "cpi_all_items": 75.677,
+   "headline_inflation_pct_yoy": 3.3,
+   "mas_core_index": 77.858,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2010-09",
+   "cpi_all_items": 75.72,
+   "headline_inflation_pct_yoy": 3.7,
+   "mas_core_index": 77.843,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2010-10",
+   "cpi_all_items": 76.06,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 77.961,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2010-11",
+   "cpi_all_items": 76.312,
+   "headline_inflation_pct_yoy": 3.8,
+   "mas_core_index": 78.122,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2010-12",
+   "cpi_all_items": 76.427,
+   "headline_inflation_pct_yoy": 4.6,
+   "mas_core_index": 78.111,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2011-01",
+   "cpi_all_items": 77.674,
+   "headline_inflation_pct_yoy": 5.5,
+   "mas_core_index": 78.129,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2011-02",
+   "cpi_all_items": 77.618,
+   "headline_inflation_pct_yoy": 5,
+   "mas_core_index": 78.377,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2011-03",
+   "cpi_all_items": 77.722,
+   "headline_inflation_pct_yoy": 5,
+   "mas_core_index": 78.478,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2011-04",
+   "cpi_all_items": 77.992,
+   "headline_inflation_pct_yoy": 4.5,
+   "mas_core_index": 78.944,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2011-05",
+   "cpi_all_items": 78.462,
+   "headline_inflation_pct_yoy": 4.5,
+   "mas_core_index": 78.855,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2011-06",
+   "cpi_all_items": 78.277,
+   "headline_inflation_pct_yoy": 5.2,
+   "mas_core_index": 78.854,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "2011-07",
+   "cpi_all_items": 79.433,
+   "headline_inflation_pct_yoy": 5.4,
+   "mas_core_index": 79.233,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2011-08",
+   "cpi_all_items": 80.005,
+   "headline_inflation_pct_yoy": 5.7,
+   "mas_core_index": 79.544,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2011-09",
+   "cpi_all_items": 79.856,
+   "headline_inflation_pct_yoy": 5.5,
+   "mas_core_index": 79.521,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2011-10",
+   "cpi_all_items": 80.183,
+   "headline_inflation_pct_yoy": 5.4,
+   "mas_core_index": 79.76,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "2011-11",
+   "cpi_all_items": 80.63,
+   "headline_inflation_pct_yoy": 5.7,
+   "mas_core_index": 79.99,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2011-12",
+   "cpi_all_items": 80.663,
+   "headline_inflation_pct_yoy": 5.5,
+   "mas_core_index": 80.186,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "2012-01",
+   "cpi_all_items": 81.412,
+   "headline_inflation_pct_yoy": 4.8,
+   "mas_core_index": 80.882,
+   "mas_core_inflation_pct_yoy": 3.5
+  },
+  {
+   "month": "2012-02",
+   "cpi_all_items": 81.19,
+   "headline_inflation_pct_yoy": 4.6,
+   "mas_core_index": 80.709,
+   "mas_core_inflation_pct_yoy": 3
+  },
+  {
+   "month": "2012-03",
+   "cpi_all_items": 81.806,
+   "headline_inflation_pct_yoy": 5.3,
+   "mas_core_index": 80.793,
+   "mas_core_inflation_pct_yoy": 2.9
+  },
+  {
+   "month": "2012-04",
+   "cpi_all_items": 82.245,
+   "headline_inflation_pct_yoy": 5.5,
+   "mas_core_index": 81.083,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "2012-05",
+   "cpi_all_items": 82.418,
+   "headline_inflation_pct_yoy": 5,
+   "mas_core_index": 80.985,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "2012-06",
+   "cpi_all_items": 82.423,
+   "headline_inflation_pct_yoy": 5.3,
+   "mas_core_index": 80.959,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "2012-07",
+   "cpi_all_items": 82.614,
+   "headline_inflation_pct_yoy": 4,
+   "mas_core_index": 81.142,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2012-08",
+   "cpi_all_items": 83.128,
+   "headline_inflation_pct_yoy": 3.9,
+   "mas_core_index": 81.342,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "2012-09",
+   "cpi_all_items": 83.604,
+   "headline_inflation_pct_yoy": 4.7,
+   "mas_core_index": 81.43,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2012-10",
+   "cpi_all_items": 83.434,
+   "headline_inflation_pct_yoy": 4.1,
+   "mas_core_index": 81.551,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2012-11",
+   "cpi_all_items": 83.54,
+   "headline_inflation_pct_yoy": 3.6,
+   "mas_core_index": 81.57,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2012-12",
+   "cpi_all_items": 84.151,
+   "headline_inflation_pct_yoy": 4.3,
+   "mas_core_index": 81.711,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2013-01",
+   "cpi_all_items": 84.315,
+   "headline_inflation_pct_yoy": 3.6,
+   "mas_core_index": 81.868,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2013-02",
+   "cpi_all_items": 85.162,
+   "headline_inflation_pct_yoy": 4.9,
+   "mas_core_index": 82.226,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2013-03",
+   "cpi_all_items": 84.703,
+   "headline_inflation_pct_yoy": 3.5,
+   "mas_core_index": 82.153,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2013-04",
+   "cpi_all_items": 83.448,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": 82.196,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2013-05",
+   "cpi_all_items": 83.746,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 82.332,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2013-06",
+   "cpi_all_items": 83.917,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 82.341,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2013-07",
+   "cpi_all_items": 84.151,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 82.42,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2013-08",
+   "cpi_all_items": 84.829,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 82.795,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2013-09",
+   "cpi_all_items": 84.954,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 82.821,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2013-10",
+   "cpi_all_items": 85.088,
+   "headline_inflation_pct_yoy": 2,
+   "mas_core_index": 83.048,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2013-11",
+   "cpi_all_items": 85.689,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": 83.315,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2013-12",
+   "cpi_all_items": 85.417,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": 83.39,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2014-01",
+   "cpi_all_items": 85.511,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": 83.727,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "2014-02",
+   "cpi_all_items": 85.491,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 83.668,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2014-03",
+   "cpi_all_items": 85.719,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 83.848,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2014-04",
+   "cpi_all_items": 85.369,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 84.13,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2014-05",
+   "cpi_all_items": 85.656,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 84.185,
+   "mas_core_inflation_pct_yoy": 2.3
+  },
+  {
+   "month": "2014-06",
+   "cpi_all_items": 85.513,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 84.086,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2014-07",
+   "cpi_all_items": 85.258,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 84.254,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2014-08",
+   "cpi_all_items": 85.714,
+   "headline_inflation_pct_yoy": 1,
+   "mas_core_index": 84.428,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2014-09",
+   "cpi_all_items": 85.556,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 84.305,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2014-10",
+   "cpi_all_items": 85.3,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 84.505,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2014-11",
+   "cpi_all_items": 85.46,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 84.512,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2014-12",
+   "cpi_all_items": 85.363,
+   "headline_inflation_pct_yoy": -0.1,
+   "mas_core_index": 84.674,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2015-01",
+   "cpi_all_items": 85.179,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 84.546,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2015-02",
+   "cpi_all_items": 85.257,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 84.793,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2015-03",
+   "cpi_all_items": 85.463,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 84.727,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2015-04",
+   "cpi_all_items": 84.93,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": 84.498,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "2015-05",
+   "cpi_all_items": 85.317,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 84.271,
+   "mas_core_inflation_pct_yoy": 0.1
+  },
+  {
+   "month": "2015-06",
+   "cpi_all_items": 85.225,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 84.243,
+   "mas_core_inflation_pct_yoy": 0.2
+  },
+  {
+   "month": "2015-07",
+   "cpi_all_items": 84.921,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 84.573,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "2015-08",
+   "cpi_all_items": 85.002,
+   "headline_inflation_pct_yoy": -0.8,
+   "mas_core_index": 84.637,
+   "mas_core_inflation_pct_yoy": 0.2
+  },
+  {
+   "month": "2015-09",
+   "cpi_all_items": 85.003,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": 84.794,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2015-10",
+   "cpi_all_items": 84.637,
+   "headline_inflation_pct_yoy": -0.8,
+   "mas_core_index": 84.721,
+   "mas_core_inflation_pct_yoy": 0.3
+  },
+  {
+   "month": "2015-11",
+   "cpi_all_items": 84.807,
+   "headline_inflation_pct_yoy": -0.8,
+   "mas_core_index": 84.652,
+   "mas_core_inflation_pct_yoy": 0.2
+  },
+  {
+   "month": "2015-12",
+   "cpi_all_items": 84.814,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": 84.886,
+   "mas_core_inflation_pct_yoy": 0.3
+  },
+  {
+   "month": "2016-01",
+   "cpi_all_items": 84.628,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": 84.867,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "2016-02",
+   "cpi_all_items": 84.542,
+   "headline_inflation_pct_yoy": -0.8,
+   "mas_core_index": 85.192,
+   "mas_core_inflation_pct_yoy": 0.5
+  },
+  {
+   "month": "2016-03",
+   "cpi_all_items": 84.577,
+   "headline_inflation_pct_yoy": -1,
+   "mas_core_index": 85.199,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2016-04",
+   "cpi_all_items": 84.534,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": 85.192,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "2016-05",
+   "cpi_all_items": 83.983,
+   "headline_inflation_pct_yoy": -1.6,
+   "mas_core_index": 85.134,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2016-06",
+   "cpi_all_items": 84.607,
+   "headline_inflation_pct_yoy": -0.7,
+   "mas_core_index": 85.165,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2016-07",
+   "cpi_all_items": 84.37,
+   "headline_inflation_pct_yoy": -0.6,
+   "mas_core_index": 85.406,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2016-08",
+   "cpi_all_items": 84.786,
+   "headline_inflation_pct_yoy": -0.3,
+   "mas_core_index": 85.493,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2016-09",
+   "cpi_all_items": 84.794,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": 85.571,
+   "mas_core_inflation_pct_yoy": 0.9
+  },
+  {
+   "month": "2016-10",
+   "cpi_all_items": 84.551,
+   "headline_inflation_pct_yoy": -0.1,
+   "mas_core_index": 85.651,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2016-11",
+   "cpi_all_items": 84.822,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 85.715,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2016-12",
+   "cpi_all_items": 84.954,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 85.936,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2017-01",
+   "cpi_all_items": 85.102,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 86.116,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2017-02",
+   "cpi_all_items": 85.1,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 86.182,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2017-03",
+   "cpi_all_items": 85.136,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 86.224,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2017-04",
+   "cpi_all_items": 84.877,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 86.624,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2017-05",
+   "cpi_all_items": 85.164,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": 86.484,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2017-06",
+   "cpi_all_items": 85.043,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 86.481,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2017-07",
+   "cpi_all_items": 84.845,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 86.75,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2017-08",
+   "cpi_all_items": 85.129,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 86.723,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2017-09",
+   "cpi_all_items": 85.11,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 86.819,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2017-10",
+   "cpi_all_items": 84.865,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 86.955,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2017-11",
+   "cpi_all_items": 85.358,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 86.99,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2017-12",
+   "cpi_all_items": 85.274,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 87.073,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2018-01",
+   "cpi_all_items": 85.11,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 87.318,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2018-02",
+   "cpi_all_items": 85.51,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 87.669,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2018-03",
+   "cpi_all_items": 85.337,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 87.535,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2018-04",
+   "cpi_all_items": 84.937,
+   "headline_inflation_pct_yoy": 0.1,
+   "mas_core_index": 87.764,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2018-05",
+   "cpi_all_items": 85.466,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 87.775,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2018-06",
+   "cpi_all_items": 85.514,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 87.939,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2018-07",
+   "cpi_all_items": 85.39,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 88.385,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2018-08",
+   "cpi_all_items": 85.749,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 88.384,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2018-09",
+   "cpi_all_items": 85.729,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 88.416,
+   "mas_core_inflation_pct_yoy": 1.8
+  },
+  {
+   "month": "2018-10",
+   "cpi_all_items": 85.465,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 88.576,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2018-11",
+   "cpi_all_items": 85.606,
+   "headline_inflation_pct_yoy": 0.3,
+   "mas_core_index": 88.455,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2018-12",
+   "cpi_all_items": 85.67,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 88.712,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2019-01",
+   "cpi_all_items": 85.416,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 88.964,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2019-02",
+   "cpi_all_items": 85.901,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 89.182,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2019-03",
+   "cpi_all_items": 85.917,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 89.023,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2019-04",
+   "cpi_all_items": 85.73,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 89.022,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2019-05",
+   "cpi_all_items": 86.221,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 88.888,
+   "mas_core_inflation_pct_yoy": 1.3
+  },
+  {
+   "month": "2019-06",
+   "cpi_all_items": 85.974,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 88.905,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2019-07",
+   "cpi_all_items": 85.587,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 88.89,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2019-08",
+   "cpi_all_items": 86.123,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 88.962,
+   "mas_core_inflation_pct_yoy": 0.7
+  },
+  {
+   "month": "2019-09",
+   "cpi_all_items": 86.069,
+   "headline_inflation_pct_yoy": 0.4,
+   "mas_core_index": 88.94,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2019-10",
+   "cpi_all_items": 85.883,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 89.009,
+   "mas_core_inflation_pct_yoy": 0.5
+  },
+  {
+   "month": "2019-11",
+   "cpi_all_items": 86.16,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 88.953,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2019-12",
+   "cpi_all_items": 86.325,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": 89.223,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2020-01",
+   "cpi_all_items": 86.121,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": 89.247,
+   "mas_core_inflation_pct_yoy": 0.3
+  },
+  {
+   "month": "2020-02",
+   "cpi_all_items": 86.183,
+   "headline_inflation_pct_yoy": 0.3,
+   "mas_core_index": 89.124,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "2020-03",
+   "cpi_all_items": 85.888,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 88.881,
+   "mas_core_inflation_pct_yoy": -0.2
+  },
+  {
+   "month": "2020-04",
+   "cpi_all_items": 85.098,
+   "headline_inflation_pct_yoy": -0.7,
+   "mas_core_index": 88.796,
+   "mas_core_inflation_pct_yoy": -0.3
+  },
+  {
+   "month": "2020-05",
+   "cpi_all_items": 85.502,
+   "headline_inflation_pct_yoy": -0.8,
+   "mas_core_index": 88.742,
+   "mas_core_inflation_pct_yoy": -0.2
+  },
+  {
+   "month": "2020-06",
+   "cpi_all_items": 85.52,
+   "headline_inflation_pct_yoy": -0.5,
+   "mas_core_index": 88.759,
+   "mas_core_inflation_pct_yoy": -0.2
+  },
+  {
+   "month": "2020-07",
+   "cpi_all_items": 85.245,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 88.572,
+   "mas_core_inflation_pct_yoy": -0.4
+  },
+  {
+   "month": "2020-08",
+   "cpi_all_items": 85.787,
+   "headline_inflation_pct_yoy": -0.4,
+   "mas_core_index": 88.707,
+   "mas_core_inflation_pct_yoy": -0.3
+  },
+  {
+   "month": "2020-09",
+   "cpi_all_items": 86.073,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 88.854,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "2020-10",
+   "cpi_all_items": 85.709,
+   "headline_inflation_pct_yoy": -0.2,
+   "mas_core_index": 88.879,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "2020-11",
+   "cpi_all_items": 86.047,
+   "headline_inflation_pct_yoy": -0.1,
+   "mas_core_index": 88.908,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "2020-12",
+   "cpi_all_items": 86.358,
+   "headline_inflation_pct_yoy": 0,
+   "mas_core_index": 88.998,
+   "mas_core_inflation_pct_yoy": -0.3
+  },
+  {
+   "month": "2021-01",
+   "cpi_all_items": 86.334,
+   "headline_inflation_pct_yoy": 0.2,
+   "mas_core_index": 89.127,
+   "mas_core_inflation_pct_yoy": -0.1
+  },
+  {
+   "month": "2021-02",
+   "cpi_all_items": 86.827,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 89.303,
+   "mas_core_inflation_pct_yoy": 0.2
+  },
+  {
+   "month": "2021-03",
+   "cpi_all_items": 87.019,
+   "headline_inflation_pct_yoy": 1.3,
+   "mas_core_index": 89.335,
+   "mas_core_inflation_pct_yoy": 0.5
+  },
+  {
+   "month": "2021-04",
+   "cpi_all_items": 86.875,
+   "headline_inflation_pct_yoy": 2.1,
+   "mas_core_index": 89.345,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2021-05",
+   "cpi_all_items": 87.574,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": 89.47,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "2021-06",
+   "cpi_all_items": 87.569,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": 89.309,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2021-07",
+   "cpi_all_items": 87.398,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 89.509,
+   "mas_core_inflation_pct_yoy": 1.1
+  },
+  {
+   "month": "2021-08",
+   "cpi_all_items": 87.882,
+   "headline_inflation_pct_yoy": 2.4,
+   "mas_core_index": 89.732,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2021-09",
+   "cpi_all_items": 88.248,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 89.933,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2021-10",
+   "cpi_all_items": 88.5,
+   "headline_inflation_pct_yoy": 3.3,
+   "mas_core_index": 90.186,
+   "mas_core_inflation_pct_yoy": 1.5
+  },
+  {
+   "month": "2021-11",
+   "cpi_all_items": 89.369,
+   "headline_inflation_pct_yoy": 3.9,
+   "mas_core_index": 90.385,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2021-12",
+   "cpi_all_items": 89.781,
+   "headline_inflation_pct_yoy": 4,
+   "mas_core_index": 90.89,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2022-01",
+   "cpi_all_items": 89.81,
+   "headline_inflation_pct_yoy": 4,
+   "mas_core_index": 91.274,
+   "mas_core_inflation_pct_yoy": 2.4
+  },
+  {
+   "month": "2022-02",
+   "cpi_all_items": 90.59,
+   "headline_inflation_pct_yoy": 4.3,
+   "mas_core_index": 91.278,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2022-03",
+   "cpi_all_items": 91.715,
+   "headline_inflation_pct_yoy": 5.4,
+   "mas_core_index": 91.915,
+   "mas_core_inflation_pct_yoy": 2.9
+  },
+  {
+   "month": "2022-04",
+   "cpi_all_items": 91.594,
+   "headline_inflation_pct_yoy": 5.4,
+   "mas_core_index": 92.333,
+   "mas_core_inflation_pct_yoy": 3.3
+  },
+  {
+   "month": "2022-05",
+   "cpi_all_items": 92.502,
+   "headline_inflation_pct_yoy": 5.6,
+   "mas_core_index": 92.682,
+   "mas_core_inflation_pct_yoy": 3.6
+  },
+  {
+   "month": "2022-06",
+   "cpi_all_items": 93.423,
+   "headline_inflation_pct_yoy": 6.7,
+   "mas_core_index": 93.282,
+   "mas_core_inflation_pct_yoy": 4.4
+  },
+  {
+   "month": "2022-07",
+   "cpi_all_items": 93.563,
+   "headline_inflation_pct_yoy": 7.1,
+   "mas_core_index": 93.82,
+   "mas_core_inflation_pct_yoy": 4.8
+  },
+  {
+   "month": "2022-08",
+   "cpi_all_items": 94.445,
+   "headline_inflation_pct_yoy": 7.5,
+   "mas_core_index": 94.283,
+   "mas_core_inflation_pct_yoy": 5.1
+  },
+  {
+   "month": "2022-09",
+   "cpi_all_items": 94.854,
+   "headline_inflation_pct_yoy": 7.5,
+   "mas_core_index": 94.723,
+   "mas_core_inflation_pct_yoy": 5.3
+  },
+  {
+   "month": "2022-10",
+   "cpi_all_items": 94.475,
+   "headline_inflation_pct_yoy": 6.8,
+   "mas_core_index": 94.828,
+   "mas_core_inflation_pct_yoy": 5.1
+  },
+  {
+   "month": "2022-11",
+   "cpi_all_items": 95.396,
+   "headline_inflation_pct_yoy": 6.7,
+   "mas_core_index": 95.033,
+   "mas_core_inflation_pct_yoy": 5.1
+  },
+  {
+   "month": "2022-12",
+   "cpi_all_items": 95.591,
+   "headline_inflation_pct_yoy": 6.5,
+   "mas_core_index": 95.563,
+   "mas_core_inflation_pct_yoy": 5.1
+  },
+  {
+   "month": "2023-01",
+   "cpi_all_items": 95.772,
+   "headline_inflation_pct_yoy": 6.6,
+   "mas_core_index": 96.346,
+   "mas_core_inflation_pct_yoy": 5.6
+  },
+  {
+   "month": "2023-02",
+   "cpi_all_items": 96.308,
+   "headline_inflation_pct_yoy": 6.3,
+   "mas_core_index": 96.329,
+   "mas_core_inflation_pct_yoy": 5.5
+  },
+  {
+   "month": "2023-03",
+   "cpi_all_items": 96.792,
+   "headline_inflation_pct_yoy": 5.5,
+   "mas_core_index": 96.566,
+   "mas_core_inflation_pct_yoy": 5.1
+  },
+  {
+   "month": "2023-04",
+   "cpi_all_items": 96.869,
+   "headline_inflation_pct_yoy": 5.8,
+   "mas_core_index": 96.941,
+   "mas_core_inflation_pct_yoy": 5
+  },
+  {
+   "month": "2023-05",
+   "cpi_all_items": 97.181,
+   "headline_inflation_pct_yoy": 5.1,
+   "mas_core_index": 97.028,
+   "mas_core_inflation_pct_yoy": 4.7
+  },
+  {
+   "month": "2023-06",
+   "cpi_all_items": 97.645,
+   "headline_inflation_pct_yoy": 4.5,
+   "mas_core_index": 97.209,
+   "mas_core_inflation_pct_yoy": 4.2
+  },
+  {
+   "month": "2023-07",
+   "cpi_all_items": 97.417,
+   "headline_inflation_pct_yoy": 4.1,
+   "mas_core_index": 97.407,
+   "mas_core_inflation_pct_yoy": 3.8
+  },
+  {
+   "month": "2023-08",
+   "cpi_all_items": 98.278,
+   "headline_inflation_pct_yoy": 4.1,
+   "mas_core_index": 97.49,
+   "mas_core_inflation_pct_yoy": 3.4
+  },
+  {
+   "month": "2023-09",
+   "cpi_all_items": 98.776,
+   "headline_inflation_pct_yoy": 4.1,
+   "mas_core_index": 97.615,
+   "mas_core_inflation_pct_yoy": 3.1
+  },
+  {
+   "month": "2023-10",
+   "cpi_all_items": 98.974,
+   "headline_inflation_pct_yoy": 4.8,
+   "mas_core_index": 97.997,
+   "mas_core_inflation_pct_yoy": 3.3
+  },
+  {
+   "month": "2023-11",
+   "cpi_all_items": 98.808,
+   "headline_inflation_pct_yoy": 3.6,
+   "mas_core_index": 98.116,
+   "mas_core_inflation_pct_yoy": 3.2
+  },
+  {
+   "month": "2023-12",
+   "cpi_all_items": 99.177,
+   "headline_inflation_pct_yoy": 3.8,
+   "mas_core_index": 98.745,
+   "mas_core_inflation_pct_yoy": 3.3
+  },
+  {
+   "month": "2024-01",
+   "cpi_all_items": 98.752,
+   "headline_inflation_pct_yoy": 3.1,
+   "mas_core_index": 99.501,
+   "mas_core_inflation_pct_yoy": 3.3
+  },
+  {
+   "month": "2024-02",
+   "cpi_all_items": 99.755,
+   "headline_inflation_pct_yoy": 3.6,
+   "mas_core_index": 99.774,
+   "mas_core_inflation_pct_yoy": 3.6
+  },
+  {
+   "month": "2024-03",
+   "cpi_all_items": 99.712,
+   "headline_inflation_pct_yoy": 3,
+   "mas_core_index": 99.694,
+   "mas_core_inflation_pct_yoy": 3.2
+  },
+  {
+   "month": "2024-04",
+   "cpi_all_items": 99.426,
+   "headline_inflation_pct_yoy": 2.6,
+   "mas_core_index": 99.95,
+   "mas_core_inflation_pct_yoy": 3.1
+  },
+  {
+   "month": "2024-05",
+   "cpi_all_items": 100.209,
+   "headline_inflation_pct_yoy": 3.1,
+   "mas_core_index": 100.07,
+   "mas_core_inflation_pct_yoy": 3.1
+  },
+  {
+   "month": "2024-06",
+   "cpi_all_items": 100.104,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 100.006,
+   "mas_core_inflation_pct_yoy": 2.9
+  },
+  {
+   "month": "2024-07",
+   "cpi_all_items": 99.818,
+   "headline_inflation_pct_yoy": 2.5,
+   "mas_core_index": 99.974,
+   "mas_core_inflation_pct_yoy": 2.6
+  },
+  {
+   "month": "2024-08",
+   "cpi_all_items": 100.414,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 100.16,
+   "mas_core_inflation_pct_yoy": 2.7
+  },
+  {
+   "month": "2024-09",
+   "cpi_all_items": 100.645,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 100.396,
+   "mas_core_inflation_pct_yoy": 2.8
+  },
+  {
+   "month": "2024-10",
+   "cpi_all_items": 100.119,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 100.065,
+   "mas_core_inflation_pct_yoy": 2.1
+  },
+  {
+   "month": "2024-11",
+   "cpi_all_items": 100.387,
+   "headline_inflation_pct_yoy": 1.6,
+   "mas_core_index": 99.976,
+   "mas_core_inflation_pct_yoy": 1.9
+  },
+  {
+   "month": "2024-12",
+   "cpi_all_items": 100.661,
+   "headline_inflation_pct_yoy": 1.5,
+   "mas_core_index": 100.439,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2025-01",
+   "cpi_all_items": 99.908,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 100.27,
+   "mas_core_inflation_pct_yoy": 0.8
+  },
+  {
+   "month": "2025-02",
+   "cpi_all_items": 100.677,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 100.329,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2025-03",
+   "cpi_all_items": 100.599,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 100.194,
+   "mas_core_inflation_pct_yoy": 0.5
+  },
+  {
+   "month": "2025-04",
+   "cpi_all_items": 100.283,
+   "headline_inflation_pct_yoy": 0.9,
+   "mas_core_index": 100.648,
+   "mas_core_inflation_pct_yoy": 0.7
+  },
+  {
+   "month": "2025-05",
+   "cpi_all_items": 100.978,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": 100.65,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2025-06",
+   "cpi_all_items": 100.9,
+   "headline_inflation_pct_yoy": 0.8,
+   "mas_core_index": 100.566,
+   "mas_core_inflation_pct_yoy": 0.6
+  },
+  {
+   "month": "2025-07",
+   "cpi_all_items": 100.447,
+   "headline_inflation_pct_yoy": 0.6,
+   "mas_core_index": 100.432,
+   "mas_core_inflation_pct_yoy": 0.5
+  },
+  {
+   "month": "2025-08",
+   "cpi_all_items": 100.963,
+   "headline_inflation_pct_yoy": 0.5,
+   "mas_core_index": 100.49,
+   "mas_core_inflation_pct_yoy": 0.3
+  },
+  {
+   "month": "2025-09",
+   "cpi_all_items": 101.32,
+   "headline_inflation_pct_yoy": 0.7,
+   "mas_core_index": 100.753,
+   "mas_core_inflation_pct_yoy": 0.4
+  },
+  {
+   "month": "2025-10",
+   "cpi_all_items": 101.33,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 101.269,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2025-11",
+   "cpi_all_items": 101.579,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 101.216,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2025-12",
+   "cpi_all_items": 101.854,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 101.662,
+   "mas_core_inflation_pct_yoy": 1.2
+  },
+  {
+   "month": "2026-01",
+   "cpi_all_items": 101.333,
+   "headline_inflation_pct_yoy": 1.4,
+   "mas_core_index": 101.316,
+   "mas_core_inflation_pct_yoy": 1
+  },
+  {
+   "month": "2026-02",
+   "cpi_all_items": 101.918,
+   "headline_inflation_pct_yoy": 1.2,
+   "mas_core_index": 101.779,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2026-03",
+   "cpi_all_items": 102.405,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 101.912,
+   "mas_core_inflation_pct_yoy": 1.7
+  },
+  {
+   "month": "2026-04",
+   "cpi_all_items": 102.052,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 102.069,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2026-05",
+   "cpi_all_items": 102.814,
+   "headline_inflation_pct_yoy": 1.8,
+   "mas_core_index": 102.061,
+   "mas_core_inflation_pct_yoy": 1.4
+  },
+  {
+   "month": "2026-06",
+   "cpi_all_items": 102.858,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 102.172,
+   "mas_core_inflation_pct_yoy": 1.6
+  },
+  {
+   "month": "2026-07",
+   "cpi_all_items": 102.696,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 102.463,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2026-08",
+   "cpi_all_items": 103.334,
+   "headline_inflation_pct_yoy": 2.3,
+   "mas_core_index": 102.744,
+   "mas_core_inflation_pct_yoy": 2.2
+  },
+  {
+   "month": "2026-09",
+   "cpi_all_items": 103.551,
+   "headline_inflation_pct_yoy": 2.2,
+   "mas_core_index": 102.808,
+   "mas_core_inflation_pct_yoy": 2
+  },
+  {
+   "month": "2026-10",
+   "cpi_all_items": 103.229,
+   "headline_inflation_pct_yoy": 1.9,
+   "mas_core_index": 102.837,
+   "mas_core_inflation_pct_yoy": 1.5
+  }
+ ]
+}

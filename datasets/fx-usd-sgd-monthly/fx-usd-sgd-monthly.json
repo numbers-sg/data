@@ -1,0 +1,2867 @@
+{
+ "dataset": "fx-usd-sgd-monthly",
+ "title": "US dollar to Singapore dollar, monthly averages since 1988",
+ "description": "SingStat's monthly average exchange rate for the US dollar (table M700051, averages of MAS's figures) since January 1988, both ways round.",
+ "question": "What was the average US dollar rate in Singapore dollars each month since 1988?",
+ "row": {
+  "is": "One month (the average of the month)",
+  "time_key": "month",
+  "primary_key": [
+   "month"
+  ]
+ },
+ "coverage": {
+  "from": "1988-01",
+  "to": "2026-10"
+ },
+ "fields": [
+  {
+   "name": "month",
+   "type": "month",
+   "meaning": "The month averaged.",
+   "nullable": false
+  },
+  {
+   "name": "sgd_per_usd",
+   "type": "number",
+   "unit": "S$ per US$1",
+   "meaning": "S$ per US$1: SingStat's monthly average.",
+   "nullable": false
+  },
+  {
+   "name": "usd_per_sgd",
+   "type": "number",
+   "unit": "US$ per S$1",
+   "meaning": "US$ per S$1: SingStat's figure, turned round.",
+   "nullable": false
+  },
+  {
+   "name": "source",
+   "type": "string",
+   "meaning": "Where the month's figure comes from.",
+   "nullable": false
+  }
+ ],
+ "sources": [
+  {
+   "publisher": "Department of Statistics (SingStat)",
+   "url": "https://www.singstat.gov.sg/",
+   "terms": "SingStat terms of use",
+   "terms_url": "https://www.singstat.gov.sg/terms-of-use"
+  }
+ ],
+ "licence": {
+  "name": "CC BY 4.0",
+  "url": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_page": "https://numbers.sg/data/licence/"
+ },
+ "attribution": {
+  "text": "Source: Department of Statistics, compiled by Numbers.sg (numbers.sg/currency/usd-to-sgd/), CC BY 4.0",
+  "notices": [
+   "Source: Singapore Department of Statistics"
+  ]
+ },
+ "page_url": "https://numbers.sg/currency/usd-to-sgd/",
+ "method": "https://numbers.sg/currency/usd-to-sgd/#method",
+ "api": "https://numbers.sg/api/v1/fx-usd-sgd-monthly",
+ "hash": "sha256:869ae396bb34ba99a84415758f65520eaca1ae92c579351c69baa9d972eba836",
+ "rows_updated": "2026-11-27",
+ "data": [
+  {
+   "month": "1988-01",
+   "sgd_per_usd": 2.0253,
+   "usd_per_sgd": 0.493754,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-02",
+   "sgd_per_usd": 2.0173,
+   "usd_per_sgd": 0.495712,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-03",
+   "sgd_per_usd": 2.0133,
+   "usd_per_sgd": 0.496697,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-04",
+   "sgd_per_usd": 2.0037,
+   "usd_per_sgd": 0.499077,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-05",
+   "sgd_per_usd": 2.0098,
+   "usd_per_sgd": 0.497562,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-06",
+   "sgd_per_usd": 2.0269,
+   "usd_per_sgd": 0.493364,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-07",
+   "sgd_per_usd": 2.0462,
+   "usd_per_sgd": 0.488711,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-08",
+   "sgd_per_usd": 2.0411,
+   "usd_per_sgd": 0.489932,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-09",
+   "sgd_per_usd": 2.0398,
+   "usd_per_sgd": 0.490244,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-10",
+   "sgd_per_usd": 2.0214,
+   "usd_per_sgd": 0.494707,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-11",
+   "sgd_per_usd": 1.9606,
+   "usd_per_sgd": 0.510048,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1988-12",
+   "sgd_per_usd": 1.9437,
+   "usd_per_sgd": 0.514483,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-01",
+   "sgd_per_usd": 1.9401,
+   "usd_per_sgd": 0.515437,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-02",
+   "sgd_per_usd": 1.9273,
+   "usd_per_sgd": 0.518861,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-03",
+   "sgd_per_usd": 1.9406,
+   "usd_per_sgd": 0.515305,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-04",
+   "sgd_per_usd": 1.9491,
+   "usd_per_sgd": 0.513057,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-05",
+   "sgd_per_usd": 1.9569,
+   "usd_per_sgd": 0.511012,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-06",
+   "sgd_per_usd": 1.9575,
+   "usd_per_sgd": 0.510856,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-07",
+   "sgd_per_usd": 1.959,
+   "usd_per_sgd": 0.510465,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-08",
+   "sgd_per_usd": 1.9588,
+   "usd_per_sgd": 0.510517,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-09",
+   "sgd_per_usd": 1.9753,
+   "usd_per_sgd": 0.506252,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-10",
+   "sgd_per_usd": 1.9622,
+   "usd_per_sgd": 0.509632,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-11",
+   "sgd_per_usd": 1.9585,
+   "usd_per_sgd": 0.510595,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1989-12",
+   "sgd_per_usd": 1.9178,
+   "usd_per_sgd": 0.521431,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-01",
+   "sgd_per_usd": 1.8895,
+   "usd_per_sgd": 0.529241,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-02",
+   "sgd_per_usd": 1.8637,
+   "usd_per_sgd": 0.536567,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-03",
+   "sgd_per_usd": 1.8774,
+   "usd_per_sgd": 0.532652,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-04",
+   "sgd_per_usd": 1.8785,
+   "usd_per_sgd": 0.53234,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-05",
+   "sgd_per_usd": 1.857,
+   "usd_per_sgd": 0.538503,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-06",
+   "sgd_per_usd": 1.8463,
+   "usd_per_sgd": 0.541624,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-07",
+   "sgd_per_usd": 1.82,
+   "usd_per_sgd": 0.549451,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-08",
+   "sgd_per_usd": 1.791,
+   "usd_per_sgd": 0.558347,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-09",
+   "sgd_per_usd": 1.7654,
+   "usd_per_sgd": 0.566444,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-10",
+   "sgd_per_usd": 1.7267,
+   "usd_per_sgd": 0.579139,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-11",
+   "sgd_per_usd": 1.7084,
+   "usd_per_sgd": 0.585343,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1990-12",
+   "sgd_per_usd": 1.7265,
+   "usd_per_sgd": 0.579206,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-01",
+   "sgd_per_usd": 1.7454,
+   "usd_per_sgd": 0.572935,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-02",
+   "sgd_per_usd": 1.7176,
+   "usd_per_sgd": 0.582208,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-03",
+   "sgd_per_usd": 1.7565,
+   "usd_per_sgd": 0.569314,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-04",
+   "sgd_per_usd": 1.7693,
+   "usd_per_sgd": 0.565195,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-05",
+   "sgd_per_usd": 1.7679,
+   "usd_per_sgd": 0.565643,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-06",
+   "sgd_per_usd": 1.778,
+   "usd_per_sgd": 0.56243,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-07",
+   "sgd_per_usd": 1.7566,
+   "usd_per_sgd": 0.569282,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-08",
+   "sgd_per_usd": 1.7269,
+   "usd_per_sgd": 0.579072,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-09",
+   "sgd_per_usd": 1.7019,
+   "usd_per_sgd": 0.587579,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-10",
+   "sgd_per_usd": 1.6928,
+   "usd_per_sgd": 0.590737,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-11",
+   "sgd_per_usd": 1.6716,
+   "usd_per_sgd": 0.598229,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1991-12",
+   "sgd_per_usd": 1.6461,
+   "usd_per_sgd": 0.607497,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-01",
+   "sgd_per_usd": 1.6332,
+   "usd_per_sgd": 0.612295,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-02",
+   "sgd_per_usd": 1.6366,
+   "usd_per_sgd": 0.611023,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-03",
+   "sgd_per_usd": 1.6596,
+   "usd_per_sgd": 0.602555,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-04",
+   "sgd_per_usd": 1.6564,
+   "usd_per_sgd": 0.603719,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-05",
+   "sgd_per_usd": 1.6399,
+   "usd_per_sgd": 0.609793,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-06",
+   "sgd_per_usd": 1.6239,
+   "usd_per_sgd": 0.615801,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-07",
+   "sgd_per_usd": 1.614,
+   "usd_per_sgd": 0.619579,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-08",
+   "sgd_per_usd": 1.6076,
+   "usd_per_sgd": 0.622045,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-09",
+   "sgd_per_usd": 1.5983,
+   "usd_per_sgd": 0.625665,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-10",
+   "sgd_per_usd": 1.6064,
+   "usd_per_sgd": 0.62251,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-11",
+   "sgd_per_usd": 1.6323,
+   "usd_per_sgd": 0.612632,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1992-12",
+   "sgd_per_usd": 1.6394,
+   "usd_per_sgd": 0.609979,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-01",
+   "sgd_per_usd": 1.6531,
+   "usd_per_sgd": 0.604924,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-02",
+   "sgd_per_usd": 1.6468,
+   "usd_per_sgd": 0.607238,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-03",
+   "sgd_per_usd": 1.6446,
+   "usd_per_sgd": 0.608051,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-04",
+   "sgd_per_usd": 1.6229,
+   "usd_per_sgd": 0.616181,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-05",
+   "sgd_per_usd": 1.6131,
+   "usd_per_sgd": 0.619924,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-06",
+   "sgd_per_usd": 1.6164,
+   "usd_per_sgd": 0.618659,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-07",
+   "sgd_per_usd": 1.6211,
+   "usd_per_sgd": 0.616865,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-08",
+   "sgd_per_usd": 1.6098,
+   "usd_per_sgd": 0.621195,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-09",
+   "sgd_per_usd": 1.5973,
+   "usd_per_sgd": 0.626056,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-10",
+   "sgd_per_usd": 1.5716,
+   "usd_per_sgd": 0.636294,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-11",
+   "sgd_per_usd": 1.5951,
+   "usd_per_sgd": 0.62692,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1993-12",
+   "sgd_per_usd": 1.5977,
+   "usd_per_sgd": 0.6259,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-01",
+   "sgd_per_usd": 1.6032,
+   "usd_per_sgd": 0.623752,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-02",
+   "sgd_per_usd": 1.5879,
+   "usd_per_sgd": 0.629763,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-03",
+   "sgd_per_usd": 1.5819,
+   "usd_per_sgd": 0.632151,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-04",
+   "sgd_per_usd": 1.5622,
+   "usd_per_sgd": 0.640123,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-05",
+   "sgd_per_usd": 1.5463,
+   "usd_per_sgd": 0.646705,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-06",
+   "sgd_per_usd": 1.5304,
+   "usd_per_sgd": 0.653424,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-07",
+   "sgd_per_usd": 1.5144,
+   "usd_per_sgd": 0.660328,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-08",
+   "sgd_per_usd": 1.5043,
+   "usd_per_sgd": 0.664761,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-09",
+   "sgd_per_usd": 1.4891,
+   "usd_per_sgd": 0.671547,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-10",
+   "sgd_per_usd": 1.4763,
+   "usd_per_sgd": 0.677369,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-11",
+   "sgd_per_usd": 1.4681,
+   "usd_per_sgd": 0.681153,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1994-12",
+   "sgd_per_usd": 1.4651,
+   "usd_per_sgd": 0.682547,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-01",
+   "sgd_per_usd": 1.4524,
+   "usd_per_sgd": 0.688516,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-02",
+   "sgd_per_usd": 1.4538,
+   "usd_per_sgd": 0.687853,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-03",
+   "sgd_per_usd": 1.4203,
+   "usd_per_sgd": 0.704077,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-04",
+   "sgd_per_usd": 1.3985,
+   "usd_per_sgd": 0.715052,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-05",
+   "sgd_per_usd": 1.3937,
+   "usd_per_sgd": 0.717515,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-06",
+   "sgd_per_usd": 1.3949,
+   "usd_per_sgd": 0.716897,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-07",
+   "sgd_per_usd": 1.3984,
+   "usd_per_sgd": 0.715103,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-08",
+   "sgd_per_usd": 1.4109,
+   "usd_per_sgd": 0.708767,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-09",
+   "sgd_per_usd": 1.4341,
+   "usd_per_sgd": 0.697301,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-10",
+   "sgd_per_usd": 1.4238,
+   "usd_per_sgd": 0.702346,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-11",
+   "sgd_per_usd": 1.413,
+   "usd_per_sgd": 0.707714,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1995-12",
+   "sgd_per_usd": 1.4145,
+   "usd_per_sgd": 0.706964,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-01",
+   "sgd_per_usd": 1.4213,
+   "usd_per_sgd": 0.703581,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-02",
+   "sgd_per_usd": 1.4128,
+   "usd_per_sgd": 0.707814,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-03",
+   "sgd_per_usd": 1.4092,
+   "usd_per_sgd": 0.709622,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-04",
+   "sgd_per_usd": 1.4084,
+   "usd_per_sgd": 0.710026,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-05",
+   "sgd_per_usd": 1.4078,
+   "usd_per_sgd": 0.710328,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-06",
+   "sgd_per_usd": 1.4091,
+   "usd_per_sgd": 0.709673,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-07",
+   "sgd_per_usd": 1.4155,
+   "usd_per_sgd": 0.706464,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-08",
+   "sgd_per_usd": 1.4126,
+   "usd_per_sgd": 0.707914,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-09",
+   "sgd_per_usd": 1.4082,
+   "usd_per_sgd": 0.710126,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-10",
+   "sgd_per_usd": 1.4122,
+   "usd_per_sgd": 0.708115,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-11",
+   "sgd_per_usd": 1.4028,
+   "usd_per_sgd": 0.71286,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1996-12",
+   "sgd_per_usd": 1.4005,
+   "usd_per_sgd": 0.714031,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-01",
+   "sgd_per_usd": 1.4061,
+   "usd_per_sgd": 0.711187,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-02",
+   "sgd_per_usd": 1.4193,
+   "usd_per_sgd": 0.704573,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-03",
+   "sgd_per_usd": 1.4358,
+   "usd_per_sgd": 0.696476,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-04",
+   "sgd_per_usd": 1.4413,
+   "usd_per_sgd": 0.693818,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-05",
+   "sgd_per_usd": 1.4361,
+   "usd_per_sgd": 0.69633,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-06",
+   "sgd_per_usd": 1.4271,
+   "usd_per_sgd": 0.700722,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-07",
+   "sgd_per_usd": 1.4497,
+   "usd_per_sgd": 0.689798,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-08",
+   "sgd_per_usd": 1.4965,
+   "usd_per_sgd": 0.668226,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-09",
+   "sgd_per_usd": 1.5177,
+   "usd_per_sgd": 0.658892,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-10",
+   "sgd_per_usd": 1.5577,
+   "usd_per_sgd": 0.641972,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-11",
+   "sgd_per_usd": 1.5822,
+   "usd_per_sgd": 0.632031,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1997-12",
+   "sgd_per_usd": 1.648,
+   "usd_per_sgd": 0.606796,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-01",
+   "sgd_per_usd": 1.7533,
+   "usd_per_sgd": 0.570353,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-02",
+   "sgd_per_usd": 1.6579,
+   "usd_per_sgd": 0.603173,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-03",
+   "sgd_per_usd": 1.6171,
+   "usd_per_sgd": 0.618391,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-04",
+   "sgd_per_usd": 1.6011,
+   "usd_per_sgd": 0.624571,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-05",
+   "sgd_per_usd": 1.6382,
+   "usd_per_sgd": 0.610426,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-06",
+   "sgd_per_usd": 1.6953,
+   "usd_per_sgd": 0.589866,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-07",
+   "sgd_per_usd": 1.7077,
+   "usd_per_sgd": 0.585583,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-08",
+   "sgd_per_usd": 1.7538,
+   "usd_per_sgd": 0.57019,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-09",
+   "sgd_per_usd": 1.7263,
+   "usd_per_sgd": 0.579274,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-10",
+   "sgd_per_usd": 1.6405,
+   "usd_per_sgd": 0.60957,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-11",
+   "sgd_per_usd": 1.6389,
+   "usd_per_sgd": 0.610165,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1998-12",
+   "sgd_per_usd": 1.653,
+   "usd_per_sgd": 0.604961,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-01",
+   "sgd_per_usd": 1.6781,
+   "usd_per_sgd": 0.595912,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-02",
+   "sgd_per_usd": 1.7005,
+   "usd_per_sgd": 0.588062,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-03",
+   "sgd_per_usd": 1.7294,
+   "usd_per_sgd": 0.578235,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-04",
+   "sgd_per_usd": 1.7134,
+   "usd_per_sgd": 0.583635,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-05",
+   "sgd_per_usd": 1.7123,
+   "usd_per_sgd": 0.58401,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-06",
+   "sgd_per_usd": 1.7121,
+   "usd_per_sgd": 0.584078,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-07",
+   "sgd_per_usd": 1.6965,
+   "usd_per_sgd": 0.589449,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-08",
+   "sgd_per_usd": 1.6797,
+   "usd_per_sgd": 0.595344,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-09",
+   "sgd_per_usd": 1.6959,
+   "usd_per_sgd": 0.589657,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-10",
+   "sgd_per_usd": 1.6765,
+   "usd_per_sgd": 0.596481,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-11",
+   "sgd_per_usd": 1.6704,
+   "usd_per_sgd": 0.598659,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "1999-12",
+   "sgd_per_usd": 1.6746,
+   "usd_per_sgd": 0.597158,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-01",
+   "sgd_per_usd": 1.6733,
+   "usd_per_sgd": 0.597621,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-02",
+   "sgd_per_usd": 1.7005,
+   "usd_per_sgd": 0.588062,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-03",
+   "sgd_per_usd": 1.7152,
+   "usd_per_sgd": 0.583022,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-04",
+   "sgd_per_usd": 1.7097,
+   "usd_per_sgd": 0.584898,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-05",
+   "sgd_per_usd": 1.7281,
+   "usd_per_sgd": 0.57867,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-06",
+   "sgd_per_usd": 1.7278,
+   "usd_per_sgd": 0.578771,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-07",
+   "sgd_per_usd": 1.7403,
+   "usd_per_sgd": 0.574614,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-08",
+   "sgd_per_usd": 1.7201,
+   "usd_per_sgd": 0.581362,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-09",
+   "sgd_per_usd": 1.738,
+   "usd_per_sgd": 0.575374,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-10",
+   "sgd_per_usd": 1.7513,
+   "usd_per_sgd": 0.571004,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-11",
+   "sgd_per_usd": 1.7468,
+   "usd_per_sgd": 0.572475,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2000-12",
+   "sgd_per_usd": 1.7364,
+   "usd_per_sgd": 0.575904,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-01",
+   "sgd_per_usd": 1.7365,
+   "usd_per_sgd": 0.575871,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-02",
+   "sgd_per_usd": 1.7431,
+   "usd_per_sgd": 0.573691,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-03",
+   "sgd_per_usd": 1.7708,
+   "usd_per_sgd": 0.564717,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-04",
+   "sgd_per_usd": 1.8115,
+   "usd_per_sgd": 0.552029,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-05",
+   "sgd_per_usd": 1.8135,
+   "usd_per_sgd": 0.55142,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-06",
+   "sgd_per_usd": 1.8157,
+   "usd_per_sgd": 0.550752,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-07",
+   "sgd_per_usd": 1.8237,
+   "usd_per_sgd": 0.548336,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-08",
+   "sgd_per_usd": 1.7618,
+   "usd_per_sgd": 0.567601,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-09",
+   "sgd_per_usd": 1.7484,
+   "usd_per_sgd": 0.571951,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-10",
+   "sgd_per_usd": 1.8089,
+   "usd_per_sgd": 0.552822,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-11",
+   "sgd_per_usd": 1.8294,
+   "usd_per_sgd": 0.546627,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2001-12",
+   "sgd_per_usd": 1.8374,
+   "usd_per_sgd": 0.544247,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-01",
+   "sgd_per_usd": 1.8388,
+   "usd_per_sgd": 0.543833,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-02",
+   "sgd_per_usd": 1.8314,
+   "usd_per_sgd": 0.54603,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-03",
+   "sgd_per_usd": 1.8287,
+   "usd_per_sgd": 0.546837,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-04",
+   "sgd_per_usd": 1.829,
+   "usd_per_sgd": 0.546747,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-05",
+   "sgd_per_usd": 1.7997,
+   "usd_per_sgd": 0.555648,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-06",
+   "sgd_per_usd": 1.7832,
+   "usd_per_sgd": 0.56079,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-07",
+   "sgd_per_usd": 1.7523,
+   "usd_per_sgd": 0.570679,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-08",
+   "sgd_per_usd": 1.7548,
+   "usd_per_sgd": 0.569866,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-09",
+   "sgd_per_usd": 1.7655,
+   "usd_per_sgd": 0.566412,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-10",
+   "sgd_per_usd": 1.7858,
+   "usd_per_sgd": 0.559973,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-11",
+   "sgd_per_usd": 1.765,
+   "usd_per_sgd": 0.566572,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2002-12",
+   "sgd_per_usd": 1.7528,
+   "usd_per_sgd": 0.570516,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-01",
+   "sgd_per_usd": 1.7355,
+   "usd_per_sgd": 0.576203,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-02",
+   "sgd_per_usd": 1.7455,
+   "usd_per_sgd": 0.572902,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-03",
+   "sgd_per_usd": 1.7527,
+   "usd_per_sgd": 0.570548,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-04",
+   "sgd_per_usd": 1.7765,
+   "usd_per_sgd": 0.562905,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-05",
+   "sgd_per_usd": 1.7341,
+   "usd_per_sgd": 0.576668,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-06",
+   "sgd_per_usd": 1.7342,
+   "usd_per_sgd": 0.576635,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-07",
+   "sgd_per_usd": 1.7552,
+   "usd_per_sgd": 0.569736,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-08",
+   "sgd_per_usd": 1.7535,
+   "usd_per_sgd": 0.570288,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-09",
+   "sgd_per_usd": 1.7462,
+   "usd_per_sgd": 0.572672,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-10",
+   "sgd_per_usd": 1.7332,
+   "usd_per_sgd": 0.576967,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-11",
+   "sgd_per_usd": 1.7289,
+   "usd_per_sgd": 0.578402,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2003-12",
+   "sgd_per_usd": 1.7107,
+   "usd_per_sgd": 0.584556,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-01",
+   "sgd_per_usd": 1.6987,
+   "usd_per_sgd": 0.588685,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-02",
+   "sgd_per_usd": 1.6861,
+   "usd_per_sgd": 0.593085,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-03",
+   "sgd_per_usd": 1.6997,
+   "usd_per_sgd": 0.588339,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-04",
+   "sgd_per_usd": 1.684,
+   "usd_per_sgd": 0.593824,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-05",
+   "sgd_per_usd": 1.7101,
+   "usd_per_sgd": 0.584761,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-06",
+   "sgd_per_usd": 1.7123,
+   "usd_per_sgd": 0.58401,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-07",
+   "sgd_per_usd": 1.712,
+   "usd_per_sgd": 0.584112,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-08",
+   "sgd_per_usd": 1.7144,
+   "usd_per_sgd": 0.583294,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-09",
+   "sgd_per_usd": 1.696,
+   "usd_per_sgd": 0.589623,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-10",
+   "sgd_per_usd": 1.6778,
+   "usd_per_sgd": 0.596019,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-11",
+   "sgd_per_usd": 1.651,
+   "usd_per_sgd": 0.605694,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2004-12",
+   "sgd_per_usd": 1.6415,
+   "usd_per_sgd": 0.609199,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-01",
+   "sgd_per_usd": 1.6381,
+   "usd_per_sgd": 0.610463,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-02",
+   "sgd_per_usd": 1.638,
+   "usd_per_sgd": 0.610501,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-03",
+   "sgd_per_usd": 1.6308,
+   "usd_per_sgd": 0.613196,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-04",
+   "sgd_per_usd": 1.6532,
+   "usd_per_sgd": 0.604887,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-05",
+   "sgd_per_usd": 1.6512,
+   "usd_per_sgd": 0.60562,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-06",
+   "sgd_per_usd": 1.6716,
+   "usd_per_sgd": 0.598229,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-07",
+   "sgd_per_usd": 1.6838,
+   "usd_per_sgd": 0.593895,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-08",
+   "sgd_per_usd": 1.6625,
+   "usd_per_sgd": 0.601504,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-09",
+   "sgd_per_usd": 1.6808,
+   "usd_per_sgd": 0.594955,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-10",
+   "sgd_per_usd": 1.6908,
+   "usd_per_sgd": 0.591436,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-11",
+   "sgd_per_usd": 1.6986,
+   "usd_per_sgd": 0.58872,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2005-12",
+   "sgd_per_usd": 1.6752,
+   "usd_per_sgd": 0.596944,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-01",
+   "sgd_per_usd": 1.633,
+   "usd_per_sgd": 0.61237,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-02",
+   "sgd_per_usd": 1.6294,
+   "usd_per_sgd": 0.613723,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-03",
+   "sgd_per_usd": 1.6217,
+   "usd_per_sgd": 0.616637,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-04",
+   "sgd_per_usd": 1.6014,
+   "usd_per_sgd": 0.624454,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-05",
+   "sgd_per_usd": 1.5773,
+   "usd_per_sgd": 0.633995,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-06",
+   "sgd_per_usd": 1.5905,
+   "usd_per_sgd": 0.628733,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-07",
+   "sgd_per_usd": 1.5833,
+   "usd_per_sgd": 0.631592,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-08",
+   "sgd_per_usd": 1.5757,
+   "usd_per_sgd": 0.634639,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-09",
+   "sgd_per_usd": 1.5789,
+   "usd_per_sgd": 0.633352,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-10",
+   "sgd_per_usd": 1.5788,
+   "usd_per_sgd": 0.633392,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-11",
+   "sgd_per_usd": 1.5567,
+   "usd_per_sgd": 0.642385,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2006-12",
+   "sgd_per_usd": 1.5405,
+   "usd_per_sgd": 0.64914,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-01",
+   "sgd_per_usd": 1.5379,
+   "usd_per_sgd": 0.650237,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-02",
+   "sgd_per_usd": 1.534,
+   "usd_per_sgd": 0.65189,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-03",
+   "sgd_per_usd": 1.5249,
+   "usd_per_sgd": 0.655781,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-04",
+   "sgd_per_usd": 1.5149,
+   "usd_per_sgd": 0.66011,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-05",
+   "sgd_per_usd": 1.5222,
+   "usd_per_sgd": 0.656944,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-06",
+   "sgd_per_usd": 1.5365,
+   "usd_per_sgd": 0.65083,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-07",
+   "sgd_per_usd": 1.5161,
+   "usd_per_sgd": 0.659587,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-08",
+   "sgd_per_usd": 1.5236,
+   "usd_per_sgd": 0.65634,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-09",
+   "sgd_per_usd": 1.5126,
+   "usd_per_sgd": 0.661113,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-10",
+   "sgd_per_usd": 1.4666,
+   "usd_per_sgd": 0.681849,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-11",
+   "sgd_per_usd": 1.4471,
+   "usd_per_sgd": 0.691037,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2007-12",
+   "sgd_per_usd": 1.4489,
+   "usd_per_sgd": 0.690179,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-01",
+   "sgd_per_usd": 1.4315,
+   "usd_per_sgd": 0.698568,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-02",
+   "sgd_per_usd": 1.4108,
+   "usd_per_sgd": 0.708818,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-03",
+   "sgd_per_usd": 1.3855,
+   "usd_per_sgd": 0.721761,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-04",
+   "sgd_per_usd": 1.3644,
+   "usd_per_sgd": 0.732923,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-05",
+   "sgd_per_usd": 1.3665,
+   "usd_per_sgd": 0.731797,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-06",
+   "sgd_per_usd": 1.3676,
+   "usd_per_sgd": 0.731208,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-07",
+   "sgd_per_usd": 1.3588,
+   "usd_per_sgd": 0.735943,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-08",
+   "sgd_per_usd": 1.4029,
+   "usd_per_sgd": 0.712809,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-09",
+   "sgd_per_usd": 1.4287,
+   "usd_per_sgd": 0.699937,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-10",
+   "sgd_per_usd": 1.4763,
+   "usd_per_sgd": 0.677369,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-11",
+   "sgd_per_usd": 1.5067,
+   "usd_per_sgd": 0.663702,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2008-12",
+   "sgd_per_usd": 1.4778,
+   "usd_per_sgd": 0.676682,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-01",
+   "sgd_per_usd": 1.488,
+   "usd_per_sgd": 0.672043,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-02",
+   "sgd_per_usd": 1.5178,
+   "usd_per_sgd": 0.658848,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-03",
+   "sgd_per_usd": 1.5303,
+   "usd_per_sgd": 0.653467,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-04",
+   "sgd_per_usd": 1.5045,
+   "usd_per_sgd": 0.664673,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-05",
+   "sgd_per_usd": 1.4616,
+   "usd_per_sgd": 0.684182,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-06",
+   "sgd_per_usd": 1.4523,
+   "usd_per_sgd": 0.688563,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-07",
+   "sgd_per_usd": 1.4501,
+   "usd_per_sgd": 0.689608,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-08",
+   "sgd_per_usd": 1.4421,
+   "usd_per_sgd": 0.693433,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-09",
+   "sgd_per_usd": 1.4243,
+   "usd_per_sgd": 0.702099,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-10",
+   "sgd_per_usd": 1.398,
+   "usd_per_sgd": 0.715308,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-11",
+   "sgd_per_usd": 1.3891,
+   "usd_per_sgd": 0.719891,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2009-12",
+   "sgd_per_usd": 1.3961,
+   "usd_per_sgd": 0.716281,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-01",
+   "sgd_per_usd": 1.3961,
+   "usd_per_sgd": 0.716281,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-02",
+   "sgd_per_usd": 1.4124,
+   "usd_per_sgd": 0.708015,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-03",
+   "sgd_per_usd": 1.4002,
+   "usd_per_sgd": 0.714184,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-04",
+   "sgd_per_usd": 1.3818,
+   "usd_per_sgd": 0.723694,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-05",
+   "sgd_per_usd": 1.3931,
+   "usd_per_sgd": 0.717824,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-06",
+   "sgd_per_usd": 1.3984,
+   "usd_per_sgd": 0.715103,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-07",
+   "sgd_per_usd": 1.378,
+   "usd_per_sgd": 0.725689,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-08",
+   "sgd_per_usd": 1.3561,
+   "usd_per_sgd": 0.737409,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-09",
+   "sgd_per_usd": 1.3359,
+   "usd_per_sgd": 0.748559,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-10",
+   "sgd_per_usd": 1.3046,
+   "usd_per_sgd": 0.766518,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-11",
+   "sgd_per_usd": 1.2983,
+   "usd_per_sgd": 0.770238,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2010-12",
+   "sgd_per_usd": 1.3072,
+   "usd_per_sgd": 0.764994,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-01",
+   "sgd_per_usd": 1.2879,
+   "usd_per_sgd": 0.776458,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-02",
+   "sgd_per_usd": 1.2774,
+   "usd_per_sgd": 0.78284,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-03",
+   "sgd_per_usd": 1.2689,
+   "usd_per_sgd": 0.788084,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-04",
+   "sgd_per_usd": 1.248,
+   "usd_per_sgd": 0.801282,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-05",
+   "sgd_per_usd": 1.2374,
+   "usd_per_sgd": 0.808146,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-06",
+   "sgd_per_usd": 1.2347,
+   "usd_per_sgd": 0.809913,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-07",
+   "sgd_per_usd": 1.2172,
+   "usd_per_sgd": 0.821558,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-08",
+   "sgd_per_usd": 1.2088,
+   "usd_per_sgd": 0.827267,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-09",
+   "sgd_per_usd": 1.2506,
+   "usd_per_sgd": 0.799616,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-10",
+   "sgd_per_usd": 1.2792,
+   "usd_per_sgd": 0.781739,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-11",
+   "sgd_per_usd": 1.2896,
+   "usd_per_sgd": 0.775434,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2011-12",
+   "sgd_per_usd": 1.2957,
+   "usd_per_sgd": 0.771784,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-01",
+   "sgd_per_usd": 1.2805,
+   "usd_per_sgd": 0.780945,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-02",
+   "sgd_per_usd": 1.2537,
+   "usd_per_sgd": 0.797639,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-03",
+   "sgd_per_usd": 1.2584,
+   "usd_per_sgd": 0.79466,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-04",
+   "sgd_per_usd": 1.2515,
+   "usd_per_sgd": 0.799041,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-05",
+   "sgd_per_usd": 1.2625,
+   "usd_per_sgd": 0.792079,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-06",
+   "sgd_per_usd": 1.2783,
+   "usd_per_sgd": 0.782289,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-07",
+   "sgd_per_usd": 1.2618,
+   "usd_per_sgd": 0.792519,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-08",
+   "sgd_per_usd": 1.2485,
+   "usd_per_sgd": 0.800961,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-09",
+   "sgd_per_usd": 1.2318,
+   "usd_per_sgd": 0.81182,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-10",
+   "sgd_per_usd": 1.2247,
+   "usd_per_sgd": 0.816526,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-11",
+   "sgd_per_usd": 1.2234,
+   "usd_per_sgd": 0.817394,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2012-12",
+   "sgd_per_usd": 1.221,
+   "usd_per_sgd": 0.819001,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-01",
+   "sgd_per_usd": 1.2285,
+   "usd_per_sgd": 0.814001,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-02",
+   "sgd_per_usd": 1.2381,
+   "usd_per_sgd": 0.807689,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-03",
+   "sgd_per_usd": 1.2466,
+   "usd_per_sgd": 0.802182,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-04",
+   "sgd_per_usd": 1.238,
+   "usd_per_sgd": 0.807754,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-05",
+   "sgd_per_usd": 1.2481,
+   "usd_per_sgd": 0.801218,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-06",
+   "sgd_per_usd": 1.2606,
+   "usd_per_sgd": 0.793273,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-07",
+   "sgd_per_usd": 1.268,
+   "usd_per_sgd": 0.788644,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-08",
+   "sgd_per_usd": 1.2737,
+   "usd_per_sgd": 0.785114,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-09",
+   "sgd_per_usd": 1.2635,
+   "usd_per_sgd": 0.791452,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-10",
+   "sgd_per_usd": 1.2443,
+   "usd_per_sgd": 0.803665,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-11",
+   "sgd_per_usd": 1.2474,
+   "usd_per_sgd": 0.801667,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2013-12",
+   "sgd_per_usd": 1.2588,
+   "usd_per_sgd": 0.794407,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-01",
+   "sgd_per_usd": 1.2725,
+   "usd_per_sgd": 0.785855,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-02",
+   "sgd_per_usd": 1.2667,
+   "usd_per_sgd": 0.789453,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-03",
+   "sgd_per_usd": 1.2674,
+   "usd_per_sgd": 0.789017,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-04",
+   "sgd_per_usd": 1.2557,
+   "usd_per_sgd": 0.796369,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-05",
+   "sgd_per_usd": 1.2517,
+   "usd_per_sgd": 0.798913,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-06",
+   "sgd_per_usd": 1.2514,
+   "usd_per_sgd": 0.799105,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-07",
+   "sgd_per_usd": 1.243,
+   "usd_per_sgd": 0.804505,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-08",
+   "sgd_per_usd": 1.2485,
+   "usd_per_sgd": 0.800961,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-09",
+   "sgd_per_usd": 1.2628,
+   "usd_per_sgd": 0.791891,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-10",
+   "sgd_per_usd": 1.2738,
+   "usd_per_sgd": 0.785053,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-11",
+   "sgd_per_usd": 1.2956,
+   "usd_per_sgd": 0.771843,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2014-12",
+   "sgd_per_usd": 1.3155,
+   "usd_per_sgd": 0.760167,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-01",
+   "sgd_per_usd": 1.3374,
+   "usd_per_sgd": 0.747719,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-02",
+   "sgd_per_usd": 1.3544,
+   "usd_per_sgd": 0.738334,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-03",
+   "sgd_per_usd": 1.3771,
+   "usd_per_sgd": 0.726164,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-04",
+   "sgd_per_usd": 1.35,
+   "usd_per_sgd": 0.740741,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-05",
+   "sgd_per_usd": 1.3347,
+   "usd_per_sgd": 0.749232,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-06",
+   "sgd_per_usd": 1.3457,
+   "usd_per_sgd": 0.743108,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-07",
+   "sgd_per_usd": 1.3608,
+   "usd_per_sgd": 0.734862,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-08",
+   "sgd_per_usd": 1.3999,
+   "usd_per_sgd": 0.714337,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-09",
+   "sgd_per_usd": 1.415,
+   "usd_per_sgd": 0.706714,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-10",
+   "sgd_per_usd": 1.4019,
+   "usd_per_sgd": 0.713318,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-11",
+   "sgd_per_usd": 1.4125,
+   "usd_per_sgd": 0.707965,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2015-12",
+   "sgd_per_usd": 1.4085,
+   "usd_per_sgd": 0.709975,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-01",
+   "sgd_per_usd": 1.4335,
+   "usd_per_sgd": 0.697593,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-02",
+   "sgd_per_usd": 1.4063,
+   "usd_per_sgd": 0.711086,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-03",
+   "sgd_per_usd": 1.3748,
+   "usd_per_sgd": 0.727379,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-04",
+   "sgd_per_usd": 1.3509,
+   "usd_per_sgd": 0.740247,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-05",
+   "sgd_per_usd": 1.3706,
+   "usd_per_sgd": 0.729607,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-06",
+   "sgd_per_usd": 1.3555,
+   "usd_per_sgd": 0.737735,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-07",
+   "sgd_per_usd": 1.3508,
+   "usd_per_sgd": 0.740302,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-08",
+   "sgd_per_usd": 1.3474,
+   "usd_per_sgd": 0.74217,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-09",
+   "sgd_per_usd": 1.3592,
+   "usd_per_sgd": 0.735727,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-10",
+   "sgd_per_usd": 1.3836,
+   "usd_per_sgd": 0.722752,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-11",
+   "sgd_per_usd": 1.4101,
+   "usd_per_sgd": 0.70917,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2016-12",
+   "sgd_per_usd": 1.4358,
+   "usd_per_sgd": 0.696476,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-01",
+   "sgd_per_usd": 1.4288,
+   "usd_per_sgd": 0.699888,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-02",
+   "sgd_per_usd": 1.415,
+   "usd_per_sgd": 0.706714,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-03",
+   "sgd_per_usd": 1.4057,
+   "usd_per_sgd": 0.711389,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-04",
+   "sgd_per_usd": 1.398,
+   "usd_per_sgd": 0.715308,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-05",
+   "sgd_per_usd": 1.3946,
+   "usd_per_sgd": 0.717051,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-06",
+   "sgd_per_usd": 1.3837,
+   "usd_per_sgd": 0.7227,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-07",
+   "sgd_per_usd": 1.3717,
+   "usd_per_sgd": 0.729022,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-08",
+   "sgd_per_usd": 1.3607,
+   "usd_per_sgd": 0.734916,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-09",
+   "sgd_per_usd": 1.3497,
+   "usd_per_sgd": 0.740905,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-10",
+   "sgd_per_usd": 1.3604,
+   "usd_per_sgd": 0.735078,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-11",
+   "sgd_per_usd": 1.3561,
+   "usd_per_sgd": 0.737409,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2017-12",
+   "sgd_per_usd": 1.3467,
+   "usd_per_sgd": 0.742556,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-01",
+   "sgd_per_usd": 1.322,
+   "usd_per_sgd": 0.75643,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-02",
+   "sgd_per_usd": 1.3198,
+   "usd_per_sgd": 0.757691,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-03",
+   "sgd_per_usd": 1.3148,
+   "usd_per_sgd": 0.760572,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-04",
+   "sgd_per_usd": 1.3149,
+   "usd_per_sgd": 0.760514,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-05",
+   "sgd_per_usd": 1.3387,
+   "usd_per_sgd": 0.746993,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-06",
+   "sgd_per_usd": 1.3474,
+   "usd_per_sgd": 0.74217,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-07",
+   "sgd_per_usd": 1.3632,
+   "usd_per_sgd": 0.733568,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-08",
+   "sgd_per_usd": 1.3689,
+   "usd_per_sgd": 0.730514,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-09",
+   "sgd_per_usd": 1.3715,
+   "usd_per_sgd": 0.729129,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-10",
+   "sgd_per_usd": 1.3791,
+   "usd_per_sgd": 0.725111,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-11",
+   "sgd_per_usd": 1.3755,
+   "usd_per_sgd": 0.727008,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2018-12",
+   "sgd_per_usd": 1.3703,
+   "usd_per_sgd": 0.729767,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-01",
+   "sgd_per_usd": 1.3564,
+   "usd_per_sgd": 0.737246,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-02",
+   "sgd_per_usd": 1.3537,
+   "usd_per_sgd": 0.738716,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-03",
+   "sgd_per_usd": 1.354,
+   "usd_per_sgd": 0.738552,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-04",
+   "sgd_per_usd": 1.3561,
+   "usd_per_sgd": 0.737409,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-05",
+   "sgd_per_usd": 1.3707,
+   "usd_per_sgd": 0.729554,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-06",
+   "sgd_per_usd": 1.363,
+   "usd_per_sgd": 0.733676,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-07",
+   "sgd_per_usd": 1.3606,
+   "usd_per_sgd": 0.73497,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-08",
+   "sgd_per_usd": 1.385,
+   "usd_per_sgd": 0.722022,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-09",
+   "sgd_per_usd": 1.3802,
+   "usd_per_sgd": 0.724533,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-10",
+   "sgd_per_usd": 1.3713,
+   "usd_per_sgd": 0.729235,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-11",
+   "sgd_per_usd": 1.3616,
+   "usd_per_sgd": 0.73443,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2019-12",
+   "sgd_per_usd": 1.3573,
+   "usd_per_sgd": 0.736757,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-01",
+   "sgd_per_usd": 1.3508,
+   "usd_per_sgd": 0.740302,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-02",
+   "sgd_per_usd": 1.3897,
+   "usd_per_sgd": 0.71958,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-03",
+   "sgd_per_usd": 1.4165,
+   "usd_per_sgd": 0.705965,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-04",
+   "sgd_per_usd": 1.4245,
+   "usd_per_sgd": 0.702001,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-05",
+   "sgd_per_usd": 1.418,
+   "usd_per_sgd": 0.705219,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-06",
+   "sgd_per_usd": 1.3941,
+   "usd_per_sgd": 0.717309,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-07",
+   "sgd_per_usd": 1.3883,
+   "usd_per_sgd": 0.720305,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-08",
+   "sgd_per_usd": 1.3697,
+   "usd_per_sgd": 0.730087,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-09",
+   "sgd_per_usd": 1.3655,
+   "usd_per_sgd": 0.732332,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-10",
+   "sgd_per_usd": 1.3596,
+   "usd_per_sgd": 0.73551,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-11",
+   "sgd_per_usd": 1.3478,
+   "usd_per_sgd": 0.74195,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2020-12",
+   "sgd_per_usd": 1.3324,
+   "usd_per_sgd": 0.750525,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-01",
+   "sgd_per_usd": 1.3257,
+   "usd_per_sgd": 0.754318,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-02",
+   "sgd_per_usd": 1.3274,
+   "usd_per_sgd": 0.753352,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-03",
+   "sgd_per_usd": 1.3423,
+   "usd_per_sgd": 0.74499,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-04",
+   "sgd_per_usd": 1.3344,
+   "usd_per_sgd": 0.7494,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-05",
+   "sgd_per_usd": 1.3303,
+   "usd_per_sgd": 0.75171,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-06",
+   "sgd_per_usd": 1.333,
+   "usd_per_sgd": 0.750188,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-07",
+   "sgd_per_usd": 1.3543,
+   "usd_per_sgd": 0.738389,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-08",
+   "sgd_per_usd": 1.3552,
+   "usd_per_sgd": 0.737898,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-09",
+   "sgd_per_usd": 1.3475,
+   "usd_per_sgd": 0.742115,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-10",
+   "sgd_per_usd": 1.3511,
+   "usd_per_sgd": 0.740138,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-11",
+   "sgd_per_usd": 1.3574,
+   "usd_per_sgd": 0.736703,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2021-12",
+   "sgd_per_usd": 1.3632,
+   "usd_per_sgd": 0.733568,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-01",
+   "sgd_per_usd": 1.3506,
+   "usd_per_sgd": 0.740412,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-02",
+   "sgd_per_usd": 1.3467,
+   "usd_per_sgd": 0.742556,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-03",
+   "sgd_per_usd": 1.3593,
+   "usd_per_sgd": 0.735673,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-04",
+   "sgd_per_usd": 1.3656,
+   "usd_per_sgd": 0.732279,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-05",
+   "sgd_per_usd": 1.3814,
+   "usd_per_sgd": 0.723903,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-06",
+   "sgd_per_usd": 1.3837,
+   "usd_per_sgd": 0.7227,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-07",
+   "sgd_per_usd": 1.3949,
+   "usd_per_sgd": 0.716897,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-08",
+   "sgd_per_usd": 1.3843,
+   "usd_per_sgd": 0.722387,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-09",
+   "sgd_per_usd": 1.4136,
+   "usd_per_sgd": 0.707414,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-10",
+   "sgd_per_usd": 1.4245,
+   "usd_per_sgd": 0.702001,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-11",
+   "sgd_per_usd": 1.3874,
+   "usd_per_sgd": 0.720773,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2022-12",
+   "sgd_per_usd": 1.352,
+   "usd_per_sgd": 0.739645,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-01",
+   "sgd_per_usd": 1.3258,
+   "usd_per_sgd": 0.754262,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-02",
+   "sgd_per_usd": 1.3309,
+   "usd_per_sgd": 0.751371,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-03",
+   "sgd_per_usd": 1.3407,
+   "usd_per_sgd": 0.745879,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-04",
+   "sgd_per_usd": 1.3319,
+   "usd_per_sgd": 0.750807,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-05",
+   "sgd_per_usd": 1.3393,
+   "usd_per_sgd": 0.746659,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-06",
+   "sgd_per_usd": 1.3461,
+   "usd_per_sgd": 0.742887,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-07",
+   "sgd_per_usd": 1.3346,
+   "usd_per_sgd": 0.749288,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-08",
+   "sgd_per_usd": 1.3505,
+   "usd_per_sgd": 0.740466,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-09",
+   "sgd_per_usd": 1.3638,
+   "usd_per_sgd": 0.733245,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-10",
+   "sgd_per_usd": 1.369,
+   "usd_per_sgd": 0.73046,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-11",
+   "sgd_per_usd": 1.3482,
+   "usd_per_sgd": 0.74173,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2023-12",
+   "sgd_per_usd": 1.3324,
+   "usd_per_sgd": 0.750525,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-01",
+   "sgd_per_usd": 1.3355,
+   "usd_per_sgd": 0.748783,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-02",
+   "sgd_per_usd": 1.3445,
+   "usd_per_sgd": 0.743771,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-03",
+   "sgd_per_usd": 1.3401,
+   "usd_per_sgd": 0.746213,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-04",
+   "sgd_per_usd": 1.3569,
+   "usd_per_sgd": 0.736974,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-05",
+   "sgd_per_usd": 1.3512,
+   "usd_per_sgd": 0.740083,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-06",
+   "sgd_per_usd": 1.3516,
+   "usd_per_sgd": 0.739864,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-07",
+   "sgd_per_usd": 1.3469,
+   "usd_per_sgd": 0.742446,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-08",
+   "sgd_per_usd": 1.3159,
+   "usd_per_sgd": 0.759936,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-09",
+   "sgd_per_usd": 1.2964,
+   "usd_per_sgd": 0.771367,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-10",
+   "sgd_per_usd": 1.309,
+   "usd_per_sgd": 0.763942,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-11",
+   "sgd_per_usd": 1.3365,
+   "usd_per_sgd": 0.748223,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2024-12",
+   "sgd_per_usd": 1.3503,
+   "usd_per_sgd": 0.740576,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-01",
+   "sgd_per_usd": 1.3625,
+   "usd_per_sgd": 0.733945,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-02",
+   "sgd_per_usd": 1.3469,
+   "usd_per_sgd": 0.742446,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-03",
+   "sgd_per_usd": 1.3362,
+   "usd_per_sgd": 0.748391,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-04",
+   "sgd_per_usd": 1.3246,
+   "usd_per_sgd": 0.754945,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-05",
+   "sgd_per_usd": 1.2938,
+   "usd_per_sgd": 0.772917,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-06",
+   "sgd_per_usd": 1.2843,
+   "usd_per_sgd": 0.778634,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-07",
+   "sgd_per_usd": 1.2809,
+   "usd_per_sgd": 0.780701,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-08",
+   "sgd_per_usd": 1.2856,
+   "usd_per_sgd": 0.777847,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-09",
+   "sgd_per_usd": 1.2847,
+   "usd_per_sgd": 0.778392,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-10",
+   "sgd_per_usd": 1.2952,
+   "usd_per_sgd": 0.772082,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-11",
+   "sgd_per_usd": 1.3031,
+   "usd_per_sgd": 0.767401,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2025-12",
+   "sgd_per_usd": 1.2916,
+   "usd_per_sgd": 0.774234,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-01",
+   "sgd_per_usd": 1.2803,
+   "usd_per_sgd": 0.781067,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-02",
+   "sgd_per_usd": 1.2671,
+   "usd_per_sgd": 0.789204,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-03",
+   "sgd_per_usd": 1.2792,
+   "usd_per_sgd": 0.781739,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-04",
+   "sgd_per_usd": 1.2768,
+   "usd_per_sgd": 0.783208,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-05",
+   "sgd_per_usd": 1.2756,
+   "usd_per_sgd": 0.783945,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-06",
+   "sgd_per_usd": 1.2883,
+   "usd_per_sgd": 0.776217,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-07",
+   "sgd_per_usd": 1.2914,
+   "usd_per_sgd": 0.774353,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-08",
+   "sgd_per_usd": 1.2765,
+   "usd_per_sgd": 0.783392,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-09",
+   "sgd_per_usd": 1.2727,
+   "usd_per_sgd": 0.785731,
+   "source": "SingStat M700051"
+  },
+  {
+   "month": "2026-10",
+   "sgd_per_usd": 1.2796,
+   "usd_per_sgd": 0.781494,
+   "source": "SingStat M700051"
+  }
+ ]
+}

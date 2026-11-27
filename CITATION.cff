@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite them as below, and credit the publisher named in each dataset's README."
+type: dataset
+title: "Singapore rates and prices: open data from Numbers.sg"
+authors:
+  - name: "Numbers.sg"
+    website: "https://numbers.sg/"
+date-released: "2026-11-27"
+license: CC-BY-4.0
+url: "https://numbers.sg/developers/"
+repository-code: "https://github.com/numbers-sg/data"
+abstract: "28 datasets of Singapore interest rates and government bonds (SORA, T-bills, Singapore Savings Bonds), COE bidding results, CPF figures, income tax rates, inflation and exchange rates for the Singapore dollar, each read from its official source and refreshed nightly from the Numbers.sg data API."
+keywords:
+  - Singapore
+  - open data
+  - SORA
+  - COE
+  - CPF
+  - exchange rates
+  - interest rates
