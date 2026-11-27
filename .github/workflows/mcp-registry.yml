@@ -1,0 +1,22 @@
+# Publishes server.json to the official MCP registry (registry.modelcontextprotocol.io) as io.github.numbers-sg/data.
+# GitHub's OIDC token proves the publish comes from the numbers-sg org: no stored key or token. Run by hand after
+# changing server.json (bump "version" first: the registry refuses a version it already has).
+name: MCP registry
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install mcp-publisher 1.8.1 (checksum checked)
+        run: |
+          curl -sSfL -o p.tar.gz https://github.com/modelcontextprotocol/registry/releases/download/v1.8.1/mcp-publisher_linux_amd64.tar.gz
+          echo "a06c9096dcb9727c13555b6be26c7effa707b01f06a4c561ba7a3635443cf2cc  p.tar.gz" | sha256sum -c -
+          tar xzf p.tar.gz mcp-publisher
+      - run: ./mcp-publisher validate
+      - run: ./mcp-publisher login github-oidc
+      - run: ./mcp-publisher publish
