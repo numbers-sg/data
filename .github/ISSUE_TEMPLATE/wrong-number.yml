@@ -1,0 +1,46 @@
+name: Report a wrong number
+description: A figure, date or source in a dataset looks incorrect.
+title: "[wrong number] "
+labels: ["data", "needs checking"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. A number that is quietly wrong is worse than one that is missing, and we would rather be corrected in public.
+        You don't need to be certain: tell us what you read, and where.
+  - type: input
+    id: dataset
+    attributes:
+      label: Dataset id
+      description: The folder name, e.g. sora, coe-results, fx-usd-sgd.
+      placeholder: sora
+    validations:
+      required: true
+  - type: input
+    id: row
+    attributes:
+      label: Which row and field?
+      description: The date or key of the row, and the column.
+      placeholder: "value_date 2026-11-26, compounded_3m_pct"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should it be, and where did you read that?
+      description: A link to the agency's or bank's own page, table or PDF. A screenshot is fine.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What looks wrong?
+      options:
+        - The number itself
+        - The date
+        - A missing row
+        - The source or its terms
+        - The field's meaning or unit
+        - Something else
+    validations:
+      required: true

@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Data API guide
+    url: https://numbers.sg/developers/
+    about: Every dataset, the first call in five languages, limits and errors.
+  - name: Is a dataset late right now?
+    url: https://numbers.sg/developers/#status
+    about: Every dataset on time, due or late, before you file a report.
+  - name: Every correction we've made
+    url: https://numbers.sg/corrections/
+    about: Each mistake, with the date and what changed.
+  - name: Report a security issue
+    url: https://github.com/numbers-sg/.github/blob/main/SECURITY.md
+    about: Email hello@numbers.sg with the subject "Security", not a public issue.

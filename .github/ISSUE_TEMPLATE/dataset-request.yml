@@ -1,0 +1,17 @@
+name: Ask for a dataset
+description: A Singapore rate, price or rule you'd like as data.
+title: "[dataset] "
+labels: ["dataset request"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like, and what would you use it for?
+      description: Tell us what you're trying to work out. That decides what's worth building.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Who publishes it?
+      description: The agency or bank, with a link if you have one.
