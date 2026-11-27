@@ -1,5 +1,7 @@
 # Singapore dollar to Japanese yen, monthly averages since 1988
 
+[![Chart of Singapore dollar to Japanese yen, monthly averages since 1988, from Numbers.sg](https://numbers.sg/charts/sgd-to-jpy-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-jpy/)
+
 SingStat's monthly average exchange rate for the yen (table M700051, averages of MAS's figures) since January 1988, both ways round.
 
 **The question it answers:** What was the average yen rate for the Singapore dollar each month since 1988?
@@ -54,6 +56,16 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-jpy-monthly.csv
 - [Department of Statistics (SingStat)](https://www.singstat.gov.sg/), under the [SingStat terms of use](https://www.singstat.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-jpy/#method](https://numbers.sg/currency/sgd-to-jpy/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-jpy-monthly/changes.atom`](https://numbers.sg/api/v1/fx-sgd-jpy-monthly/changes.atom).
+
+## Corrections
+
+Each mistake found in this dataset or on its page, newest first. The same list is on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+- **26 Nov 2026:** SGD to JPY: the CSV’s note said it held SingStat’s monthly averages for the years before the daily record, but the file had none of them. It now ends with a second table of SingStat’s monthly averages of MAS’s yen figures, 466 months from January 1988 to October 2026, and the chart’s key no longer lists a SingStat line that is not drawn.
+- **7 Nov 2026:** SGD to JPY: the page called MAS’s figures daily all the way back to 1988. MAS published the yen rate once a week until the end of 2002 and every working day from January 2003. The chart, the year-by-year table, the records and the rate-on-a-date tool now say which, and a date before 2003 shows that week’s figure. The rates themselves were right.
+- **2 Nov 2026:** on our SGD to JPY page, under “Is today’s rate good?”, the sentence on changing yen into S$ said your yen bought fewer S$ today than on a share of days, but gave the share of days on which they bought fewer S$ than today, the opposite. It now gives the right share. The table beside it and the figures for changing S$ into yen were right.
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

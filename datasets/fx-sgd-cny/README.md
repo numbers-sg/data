@@ -1,5 +1,7 @@
 # Singapore dollar to Chinese yuan, since 1993 (daily from 2003)
 
+[![Chart of Singapore dollar to Chinese yuan, since 1993 (daily from 2003), from Numbers.sg](https://numbers.sg/charts/sgd-to-cny-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-cny/)
+
 Yuan per Singapore dollar and Singapore dollars per 100 yuan, each working day from 2003 and each week from 1993: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.
 
 **The question it answers:** What is the Singapore dollar worth in yuan, on any day since 1993?
@@ -54,6 +56,16 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-cny.csv")`
 - [Monetary Authority of Singapore (MAS)](https://www.mas.gov.sg/statistics), under the [MAS Terms of Use of Datasets](https://www.mas.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-cny/#method](https://numbers.sg/currency/sgd-to-cny/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-cny/changes.atom`](https://numbers.sg/api/v1/fx-sgd-cny/changes.atom).
+
+## Corrections
+
+Each mistake found in this dataset or on its page, newest first. The same list is on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+- **26 Nov 2026:** SGD to CNY: the CSV’s note said it held SingStat’s monthly averages for the years before the daily record, but the file had none of them. It now ends with a second table of SingStat’s monthly averages of MAS’s yuan figures, 401 months from June 1993 to October 2026, and the chart’s key no longer lists a SingStat line that is not drawn.
+- **7 Nov 2026:** SGD to CNY: the page called MAS’s figures daily back to 1993; they were weekly until the end of 2002. The highest rate on record, 6.7476 yuan for S$1, was labelled a SingStat monthly average; it is MAS’s weekly figure for 18 June 1993, and the page now says so. The whole-record row in “Is today’s rate good?” now counts working days from 2003 only, so it no longer mixes weekly and daily figures.
+- **2 Nov 2026:** on our SGD to CNY page, under “Is today’s rate good?”, the sentence on changing yuan into S$ said your yuan bought fewer S$ today than on a share of days, but gave the share of days on which they bought fewer S$ than today, the opposite. It now gives the right share. The table beside it and the figures for changing S$ into yuan were right.
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

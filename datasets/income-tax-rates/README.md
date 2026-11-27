@@ -1,5 +1,7 @@
 # Singapore resident income tax rates
 
+[![Chart of Singapore resident income tax rates, from Numbers.sg](https://numbers.sg/charts/singapore-income-tax-rates-chart.png)](https://numbers.sg/tax/income-tax-rates/)
+
 IRAS's progressive income tax rates for tax residents, band by band: where each band starts and ends, its rate, the tax on the whole band and the total tax up to its top, for Year of Assessment 2024 onwards.
 
 **The question it answers:** What are Singapore's resident income tax rates, band by band?
@@ -60,6 +62,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/income-tax-rates.csv")
 - [Singapore Statutes Online: Income Tax Act 1947](https://sso.agc.gov.sg/Act/ITA1947), under the [Singapore Statutes Online: permission to reproduce legislation](https://sso.agc.gov.sg/Terms-of-Use)
 
 How each figure is read and checked: [numbers.sg/tax/income-tax-rates/#method](https://numbers.sg/tax/income-tax-rates/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/income-tax-rates/changes.atom`](https://numbers.sg/api/v1/income-tax-rates/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

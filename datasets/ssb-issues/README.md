@@ -1,5 +1,7 @@
 # Singapore Savings Bonds: rates and results
 
+[![Chart of Singapore Savings Bonds: rates and results, from Numbers.sg](https://numbers.sg/charts/singapore-savings-bonds-rates-chart.png)](https://numbers.sg/rates/singapore-savings-bonds/)
+
 Every Singapore Savings Bond since the first in October 2015: its interest year by year, the average return if you cash it in after each year, the amount offered and applied for, and, when it was oversubscribed, how much each applicant got.
 
 **The question it answers:** What does each Singapore Savings Bond pay, and how was it allotted?
@@ -112,6 +114,14 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/ssb-issues.csv")`
 - [Monetary Authority of Singapore (MAS)](https://www.mas.gov.sg/statistics), under the [MAS Terms of Use of Datasets](https://www.mas.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/rates/singapore-savings-bonds/#method](https://numbers.sg/rates/singapore-savings-bonds/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/ssb-issues/changes.atom`](https://numbers.sg/api/v1/ssb-issues/changes.atom).
+
+## Corrections
+
+Each mistake found in this dataset or on its page, newest first. The same list is on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+- **8 Nov 2026:** The Savings Bond page said the first payment “is on Jun 2027” and the bond “matures on” a month: these are months, not dates, so both now read “in”. The payment months themselves were right.
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

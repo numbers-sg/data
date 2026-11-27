@@ -1,5 +1,7 @@
 # COE bidding results, every round since 2010
 
+[![Chart of COE bidding results, every round since 2010, from Numbers.sg](https://numbers.sg/charts/coe-prices-chart.png)](https://numbers.sg/cars/coe-results/)
+
 Every Certificate of Entitlement bidding round since January 2010, category by category: the quota premium, quota, bids received and successful, the premium in today's dollars, and the Prevailing Quota Premium for the next month.
 
 **The question it answers:** What did each COE category close at in every bidding round since 2010?
@@ -67,6 +69,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/coe-results.csv")`
 - [Department of Statistics (SingStat)](https://www.singstat.gov.sg/), under the [SingStat terms of use](https://www.singstat.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/cars/coe-results/#method](https://numbers.sg/cars/coe-results/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/coe-results/changes.atom`](https://numbers.sg/api/v1/coe-results/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

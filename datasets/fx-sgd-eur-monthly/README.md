@@ -1,5 +1,7 @@
 # Singapore dollar to euro, monthly averages since 1999
 
+[![Chart of Singapore dollar to euro, monthly averages since 1999, from Numbers.sg](https://numbers.sg/charts/eur-to-sgd-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-eur/)
+
 SingStat's monthly average exchange rate for the euro (table M700051, averages of MAS's figures) since January 1999, both ways round.
 
 **The question it answers:** What was the average euro rate for the Singapore dollar each month since 1999?
@@ -54,6 +56,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-eur-monthly.csv
 - [Department of Statistics (SingStat)](https://www.singstat.gov.sg/), under the [SingStat terms of use](https://www.singstat.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-eur/#method](https://numbers.sg/currency/sgd-to-eur/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-eur-monthly/changes.atom`](https://numbers.sg/api/v1/fx-sgd-eur-monthly/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

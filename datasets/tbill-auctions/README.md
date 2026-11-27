@@ -1,5 +1,7 @@
 # Singapore T-bill auction results
 
+[![Chart of Singapore T-bill auction results, from Numbers.sg](https://numbers.sg/charts/t-bill-yield-chart.png)](https://numbers.sg/rates/t-bills/)
+
 Every MAS auction of 6-month and 1-year Singapore Treasury bills since May 1987: the cut-off yield and price, the yield on the cash you actually pay, the median and average yields, the amount sold, total bids and how much of each kind of bid was filled.
 
 **The question it answers:** What yield did each 6-month and 1-year T-bill auction give, since 1987?
@@ -80,6 +82,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/tbill-auctions.csv")`
 - [Monetary Authority of Singapore (MAS)](https://www.mas.gov.sg/statistics), under the [MAS Terms of Use of Datasets](https://www.mas.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/rates/t-bills/#method](https://numbers.sg/rates/t-bills/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/tbill-auctions/changes.atom`](https://numbers.sg/api/v1/tbill-auctions/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

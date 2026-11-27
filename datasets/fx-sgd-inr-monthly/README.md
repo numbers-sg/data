@@ -1,5 +1,7 @@
 # Singapore dollar to Indian rupee, monthly averages since 2006
 
+[![Chart of Singapore dollar to Indian rupee, monthly averages since 2006, from Numbers.sg](https://numbers.sg/charts/sgd-to-inr-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-inr/)
+
 SingStat's monthly average exchange rate for the rupee (table M700051, averages of MAS's figures) since January 2006, both ways round.
 
 **The question it answers:** What was the average rupee rate for the Singapore dollar each month since 2006?
@@ -54,6 +56,16 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-inr-monthly.csv
 - [Department of Statistics (SingStat)](https://www.singstat.gov.sg/), under the [SingStat terms of use](https://www.singstat.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-inr/#method](https://numbers.sg/currency/sgd-to-inr/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-inr-monthly/changes.atom`](https://numbers.sg/api/v1/fx-sgd-inr-monthly/changes.atom).
+
+## Corrections
+
+Each mistake found in this dataset or on its page, newest first. The same list is on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+- **26 Nov 2026:** SGD to INR: the CSV’s note said it held SingStat’s monthly averages for the years before the daily record, but the file had none of them. It now ends with a second table of SingStat’s monthly averages of MAS’s rupee figures, 250 months from January 2006 to October 2026, and the chart’s key no longer lists a SingStat line that is not drawn.
+- **7 Nov 2026:** SGD to INR: the summary and search description said the page had every day since 2008. MAS’s daily rupee rate begins on 3 January 2006, and the page now says so. A record date read “In 3 January”; it now reads “On”.
+- **2 Nov 2026:** on our SGD to INR page, under “Is today’s rate good?”, the sentence on changing rupees into S$ said your rupees bought fewer S$ today than on a share of days, but gave the share of days on which they bought fewer S$ than today, the opposite. It now gives the right share. The table beside it and the figures for changing S$ into rupees were right.
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

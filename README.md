@@ -1,10 +1,33 @@
 # Singapore rates and prices: open data from Numbers.sg
 
+[![Data checks](https://github.com/numbers-sg/data/actions/workflows/validate.yml/badge.svg)](https://github.com/numbers-sg/data/actions/workflows/validate.yml) [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC_BY_4.0-13233A)](LICENSE) ![28 datasets](https://img.shields.io/badge/datasets-28-13233A) ![91,808 rows](https://img.shields.io/badge/rows-91,808-13233A) ![Rows last changed 2026-11-27](https://img.shields.io/badge/rows_last_changed-2026--11--27-13233A)
+
 28 datasets of Singapore interest rates and government bonds (SORA, T-bills, Singapore Savings Bonds), COE bidding results, CPF figures, income tax rates, inflation and exchange rates for the Singapore dollar, as CSV and JSON. Each is read from the agency or bank that publishes it, checked against the page it appears on, and free to use under [CC BY 4.0](LICENSE).
 
 91,808 rows in all, the oldest from Jul 1955 (CPF Ordinary Wage ceiling, since 1955). Rows last changed here on 27 Nov 2026.
 
 This repository is a copy of the [Numbers.sg data API](https://numbers.sg/developers/), refreshed every night at 00:20 Singapore time and committed only when the rows change. For the freshest numbers, use the API: it is free and needs no key, and every answer says when we last read the source.
+
+## Who checks these numbers
+
+Numbers.sg is edited by [Jeremiah Say](https://numbers.sg/about/jeremiah-say/) and published by [Numbers Publishing Pte. Ltd.](https://numbers.sg/company/), a Singapore company. Every figure here goes through the same checks as the page it comes from:
+
+1. **Read from the source.** A scheduled job reads each figure from the agency or bank that publishes it. Figures that change rarely are kept by hand and re-read on a booked date, listed on the [update schedule](https://numbers.sg/update-schedule/).
+2. **Matched every night.** Before the nightly copy is saved, a job compares each dataset with the table on its own page, cell by cell.
+3. **Checked again here.** Every commit to this repository runs [`scripts/validate.py`](scripts/validate.py): headers, row counts, types, empty values and duplicate rows. The nightly update won't commit a copy that fails it.
+4. **Corrected in the open.** Each mistake is listed with its date and what changed, in the dataset's README and on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+How each dataset is read is set out on its page, under "How we get these numbers", and the overall method at [numbers.sg/how-we-get-our-numbers](https://numbers.sg/how-we-get-our-numbers/). Numbers.sg is independent: not part of, or paid by, the Singapore Government, any agency or any bank, and no one pays for a number or a place on a page.
+
+## Recent corrections
+
+- **26 Nov 2026**, [Singapore dollar to Chinese yuan, since 1993 (daily from 2003)](datasets/fx-sgd-cny/#corrections): SGD to CNY: the CSV’s note said it held SingStat’s monthly averages for the years before the daily record, but the file had none of them.
+- **26 Nov 2026**, [Singapore dollar to Indian rupee, daily since 2006](datasets/fx-sgd-inr/#corrections): SGD to INR: the CSV’s note said it held SingStat’s monthly averages for the years before the daily record, but the file had none of them.
+- **26 Nov 2026**, [Singapore dollar to Japanese yen, since 1988 (daily from 2003)](datasets/fx-sgd-jpy/#corrections): SGD to JPY: the CSV’s note said it held SingStat’s monthly averages for the years before the daily record, but the file had none of them.
+- **26 Nov 2026**, [Singapore dollar to Korean won, daily since 1981](datasets/fx-sgd-krw/#corrections): SGD to KRW: the history before 2003 had rates for 12 and 15 December 1997, at the height of the Asian financial crisis.
+- **8 Nov 2026**, [Singapore Savings Bonds: rates and results](datasets/ssb-issues/#corrections): The Savings Bond page said the first payment “is on Jun 2027” and the bond “matures on” a month: these are months, not dates, so both now read “in”.
+
+Every correction: [numbers.sg/corrections](https://numbers.sg/corrections/). Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml).
 
 ## Datasets
 
@@ -122,4 +145,4 @@ These datasets rest on at least one source whose terms grant no reuse beyond per
 
 ## About
 
-[Numbers.sg](https://numbers.sg/) tracks Singapore rates, prices and rules, each read from its official source. It is independent: not part of, or paid by, the Singapore Government, any agency or any bank. Questions, a dataset you'd like, or something that looks wrong: open an issue, or write to hello@numbers.sg.
+[Numbers.sg](https://numbers.sg/) tracks Singapore rates, prices and rules, each read from its official source. It is independent: not part of, or paid by, the Singapore Government, any agency or any bank. Something that looks wrong: [report a wrong number](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml). A dataset you'd like: [ask for it](https://github.com/numbers-sg/data/issues/new?template=dataset-request.yml). Or write to hello@numbers.sg.

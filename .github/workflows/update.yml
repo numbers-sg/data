@@ -24,6 +24,9 @@ jobs:
       - name: Rebuild from the API
         id: build
         run: python3 scripts/update.py
+      - name: Check the new copy before committing it
+        if: steps.build.outputs.changed != ''
+        run: python3 scripts/validate.py
       - name: Commit if the rows changed
         if: steps.build.outputs.changed != ''
         run: |

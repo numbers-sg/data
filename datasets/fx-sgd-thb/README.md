@@ -1,5 +1,7 @@
 # Singapore dollar to Thai baht, daily since 1981
 
+[![Chart of Singapore dollar to Thai baht, daily since 1981, from Numbers.sg](https://numbers.sg/charts/sgd-to-thb-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-thb/)
+
 Baht per Singapore dollar and Singapore dollars per 1,000 baht, each working day since 1981: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.
 
 **The question it answers:** What is the Singapore dollar worth in baht, on any working day since 1981?
@@ -55,6 +57,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-thb.csv")`
 - [Federal Reserve Board](https://www.federalreserve.gov/releases/h10/current/), under the [Federal Reserve Board website: public domain](https://www.federalreserve.gov/disclaimer.htm)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-thb/#method](https://numbers.sg/currency/sgd-to-thb/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-thb/changes.atom`](https://numbers.sg/api/v1/fx-sgd-thb/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

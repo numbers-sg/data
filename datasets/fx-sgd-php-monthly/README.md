@@ -1,5 +1,7 @@
 # Singapore dollar to Philippine peso, monthly averages since 2003
 
+[![Chart of Singapore dollar to Philippine peso, monthly averages since 2003, from Numbers.sg](https://numbers.sg/charts/sgd-to-php-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-php/)
+
 Monthly averages of the peso, worked out by Numbers.sg from MAS's daily rates for each complete month (the mean of MAS's S$ per 100 peso, turned round), since January 2003.
 
 **The question it answers:** What was the average peso rate for the Singapore dollar each month since 2003?
@@ -54,6 +56,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-php-monthly.csv
 - [Monetary Authority of Singapore (MAS)](https://www.mas.gov.sg/statistics), under the [MAS Terms of Use of Datasets](https://www.mas.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-php/#method](https://numbers.sg/currency/sgd-to-php/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-php-monthly/changes.atom`](https://numbers.sg/api/v1/fx-sgd-php-monthly/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

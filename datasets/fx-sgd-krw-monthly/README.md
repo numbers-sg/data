@@ -1,5 +1,7 @@
 # Singapore dollar to South Korean won, monthly averages since 2003
 
+[![Chart of Singapore dollar to South Korean won, monthly averages since 2003, from Numbers.sg](https://numbers.sg/charts/sgd-to-krw-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-krw/)
+
 Monthly averages of the won, worked out by Numbers.sg from MAS's daily rates for each complete month (the mean of MAS's S$ per 100 won, turned round), since January 2003.
 
 **The question it answers:** What was the average won rate for the Singapore dollar each month since 2003?
@@ -54,6 +56,14 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-krw-monthly.csv
 - [Monetary Authority of Singapore (MAS)](https://www.mas.gov.sg/statistics), under the [MAS Terms of Use of Datasets](https://www.mas.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-krw/#method](https://numbers.sg/currency/sgd-to-krw/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-krw-monthly/changes.atom`](https://numbers.sg/api/v1/fx-sgd-krw-monthly/changes.atom).
+
+## Corrections
+
+Each mistake found in this dataset or on its page, newest first. The same list is on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+- **26 Nov 2026:** SGD to KRW: the history before 2003 had rates for 12 and 15 December 1997, at the height of the Asian financial crisis. The Federal Reserve’s own H.10 table has no won rate for those two days (it marks them ND, no data); the figures came from a copy of the series elsewhere. They are gone from the chart and the CSV, and the history is now read from the Fed’s own tables, which match on every other day.
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

@@ -1,5 +1,7 @@
 # Malaysian banks' counter rates for the Singapore dollar, daily since 2021
 
+[![Chart of Malaysian banks' counter rates for the Singapore dollar, daily since 2021, from Numbers.sg](https://numbers.sg/charts/sgd-to-myr-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-myr/)
+
 Bank Negara Malaysia's 11:30 am figures for the best counter rates selected Malaysian commercial banks offered for the Singapore dollar, buying and selling, each working day since January 2021.
 
 **The question it answers:** What do Malaysian banks pay and charge in ringgit for Singapore dollars at the counter?
@@ -52,6 +54,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-myr-bank-counte
 - [Bank Negara Malaysia (BNM)](https://www.bnm.gov.my/exchange-rates), under the [Terms of Use for BNM Datasets](https://www.bnm.gov.my/terms-of-use-bnm-datasets)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-myr/#method](https://numbers.sg/currency/sgd-to-myr/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-myr-bank-counter/changes.atom`](https://numbers.sg/api/v1/fx-sgd-myr-bank-counter/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

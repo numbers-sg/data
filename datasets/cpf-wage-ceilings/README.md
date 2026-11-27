@@ -1,5 +1,7 @@
 # CPF Ordinary Wage ceiling, since 1955
 
+[![Chart of CPF Ordinary Wage ceiling, since 1955, from Numbers.sg](https://numbers.sg/charts/cpf-contribution-rates-chart.png)](https://numbers.sg/rates/cpf-contribution-rates/)
+
 The Ordinary Wage ceiling, the most monthly pay CPF contributions are worked out on, for every change since July 1955.
 
 **The question it answers:** What is the most monthly pay CPF contributions are counted on, and how has it changed?
@@ -52,6 +54,14 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/cpf-wage-ceilings.csv"
 - [Central Provident Fund Board, via data.gov.sg](https://data.gov.sg/datasets/d_98ffa142ae0dec40391f78f81d26aca9/view), under the [Singapore Open Data Licence v1.0](https://data.gov.sg/open-data-licence)
 
 How each figure is read and checked: [numbers.sg/rates/cpf-contribution-rates/#method](https://numbers.sg/rates/cpf-contribution-rates/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/cpf-wage-ceilings/changes.atom`](https://numbers.sg/api/v1/cpf-wage-ceilings/changes.atom).
+
+## Corrections
+
+Each mistake found in this dataset or on its page, newest first. The same list is on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+- **7 Nov 2026:** CPF contribution rates: the lists headed “every change” and “changes” counted years where CPF’s dataset repeats a row and nothing moved. The rates and ceilings were right. Both lists now leave out the repeats, and the note says which rate the “55 and below” column shows.
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

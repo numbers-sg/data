@@ -1,5 +1,7 @@
 # US dollar to Singapore dollar, monthly averages since 1988
 
+[![Chart of US dollar to Singapore dollar, monthly averages since 1988, from Numbers.sg](https://numbers.sg/charts/usd-to-sgd-exchange-rate-chart.png)](https://numbers.sg/currency/usd-to-sgd/)
+
 SingStat's monthly average exchange rate for the US dollar (table M700051, averages of MAS's figures) since January 1988, both ways round.
 
 **The question it answers:** What was the average US dollar rate in Singapore dollars each month since 1988?
@@ -54,6 +56,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-usd-sgd-monthly.csv
 - [Department of Statistics (SingStat)](https://www.singstat.gov.sg/), under the [SingStat terms of use](https://www.singstat.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/currency/usd-to-sgd/#method](https://numbers.sg/currency/usd-to-sgd/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-usd-sgd-monthly/changes.atom`](https://numbers.sg/api/v1/fx-usd-sgd-monthly/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

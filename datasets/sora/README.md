@@ -1,5 +1,7 @@
 # SORA and Compounded SORA, daily
 
+[![Chart of SORA and Compounded SORA, daily, from Numbers.sg](https://numbers.sg/charts/sora-rate-chart.png)](https://numbers.sg/rates/sora/)
+
 The Singapore Overnight Rate Average for every business day since July 2005, with MAS's SORA Index, the 1, 3 and 6-month Compounded SORA, and, from August 2020, the volume and the highest and lowest rates traded.
 
 **The question it answers:** What is SORA today, and how has it moved since 2005?
@@ -68,6 +70,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/sora.csv")`
 - [Monetary Authority of Singapore (MAS)](https://www.mas.gov.sg/statistics), under the [MAS Terms of Use of Datasets](https://www.mas.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/rates/sora/#method](https://numbers.sg/rates/sora/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/sora/changes.atom`](https://numbers.sg/api/v1/sora/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

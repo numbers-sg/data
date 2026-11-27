@@ -1,5 +1,7 @@
 # Singapore inflation: CPI and MAS Core, monthly since 1961
 
+[![Chart of Singapore inflation: CPI and MAS Core, monthly since 1961, from Numbers.sg](https://numbers.sg/charts/singapore-inflation-rate-chart.png)](https://numbers.sg/prices/inflation/)
+
 SingStat's Consumer Price Index for all items every month since 1961 and the year-on-year headline inflation rate, with MAS Core inflation (which leaves out accommodation and private transport) from 1991.
 
 **The question it answers:** What is Singapore's inflation rate, headline and MAS Core, every month since 1961?
@@ -57,6 +59,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/inflation.csv")`
 - [Monetary Authority of Singapore (MAS)](https://www.mas.gov.sg/statistics), under the [MAS Terms of Use of Datasets](https://www.mas.gov.sg/terms-of-use)
 
 How each figure is read and checked: [numbers.sg/prices/inflation/#method](https://numbers.sg/prices/inflation/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/inflation/changes.atom`](https://numbers.sg/api/v1/inflation/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

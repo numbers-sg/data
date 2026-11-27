@@ -105,7 +105,7 @@ def main():
     prev = {}
     if os.path.exists(os.path.join(ROOT, 'index.json')):
         prev = {d['id']: d for d in json.load(open(os.path.join(ROOT, 'index.json'), encoding='utf-8'))['datasets']}
-    mirrored, skipped, changed = [], [], []
+    mirrored, skipped, changed, all_fixes = [], [], [], []
     for item in sorted(cat['data'], key=lambda x: x['id']):
         if item.get('reuse') != 'open':
             skipped.append(item)
@@ -114,6 +114,8 @@ def main():
         full = json.loads(get(API + i + '/history'))
         m, rows = full['meta'], full['data']
         csv_text = get(API + i + '.csv')
+        fixes = [c for c in json.loads(get(API + i + '/changes'))['data'] if c.get('type') == 'correction']
+        all_fixes.extend((c['date'], c['text'], i, m['title']) for c in fixes)
         p = prev.get(i, {})
         same = p.get('hash') == m['hash']
         updated = p['updated'] if same and p.get('updated') else TODAY  # the day the rows last changed here
@@ -134,13 +136,13 @@ def main():
         }
         a = write(f'datasets/{i}/{i}.csv', csv_text if csv_text.endswith('\n') else csv_text + '\n')
         b = write(f'datasets/{i}/{i}.json', json.dumps(doc, ensure_ascii=False, indent=1) + '\n')
-        c = write(f'datasets/{i}/README.md', dataset_readme(m, rec, notices, rows))
+        c = write(f'datasets/{i}/README.md', dataset_readme(m, rec, notices, rows, fixes))
         if a or b or c:
             changed.append(i)
         mirrored.append(rec)
     write('index.json', json.dumps({'source': API, 'licence': 'CC BY 4.0', 'datasets': mirrored}, ensure_ascii=False, indent=1) + '\n')
     write('datapackage.json', datapackage(mirrored))
-    write('README.md', root_readme(mirrored, skipped))
+    write('README.md', root_readme(mirrored, skipped, all_fixes))
     write('CITATION.cff', citation(mirrored))
     print(('Would change: ' if CHECK else 'Changed: ') + (', '.join(changed) if changed else 'nothing'))
     if os.environ.get('GITHUB_OUTPUT'):
@@ -148,8 +150,23 @@ def main():
             f.write('changed=' + ' '.join(changed) + '\n')
 
 
-def dataset_readme(m, rec, notices, rows):
+def first_sentence(s):
+    return re.split(r'(?<=[.!?])\s+(?=[A-Z])', s, maxsplit=1)[0]
+
+
+def fix_text(s):
+    return re.sub(r'^(Correction|Corrected)\s*:\s*', '', s.strip(), flags=re.I)
+
+
+def dataset_readme(m, rec, notices, rows, fixes):
     i = rec['id']
+    ch = m.get('chart') or {}
+    chart = f"[![Chart of {md(m['title'])}, from Numbers.sg]({ch['url']})]({m['page_url']})\n\n" if ch.get('url') else ''
+    if fixes:
+        fx = 'Each mistake found in this dataset or on its page, newest first. The same list is on [numbers.sg/corrections](https://numbers.sg/corrections/).\n\n' + '\n'.join(f'- **{nice_date(c["date"])}:** {md(fix_text(c["text"]))}' for c in sorted(fixes, key=lambda c: c['date'], reverse=True))
+    else:
+        fx = 'None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).'
+    fx += f'\n\nFound a wrong number? [Report it]({REPO}/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.'
     fields = '\n'.join(
         '| `{}` | {} | {}{}{} |'.format(
             f['name'], f['type'], md(f['meaning']), f' Unit: {md(f["unit"])}.' if f.get('unit') else '',
@@ -162,7 +179,7 @@ def dataset_readme(m, rec, notices, rows):
     year = rec['updated'][:4]
     return f'''# {m['title']}
 
-{m.get('description') or ''}
+{chart}{m.get('description') or ''}
 
 **The question it answers:** {m.get('question') or ''}
 
@@ -211,6 +228,10 @@ In Google Sheets: `=IMPORTDATA("{API}{i}.csv")`
 
 How each figure is read and checked: [{m['page_url'].replace('https://', '')}#method]({m.get('method', {}).get('notes') or m['page_url']}). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`{API}{i}/changes.atom`]({API}{i}/changes.atom).
 
+## Corrections
+
+{fx}
+
 ## Credit and citation
 
 Free to use, in paid products too, under [CC BY 4.0](https://numbers.sg/data/licence/). Credit:
@@ -237,7 +258,7 @@ For a copy that never changes, cite the API's dated copy: `{API}{i}/as-of/YYYY-M
 '''
 
 
-def root_readme(mirrored, skipped):
+def root_readme(mirrored, skipped, all_fixes):
     total = sum(d['rows'] for d in mirrored)
     oldest = min((d for d in mirrored if d['from']), key=lambda d: str(d['from']))
     newest = max(d['updated'] for d in mirrored)
@@ -250,14 +271,45 @@ def root_readme(mirrored, skipped):
     table = '\n\n'.join(groups)
     ex = next((d for d in mirrored if d['id'] == 'sora'), mirrored[0])
     credit = json.load(open(os.path.join(ROOT, f"datasets/{ex['id']}/{ex['id']}.json"), encoding='utf-8'))['attribution']['text']
+    seen, recent = set(), []
+    for c in sorted(all_fixes, key=lambda c: c[0], reverse=True):  # daily and monthly copies of one page share a correction: list it once
+        if c[1] not in seen:
+            seen.add(c[1]); recent.append(c)
+    fixlist = '\n'.join(f'- **{nice_date(c[0])}**, [{md(c[3])}](datasets/{c[2]}/#corrections): {md(first_sentence(fix_text(c[1])))}' for c in recent[:5])
+    badges = ' '.join([
+        f'[![Data checks]({REPO}/actions/workflows/validate.yml/badge.svg)]({REPO}/actions/workflows/validate.yml)',
+        '[![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC_BY_4.0-13233A)](LICENSE)',
+        f'![{len(mirrored)} datasets](https://img.shields.io/badge/datasets-{len(mirrored)}-13233A)',
+        f'![{total:,} rows](https://img.shields.io/badge/rows-{total:,}-13233A)',
+        f'![Rows last changed {newest}](https://img.shields.io/badge/rows_last_changed-{newest.replace("-", "--")}-13233A)',
+    ])
     facts = '\n'.join(f'- {md(d["title"])}: [`{API}{d["id"]}`]({API}{d["id"]})' for d in sorted(skipped, key=lambda d: d['title'].lower()))
     return f'''# Singapore rates and prices: open data from Numbers.sg
+
+{badges}
 
 {len(mirrored)} datasets of Singapore {topics_phrase(mirrored)}, as CSV and JSON. Each is read from the agency or bank that publishes it, checked against the page it appears on, and free to use under [CC BY 4.0](LICENSE).
 
 {total:,} rows in all, the oldest from {nice_date(oldest['from'])} ({md(oldest['title'])}). Rows last changed here on {nice_date(newest)}.
 
 This repository is a copy of the [Numbers.sg data API](https://numbers.sg/developers/), refreshed every night at 00:20 Singapore time and committed only when the rows change. For the freshest numbers, use the API: it is free and needs no key, and every answer says when we last read the source.
+
+## Who checks these numbers
+
+Numbers.sg is edited by [Jeremiah Say](https://numbers.sg/about/jeremiah-say/) and published by [Numbers Publishing Pte. Ltd.](https://numbers.sg/company/), a Singapore company. Every figure here goes through the same checks as the page it comes from:
+
+1. **Read from the source.** A scheduled job reads each figure from the agency or bank that publishes it. Figures that change rarely are kept by hand and re-read on a booked date, listed on the [update schedule](https://numbers.sg/update-schedule/).
+2. **Matched every night.** Before the nightly copy is saved, a job compares each dataset with the table on its own page, cell by cell.
+3. **Checked again here.** Every commit to this repository runs [`scripts/validate.py`](scripts/validate.py): headers, row counts, types, empty values and duplicate rows. The nightly update won't commit a copy that fails it.
+4. **Corrected in the open.** Each mistake is listed with its date and what changed, in the dataset's README and on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+How each dataset is read is set out on its page, under "How we get these numbers", and the overall method at [numbers.sg/how-we-get-our-numbers](https://numbers.sg/how-we-get-our-numbers/). Numbers.sg is independent: not part of, or paid by, the Singapore Government, any agency or any bank, and no one pays for a number or a place on a page.
+
+## Recent corrections
+
+{fixlist}
+
+Every correction: [numbers.sg/corrections](https://numbers.sg/corrections/). Found a wrong number? [Report it]({REPO}/issues/new?template=wrong-number.yml).
 
 ## Datasets
 
@@ -312,7 +364,7 @@ These datasets rest on at least one source whose terms grant no reuse beyond per
 
 ## About
 
-[Numbers.sg](https://numbers.sg/) tracks Singapore rates, prices and rules, each read from its official source. It is independent: not part of, or paid by, the Singapore Government, any agency or any bank. Questions, a dataset you'd like, or something that looks wrong: open an issue, or write to hello@numbers.sg.
+[Numbers.sg](https://numbers.sg/) tracks Singapore rates, prices and rules, each read from its official source. It is independent: not part of, or paid by, the Singapore Government, any agency or any bank. Something that looks wrong: [report a wrong number]({REPO}/issues/new?template=wrong-number.yml). A dataset you'd like: [ask for it]({REPO}/issues/new?template=dataset-request.yml). Or write to hello@numbers.sg.
 '''
 
 

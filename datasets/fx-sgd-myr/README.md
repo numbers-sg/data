@@ -1,5 +1,7 @@
 # Singapore dollar to Malaysian ringgit, daily since 1999
 
+[![Chart of Singapore dollar to Malaysian ringgit, daily since 1999, from Numbers.sg](https://numbers.sg/charts/sgd-to-myr-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-myr/)
+
 Ringgit per Singapore dollar each working day since 1999, from our cross of the ECB's euro reference rates, with Bank Negara Malaysia's noon interbank middle rate beside it from 2010.
 
 **The question it answers:** What is the Singapore dollar worth in ringgit, on any working day since 1999?
@@ -53,6 +55,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-myr.csv")`
 - [Bank Negara Malaysia (BNM)](https://www.bnm.gov.my/exchange-rates), under the [Terms of Use for BNM Datasets](https://www.bnm.gov.my/terms-of-use-bnm-datasets)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-myr/#method](https://numbers.sg/currency/sgd-to-myr/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-myr/changes.atom`](https://numbers.sg/api/v1/fx-sgd-myr/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

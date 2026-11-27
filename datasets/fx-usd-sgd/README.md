@@ -1,5 +1,7 @@
 # US dollar to Singapore dollar, daily since 1981
 
+[![Chart of US dollar to Singapore dollar, daily since 1981, from Numbers.sg](https://numbers.sg/charts/usd-to-sgd-exchange-rate-chart.png)](https://numbers.sg/currency/usd-to-sgd/)
+
 Singapore dollars per US dollar and US dollars per Singapore dollar since 1981: MAS's noon rate (daily from 2003, weekly from 1988) and, from 1981 to 1987, the US Federal Reserve's H.10 noon buying rates.
 
 **The question it answers:** How many Singapore dollars is one US dollar, on any day since 1981?
@@ -55,6 +57,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-usd-sgd.csv")`
 - [Federal Reserve Board](https://www.federalreserve.gov/releases/h10/current/), under the [Federal Reserve Board website: public domain](https://www.federalreserve.gov/disclaimer.htm)
 
 How each figure is read and checked: [numbers.sg/currency/usd-to-sgd/#method](https://numbers.sg/currency/usd-to-sgd/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-usd-sgd/changes.atom`](https://numbers.sg/api/v1/fx-usd-sgd/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

@@ -1,5 +1,7 @@
 # Singapore dollar to Korean won, daily since 1981
 
+[![Chart of Singapore dollar to Korean won, daily since 1981, from Numbers.sg](https://numbers.sg/charts/sgd-to-krw-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-krw/)
+
 Won per Singapore dollar and Singapore dollars per 10,000 won, each working day since 1981: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.
 
 **The question it answers:** What is the Singapore dollar worth in won, on any working day since 1981?
@@ -55,6 +57,14 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-krw.csv")`
 - [Federal Reserve Board](https://www.federalreserve.gov/releases/h10/current/), under the [Federal Reserve Board website: public domain](https://www.federalreserve.gov/disclaimer.htm)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-krw/#method](https://numbers.sg/currency/sgd-to-krw/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-krw/changes.atom`](https://numbers.sg/api/v1/fx-sgd-krw/changes.atom).
+
+## Corrections
+
+Each mistake found in this dataset or on its page, newest first. The same list is on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+- **26 Nov 2026:** SGD to KRW: the history before 2003 had rates for 12 and 15 December 1997, at the height of the Asian financial crisis. The Federal Reserve’s own H.10 table has no won rate for those two days (it marks them ND, no data); the figures came from a copy of the series elsewhere. They are gone from the chart and the CSV, and the history is now read from the Fed’s own tables, which match on every other day.
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 

@@ -1,5 +1,7 @@
 # Singapore dollar to euro, daily since 1999
 
+[![Chart of Singapore dollar to euro, daily since 1999, from Numbers.sg](https://numbers.sg/charts/eur-to-sgd-exchange-rate-chart.png)](https://numbers.sg/currency/sgd-to-eur/)
+
 Euros per Singapore dollar and Singapore dollars per euro, each working day since 1999: MAS's noon rate where MAS publishes one, and earlier days from the source named on each row.
 
 **The question it answers:** What is the Singapore dollar worth in euros, on any working day since 1999?
@@ -55,6 +57,12 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-eur.csv")`
 - [European Central Bank](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html), under the [ECB copyright and reuse rules](https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html)
 
 How each figure is read and checked: [numbers.sg/currency/sgd-to-eur/#method](https://numbers.sg/currency/sgd-to-eur/#method). Every fix is listed on [numbers.sg/corrections](https://numbers.sg/corrections/). Changes as a feed: [`https://numbers.sg/api/v1/fx-sgd-eur/changes.atom`](https://numbers.sg/api/v1/fx-sgd-eur/changes.atom).
+
+## Corrections
+
+None so far for this dataset or its page. Every correction on the site is listed on [numbers.sg/corrections](https://numbers.sg/corrections/).
+
+Found a wrong number? [Report it](https://github.com/numbers-sg/data/issues/new?template=wrong-number.yml) with where you read the right one, or email hello@numbers.sg.
 
 ## Credit and citation
 
