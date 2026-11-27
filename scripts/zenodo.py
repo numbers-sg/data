@@ -38,7 +38,7 @@ def token():
 def call(method, url, body=None, raw=None, ctype='application/json'):
     data = raw if raw is not None else (json.dumps(body).encode() if body is not None else None)
     req = urllib.request.Request(url if url.startswith('http') else API + url, data=data, method=method,
-                                 headers={'Authorization': 'Bearer ' + token(), 'Content-Type': ctype, 'Accept': 'application/json'})
+                                 headers={'Authorization': 'Bearer ' + token(), 'Content-Type': ctype, 'Accept': 'application/vnd.inveniordm.v1+json'})  # full format: plain JSON answers drop fields and hide errors
     try:
         with urllib.request.urlopen(req, timeout=300) as r:
             txt = r.read().decode()
@@ -77,11 +77,10 @@ def metadata(day, head):
             f"<li>{esc(d['title'])} (<code>{d['id']}</code>, {d['rows']:,} rows)</li>" for d in ds) + '</ul>'
     pubs = sorted(set(re.sub(r',\s*via .*$', '', p) for p in srcs.values()))
     desc = (
-        f"<p>Singapore {esc(topics_phrase(idx))}, as {len(idx)} ready-to-use CSV and JSON time series ({rows:,} rows, the oldest from {first}). "
-        "Includes SORA and compounded SORA, Singapore Government T-bill auction results, Singapore Savings Bonds rates, "
-        "COE bidding results (Certificate of Entitlement prices), CPF wage ceilings, resident income tax rates, inflation "
-        "(consumer price index) and exchange rates for the Singapore dollar against the US dollar, euro, yen, yuan, ringgit, "
-        "rupiah, baht, peso, won and rupee.</p>"
+        f"<p>{len(idx)} ready-to-use CSV and JSON time series for Singapore ({rows:,} rows, the oldest from {first}): SORA and compounded SORA, "
+        "Singapore Government T-bill auction results, Singapore Savings Bonds rates, COE bidding results (Certificate of Entitlement prices), "
+        "CPF wage ceilings, resident income tax rates, inflation (consumer price index and MAS Core) and exchange rates for the Singapore dollar "
+        "against the US dollar, euro, yen, yuan, ringgit, rupiah, baht, peso, won and rupee.</p>"
         f"<p>Each figure is read from the body that publishes it: {esc(', '.join(pubs))}. "
         "Every dataset carries its sources, the terms each source is published under, a meaning and unit for every field, "
         "and the credit line to use.</p>"
@@ -95,7 +94,7 @@ def metadata(day, head):
         "<code>https://raw.githubusercontent.com/numbers-sg/data/main/datasets/sora/sora.csv</code>.</p>"
         "<p><strong>Publisher</strong>: <a href=\"https://numbers.sg/\">Numbers.sg</a>, published by Numbers Publishing Pte. Ltd., Singapore, and "
         "edited by Jeremiah Say. Numbers.sg is independent: none of it is part of, endorsed by or paid by the Singapore Government or any of its agencies, "
-        "and no one pays for a figure, a ranking or a place on a page. Corrections are listed at "
+        "it is not part of any bank, and no one pays for a figure, a ranking or a place on a page. Corrections are listed at "
         "<a href=\"https://numbers.sg/corrections/\">numbers.sg/corrections</a>.</p>"
     )
     methods = (
