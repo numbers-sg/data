@@ -8,9 +8,9 @@ Bank Negara Malaysia's 11:30 am figures for the best counter rates selected Mala
 
 | | |
 |---|---|
-| Rows | 1,444 |
+| Rows | 1,445 |
 | Each row | One working day (BNM's 11:30 am figure) |
-| Covers | 4 Jan 2021 to 26 Nov 2026 |
+| Covers | 4 Jan 2021 to 27 Nov 2026 |
 | Rows last changed here | 27 Nov 2026 |
 | Source | Bank Negara Malaysia (BNM) |
 | Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
@@ -37,9 +37,9 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-myr-bank-counte
 
 | Field | Value |
 |---|---|
-| `date` | 2026-11-26 |
-| `banks_buy_myr_per_sgd` | 3.1674 |
-| `banks_sell_myr_per_sgd` | 3.2094 |
+| `date` | 2026-11-27 |
+| `banks_buy_myr_per_sgd` | 3.1659 |
+| `banks_sell_myr_per_sgd` | 3.2079 |
 
 ## Fields
 
@@ -75,6 +75,7 @@ To cite it:
 
 ```
 Numbers.sg (2026). Malaysian banks' counter rates for the Singapore dollar, daily since 2021 [Data set]. https://numbers.sg/currency/sgd-to-myr/
+Part of: Say, J. (2026). Singapore Interest Rates, COE Prices, CPF, Income Tax, Inflation and SGD Exchange Rates (Numbers.sg Open Data) [Data set]. Numbers.sg. https://doi.org/10.5281/zenodo.24576628
 ```
 
 ```bibtex
@@ -83,7 +84,7 @@ Numbers.sg (2026). Malaysian banks' counter rates for the Singapore dollar, dail
   title = {{Malaysian banks' counter rates for the Singapore dollar, daily since 2021}},
   year = {2026},
   howpublished = {\url{https://numbers.sg/currency/sgd-to-myr/}},
-  note = {Rows last changed 2026-11-27; CC BY 4.0}
+  note = {Rows last changed 2026-11-27; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
 }
 ```
 

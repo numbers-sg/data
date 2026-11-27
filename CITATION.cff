@@ -9,6 +9,25 @@ date-released: "2026-11-27"
 license: CC-BY-4.0
 url: "https://numbers.sg/developers/"
 repository-code: "https://github.com/numbers-sg/data"
+doi: 10.5281/zenodo.24576628
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24576628
+    description: Archived on Zenodo; resolves to the newest version
+preferred-citation:
+  type: dataset
+  title: "Singapore Interest Rates, COE Prices, CPF, Income Tax, Inflation and SGD Exchange Rates (Numbers.sg Open Data)"
+  authors:
+    - family-names: Say
+      given-names: Jeremiah
+      orcid: "https://orcid.org/0009-0009-2025-7691"
+      affiliation: "Numbers Publishing Pte. Ltd."
+  publisher:
+    name: Numbers.sg
+  doi: 10.5281/zenodo.24576628
+  year: 2026
+  license: CC-BY-4.0
+  url: "https://doi.org/10.5281/zenodo.24576628"
 abstract: "28 datasets of Singapore interest rates and government bonds (SORA, T-bills, Singapore Savings Bonds), COE bidding results, CPF figures, income tax rates, inflation and exchange rates for the Singapore dollar, each read from its official source and refreshed nightly from the Numbers.sg data API."
 keywords:
   - Singapore

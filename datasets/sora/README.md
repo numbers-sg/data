@@ -91,6 +91,7 @@ To cite it:
 
 ```
 Numbers.sg (2026). SORA and Compounded SORA, daily [Data set]. https://numbers.sg/rates/sora/
+Part of: Say, J. (2026). Singapore Interest Rates, COE Prices, CPF, Income Tax, Inflation and SGD Exchange Rates (Numbers.sg Open Data) [Data set]. Numbers.sg. https://doi.org/10.5281/zenodo.24576628
 ```
 
 ```bibtex
@@ -99,7 +100,7 @@ Numbers.sg (2026). SORA and Compounded SORA, daily [Data set]. https://numbers.s
   title = {{SORA and Compounded SORA, daily}},
   year = {2026},
   howpublished = {\url{https://numbers.sg/rates/sora/}},
-  note = {Rows last changed 2026-11-27; CC BY 4.0}
+  note = {Rows last changed 2026-11-27; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
 }
 ```
 

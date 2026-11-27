@@ -1,10 +1,10 @@
 # Singapore rates and prices: open data from Numbers.sg
 
-[![Data checks](https://github.com/numbers-sg/data/actions/workflows/validate.yml/badge.svg)](https://github.com/numbers-sg/data/actions/workflows/validate.yml) [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC_BY_4.0-13233A)](LICENSE) ![28 datasets](https://img.shields.io/badge/datasets-28-13233A) ![91,808 rows](https://img.shields.io/badge/rows-91,808-13233A) ![Rows last changed 2026-11-27](https://img.shields.io/badge/rows_last_changed-2026--11--27-13233A)
+[![Data checks](https://github.com/numbers-sg/data/actions/workflows/validate.yml/badge.svg)](https://github.com/numbers-sg/data/actions/workflows/validate.yml) [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC_BY_4.0-13233A)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24576628.svg)](https://doi.org/10.5281/zenodo.24576628) ![28 datasets](https://img.shields.io/badge/datasets-28-13233A) ![91,809 rows](https://img.shields.io/badge/rows-91,809-13233A) ![Rows last changed 2026-11-27](https://img.shields.io/badge/rows_last_changed-2026--11--27-13233A)
 
 28 datasets of Singapore interest rates and government bonds (SORA, T-bills, Singapore Savings Bonds), COE bidding results, CPF figures, income tax rates, inflation and exchange rates for the Singapore dollar, as CSV and JSON. Each is read from the agency or bank that publishes it, checked against the page it appears on, and free to use under [CC BY 4.0](LICENSE).
 
-91,808 rows in all, the oldest from Jul 1955 (CPF Ordinary Wage ceiling, since 1955). Rows last changed here on 27 Nov 2026.
+91,809 rows in all, the oldest from Jul 1955 (CPF Ordinary Wage ceiling, since 1955). Rows last changed here on 27 Nov 2026.
 
 This repository is a copy of the [Numbers.sg data API](https://numbers.sg/developers/), refreshed every night at 00:20 Singapore time and committed only when the rows change. For the freshest numbers, use the API: it is free and needs no key, and every answer says when we last read the source.
 
@@ -67,7 +67,7 @@ Every correction: [numbers.sg/corrections](https://numbers.sg/corrections/). Fou
 
 | Dataset | Id | Rows | Covers | Rows last changed |
 |---|---|---:|---|---|
-| [Malaysian banks' counter rates for the Singapore dollar, daily since 2021](datasets/fx-sgd-myr-bank-counter/) | `fx-sgd-myr-bank-counter` | 1,444 | 4 Jan 2021 to 26 Nov 2026 | 27 Nov 2026 |
+| [Malaysian banks' counter rates for the Singapore dollar, daily since 2021](datasets/fx-sgd-myr-bank-counter/) | `fx-sgd-myr-bank-counter` | 1,445 | 4 Jan 2021 to 27 Nov 2026 | 27 Nov 2026 |
 | [Singapore dollar to Chinese yuan, monthly averages since 1993](datasets/fx-sgd-cny-monthly/) | `fx-sgd-cny-monthly` | 401 | Jun 1993 to Oct 2026 | 27 Nov 2026 |
 | [Singapore dollar to Chinese yuan, since 1993 (daily from 2003)](datasets/fx-sgd-cny/) | `fx-sgd-cny` | 6,501 | 4 Jun 1993 to 26 Nov 2026 | 27 Nov 2026 |
 | [Singapore dollar to euro, daily since 1999](datasets/fx-sgd-eur/) | `fx-sgd-eur` | 7,024 | 4 Jan 1999 to 26 Nov 2026 | 27 Nov 2026 |
@@ -127,6 +127,12 @@ Free to use, in apps, research, articles and paid products, under [CC BY 4.0](LI
 Each dataset's README has its exact credit line, and any notice its publisher asks you to carry. What the licence covers and what it doesn't is set out in plain words at [numbers.sg/data/licence](https://numbers.sg/data/licence/).
 
 ## Citing
+
+**DOI: [10.5281/zenodo.24576628](https://doi.org/10.5281/zenodo.24576628)**. Each January a dated snapshot of this repository is archived on Zenodo; this DOI always resolves to the newest one, and each snapshot has its own DOI for a copy that never changes.
+
+```
+Say, J. (2026). Singapore Interest Rates, COE Prices, CPF, Income Tax, Inflation and SGD Exchange Rates (Numbers.sg Open Data) [Data set]. Numbers.sg. https://doi.org/10.5281/zenodo.24576628
+```
 
 GitHub's "Cite this repository" button uses [`CITATION.cff`](CITATION.cff). Each dataset's README has its own citation and BibTeX entry. To cite numbers as they stood on a given day, use the API's dated copies: `https://numbers.sg/api/v1/{id}/as-of/YYYY-MM-DD`, saved every night since 26 Nov 2026 and never changed afterwards.
 

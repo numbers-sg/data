@@ -83,6 +83,7 @@ To cite it:
 
 ```
 Numbers.sg (2026). Singapore resident income tax rates [Data set]. https://numbers.sg/tax/income-tax-rates/
+Part of: Say, J. (2026). Singapore Interest Rates, COE Prices, CPF, Income Tax, Inflation and SGD Exchange Rates (Numbers.sg Open Data) [Data set]. Numbers.sg. https://doi.org/10.5281/zenodo.24576628
 ```
 
 ```bibtex
@@ -91,7 +92,7 @@ Numbers.sg (2026). Singapore resident income tax rates [Data set]. https://numbe
   title = {{Singapore resident income tax rates}},
   year = {2026},
   howpublished = {\url{https://numbers.sg/tax/income-tax-rates/}},
-  note = {Rows last changed 2026-11-27; CC BY 4.0}
+  note = {Rows last changed 2026-11-27; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
 }
 ```
 

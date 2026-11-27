@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "2021-01-04",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -60,7 +60,7 @@
  "page_url": "https://numbers.sg/currency/sgd-to-myr/",
  "method": "https://numbers.sg/currency/sgd-to-myr/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-myr-bank-counter",
- "hash": "sha256:150739b65e07f7a240af800802adf65f6146982fc68d59ce82f7c867f995a690",
+ "hash": "sha256:ee79d410c3ee926396980982270b3dea317473a2a87afbc32f57b4255cfc23a5",
  "rows_updated": "2026-11-27",
  "data": [
   {
@@ -7282,6 +7282,11 @@
    "date": "2026-11-26",
    "banks_buy_myr_per_sgd": 3.1674,
    "banks_sell_myr_per_sgd": 3.2094
+  },
+  {
+   "date": "2026-11-27",
+   "banks_buy_myr_per_sgd": 3.1659,
+   "banks_sell_myr_per_sgd": 3.2079
   }
  ]
 }

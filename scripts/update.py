@@ -13,6 +13,8 @@ from datetime import datetime, timezone, timedelta
 
 API = 'https://numbers.sg/api/v1/'
 REPO = 'https://github.com/numbers-sg/data'
+_Z = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'zenodo.json')
+DOI = json.load(open(_Z)).get('concept_doi') if os.path.exists(_Z) else None  # the concept DOI: always resolves to the newest archived version
 RAW = 'https://raw.githubusercontent.com/numbers-sg/data/main/'
 UA = 'numbers-sg-data-mirror/1.0 (+https://github.com/numbers-sg/data)'
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -241,7 +243,7 @@ Free to use, in paid products too, under [CC BY 4.0](https://numbers.sg/data/lic
 To cite it:
 
 ```
-Numbers.sg ({year}). {m['title']} [Data set]. {m['page_url']}
+Numbers.sg ({year}). {m['title']} [Data set]. {m['page_url']}{(chr(10) + 'Part of: Say, J. (' + year + '). Singapore Interest Rates, COE Prices, CPF, Income Tax, Inflation and SGD Exchange Rates (Numbers.sg Open Data) [Data set]. Numbers.sg. https://doi.org/' + DOI) if DOI else ''}
 ```
 
 ```bibtex
@@ -250,7 +252,7 @@ Numbers.sg ({year}). {m['title']} [Data set]. {m['page_url']}
   title = {{{{{m['title']}}}}},
   year = {{{year}}},
   howpublished = {{\\url{{{m['page_url']}}}}},
-  note = {{Rows last changed {rec['updated']}; CC BY 4.0}}
+  note = {{Rows last changed {rec['updated']}; CC BY 4.0{('; archived in https://doi.org/' + DOI) if DOI else ''}}}
 }}
 ```
 
@@ -279,6 +281,7 @@ def root_readme(mirrored, skipped, all_fixes):
     badges = ' '.join([
         f'[![Data checks]({REPO}/actions/workflows/validate.yml/badge.svg)]({REPO}/actions/workflows/validate.yml)',
         '[![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC_BY_4.0-13233A)](LICENSE)',
+        *([f'[![DOI](https://zenodo.org/badge/DOI/{DOI}.svg)](https://doi.org/{DOI})'] if DOI else []),
         f'![{len(mirrored)} datasets](https://img.shields.io/badge/datasets-{len(mirrored)}-13233A)',
         f'![{total:,} rows](https://img.shields.io/badge/rows-{total:,}-13233A)',
         f'![Rows last changed {newest}](https://img.shields.io/badge/rows_last_changed-{newest.replace("-", "--")}-13233A)',
@@ -354,7 +357,7 @@ Each dataset's README has its exact credit line, and any notice its publisher as
 
 ## Citing
 
-GitHub's "Cite this repository" button uses [`CITATION.cff`](CITATION.cff). Each dataset's README has its own citation and BibTeX entry. To cite numbers as they stood on a given day, use the API's dated copies: `{API}{{id}}/as-of/YYYY-MM-DD`, saved every night since 26 Nov 2026 and never changed afterwards.
+{('**DOI: [' + DOI + '](https://doi.org/' + DOI + ')**. Each January a dated snapshot of this repository is archived on Zenodo; this DOI always resolves to the newest one, and each snapshot has its own DOI for a copy that never changes.' + chr(10) + chr(10) + '```' + chr(10) + 'Say, J. (' + TODAY[:4] + '). Singapore Interest Rates, COE Prices, CPF, Income Tax, Inflation and SGD Exchange Rates (Numbers.sg Open Data) [Data set]. Numbers.sg. https://doi.org/' + DOI + chr(10) + '```' + chr(10) + chr(10)) if DOI else ''}GitHub's "Cite this repository" button uses [`CITATION.cff`](CITATION.cff). Each dataset's README has its own citation and BibTeX entry. To cite numbers as they stood on a given day, use the API's dated copies: `{API}{{id}}/as-of/YYYY-MM-DD`, saved every night since 26 Nov 2026 and never changed afterwards.
 
 ## Not in this repository
 
@@ -402,7 +405,7 @@ date-released: "{newest}"
 license: CC-BY-4.0
 url: "https://numbers.sg/developers/"
 repository-code: "{REPO}"
-abstract: "{len(mirrored)} datasets of Singapore {topics_phrase(mirrored)}, each read from its official source and refreshed nightly from the Numbers.sg data API."
+{('doi: ' + DOI + chr(10) + 'identifiers:' + chr(10) + '  - type: doi' + chr(10) + '    value: ' + DOI + chr(10) + '    description: Archived on Zenodo; resolves to the newest version' + chr(10)) if DOI else ''}{('preferred-citation:' + chr(10) + '  type: dataset' + chr(10) + '  title: "Singapore Interest Rates, COE Prices, CPF, Income Tax, Inflation and SGD Exchange Rates (Numbers.sg Open Data)"' + chr(10) + '  authors:' + chr(10) + '    - family-names: Say' + chr(10) + '      given-names: Jeremiah' + chr(10) + '      orcid: "https://orcid.org/0009-0009-2025-7691"' + chr(10) + '      affiliation: "Numbers Publishing Pte. Ltd."' + chr(10) + '  publisher:' + chr(10) + '    name: Numbers.sg' + chr(10) + '  doi: ' + DOI + chr(10) + '  year: ' + newest[:4] + chr(10) + '  license: CC-BY-4.0' + chr(10) + '  url: "https://doi.org/' + DOI + '"' + chr(10)) if DOI else ''}abstract: "{len(mirrored)} datasets of Singapore {topics_phrase(mirrored)}, each read from its official source and refreshed nightly from the Numbers.sg data API."
 keywords:
   - Singapore
   - open data
