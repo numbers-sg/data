@@ -303,7 +303,7 @@ Numbers.sg is edited by [Jeremiah Say](https://numbers.sg/about/jeremiah-say/) a
 3. **Checked again here.** Every commit to this repository runs [`scripts/validate.py`](scripts/validate.py): headers, row counts, types, empty values and duplicate rows. The nightly update won't commit a copy that fails it.
 4. **Corrected in the open.** Each mistake is listed with its date and what changed, in the dataset's README and on [numbers.sg/corrections](https://numbers.sg/corrections/).
 
-How each dataset is read is set out on its page, under "How we get these numbers", and the overall method at [numbers.sg/how-we-get-our-numbers](https://numbers.sg/how-we-get-our-numbers/). Numbers.sg is independent: not part of, or paid by, the Singapore Government, any agency or any bank, and no one pays for a number or a place on a page.
+How each dataset is read is set out on its page, under "How we get these numbers", and the overall method at [numbers.sg/how-we-get-our-numbers](https://numbers.sg/how-we-get-our-numbers/). Numbers.sg is independent: none of it is part of, endorsed by or paid by the Singapore Government or any of its agencies, it is not part of any bank, and no one pays for a figure, a ranking or a place on a page.
 
 ## Recent corrections
 
@@ -364,7 +364,7 @@ These datasets rest on at least one source whose terms grant no reuse beyond per
 
 ## About
 
-[Numbers.sg](https://numbers.sg/) tracks Singapore rates, prices and rules, each read from its official source. It is independent: not part of, or paid by, the Singapore Government, any agency or any bank. Something that looks wrong: [report a wrong number]({REPO}/issues/new?template=wrong-number.yml). A dataset you'd like: [ask for it]({REPO}/issues/new?template=dataset-request.yml). Or write to hello@numbers.sg.
+[Numbers.sg](https://numbers.sg/) tracks Singapore rates, prices and rules, each read from its official source. It is independent: none of it is part of, endorsed by or paid by the Singapore Government or any of its agencies, it is not part of any bank, and no one pays for a figure, a ranking or a place on a page. Something that looks wrong: [report a wrong number]({REPO}/issues/new?template=wrong-number.yml). A dataset you'd like: [ask for it]({REPO}/issues/new?template=dataset-request.yml). Or write to hello@numbers.sg.
 '''
 
 
