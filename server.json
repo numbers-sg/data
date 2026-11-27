@@ -2,11 +2,17 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.numbers-sg/data",
   "title": "Numbers.sg: Singapore rates and prices",
-  "description": "Singapore SORA, T-bills, SSB, COE, CPF, tax and SGD exchange rates, each with its source and date.",
-  "version": "1.0.0",
+  "description": "Singapore rates (SORA, T-bills, COE, CPF, FX) with sources + stamp duty, CPF and tax calculators.",
+  "version": "1.1.0",
   "websiteUrl": "https://numbers.sg/developers/",
-  "repository": { "url": "https://github.com/numbers-sg/data", "source": "github" },
+  "repository": {
+    "url": "https://github.com/numbers-sg/data",
+    "source": "github"
+  },
   "remotes": [
-    { "type": "streamable-http", "url": "https://numbers.sg/api/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://numbers.sg/api/mcp"
+    }
   ]
 }
