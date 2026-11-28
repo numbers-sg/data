@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "2006-01-03",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -58,14 +58,14 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore, compiled by Numbers.sg (numbers.sg/currency/sgd-to-inr/), CC BY 4.0",
   "notices": [
-   "Contains information from Singapore dollar to Indian rupee, daily since 2006 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)"
+   "Contains information from Singapore dollar to Indian rupee, daily since 2006 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)"
   ]
  },
  "page_url": "https://numbers.sg/currency/sgd-to-inr/",
  "method": "https://numbers.sg/currency/sgd-to-inr/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-inr",
- "hash": "sha256:0512150d620c8f8cb87986561bf976c098a4b31cff96d9d8c738b2b268cf20cc",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:5daa5b4d7161576730dc5ae3f5596bd8262468ced6c08f58680f46f9c3222b26",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "2006-01-03",
@@ -31541,6 +31541,12 @@
    "date": "2026-11-26",
    "inr_per_sgd": 71.63837,
    "sgd_per_100_inr": 1.3959,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "inr_per_sgd": 71.797817,
+   "sgd_per_100_inr": 1.3928,
    "source": "MAS"
   }
  ]

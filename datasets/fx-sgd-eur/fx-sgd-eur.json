@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "1999-01-04",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -64,15 +64,15 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore and European Central Bank, compiled by Numbers.sg (numbers.sg/currency/sgd-to-eur/), CC BY 4.0",
   "notices": [
-   "Contains information from Singapore dollar to euro, daily since 1999 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
+   "Contains information from Singapore dollar to euro, daily since 1999 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
    "Source: European Central Bank; SGD cross rates calculated by Numbers.sg"
   ]
  },
  "page_url": "https://numbers.sg/currency/sgd-to-eur/",
  "method": "https://numbers.sg/currency/sgd-to-eur/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-eur",
- "hash": "sha256:6cbcbcc561e7ce57d8d2d9841e66188a9f2a19c94d81c77a67a734e8c2a0b307",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:3292859c2ae9a9c766b30ebff382cdddd9721b6d26bd009fc208ff90825844b2",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "1999-01-04",
@@ -42216,6 +42216,12 @@
    "date": "2026-11-26",
    "eur_per_sgd": 0.707214,
    "sgd_per_eur": 1.413999,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "eur_per_sgd": 0.706564,
+   "sgd_per_eur": 1.4153,
    "source": "MAS"
   }
  ]

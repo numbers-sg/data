@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "1981-01-02",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -64,15 +64,15 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore and Federal Reserve Board, compiled by Numbers.sg (numbers.sg/currency/usd-to-sgd/), CC BY 4.0",
   "notices": [
-   "Contains information from US dollar to Singapore dollar, daily since 1981 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
+   "Contains information from US dollar to Singapore dollar, daily since 1981 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
    "Source: Board of Governors of the Federal Reserve System (H.10)"
   ]
  },
  "page_url": "https://numbers.sg/currency/usd-to-sgd/",
  "method": "https://numbers.sg/currency/usd-to-sgd/#method",
  "api": "https://numbers.sg/api/v1/fx-usd-sgd",
- "hash": "sha256:2426382601849cef25c59c0806c8ab14e82b588466ff2d06fad2f49003d19827",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:89994b95f4ad6f04b834b06494fe7de66a0f0a5227c0e467d22edf5dea956eda",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "1981-01-02",
@@ -51318,6 +51318,12 @@
    "date": "2026-11-26",
    "sgd_per_usd": 1.2901,
    "usd_per_sgd": 0.775134,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "sgd_per_usd": 1.2895,
+   "usd_per_sgd": 0.775494,
    "source": "MAS"
   }
  ]

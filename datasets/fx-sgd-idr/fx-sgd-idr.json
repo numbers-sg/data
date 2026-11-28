@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "1999-01-04",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -64,15 +64,15 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore and European Central Bank, compiled by Numbers.sg (numbers.sg/currency/sgd-to-idr/), CC BY 4.0",
   "notices": [
-   "Contains information from Singapore dollar to Indonesian rupiah, daily since 1999 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
+   "Contains information from Singapore dollar to Indonesian rupiah, daily since 1999 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
    "Source: European Central Bank; SGD cross rates calculated by Numbers.sg"
   ]
  },
  "page_url": "https://numbers.sg/currency/sgd-to-idr/",
  "method": "https://numbers.sg/currency/sgd-to-idr/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-idr",
- "hash": "sha256:deec6cf047a33dcb84a9ea37961a77dcbb766b9efd73b06823ba833acbb1dece",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:60a15c7e7f1eaf1728c8e442ea6ee01d84fef3a160ce4c90b8854d1aaf5e7764",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "1999-01-04",
@@ -42216,6 +42216,12 @@
    "date": "2026-11-26",
    "idr_per_sgd": 14259.232853,
    "sgd_per_1000000_idr": 70.13,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "idr_per_sgd": 14253.13569,
+   "sgd_per_1000000_idr": 70.16,
    "source": "MAS"
   }
  ]

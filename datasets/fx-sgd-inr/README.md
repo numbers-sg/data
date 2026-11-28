@@ -8,10 +8,10 @@ Rupees per Singapore dollar and Singapore dollars per 100 rupees, each working d
 
 | | |
 |---|---|
-| Rows | 5,246 |
+| Rows | 5,247 |
 | Each row | One working day |
-| Covers | 3 Jan 2006 to 26 Nov 2026 |
-| Rows last changed here | 27 Nov 2026 |
+| Covers | 3 Jan 2006 to 27 Nov 2026 |
+| Rows last changed here | 28 Nov 2026 |
 | Source | Monetary Authority of Singapore (MAS) |
 | Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Live page | [numbers.sg/currency/sgd-to-inr/](https://numbers.sg/currency/sgd-to-inr/) |
@@ -37,9 +37,9 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-inr.csv")`
 
 | Field | Value |
 |---|---|
-| `date` | 2026-11-26 |
-| `inr_per_sgd` | 71.63837 |
-| `sgd_per_100_inr` | 1.3959 |
+| `date` | 2026-11-27 |
+| `inr_per_sgd` | 71.797817 |
+| `sgd_per_100_inr` | 1.3928 |
 | `source` | MAS |
 
 ## Fields
@@ -75,7 +75,7 @@ Free to use, in paid products too, under [CC BY 4.0](https://numbers.sg/data/lic
 
 The publishers ask for this notice wherever you use their figures. Copy it as it is:
 
-> Contains information from Singapore dollar to Indian rupee, daily since 2006 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)
+> Contains information from Singapore dollar to Indian rupee, daily since 2006 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)
 
 To cite it:
 
@@ -90,7 +90,7 @@ Part of: Say, J. (2026). Singapore Interest Rates, COE Prices, CPF, Income Tax, 
   title = {{Singapore dollar to Indian rupee, daily since 2006}},
   year = {2026},
   howpublished = {\url{https://numbers.sg/currency/sgd-to-inr/}},
-  note = {Rows last changed 2026-11-27; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
+  note = {Rows last changed 2026-11-28; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
 }
 ```
 

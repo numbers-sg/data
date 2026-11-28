@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "1981-04-13",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -64,15 +64,15 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore and Federal Reserve Board, compiled by Numbers.sg (numbers.sg/currency/sgd-to-krw/), CC BY 4.0",
   "notices": [
-   "Contains information from Singapore dollar to Korean won, daily since 1981 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
+   "Contains information from Singapore dollar to Korean won, daily since 1981 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
    "Source: Board of Governors of the Federal Reserve System (H.10)"
   ]
  },
  "page_url": "https://numbers.sg/currency/sgd-to-krw/",
  "method": "https://numbers.sg/currency/sgd-to-krw/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-krw",
- "hash": "sha256:72d4cb173be2ddf228d50ca17a5b507fa42069be6353bec0298481a9df6228b6",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:a21daf5fd7217130baeb970fff84c10489d2204a7794fd78027ffdb993ace6d3",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "1981-04-13",
@@ -68520,6 +68520,12 @@
    "date": "2026-11-26",
    "krw_per_sgd": 1041.666667,
    "sgd_per_10000_krw": 9.6,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "krw_per_sgd": 1040.582726,
+   "sgd_per_10000_krw": 9.61,
    "source": "MAS"
   }
  ]

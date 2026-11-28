@@ -5,7 +5,7 @@ title: "Singapore rates and prices: open data from Numbers.sg"
 authors:
   - name: "Numbers.sg"
     website: "https://numbers.sg/"
-date-released: "2026-11-27"
+date-released: "2026-11-28"
 license: CC-BY-4.0
 url: "https://numbers.sg/developers/"
 repository-code: "https://github.com/numbers-sg/data"

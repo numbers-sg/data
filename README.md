@@ -1,10 +1,10 @@
 # Singapore rates and prices: open data from Numbers.sg
 
-[![Data checks](https://github.com/numbers-sg/data/actions/workflows/validate.yml/badge.svg)](https://github.com/numbers-sg/data/actions/workflows/validate.yml) [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC_BY_4.0-13233A)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24576628.svg)](https://doi.org/10.5281/zenodo.24576628) ![28 datasets](https://img.shields.io/badge/datasets-28-13233A) ![91,809 rows](https://img.shields.io/badge/rows-91,809-13233A) ![Rows last changed 2026-11-27](https://img.shields.io/badge/rows_last_changed-2026--11--27-13233A)
+[![Data checks](https://github.com/numbers-sg/data/actions/workflows/validate.yml/badge.svg)](https://github.com/numbers-sg/data/actions/workflows/validate.yml) [![Licence: CC BY 4.0](https://img.shields.io/badge/licence-CC_BY_4.0-13233A)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24576628.svg)](https://doi.org/10.5281/zenodo.24576628) ![28 datasets](https://img.shields.io/badge/datasets-28-13233A) ![91,818 rows](https://img.shields.io/badge/rows-91,818-13233A) ![Rows last changed 2026-11-28](https://img.shields.io/badge/rows_last_changed-2026--11--28-13233A)
 
 28 datasets of Singapore interest rates and government bonds (SORA, T-bills, Singapore Savings Bonds), COE bidding results, CPF figures, income tax rates, inflation and exchange rates for the Singapore dollar, as CSV and JSON. Each is read from the agency or bank that publishes it, checked against the page it appears on, and free to use under [CC BY 4.0](LICENSE).
 
-91,809 rows in all, the oldest from Jul 1955 (CPF Ordinary Wage ceiling, since 1955). Rows last changed here on 27 Nov 2026.
+91,818 rows in all, the oldest from Jul 1955 (CPF Ordinary Wage ceiling, since 1955). Rows last changed here on 28 Nov 2026.
 
 This repository is a copy of the [Numbers.sg data API](https://numbers.sg/developers/), refreshed every night at 00:20 Singapore time and committed only when the rows change. For the freshest numbers, use the API: it is free and needs no key, and every answer says when we last read the source.
 
@@ -69,24 +69,24 @@ Every correction: [numbers.sg/corrections](https://numbers.sg/corrections/). Fou
 |---|---|---:|---|---|
 | [Malaysian banks' counter rates for the Singapore dollar, daily since 2021](datasets/fx-sgd-myr-bank-counter/) | `fx-sgd-myr-bank-counter` | 1,445 | 4 Jan 2021 to 27 Nov 2026 | 27 Nov 2026 |
 | [Singapore dollar to Chinese yuan, monthly averages since 1993](datasets/fx-sgd-cny-monthly/) | `fx-sgd-cny-monthly` | 401 | Jun 1993 to Oct 2026 | 27 Nov 2026 |
-| [Singapore dollar to Chinese yuan, since 1993 (daily from 2003)](datasets/fx-sgd-cny/) | `fx-sgd-cny` | 6,501 | 4 Jun 1993 to 26 Nov 2026 | 27 Nov 2026 |
-| [Singapore dollar to euro, daily since 1999](datasets/fx-sgd-eur/) | `fx-sgd-eur` | 7,024 | 4 Jan 1999 to 26 Nov 2026 | 27 Nov 2026 |
+| [Singapore dollar to Chinese yuan, since 1993 (daily from 2003)](datasets/fx-sgd-cny/) | `fx-sgd-cny` | 6,502 | 4 Jun 1993 to 27 Nov 2026 | 28 Nov 2026 |
+| [Singapore dollar to euro, daily since 1999](datasets/fx-sgd-eur/) | `fx-sgd-eur` | 7,025 | 4 Jan 1999 to 27 Nov 2026 | 28 Nov 2026 |
 | [Singapore dollar to euro, monthly averages since 1999](datasets/fx-sgd-eur-monthly/) | `fx-sgd-eur-monthly` | 334 | Jan 1999 to Oct 2026 | 27 Nov 2026 |
-| [Singapore dollar to Indian rupee, daily since 2006](datasets/fx-sgd-inr/) | `fx-sgd-inr` | 5,246 | 3 Jan 2006 to 26 Nov 2026 | 27 Nov 2026 |
+| [Singapore dollar to Indian rupee, daily since 2006](datasets/fx-sgd-inr/) | `fx-sgd-inr` | 5,247 | 3 Jan 2006 to 27 Nov 2026 | 28 Nov 2026 |
 | [Singapore dollar to Indian rupee, monthly averages since 2006](datasets/fx-sgd-inr-monthly/) | `fx-sgd-inr-monthly` | 250 | Jan 2006 to Oct 2026 | 27 Nov 2026 |
-| [Singapore dollar to Indonesian rupiah, daily since 1999](datasets/fx-sgd-idr/) | `fx-sgd-idr` | 7,024 | 4 Jan 1999 to 26 Nov 2026 | 27 Nov 2026 |
+| [Singapore dollar to Indonesian rupiah, daily since 1999](datasets/fx-sgd-idr/) | `fx-sgd-idr` | 7,025 | 4 Jan 1999 to 27 Nov 2026 | 28 Nov 2026 |
 | [Singapore dollar to Indonesian rupiah, monthly averages since 2003](datasets/fx-sgd-idr-monthly/) | `fx-sgd-idr-monthly` | 286 | Jan 2003 to Oct 2026 | 27 Nov 2026 |
 | [Singapore dollar to Japanese yen, monthly averages since 1988](datasets/fx-sgd-jpy-monthly/) | `fx-sgd-jpy-monthly` | 466 | Jan 1988 to Oct 2026 | 27 Nov 2026 |
-| [Singapore dollar to Japanese yen, since 1988 (daily from 2003)](datasets/fx-sgd-jpy/) | `fx-sgd-jpy` | 6,782 | 8 Jan 1988 to 26 Nov 2026 | 27 Nov 2026 |
-| [Singapore dollar to Korean won, daily since 1981](datasets/fx-sgd-krw/) | `fx-sgd-krw` | 11,408 | 13 Apr 1981 to 26 Nov 2026 | 27 Nov 2026 |
+| [Singapore dollar to Japanese yen, since 1988 (daily from 2003)](datasets/fx-sgd-jpy/) | `fx-sgd-jpy` | 6,783 | 8 Jan 1988 to 27 Nov 2026 | 28 Nov 2026 |
+| [Singapore dollar to Korean won, daily since 1981](datasets/fx-sgd-krw/) | `fx-sgd-krw` | 11,409 | 13 Apr 1981 to 27 Nov 2026 | 28 Nov 2026 |
 | [Singapore dollar to Malaysian ringgit, daily since 1999](datasets/fx-sgd-myr/) | `fx-sgd-myr` | 7,145 | 4 Jan 1999 to 26 Nov 2026 | 27 Nov 2026 |
 | [Singapore dollar to Malaysian ringgit, monthly averages since 1988](datasets/fx-sgd-myr-monthly/) | `fx-sgd-myr-monthly` | 466 | Jan 1988 to Oct 2026 | 27 Nov 2026 |
-| [Singapore dollar to Philippine peso, daily since 1999](datasets/fx-sgd-php/) | `fx-sgd-php` | 7,024 | 4 Jan 1999 to 26 Nov 2026 | 27 Nov 2026 |
+| [Singapore dollar to Philippine peso, daily since 1999](datasets/fx-sgd-php/) | `fx-sgd-php` | 7,025 | 4 Jan 1999 to 27 Nov 2026 | 28 Nov 2026 |
 | [Singapore dollar to Philippine peso, monthly averages since 2003](datasets/fx-sgd-php-monthly/) | `fx-sgd-php-monthly` | 286 | Jan 2003 to Oct 2026 | 27 Nov 2026 |
 | [Singapore dollar to South Korean won, monthly averages since 2003](datasets/fx-sgd-krw-monthly/) | `fx-sgd-krw-monthly` | 286 | Jan 2003 to Oct 2026 | 27 Nov 2026 |
-| [Singapore dollar to Thai baht, daily since 1981](datasets/fx-sgd-thb/) | `fx-sgd-thb` | 11,442 | 2 Jan 1981 to 26 Nov 2026 | 27 Nov 2026 |
+| [Singapore dollar to Thai baht, daily since 1981](datasets/fx-sgd-thb/) | `fx-sgd-thb` | 11,443 | 2 Jan 1981 to 27 Nov 2026 | 28 Nov 2026 |
 | [Singapore dollar to Thai baht, monthly averages since 2003](datasets/fx-sgd-thb-monthly/) | `fx-sgd-thb-monthly` | 286 | Jan 2003 to Oct 2026 | 27 Nov 2026 |
-| [US dollar to Singapore dollar, daily since 1981](datasets/fx-usd-sgd/) | `fx-usd-sgd` | 8,541 | 2 Jan 1981 to 26 Nov 2026 | 27 Nov 2026 |
+| [US dollar to Singapore dollar, daily since 1981](datasets/fx-usd-sgd/) | `fx-usd-sgd` | 8,542 | 2 Jan 1981 to 27 Nov 2026 | 28 Nov 2026 |
 | [US dollar to Singapore dollar, monthly averages since 1988](datasets/fx-usd-sgd-monthly/) | `fx-usd-sgd-monthly` | 466 | Jan 1988 to Oct 2026 | 27 Nov 2026 |
 
 Each folder has the CSV, a JSON copy with the field list and sources, and a README with every field's meaning, the sources and their terms, and how to cite it.

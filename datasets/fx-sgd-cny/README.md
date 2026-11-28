@@ -8,10 +8,10 @@ Yuan per Singapore dollar and Singapore dollars per 100 yuan, each working day f
 
 | | |
 |---|---|
-| Rows | 6,501 |
+| Rows | 6,502 |
 | Each row | One working day (one week before 2003) |
-| Covers | 4 Jun 1993 to 26 Nov 2026 |
-| Rows last changed here | 27 Nov 2026 |
+| Covers | 4 Jun 1993 to 27 Nov 2026 |
+| Rows last changed here | 28 Nov 2026 |
 | Source | Monetary Authority of Singapore (MAS) |
 | Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Live page | [numbers.sg/currency/sgd-to-cny/](https://numbers.sg/currency/sgd-to-cny/) |
@@ -37,9 +37,9 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-cny.csv")`
 
 | Field | Value |
 |---|---|
-| `date` | 2026-11-26 |
-| `cny_per_sgd` | 5.165289 |
-| `sgd_per_100_cny` | 19.360001 |
+| `date` | 2026-11-27 |
+| `cny_per_sgd` | 5.167959 |
+| `sgd_per_100_cny` | 19.349999 |
 | `source` | MAS |
 
 ## Fields
@@ -75,7 +75,7 @@ Free to use, in paid products too, under [CC BY 4.0](https://numbers.sg/data/lic
 
 The publishers ask for this notice wherever you use their figures. Copy it as it is:
 
-> Contains information from Singapore dollar to Chinese yuan, since 1993 (daily from 2003) accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)
+> Contains information from Singapore dollar to Chinese yuan, since 1993 (daily from 2003) accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)
 
 To cite it:
 
@@ -90,7 +90,7 @@ Part of: Say, J. (2026). Singapore Interest Rates, COE Prices, CPF, Income Tax, 
   title = {{Singapore dollar to Chinese yuan, since 1993 (daily from 2003)}},
   year = {2026},
   howpublished = {\url{https://numbers.sg/currency/sgd-to-cny/}},
-  note = {Rows last changed 2026-11-27; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
+  note = {Rows last changed 2026-11-28; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
 }
 ```
 

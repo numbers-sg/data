@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "1993-06-04",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -58,14 +58,14 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore, compiled by Numbers.sg (numbers.sg/currency/sgd-to-cny/), CC BY 4.0",
   "notices": [
-   "Contains information from Singapore dollar to Chinese yuan, since 1993 (daily from 2003) accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)"
+   "Contains information from Singapore dollar to Chinese yuan, since 1993 (daily from 2003) accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)"
   ]
  },
  "page_url": "https://numbers.sg/currency/sgd-to-cny/",
  "method": "https://numbers.sg/currency/sgd-to-cny/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-cny",
- "hash": "sha256:daeca2b89b68ef77c91824fe462fb5febb57925c1c4fa13897cfc9ae48f45994",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:9424b4bed62b5b583fc19007669a8f737967bbb4ce8dffa73bccc2f1fa3f2780",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "1993-06-04",
@@ -39071,6 +39071,12 @@
    "date": "2026-11-26",
    "cny_per_sgd": 5.165289,
    "sgd_per_100_cny": 19.360001,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "cny_per_sgd": 5.167959,
+   "sgd_per_100_cny": 19.349999,
    "source": "MAS"
   }
  ]

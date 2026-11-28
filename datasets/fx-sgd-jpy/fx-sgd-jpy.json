@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "1988-01-08",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -58,14 +58,14 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore, compiled by Numbers.sg (numbers.sg/currency/sgd-to-jpy/), CC BY 4.0",
   "notices": [
-   "Contains information from Singapore dollar to Japanese yen, since 1988 (daily from 2003) accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)"
+   "Contains information from Singapore dollar to Japanese yen, since 1988 (daily from 2003) accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)"
   ]
  },
  "page_url": "https://numbers.sg/currency/sgd-to-jpy/",
  "method": "https://numbers.sg/currency/sgd-to-jpy/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-jpy",
- "hash": "sha256:2c699f141f350e4e61d23e0aab19373d69e08d707a05941767483ee0c4d0fbd5",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:18e69c9e7ef2aaa3e1dfd660045d1ab16b68f0fc134ba85475f13fc99fe5184c",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "1988-01-08",
@@ -40757,6 +40757,12 @@
    "date": "2026-11-26",
    "jpy_per_sgd": 123.380629,
    "sgd_per_100_jpy": 0.8105,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "jpy_per_sgd": 123.502532,
+   "sgd_per_100_jpy": 0.8097,
    "source": "MAS"
   }
  ]

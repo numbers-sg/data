@@ -8,10 +8,10 @@ Pesos per Singapore dollar and Singapore dollars per 1,000 pesos, each working d
 
 | | |
 |---|---|
-| Rows | 7,024 |
+| Rows | 7,025 |
 | Each row | One working day |
-| Covers | 4 Jan 1999 to 26 Nov 2026 |
-| Rows last changed here | 27 Nov 2026 |
+| Covers | 4 Jan 1999 to 27 Nov 2026 |
+| Rows last changed here | 28 Nov 2026 |
 | Source | Monetary Authority of Singapore (MAS), European Central Bank |
 | Licence | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
 | Live page | [numbers.sg/currency/sgd-to-php/](https://numbers.sg/currency/sgd-to-php/) |
@@ -37,9 +37,9 @@ In Google Sheets: `=IMPORTDATA("https://numbers.sg/api/v1/fx-sgd-php.csv")`
 
 | Field | Value |
 |---|---|
-| `date` | 2026-11-26 |
-| `php_per_sgd` | 49.343728 |
-| `sgd_per_1000_php` | 20.266 |
+| `date` | 2026-11-27 |
+| `php_per_sgd` | 49.402233 |
+| `sgd_per_1000_php` | 20.242 |
 | `source` | MAS |
 
 ## Fields
@@ -72,7 +72,7 @@ Free to use, in paid products too, under [CC BY 4.0](https://numbers.sg/data/lic
 
 The publishers ask for this notice wherever you use their figures. Copy it as it is:
 
-> Contains information from Singapore dollar to Philippine peso, daily since 1999 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)
+> Contains information from Singapore dollar to Philippine peso, daily since 1999 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)
 
 > Source: European Central Bank; SGD cross rates calculated by Numbers.sg
 
@@ -89,7 +89,7 @@ Part of: Say, J. (2026). Singapore Interest Rates, COE Prices, CPF, Income Tax, 
   title = {{Singapore dollar to Philippine peso, daily since 1999}},
   year = {2026},
   howpublished = {\url{https://numbers.sg/currency/sgd-to-php/}},
-  note = {Rows last changed 2026-11-27; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
+  note = {Rows last changed 2026-11-28; CC BY 4.0; archived in https://doi.org/10.5281/zenodo.24576628}
 }
 ```
 

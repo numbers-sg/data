@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "1999-01-04",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -64,15 +64,15 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore and European Central Bank, compiled by Numbers.sg (numbers.sg/currency/sgd-to-php/), CC BY 4.0",
   "notices": [
-   "Contains information from Singapore dollar to Philippine peso, daily since 1999 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
+   "Contains information from Singapore dollar to Philippine peso, daily since 1999 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
    "Source: European Central Bank; SGD cross rates calculated by Numbers.sg"
   ]
  },
  "page_url": "https://numbers.sg/currency/sgd-to-php/",
  "method": "https://numbers.sg/currency/sgd-to-php/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-php",
- "hash": "sha256:724893ba1220c8ac763ce486cea6cfcb661f407063546b83e363ce39362bd88c",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:b71a01f9a4779088ddd0086f6691594aba20cd68dd149d04e59ad24dddacae84",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "1999-01-04",
@@ -42216,6 +42216,12 @@
    "date": "2026-11-26",
    "php_per_sgd": 49.343728,
    "sgd_per_1000_php": 20.266,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "php_per_sgd": 49.402233,
+   "sgd_per_1000_php": 20.242,
    "source": "MAS"
   }
  ]

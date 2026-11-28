@@ -12,7 +12,7 @@
  },
  "coverage": {
   "from": "1981-01-02",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "fields": [
   {
@@ -64,15 +64,15 @@
  "attribution": {
   "text": "Source: Monetary Authority of Singapore and Federal Reserve Board, compiled by Numbers.sg (numbers.sg/currency/sgd-to-thb/), CC BY 4.0",
   "notices": [
-   "Contains information from Singapore dollar to Thai baht, daily since 1981 accessed on 2026-11-27 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
+   "Contains information from Singapore dollar to Thai baht, daily since 1981 accessed on 2026-11-28 from Monetary Authority of Singapore which is made available under the terms of the Monetary Authority of Singapore’s Terms of Use of Datasets (https://www.mas.gov.sg/terms-of-use)",
    "Source: Board of Governors of the Federal Reserve System (H.10)"
   ]
  },
  "page_url": "https://numbers.sg/currency/sgd-to-thb/",
  "method": "https://numbers.sg/currency/sgd-to-thb/#method",
  "api": "https://numbers.sg/api/v1/fx-sgd-thb",
- "hash": "sha256:0ef3c5f3341da36533b22e967c8f5371600a7c5c4ef30ca61a593f544391a1af",
- "rows_updated": "2026-11-27",
+ "hash": "sha256:194bfed6056712562f45724941552267be465034d3eeaf1d2696664bab854fda",
+ "rows_updated": "2026-11-28",
  "data": [
   {
    "date": "1981-01-02",
@@ -68724,6 +68724,12 @@
    "date": "2026-11-26",
    "thb_per_sgd": 26.359491,
    "sgd_per_1000_thb": 37.937,
+   "source": "MAS"
+  },
+  {
+   "date": "2026-11-27",
+   "thb_per_sgd": 26.399155,
+   "sgd_per_1000_thb": 37.88,
    "source": "MAS"
   }
  ]
